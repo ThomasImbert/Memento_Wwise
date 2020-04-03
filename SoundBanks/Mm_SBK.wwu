@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{FA84FE39-5F3D-467C-AAEF-97228F8B22BA}" SchemaVersion="97">
+	<SoundBanks>
+		<WorkUnit Name="Mm_SBK" ID="{FA84FE39-5F3D-467C-AAEF-97228F8B22BA}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundBank Name="SBK_Music" ID="{673B4063-B88E-492A-881D-2C11338FFD7B}">
+					<ObjectInclusionList>
+						<ObjectRef Name="Play_TestMusic" ID="{1BBB591D-5BF1-4713-9C09-14DA9B1C96E6}" WorkUnitID="{A7E83F06-BB2B-4859-B1D1-9A021A50680B}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+				<SoundBank Name="SBK_SFX" ID="{B6162502-0070-48A4-AB37-530DC5A82ECB}">
+					<ObjectInclusionList/>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+			</ChildrenList>
+		</WorkUnit>
+	</SoundBanks>
+</WwiseDocument>

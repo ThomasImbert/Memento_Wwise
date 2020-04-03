@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{2010ECFB-8345-40AA-BA3A-65DD8A20A34B}" SchemaVersion="97">
+	<AudioObjects>
+		<WorkUnit Name="Mm_Test" ID="{2010ECFB-8345-40AA-BA3A-65DD8A20A34B}" PersistMode="Standalone">
+			<ChildrenList>
+				<ActorMixer Name="Test" ID="{1D0C9954-4731-4E90-8B06-F91DD86AA9FE}" ShortID="869070830">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D0B9DB4F-7FF6-4CDB-BEF4-05863A8070B7}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8A69F515-C57F-4A97-8978-0B9FB4F47B02}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<BlendContainer Name="TestMusic" ID="{317C4430-C980-4768-878E-D54DEA9C85BC}" ShortID="345337297">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D0B9DB4F-7FF6-4CDB-BEF4-05863A8070B7}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8A69F515-C57F-4A97-8978-0B9FB4F47B02}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="200327_Memento_AluminumWorry_InstrumentTest" ID="{2C0EF03D-4460-480C-88D3-E5D6D27CD2B1}" ShortID="11387405">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D0B9DB4F-7FF6-4CDB-BEF4-05863A8070B7}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8A69F515-C57F-4A97-8978-0B9FB4F47B02}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="200327_Memento_AluminumWorry_InstrumentTest" ID="{7BF52945-5A7D-488E-9299-25EDDA331A82}">
+											<PropertyList>
+												<Property Name="FadeInDuration" Type="Real64" Value="0.727003031647908"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimBegin" Type="Real64" Value="0.842238662960393"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>200327_Memento_AluminumWorry_InstrumentTest.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="351216414"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="200327_Memento_AluminumWorry_InstrumentTest" ID="{7BF52945-5A7D-488E-9299-25EDDA331A82}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</BlendContainer>
+					</ChildrenList>
+				</ActorMixer>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>
