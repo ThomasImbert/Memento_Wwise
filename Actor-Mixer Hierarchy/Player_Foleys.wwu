@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{B09A25F1-BDF1-46AB-B77C-AEBE45E0E3FC}" SchemaVersion="97" RootDocumentID="{4D494155-884F-4A60-B92D-D7813DDE96B1}">
+	<AudioObjects>
+		<WorkUnit Name="Player_Foleys" ID="{B09A25F1-BDF1-46AB-B77C-AEBE45E0E3FC}" OwnerID="{4D494155-884F-4A60-B92D-D7813DDE96B1}" PersistMode="Nested"/>
+	</AudioObjects>
+</WwiseDocument>

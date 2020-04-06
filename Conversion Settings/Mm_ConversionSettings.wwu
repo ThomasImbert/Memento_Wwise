@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{64197BE1-1617-4FC9-8DCC-37659FBED798}" SchemaVersion="97">
+	<Conversions>
+		<WorkUnit Name="Mm_ConversionSettings" ID="{64197BE1-1617-4FC9-8DCC-37659FBED798}" PersistMode="Standalone"/>
+	</Conversions>
+</WwiseDocument>

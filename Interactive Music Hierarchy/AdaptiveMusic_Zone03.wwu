@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{47478CCA-6FB1-4977-A73F-811DCA27241F}" SchemaVersion="97" RootDocumentID="{CE75D468-59BE-4833-A7EF-BCF0F65BB88D}">
+	<InteractiveMusic>
+		<WorkUnit Name="AdaptiveMusic_Zone03" ID="{47478CCA-6FB1-4977-A73F-811DCA27241F}" OwnerID="{CE75D468-59BE-4833-A7EF-BCF0F65BB88D}" PersistMode="Nested"/>
+	</InteractiveMusic>
+</WwiseDocument>

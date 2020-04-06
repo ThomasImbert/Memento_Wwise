@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{CE75D468-59BE-4833-A7EF-BCF0F65BB88D}" SchemaVersion="97">
+	<InteractiveMusic>
+		<WorkUnit Name="Mm_AdaptiveMusic" ID="{CE75D468-59BE-4833-A7EF-BCF0F65BB88D}" PersistMode="Standalone">
+			<PropertyList>
+				<Property Name="Color" Type="int16" Value="15"/>
+				<Property Name="OverrideColor" Type="bool" Value="True"/>
+			</PropertyList>
+			<ChildrenList>
+				<WorkUnit Name="AdaptiveMusic_Zone01" ID="{D25DFC5C-0BAB-434B-A5D9-63E84398F56E}" PersistMode="Reference"/>
+				<WorkUnit Name="AdaptiveMusic_Zone02" ID="{E383F8AB-940C-41E5-BB80-C914458AFB22}" PersistMode="Reference"/>
+				<WorkUnit Name="AdaptiveMusic_Zone03" ID="{47478CCA-6FB1-4977-A73F-811DCA27241F}" PersistMode="Reference"/>
+			</ChildrenList>
+		</WorkUnit>
+	</InteractiveMusic>
+</WwiseDocument>
