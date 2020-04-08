@@ -6,6 +6,11 @@
 				<MusicSegment Name="Dub Remix - Willesden Green Reggae by Moses Concas v2" ID="{5A763801-285B-41E9-ADDF-AA82D07CA49F}" ShortID="31322301">
 					<PropertyList>
 						<Property Name="EndPosition" Type="Real64" Value="69319.2063492064"/>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-9</Value>
+							</ValueList>
+						</Property>
 					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">
