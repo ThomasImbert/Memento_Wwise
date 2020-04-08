@@ -1,6 +1,71 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{D25DFC5C-0BAB-434B-A5D9-63E84398F56E}" SchemaVersion="97" RootDocumentID="{CE75D468-59BE-4833-A7EF-BCF0F65BB88D}">
 	<InteractiveMusic>
-		<WorkUnit Name="AdaptiveMusic_Zone01" ID="{D25DFC5C-0BAB-434B-A5D9-63E84398F56E}" OwnerID="{CE75D468-59BE-4833-A7EF-BCF0F65BB88D}" PersistMode="Nested"/>
+		<WorkUnit Name="AdaptiveMusic_Zone01" ID="{D25DFC5C-0BAB-434B-A5D9-63E84398F56E}" OwnerID="{CE75D468-59BE-4833-A7EF-BCF0F65BB88D}" PersistMode="Nested">
+			<ChildrenList>
+				<MusicSegment Name="Dub Remix - Willesden Green Reggae by Moses Concas v2" ID="{5A763801-285B-41E9-ADDF-AA82D07CA49F}" ShortID="31322301">
+					<PropertyList>
+						<Property Name="EndPosition" Type="Real64" Value="69319.2063492064"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D0B9DB4F-7FF6-4CDB-BEF4-05863A8070B7}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8A69F515-C57F-4A97-8978-0B9FB4F47B02}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<MusicTrack Name="Dub Remix - Willesden Green Reggae by Moses Concas v2" ID="{C215AEE5-4F6A-4D32-ABC0-1864DD76FAD8}" ShortID="396404333">
+							<ReferenceList>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8A69F515-C57F-4A97-8978-0B9FB4F47B02}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Dub Remix - Willesden Green Reggae by Moses Concas v2" ID="{2117085C-02AB-42B9-B8EB-94799747E9D0}">
+									<Language>SFX</Language>
+									<AudioFile>Dub Remix - Willesden Green Reggae by Moses Concas v2.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="623097767"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<TransitionList>
+								<MusicTransition Name="Root" ID="{A57F1B8A-A7FD-4F51-B6A3-34E0A397BA87}">
+									<PropertyList>
+										<Property Name="IsFolder" Type="bool" Value="True"/>
+									</PropertyList>
+									<TransitionInfo/>
+								</MusicTransition>
+							</TransitionList>
+							<SequenceList>
+								<MusicTrackSequence Name="" ID="{CF593DCA-A978-41C9-A36C-C574445D391C}">
+									<ClipList>
+										<MusicClip Name="Dub Remix - Willesden Green Reggae by Moses Concas v2" ID="{553151E4-8889-4912-ACF9-C0615FEC5B6F}">
+											<PropertyList>
+												<Property Name="EndTrimOffset" Type="Real64" Value="69319.2063492064"/>
+												<Property Name="FadeInMode" Type="int16" Value="0"/>
+												<Property Name="FadeOutMode" Type="int16" Value="0"/>
+											</PropertyList>
+											<AudioSourceRef Name="Dub Remix - Willesden Green Reggae by Moses Concas v2" ID="{2117085C-02AB-42B9-B8EB-94799747E9D0}"/>
+										</MusicClip>
+									</ClipList>
+								</MusicTrackSequence>
+							</SequenceList>
+						</MusicTrack>
+					</ChildrenList>
+					<CueList>
+						<MusicCue Name="Entry Cue" ID="{A342717F-4C71-4328-8D01-7FB4D8BAEBA8}"/>
+						<MusicCue Name="Exit Cue" ID="{3E2C37AF-9276-4442-A8B0-F640CBB81696}">
+							<PropertyList>
+								<Property Name="CueType" Type="int16" Value="1"/>
+								<Property Name="TimeMs" Type="Real64" Value="69319.2063492064"/>
+							</PropertyList>
+						</MusicCue>
+					</CueList>
+				</MusicSegment>
+			</ChildrenList>
+		</WorkUnit>
 	</InteractiveMusic>
 </WwiseDocument>
