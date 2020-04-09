@@ -36,7 +36,7 @@
 	<ValidationCacheItem File="D:\Users\Thomas\Documents\Enjmin\- MiniProjets -\Memento\Memento_Wwise\States\Default Work Unit.wwu" DateLow="1585925212" DateHigh="0"/>
 	<ValidationCacheItem File="D:\Users\Thomas\Documents\Enjmin\- MiniProjets -\Memento\Memento_Wwise\Soundcaster Sessions\Mm_SoundcasterSessions.wwu" DateLow="1586179260" DateHigh="0"/>
 	<ValidationCacheItem File="D:\Users\Thomas\Documents\Enjmin\- MiniProjets -\Memento\Memento_Wwise\Soundcaster Sessions\Default Work Unit.wwu" DateLow="1585925212" DateHigh="0"/>
-	<ValidationCacheItem File="D:\Users\Thomas\Documents\Enjmin\- MiniProjets -\Memento\Memento_Wwise\SoundBanks\Mm_SBK.wwu" DateLow="1586179510" DateHigh="0"/>
+	<ValidationCacheItem File="D:\Users\Thomas\Documents\Enjmin\- MiniProjets -\Memento\Memento_Wwise\SoundBanks\Mm_SBK.wwu" DateLow="1586438533" DateHigh="0"/>
 	<ValidationCacheItem File="D:\Users\Thomas\Documents\Enjmin\- MiniProjets -\Memento\Memento_Wwise\SoundBanks\Default Work Unit.wwu" DateLow="1585925212" DateHigh="0"/>
 	<ValidationCacheItem File="D:\Users\Thomas\Documents\Enjmin\- MiniProjets -\Memento\Memento_Wwise\Queries\Factory Queries.wwu" DateLow="1585925212" DateHigh="0"/>
 	<ValidationCacheItem File="D:\Users\Thomas\Documents\Enjmin\- MiniProjets -\Memento\Memento_Wwise\Queries\Default Work Unit.wwu" DateLow="1585925212" DateHigh="0"/>
@@ -45,8 +45,8 @@
 	<ValidationCacheItem File="D:\Users\Thomas\Documents\Enjmin\- MiniProjets -\Memento\Memento_Wwise\Modulators\Default Work Unit.wwu" DateLow="1585925212" DateHigh="0"/>
 	<ValidationCacheItem File="D:\Users\Thomas\Documents\Enjmin\- MiniProjets -\Memento\Memento_Wwise\Mixing Sessions\Mm_MixingSessions.wwu" DateLow="1586179276" DateHigh="0"/>
 	<ValidationCacheItem File="D:\Users\Thomas\Documents\Enjmin\- MiniProjets -\Memento\Memento_Wwise\Mixing Sessions\Default Work Unit.wwu" DateLow="1585925212" DateHigh="0"/>
-	<ValidationCacheItem File="D:\Users\Thomas\Documents\Enjmin\- MiniProjets -\Memento\Memento_Wwise\Memento.wproj" DateLow="1586357232" DateHigh="0"/>
-	<ValidationCacheItem File="D:\Users\Thomas\Documents\Enjmin\- MiniProjets -\Memento\Memento_Wwise\Memento.Thomas.wsettings" DateLow="1586357240" DateHigh="0"/>
+	<ValidationCacheItem File="D:\Users\Thomas\Documents\Enjmin\- MiniProjets -\Memento\Memento_Wwise\Memento.wproj" DateLow="1586360426" DateHigh="0"/>
+	<ValidationCacheItem File="D:\Users\Thomas\Documents\Enjmin\- MiniProjets -\Memento\Memento_Wwise\Memento.Thomas.wsettings" DateLow="1586362264" DateHigh="0"/>
 	<ValidationCacheItem File="D:\Users\Thomas\Documents\Enjmin\- MiniProjets -\Memento\Memento_Wwise\Master-Mixer Hierarchy\Mm_MasterMixer.wwu" DateLow="1586179284" DateHigh="0"/>
 	<ValidationCacheItem File="D:\Users\Thomas\Documents\Enjmin\- MiniProjets -\Memento\Memento_Wwise\Master-Mixer Hierarchy\Default Work Unit.wwu" DateLow="1585925212" DateHigh="0"/>
 	<ValidationCacheItem File="D:\Users\Thomas\Documents\Enjmin\- MiniProjets -\Memento\Memento_Wwise\Interactive Music Hierarchy\Mm_MenuMusic.wwu" DateLow="1586178444" DateHigh="0"/>
@@ -77,7 +77,7 @@
 	<ValidationCacheItem File="D:\Users\Thomas\Documents\Enjmin\- MiniProjets -\Memento\Memento_Wwise\Attenuations\Mm_Attenuations.wwu" DateLow="1586179298" DateHigh="0"/>
 	<ValidationCacheItem File="D:\Users\Thomas\Documents\Enjmin\- MiniProjets -\Memento\Memento_Wwise\Attenuations\Default Work Unit.wwu" DateLow="1585925212" DateHigh="0"/>
 	<ValidationCacheItem File="D:\Users\Thomas\Documents\Enjmin\- MiniProjets -\Memento\Memento_Wwise\Actor-Mixer Hierarchy\Player_Foleys.wwu" DateLow="1586355571" DateHigh="0"/>
-	<ValidationCacheItem File="D:\Users\Thomas\Documents\Enjmin\- MiniProjets -\Memento\Memento_Wwise\Actor-Mixer Hierarchy\Mm_Test.wwu" DateLow="1586357777" DateHigh="0"/>
+	<ValidationCacheItem File="D:\Users\Thomas\Documents\Enjmin\- MiniProjets -\Memento\Memento_Wwise\Actor-Mixer Hierarchy\Mm_Test.wwu" DateLow="1586360426" DateHigh="0"/>
 	<ValidationCacheItem File="D:\Users\Thomas\Documents\Enjmin\- MiniProjets -\Memento\Memento_Wwise\Actor-Mixer Hierarchy\Mm_Player.wwu" DateLow="1586179284" DateHigh="0"/>
 	<ValidationCacheItem File="D:\Users\Thomas\Documents\Enjmin\- MiniProjets -\Memento\Memento_Wwise\Actor-Mixer Hierarchy\Default Work Unit.wwu" DateLow="1586179284" DateHigh="0"/>
 </ValidationCache>

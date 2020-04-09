@@ -2,6 +2,10 @@
 <WwiseDocument Type="WorkUnit" ID="{2010ECFB-8345-40AA-BA3A-65DD8A20A34B}" SchemaVersion="97">
 	<AudioObjects>
 		<WorkUnit Name="Mm_Test" ID="{2010ECFB-8345-40AA-BA3A-65DD8A20A34B}" PersistMode="Standalone">
+			<PropertyList>
+				<Property Name="Color" Type="int16" Value="11"/>
+				<Property Name="OverrideColor" Type="bool" Value="True"/>
+			</PropertyList>
 			<ChildrenList>
 				<ActorMixer Name="Test" ID="{1D0C9954-4731-4E90-8B06-F91DD86AA9FE}" ShortID="869070830">
 					<ReferenceList>
@@ -14,6 +18,13 @@
 					</ReferenceList>
 					<ChildrenList>
 						<BlendContainer Name="TestThomas" ID="{317C4430-C980-4768-878E-D54DEA9C85BC}" ShortID="345337297">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-11</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D0B9DB4F-7FF6-4CDB-BEF4-05863A8070B7}"/>
