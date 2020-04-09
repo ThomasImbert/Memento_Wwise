@@ -1,7 +1,8 @@
-#WWise gitignore
 *.akd
+#Wwise gitignore
 *.prof
-.cache
-IncrementalSoundBankData.xml
+*.akd
 *.validationcache
+*.cache
+IncrementalSoundBankData.xml
 *.wsettings
