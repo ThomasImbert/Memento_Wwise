@@ -1,6 +1,28 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{711D698D-8C81-4DF0-BFD0-A9DF9EEA16D6}" SchemaVersion="97">
 	<SoundcasterSessions>
-		<WorkUnit Name="Mm_SoundcasterSessions" ID="{711D698D-8C81-4DF0-BFD0-A9DF9EEA16D6}" PersistMode="Standalone"/>
+		<WorkUnit Name="Mm_SoundcasterSessions" ID="{711D698D-8C81-4DF0-BFD0-A9DF9EEA16D6}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundcasterSession Name="Test" ID="{2AE7C605-E924-46B8-84C3-ED4173530479}">
+					<ModuleList>
+						<Module>
+							<ObjectRef Name="Play_TestLaurent" ID="{F9351F78-442A-4BA3-B652-A8C24D2AE3F9}" WorkUnitID="{0F5CD6D9-FAB7-4DD0-8CEC-D3176E4D7676}"/>
+							<Position X="0" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_TestThomas" ID="{33646064-DFB2-42BC-96E7-4D59E9722961}" WorkUnitID="{0F5CD6D9-FAB7-4DD0-8CEC-D3176E4D7676}"/>
+							<Position X="1" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Stop_TestThomas" ID="{9A9F270A-A13F-4DCF-BB30-D10EA4F37277}" WorkUnitID="{0F5CD6D9-FAB7-4DD0-8CEC-D3176E4D7676}"/>
+							<Position X="1" Y="1"/>
+						</Module>
+					</ModuleList>
+					<RTPCValueList ShowAll="true"/>
+					<CurrentStateList ShowAll="true"/>
+					<CurrentSwitchList ShowAll="true"/>
+				</SoundcasterSession>
+			</ChildrenList>
+		</WorkUnit>
 	</SoundcasterSessions>
 </WwiseDocument>
