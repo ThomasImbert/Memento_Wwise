@@ -1,0 +1,71 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Mac",
+  "BasePlatform": "Mac",
+  "SchemaVersion": "12",
+  "SoundbankVersion": "135",
+  "RootPaths": {
+   "ProjectRoot": "C:\\Users\\Propriétaire\\Desktop\\Memento\\Memento_Wwise\\",
+   "SourceFilesRoot": "C:\\Users\\Propriétaire\\Desktop\\Memento\\Memento_Wwise\\.cache\\Mac\\",
+   "SoundBanksRoot": "C:\\Users\\Propriétaire\\Desktop\\Memento\\Memento_Wwise\\Memento\\Assets\\StreamingAssets\\Audio\\GeneratedSoundBanks\\Mac\\",
+   "ExternalSourcesInputFile": "",
+   "ExternalSourcesOutputRoot": "C:\\Users\\Propriétaire\\Desktop\\Memento\\Memento_Wwise\\GeneratedSoundBanks\\Mac"
+  },
+  "SoundBanks": [
+   {
+    "Id": "1362347661",
+    "GUID": "{673B4063-B88E-492A-881D-2C11338FFD7B}",
+    "Language": "SFX",
+    "ObjectPath": "\\SoundBanks\\Mm_SBK\\SBK_Music",
+    "ShortName": "SBK_Music",
+    "Path": "SBK_Music.bnk",
+    "IncludedEvents": [
+     {
+      "Id": "3354468433",
+      "Name": "Play_TestLaurent",
+      "ObjectPath": "\\Events\\Mm_Events\\Mm_Events_Test\\Play_TestLaurent",
+      "GUID": "{F9351F78-442A-4BA3-B652-A8C24D2AE3F9}",
+      "DurationType": "OneShot",
+      "DurationMin": "7.596625",
+      "DurationMax": "7.596625",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "623097767",
+        "Language": "SFX",
+        "ShortName": "Dub Remix - Willesden Green Reggae by Moses Concas v2.wav",
+        "Path": "SFX\\Dub Remix - Willesden Green Reggae by Moses Concas v2_8213B6C7.wem"
+       }
+      ]
+     },
+     {
+      "Id": "398983534",
+      "Name": "Play_TestThomas",
+      "ObjectPath": "\\Events\\Mm_Events\\Mm_Events_Test\\Play_TestThomas",
+      "GUID": "{33646064-DFB2-42BC-96E7-4D59E9722961}",
+      "DurationType": "OneShot",
+      "DurationMin": "7.915687",
+      "DurationMax": "7.915687",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "351216414",
+        "Language": "SFX",
+        "ShortName": "200327_Memento_AluminumWorry_InstrumentTest.wav",
+        "Path": "SFX\\200327_Memento_AluminumWorry_InstrumentTest_659DA352.wem"
+       }
+      ]
+     },
+     {
+      "Id": "363980311",
+      "Name": "Stop_TestLaurent",
+      "ObjectPath": "\\Events\\Mm_Events\\Mm_Events_Test\\Stop_TestLaurent",
+      "GUID": "{B606209C-5F0D-4D6C-A753-297C1FCE0874}",
+      "MaxAttenuation": "0.000000",
+      "DurationType": "OneShot",
+      "DurationMin": "0.000000",
+      "DurationMax": "0.000000"
+     }
+    ]
+   }
+  ]
+ }
+}

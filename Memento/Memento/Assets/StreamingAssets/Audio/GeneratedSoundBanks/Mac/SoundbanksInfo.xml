@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Mac" BasePlatform="Mac" SchemaVersion="12" SoundbankVersion="135">
+	<RootPaths>
+		<ProjectRoot>C:\Users\Propriétaire\Desktop\Memento\Memento_Wwise\</ProjectRoot>
+		<SourceFilesRoot>C:\Users\Propriétaire\Desktop\Memento\Memento_Wwise\.cache\Mac\</SourceFilesRoot>
+		<SoundBanksRoot>C:\Users\Propriétaire\Desktop\Memento\Memento_Wwise\Memento\Memento\Assets\StreamingAssets\Audio\GeneratedSoundBanks\Mac\</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>C:\Users\Propriétaire\Desktop\Memento\Memento_Wwise\GeneratedSoundBanks\Mac</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<DialogueEvents/>
+	<StreamedFiles/>
+	<MediaFilesNotInAnyBank/>
+	<SoundBanks>
+		<SoundBank Id="167047817" GUID="{B6162502-0070-48A4-AB37-530DC5A82ECB}" Language="SFX">
+			<ObjectPath>\SoundBanks\Mm_SBK\SBK_SFX</ObjectPath>
+			<ShortName>SBK_SFX</ShortName>
+			<Path>SBK_SFX.bnk</Path>
+		</SoundBank>
+		<SoundBank Id="1355168291" GUID="{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}" Language="SFX">
+			<ObjectPath>Init</ObjectPath>
+			<ShortName>Init</ShortName>
+			<Path>Init.bnk</Path>
+			<IncludedAuxBusses>
+				<AuxBus Id="997778300" Name="Reverb_Inside" ObjectPath="\Master-Mixer Hierarchy\Mm_MasterMixer\Master\Aux\Reverb_Inside" GUID="{38B94906-E03A-43B8-9741-A9E833733672}"/>
+				<AuxBus Id="2098287461" Name="Reverb_Outside" ObjectPath="\Master-Mixer Hierarchy\Mm_MasterMixer\Master\Aux\Reverb_Outside" GUID="{EC4D3B35-9138-49D1-9C10-95986B651976}"/>
+			</IncludedAuxBusses>
+		</SoundBank>
+		<SoundBank Id="1362347661" GUID="{673B4063-B88E-492A-881D-2C11338FFD7B}" Language="SFX">
+			<ObjectPath>\SoundBanks\Mm_SBK\SBK_Music</ObjectPath>
+			<ShortName>SBK_Music</ShortName>
+			<Path>SBK_Music.bnk</Path>
+			<IncludedEvents>
+				<Event Id="3354468433" Name="Play_TestLaurent" ObjectPath="\Events\Mm_Events\Mm_Events_Test\Play_TestLaurent" GUID="{F9351F78-442A-4BA3-B652-A8C24D2AE3F9}" DurationType="OneShot" DurationMin="7.596625" DurationMax="7.596625">
+					<IncludedMemoryFiles>
+						<File Id="623097767" Language="SFX">
+							<ShortName>Dub Remix - Willesden Green Reggae by Moses Concas v2.wav</ShortName>
+							<Path>SFX\Dub Remix - Willesden Green Reggae by Moses Concas v2_8213B6C7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="398983534" Name="Play_TestThomas" ObjectPath="\Events\Mm_Events\Mm_Events_Test\Play_TestThomas" GUID="{33646064-DFB2-42BC-96E7-4D59E9722961}" DurationType="OneShot" DurationMin="7.915687" DurationMax="7.915687">
+					<IncludedMemoryFiles>
+						<File Id="351216414" Language="SFX">
+							<ShortName>200327_Memento_AluminumWorry_InstrumentTest.wav</ShortName>
+							<Path>SFX\200327_Memento_AluminumWorry_InstrumentTest_659DA352.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="363980311" Name="Stop_TestLaurent" ObjectPath="\Events\Mm_Events\Mm_Events_Test\Stop_TestLaurent" GUID="{B606209C-5F0D-4D6C-A753-297C1FCE0874}" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+			</IncludedEvents>
+		</SoundBank>
+	</SoundBanks>
+</SoundBanksInfo>

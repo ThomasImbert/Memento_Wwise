@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Mac" BasePlatform="Mac" SchemaVersion="12" SoundbankVersion="135">
+	<RootPaths>
+		<ProjectRoot>C:\Users\Propriétaire\Desktop\Memento\Memento_Wwise\</ProjectRoot>
+		<SourceFilesRoot>C:\Users\Propriétaire\Desktop\Memento\Memento_Wwise\.cache\Mac\</SourceFilesRoot>
+		<SoundBanksRoot>C:\Users\Propriétaire\Desktop\Memento\Memento_Wwise\Memento\Memento\Assets\StreamingAssets\Audio\GeneratedSoundBanks\Mac\</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>C:\Users\Propriétaire\Desktop\Memento\Memento_Wwise\GeneratedSoundBanks\Mac</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<SoundBanks>
+		<SoundBank Id="167047817" GUID="{B6162502-0070-48A4-AB37-530DC5A82ECB}" Language="SFX">
+			<ObjectPath>\SoundBanks\Mm_SBK\SBK_SFX</ObjectPath>
+			<ShortName>SBK_SFX</ShortName>
+			<Path>SBK_SFX.bnk</Path>
+		</SoundBank>
+	</SoundBanks>
+</SoundBanksInfo>

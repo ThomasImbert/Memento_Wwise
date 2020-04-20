@@ -1,0 +1,39 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "12",
+  "SoundbankVersion": "135",
+  "RootPaths": {
+   "ProjectRoot": "C:\\Users\\Propriétaire\\Desktop\\Memento\\Memento_Wwise\\",
+   "SourceFilesRoot": "C:\\Users\\Propriétaire\\Desktop\\Memento\\Memento_Wwise\\.cache\\Windows\\",
+   "SoundBanksRoot": "C:\\Users\\Propriétaire\\Desktop\\Memento\\Memento_Wwise\\Memento\\Assets\\StreamingAssets\\Audio\\GeneratedSoundBanks\\Windows\\",
+   "ExternalSourcesInputFile": "",
+   "ExternalSourcesOutputRoot": "C:\\Users\\Propriétaire\\Desktop\\Memento\\Memento_Wwise\\GeneratedSoundBanks\\Windows"
+  },
+  "SoundBanks": [
+   {
+    "Id": "1355168291",
+    "GUID": "{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}",
+    "Language": "SFX",
+    "ObjectPath": "Init",
+    "ShortName": "Init",
+    "Path": "Init.bnk",
+    "IncludedAuxBusses": [
+     {
+      "Id": "997778300",
+      "Name": "Reverb_Inside",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Mm_MasterMixer\\Master\\Aux\\Reverb_Inside",
+      "GUID": "{38B94906-E03A-43B8-9741-A9E833733672}"
+     },
+     {
+      "Id": "2098287461",
+      "Name": "Reverb_Outside",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Mm_MasterMixer\\Master\\Aux\\Reverb_Outside",
+      "GUID": "{EC4D3B35-9138-49D1-9C10-95986B651976}"
+     }
+    ]
+   }
+  ]
+ }
+}

@@ -1,0 +1,9 @@
+Event	ID	Name			Wwise Object Path	Notes
+	363980311	Stop_TestLaurent			\Mm_Events\Mm_Events_Test\Stop_TestLaurent	
+	398983534	Play_TestThomas			\Mm_Events\Mm_Events_Test\Play_TestThomas	
+	3354468433	Play_TestLaurent			\Mm_Events\Mm_Events_Test\Play_TestLaurent	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	351216414	200327_Memento_AluminumWorry_InstrumentTest	C:\Users\Propriétaire\Desktop\Memento\Memento_Wwise\.cache\Mac\SFX\200327_Memento_AluminumWorry_InstrumentTest_659DA352.wem		\Actor-Mixer Hierarchy\Mm_Test\Test\TestThomas\200327_Memento_AluminumWorry_InstrumentTest		1396392
+	623097767	Dub Remix - Willesden Green Reggae by Moses Concas v2	C:\Users\Propriétaire\Desktop\Memento\Memento_Wwise\.cache\Mac\SFX\Dub Remix - Willesden Green Reggae by Moses Concas v2_8213B6C7.wem		\Actor-Mixer Hierarchy\Mm_Test\Test\TestLaurent\Dub Remix - Willesden Green Reggae by Moses Concas v2		1340172
+

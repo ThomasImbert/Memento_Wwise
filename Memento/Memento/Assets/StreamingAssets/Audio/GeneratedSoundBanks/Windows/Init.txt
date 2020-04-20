@@ -1,0 +1,20 @@
+Audio Bus	ID	Name			Wwise Object Path	Notes
+	393239870	SFX			\Mm_MasterMixer\Master\SFX	
+	983310469	Aux			\Mm_MasterMixer\Master\Aux	
+	1069431850	Player			\Mm_MasterMixer\Master\SFX\Player	
+	1551306167	UI			\Mm_MasterMixer\Master\UI	
+	2485153219	Adaptive			\Mm_MasterMixer\Master\Music\Adaptive	
+	2981377429	Ambiance			\Mm_MasterMixer\Master\Ambiance	
+	3616880742	Linear			\Mm_MasterMixer\Master\Music\Linear	
+	3803692087	Master Audio Bus			\Default Work Unit\Master Audio Bus	
+	3991942870	Music			\Mm_MasterMixer\Master\Music	
+	4056684167	Master			\Mm_MasterMixer\Master	
+
+Auxiliary Bus	ID	Name			Wwise Object Path	Notes
+	997778300	Reverb_Inside			\Mm_MasterMixer\Master\Aux\Reverb_Inside	
+	2098287461	Reverb_Outside			\Mm_MasterMixer\Master\Aux\Reverb_Outside	
+
+Audio Devices	ID	Name	Type				Notes
+	2317455096	No_Output	No Output			
+	3859886410	System	System			
+

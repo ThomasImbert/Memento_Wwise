@@ -29,6 +29,20 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Stop_TestLaurent" ID="{B606209C-5F0D-4D6C-A753-297C1FCE0874}">
+					<ChildrenList>
+						<Action Name="" ID="{F80EEB97-B7A1-41AF-A769-96CD30D5B31F}" ShortID="576556433">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="TestLaurent" ID="{E9DEA218-584C-4787-B76D-2AC56F8AF888}" WorkUnitID="{2010ECFB-8345-40AA-BA3A-65DD8A20A34B}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 				<Event Name="Stop_TestThomas" ID="{9A9F270A-A13F-4DCF-BB30-D10EA4F37277}">
 					<ChildrenList>
 						<Action Name="" ID="{EED9F97F-82FC-46D2-895A-1E98E169DABD}" ShortID="896640862">

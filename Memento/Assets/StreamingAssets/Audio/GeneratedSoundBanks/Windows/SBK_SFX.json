@@ -1,0 +1,25 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "12",
+  "SoundbankVersion": "135",
+  "RootPaths": {
+   "ProjectRoot": "C:\\Users\\Propriétaire\\Desktop\\Memento\\Memento_Wwise\\",
+   "SourceFilesRoot": "C:\\Users\\Propriétaire\\Desktop\\Memento\\Memento_Wwise\\.cache\\Windows\\",
+   "SoundBanksRoot": "C:\\Users\\Propriétaire\\Desktop\\Memento\\Memento_Wwise\\Memento\\Assets\\StreamingAssets\\Audio\\GeneratedSoundBanks\\Windows\\",
+   "ExternalSourcesInputFile": "",
+   "ExternalSourcesOutputRoot": "C:\\Users\\Propriétaire\\Desktop\\Memento\\Memento_Wwise\\GeneratedSoundBanks\\Windows"
+  },
+  "SoundBanks": [
+   {
+    "Id": "167047817",
+    "GUID": "{B6162502-0070-48A4-AB37-530DC5A82ECB}",
+    "Language": "SFX",
+    "ObjectPath": "\\SoundBanks\\Mm_SBK\\SBK_SFX",
+    "ShortName": "SBK_SFX",
+    "Path": "SBK_SFX.bnk"
+   }
+  ]
+ }
+}
