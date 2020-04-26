@@ -1,6 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{740E40F7-EC6D-4FA8-AF41-FF17DE7876CB}" SchemaVersion="97">
 	<Switches>
-		<WorkUnit Name="Mm_Switches" ID="{740E40F7-EC6D-4FA8-AF41-FF17DE7876CB}" PersistMode="Standalone"/>
+		<WorkUnit Name="Mm_Switches" ID="{740E40F7-EC6D-4FA8-AF41-FF17DE7876CB}" PersistMode="Standalone">
+			<ChildrenList>
+				<SwitchGroup Name="Terrain" ID="{3842F16B-D57A-4E9C-885B-8FE87F6DAF65}">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="17"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
+					<ChildrenList>
+						<Switch Name="PurpleMoss" ID="{74CEED8B-1961-47D4-AF3C-83B4EF9F333B}"/>
+						<Switch Name="RedMoss" ID="{51C21A70-4FF9-48CC-86D4-817DDBD76F1A}"/>
+						<Switch Name="Rock" ID="{3A8FA418-56D4-4AA3-A4BF-F5BCBC0361F5}"/>
+					</ChildrenList>
+				</SwitchGroup>
+			</ChildrenList>
+		</WorkUnit>
 	</Switches>
 </WwiseDocument>

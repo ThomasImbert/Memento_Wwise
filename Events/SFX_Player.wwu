@@ -77,10 +77,51 @@
 						<Action Name="" ID="{1C6E15D4-517E-4B0F-93FF-75952D928BE0}" ShortID="528288536">
 							<PropertyList>
 								<Property Name="ActionType" Type="int16" Value="2"/>
+								<Property Name="FadeTime" Type="Real64" Value="0.2"/>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="PlayerWalk" ID="{84EAABA6-C74C-4EA4-B709-864EB4285BAD}" WorkUnitID="{B09A25F1-BDF1-46AB-B77C-AEBE45E0E3FC}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{FD3CDF37-AF62-4727-9046-97ED7A235B47}" ShortID="432109744">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="PlayerHalt" ID="{AD783EF1-E4CA-46BD-A96F-3557A62E11FB}" WorkUnitID="{B09A25F1-BDF1-46AB-B77C-AEBE45E0E3FC}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_JumpLanding" ID="{1E96109F-9935-45E1-8218-88FD75AC8D33}">
+					<ChildrenList>
+						<Action Name="" ID="{4E85900A-5388-4AB5-8579-25E6ED607635}" ShortID="416043820">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="JumpLanding" ID="{B16A8E81-E51C-47F3-8FD5-FAA4856D2D70}" WorkUnitID="{B09A25F1-BDF1-46AB-B77C-AEBE45E0E3FC}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_PlayerHalt" ID="{3B223034-64AF-468F-BE15-84A09E103C47}">
+					<ChildrenList>
+						<Action Name="" ID="{E033CD78-C2CF-4248-8B10-0B619BBF87D2}" ShortID="141092650">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="PlayerHalt" ID="{AD783EF1-E4CA-46BD-A96F-3557A62E11FB}" WorkUnitID="{B09A25F1-BDF1-46AB-B77C-AEBE45E0E3FC}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_JumpRegular" ID="{296E9D73-0A77-4B94-93E0-931DC9CBDC43}">
+					<ChildrenList>
+						<Action Name="" ID="{EDF6A98B-4A9A-433E-9204-3D9CC6E71FF6}" ShortID="305065160">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="JumpRegular" ID="{9874EBD5-BF67-4E45-B83C-1D2609D4876A}" WorkUnitID="{B09A25F1-BDF1-46AB-B77C-AEBE45E0E3FC}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
