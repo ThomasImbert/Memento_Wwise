@@ -83,59 +83,6 @@
 									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8A69F515-C57F-4A97-8978-0B9FB4F47B02}"/>
 								</Reference>
 							</ReferenceList>
-							<ChildrenList>
-								<Sound Name="Dub Remix - Willesden Green Reggae by Moses Concas v2" ID="{7BD3EC47-1A0B-43A7-A3B7-119FBBD6DF2A}" ShortID="638016033">
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D0B9DB4F-7FF6-4CDB-BEF4-05863A8070B7}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8A69F515-C57F-4A97-8978-0B9FB4F47B02}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<AudioFileSource Name="Dub Remix - Willesden Green Reggae by Moses Concas v2" ID="{B9EC0D77-9EE6-411E-956E-E69A21807A45}">
-											<PropertyList>
-												<Property Name="CrossfadeDuration" Type="Real64" Value="1276.933"/>
-												<Property Name="LoopBegin" Type="Real64" Value="26.5881887366819"/>
-												<Property Name="LoopEnd" Type="Real64" Value="30.8612904979343"/>
-												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-												<Property Name="TrimBegin" Type="Real64" Value="25.282518754077"/>
-												<Property Name="TrimEnd" Type="Real64" Value="32.8791441074147"/>
-											</PropertyList>
-											<Language>SFX</Language>
-											<AudioFile>Dub Remix - Willesden Green Reggae by Moses Concas v2.wav</AudioFile>
-											<MediaIDList>
-												<MediaID ID="623097767"/>
-											</MediaIDList>
-										</AudioFileSource>
-										<AudioFileSource Name="200327_Memento_AluminumWorry_InstrumentTest" ID="{2D376FD9-24D0-41B8-8142-416F6F1A062C}">
-											<Language>SFX</Language>
-											<AudioFile>200327_Memento_AluminumWorry_InstrumentTest.wav</AudioFile>
-											<MediaIDList>
-												<MediaID ID="714108738"/>
-											</MediaIDList>
-										</AudioFileSource>
-										<AudioFileSource Name="Dub Remix - Willesden Green Reggae by Moses Concas v2_01" ID="{36FCCC3D-723A-4AE9-BDF2-B3F4CD691296}">
-											<Language>SFX</Language>
-											<AudioFile>Dub Remix - Willesden Green Reggae by Moses Concas v2.wav</AudioFile>
-											<MediaIDList>
-												<MediaID ID="503715318"/>
-											</MediaIDList>
-										</AudioFileSource>
-										<AudioFileSource Name="200327_Memento_AluminumWorry_InstrumentTest_01" ID="{B836CD3D-2BDF-4607-A8DC-6D243D2D7FEE}">
-											<Language>SFX</Language>
-											<AudioFile>200327_Memento_AluminumWorry_InstrumentTest.wav</AudioFile>
-											<MediaIDList>
-												<MediaID ID="714108738"/>
-											</MediaIDList>
-										</AudioFileSource>
-									</ChildrenList>
-									<ActiveSourceList>
-										<ActiveSource Name="Dub Remix - Willesden Green Reggae by Moses Concas v2" ID="{B9EC0D77-9EE6-411E-956E-E69A21807A45}" Platform="Linked"/>
-									</ActiveSourceList>
-								</Sound>
-							</ChildrenList>
 						</BlendContainer>
 					</ChildrenList>
 				</ActorMixer>
