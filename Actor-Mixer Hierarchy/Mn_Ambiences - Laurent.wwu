@@ -55,10 +55,7 @@
 									<ChildrenList>
 										<AudioFileSource Name="Low Linear Wind -21" ID="{B7A663D4-9DC7-495D-B475-80DFE785E5A9}">
 											<Language>SFX</Language>
-											<AudioFile>Low Linear Wind -21.wav</AudioFile>
-											<MediaIDList>
-												<MediaID ID="59232626"/>
-											</MediaIDList>
+											<AudioFile>Ambiance\Low Linear Wind -21.wav</AudioFile>
 										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
@@ -84,10 +81,7 @@
 									<ChildrenList>
 										<AudioFileSource Name="Small Metalic Wind - 16" ID="{93A55C84-779A-4DF6-8763-7DCECCF83ADD}">
 											<Language>SFX</Language>
-											<AudioFile>Small Metalic Wind - 16.wav</AudioFile>
-											<MediaIDList>
-												<MediaID ID="462538220"/>
-											</MediaIDList>
+											<AudioFile>Ambiance\Small Metalic Wind - 16.wav</AudioFile>
 										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
@@ -123,10 +117,7 @@
 									<ChildrenList>
 										<AudioFileSource Name="Wind Trees With crackling -22" ID="{C22D395A-2263-4288-9CEC-541C83604460}">
 											<Language>SFX</Language>
-											<AudioFile>Wind Trees With crackling -22.wav</AudioFile>
-											<MediaIDList>
-												<MediaID ID="464198739"/>
-											</MediaIDList>
+											<AudioFile>Ambiance\Wind Trees With crackling -22.wav</AudioFile>
 										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
@@ -169,10 +160,7 @@
 											<ChildrenList>
 												<AudioFileSource Name="SFX Windy Reverb Metalic -10" ID="{C06F8CE4-0D30-413C-B24D-C7DA2966307D}">
 													<Language>SFX</Language>
-													<AudioFile>SFX Windy Reverb Metalic -10.wav</AudioFile>
-													<MediaIDList>
-														<MediaID ID="349020179"/>
-													</MediaIDList>
+													<AudioFile>Ambiance\SFX Windy Reverb Metalic -10.wav</AudioFile>
 												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
@@ -198,10 +186,7 @@
 											<ChildrenList>
 												<AudioFileSource Name="SFX Windy Reverb Metalic Long -10" ID="{6FBDD052-E02B-4899-9290-C98868948851}">
 													<Language>SFX</Language>
-													<AudioFile>SFX Windy Reverb Metalic Long -10.wav</AudioFile>
-													<MediaIDList>
-														<MediaID ID="810406560"/>
-													</MediaIDList>
+													<AudioFile>Ambiance\SFX Windy Reverb Metalic Long -10.wav</AudioFile>
 												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
@@ -256,10 +241,7 @@
 											<ChildrenList>
 												<AudioFileSource Name="Planet_Respiration_01" ID="{64ECBA21-B2A9-4E95-88DE-B16443AAA3DC}">
 													<Language>SFX</Language>
-													<AudioFile>Planet_Respiration_01.wav</AudioFile>
-													<MediaIDList>
-														<MediaID ID="560816943"/>
-													</MediaIDList>
+													<AudioFile>Ambiance\Planet_Respiration_01.wav</AudioFile>
 												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
@@ -285,10 +267,7 @@
 											<ChildrenList>
 												<AudioFileSource Name="Planet_Respiration_02" ID="{E9F8E69B-8FD6-4C25-8F53-1CE14CC599AE}">
 													<Language>SFX</Language>
-													<AudioFile>Planet_Respiration_02.wav</AudioFile>
-													<MediaIDList>
-														<MediaID ID="291379018"/>
-													</MediaIDList>
+													<AudioFile>Ambiance\Planet_Respiration_02.wav</AudioFile>
 												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
@@ -314,10 +293,7 @@
 											<ChildrenList>
 												<AudioFileSource Name="Planet_Respiration_03" ID="{BF4D7F22-D37E-421A-BBA4-BE1342E6783D}">
 													<Language>SFX</Language>
-													<AudioFile>Planet_Respiration_03.wav</AudioFile>
-													<MediaIDList>
-														<MediaID ID="575762476"/>
-													</MediaIDList>
+													<AudioFile>Ambiance\Planet_Respiration_03.wav</AudioFile>
 												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
@@ -343,10 +319,7 @@
 											<ChildrenList>
 												<AudioFileSource Name="Planet_Respiration_04" ID="{85B07F01-2548-4D60-86B8-64245AFFAB18}">
 													<Language>SFX</Language>
-													<AudioFile>Planet_Respiration_04.wav</AudioFile>
-													<MediaIDList>
-														<MediaID ID="179866967"/>
-													</MediaIDList>
+													<AudioFile>Ambiance\Planet_Respiration_04.wav</AudioFile>
 												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
@@ -372,10 +345,7 @@
 											<ChildrenList>
 												<AudioFileSource Name="Planet_Respiration_05" ID="{4136EA79-793D-4269-BD13-39A8F620154D}">
 													<Language>SFX</Language>
-													<AudioFile>Planet_Respiration_05.wav</AudioFile>
-													<MediaIDList>
-														<MediaID ID="1021415236"/>
-													</MediaIDList>
+													<AudioFile>Ambiance\Planet_Respiration_05.wav</AudioFile>
 												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
@@ -401,10 +371,7 @@
 											<ChildrenList>
 												<AudioFileSource Name="Planet_Respiration_06" ID="{A6958E24-12DE-4116-B789-9AF5D6501213}">
 													<Language>SFX</Language>
-													<AudioFile>Planet_Respiration_06.wav</AudioFile>
-													<MediaIDList>
-														<MediaID ID="181113972"/>
-													</MediaIDList>
+													<AudioFile>Ambiance\Planet_Respiration_06.wav</AudioFile>
 												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
@@ -463,10 +430,7 @@
 											<ChildrenList>
 												<AudioFileSource Name="Bubbles_01" ID="{D069D60C-8DCC-49EA-A723-31E81295ED0A}">
 													<Language>SFX</Language>
-													<AudioFile>Bubbles_01.wav</AudioFile>
-													<MediaIDList>
-														<MediaID ID="650919324"/>
-													</MediaIDList>
+													<AudioFile>Ambiance\Bubbles_01.wav</AudioFile>
 												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
@@ -499,10 +463,7 @@
 											<ChildrenList>
 												<AudioFileSource Name="Bubbles_02" ID="{701175B4-A5D8-425C-8B2E-F3B2F47ED24D}">
 													<Language>SFX</Language>
-													<AudioFile>Bubbles_02.wav</AudioFile>
-													<MediaIDList>
-														<MediaID ID="268131303"/>
-													</MediaIDList>
+													<AudioFile>Ambiance\Bubbles_02.wav</AudioFile>
 												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
@@ -535,10 +496,7 @@
 											<ChildrenList>
 												<AudioFileSource Name="Bubbles_03" ID="{1EBFD2CC-4F8F-4E2E-ADC9-88D56DE58B3B}">
 													<Language>SFX</Language>
-													<AudioFile>Bubbles_03.wav</AudioFile>
-													<MediaIDList>
-														<MediaID ID="151825429"/>
-													</MediaIDList>
+													<AudioFile>Ambiance\Bubbles_03.wav</AudioFile>
 												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>

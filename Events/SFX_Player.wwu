@@ -25,31 +25,6 @@
 						</Action>
 					</ChildrenList>
 				</Event>
-				<Event Name="Play_Photo_Move" ID="{D3765352-75A7-46FF-BA92-FE9861A0B7FD}">
-					<ChildrenList>
-						<Action Name="" ID="{61045600-1573-46C9-BF70-25136A80250D}" ShortID="848123002">
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="Photo_Move" ID="{711E6698-A923-4ABF-B3F8-D7A734131F5D}" WorkUnitID="{5D71DD36-5D04-4072-AAF2-B8F0D4077DE3}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-					</ChildrenList>
-				</Event>
-				<Event Name="Stop_Photo_Move" ID="{77618B5B-73F5-4A20-8773-DC4147478DFA}">
-					<ChildrenList>
-						<Action Name="" ID="{D6E18002-0FD6-4137-926E-5668F0FA68B4}" ShortID="605136392">
-							<PropertyList>
-								<Property Name="ActionType" Type="int16" Value="2"/>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="Photo_Move" ID="{711E6698-A923-4ABF-B3F8-D7A734131F5D}" WorkUnitID="{5D71DD36-5D04-4072-AAF2-B8F0D4077DE3}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-					</ChildrenList>
-				</Event>
 				<Event Name="Play_Photo_Trigger" ID="{7BEB3419-652F-4C3D-A817-C3B12441169C}">
 					<ChildrenList>
 						<Action Name="" ID="{55894B22-AD49-4C4C-986C-3679FF0A0E98}" ShortID="481570070">
