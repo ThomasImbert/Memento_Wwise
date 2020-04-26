@@ -7,9 +7,9 @@
 				<Property Name="OverrideColor" Type="bool" Value="True"/>
 			</PropertyList>
 			<ChildrenList>
-				<Event Name="Ambience_01" ID="{915929BE-B2F3-40B4-B848-5F144F183AF7}">
+				<Event Name="Play_Ambiance_01" ID="{C3E09CF0-C7A7-4E08-8218-31307BAFC64E}">
 					<ChildrenList>
-						<Action Name="" ID="{1DC21182-FFDA-46C6-9378-D618286512F8}" ShortID="809437089">
+						<Action Name="" ID="{6C5B2B24-E4E2-4675-93FD-724C1D3D5868}" ShortID="393021387">
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="Ambiance_01" ID="{20F572F8-33C5-4614-8B84-AFE0059487FB}" WorkUnitID="{BDCF732B-5724-4543-8D24-9AB09AA8F717}"/>
