@@ -1,6 +1,92 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{2108F57A-A96C-4E61-AD24-2AA4B1564C55}" SchemaVersion="97" RootDocumentID="{968B145A-44D4-4ED7-9C02-96CDE1F6F4D5}">
 	<Events>
-		<WorkUnit Name="SFX_Player" ID="{2108F57A-A96C-4E61-AD24-2AA4B1564C55}" OwnerID="{0B53BEA9-72FD-40A4-9BEA-6B47AA64B91B}" PersistMode="Nested"/>
+		<WorkUnit Name="SFX_Player" ID="{2108F57A-A96C-4E61-AD24-2AA4B1564C55}" OwnerID="{0B53BEA9-72FD-40A4-9BEA-6B47AA64B91B}" PersistMode="Nested">
+			<ChildrenList>
+				<Event Name="Play_Photo_Activate" ID="{5EC27E4B-97A1-4A4E-A2FE-3A93422A7D86}">
+					<ChildrenList>
+						<Action Name="" ID="{FC32F19A-A184-4AA7-9E8F-52818D29C488}" ShortID="964475923">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Photo_Activate" ID="{5FA78846-9F14-4A3D-B99C-F77A8A05F2CD}" WorkUnitID="{5D71DD36-5D04-4072-AAF2-B8F0D4077DE3}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Photo_Desactivate" ID="{53800D45-F2EB-4C9A-A3DE-225E4A37924E}">
+					<ChildrenList>
+						<Action Name="" ID="{25655181-0815-41E7-A4A4-1192B47A30EB}" ShortID="454665672">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Photo_Desactivate" ID="{2D026B26-14D3-41C2-9DF4-6D3EFD7CE170}" WorkUnitID="{5D71DD36-5D04-4072-AAF2-B8F0D4077DE3}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Photo_Move" ID="{D3765352-75A7-46FF-BA92-FE9861A0B7FD}">
+					<ChildrenList>
+						<Action Name="" ID="{61045600-1573-46C9-BF70-25136A80250D}" ShortID="848123002">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Photo_Move" ID="{711E6698-A923-4ABF-B3F8-D7A734131F5D}" WorkUnitID="{5D71DD36-5D04-4072-AAF2-B8F0D4077DE3}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Stop_Photo_Move" ID="{77618B5B-73F5-4A20-8773-DC4147478DFA}">
+					<ChildrenList>
+						<Action Name="" ID="{D6E18002-0FD6-4137-926E-5668F0FA68B4}" ShortID="605136392">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Photo_Move" ID="{711E6698-A923-4ABF-B3F8-D7A734131F5D}" WorkUnitID="{5D71DD36-5D04-4072-AAF2-B8F0D4077DE3}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Photo_Trigger" ID="{7BEB3419-652F-4C3D-A817-C3B12441169C}">
+					<ChildrenList>
+						<Action Name="" ID="{55894B22-AD49-4C4C-986C-3679FF0A0E98}" ShortID="481570070">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Photo_Trigger" ID="{6238474B-A74E-4592-A0D7-94DCF95B43FB}" WorkUnitID="{5D71DD36-5D04-4072-AAF2-B8F0D4077DE3}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_PlayerWalk" ID="{57669FC4-8025-429D-8680-E6CE4E4B50D4}">
+					<ChildrenList>
+						<Action Name="" ID="{16D09E5A-B55D-4406-B5F0-A43D63437E1D}" ShortID="837653523">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="PlayerWalk" ID="{84EAABA6-C74C-4EA4-B709-864EB4285BAD}" WorkUnitID="{B09A25F1-BDF1-46AB-B77C-AEBE45E0E3FC}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Stop_PlayerWalk" ID="{C66AA6D3-F4CC-44DC-BCC7-4259BF1E0BFA}">
+					<ChildrenList>
+						<Action Name="" ID="{1C6E15D4-517E-4B0F-93FF-75952D928BE0}" ShortID="528288536">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="PlayerWalk" ID="{84EAABA6-C74C-4EA4-B709-864EB4285BAD}" WorkUnitID="{B09A25F1-BDF1-46AB-B77C-AEBE45E0E3FC}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
 	</Events>
 </WwiseDocument>

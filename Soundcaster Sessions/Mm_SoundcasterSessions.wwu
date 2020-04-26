@@ -17,6 +17,14 @@
 							<ObjectRef Name="Stop_TestThomas" ID="{9A9F270A-A13F-4DCF-BB30-D10EA4F37277}" WorkUnitID="{0F5CD6D9-FAB7-4DD0-8CEC-D3176E4D7676}"/>
 							<Position X="1" Y="1"/>
 						</Module>
+						<Module>
+							<ObjectRef Name="Play_PlayerWalk" ID="{57669FC4-8025-429D-8680-E6CE4E4B50D4}" WorkUnitID="{2108F57A-A96C-4E61-AD24-2AA4B1564C55}"/>
+							<Position X="2" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Stop_PlayerWalk" ID="{C66AA6D3-F4CC-44DC-BCC7-4259BF1E0BFA}" WorkUnitID="{2108F57A-A96C-4E61-AD24-2AA4B1564C55}"/>
+							<Position X="2" Y="1"/>
+						</Module>
 					</ModuleList>
 					<RTPCValueList ShowAll="true"/>
 					<CurrentStateList ShowAll="true"/>
