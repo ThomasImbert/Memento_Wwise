@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{BDCF732B-5724-4543-8D24-9AB09AA8F717}" SchemaVersion="97">
 	<AudioObjects>
-		<WorkUnit Name="Mn_Ambiences - Laurent" ID="{BDCF732B-5724-4543-8D24-9AB09AA8F717}" PersistMode="Standalone">
+		<WorkUnit Name="Mm_Ambiences - Laurent" ID="{BDCF732B-5724-4543-8D24-9AB09AA8F717}" PersistMode="Standalone">
 			<PropertyList>
 				<Property Name="Color" Type="int16" Value="16"/>
 				<Property Name="OverrideColor" Type="bool" Value="True"/>

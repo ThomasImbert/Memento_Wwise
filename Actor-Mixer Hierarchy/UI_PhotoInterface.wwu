@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{CF3E2865-0A67-465B-A841-4CC2C1CFED2B}" SchemaVersion="97" RootDocumentID="{486E251F-5A87-499A-9993-1FC20C925E6D}">
+	<AudioObjects>
+		<WorkUnit Name="UI_PhotoInterface" ID="{CF3E2865-0A67-465B-A841-4CC2C1CFED2B}" OwnerID="{486E251F-5A87-499A-9993-1FC20C925E6D}" PersistMode="Nested">
+			<ChildrenList>
+				<ActorMixer Name="PhotoInterface" ID="{A7C08D9D-9B32-4A68-99AA-2239C107FBAF}" ShortID="548799417">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D0B9DB4F-7FF6-4CDB-BEF4-05863A8070B7}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="UI" ID="{F760DD1E-F55E-4F9D-9F4F-03830D9435B1}" WorkUnitID="{61D42960-93D3-4FF0-8FC0-3437DB41C134}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="MemoryFull" ID="{01640209-F6E7-42E8-9893-23060991DA0F}" ShortID="669859276">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D0B9DB4F-7FF6-4CDB-BEF4-05863A8070B7}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="UI" ID="{F760DD1E-F55E-4F9D-9F4F-03830D9435B1}" WorkUnitID="{61D42960-93D3-4FF0-8FC0-3437DB41C134}"/>
+								</Reference>
+							</ReferenceList>
+						</Sound>
+					</ChildrenList>
+				</ActorMixer>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>
