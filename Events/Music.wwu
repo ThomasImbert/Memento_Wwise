@@ -6,6 +6,19 @@
 				<Property Name="Color" Type="int16" Value="2"/>
 				<Property Name="OverrideColor" Type="bool" Value="True"/>
 			</PropertyList>
+			<ChildrenList>
+				<Event Name="Play_LinearMusic_Introduction_Awakening" ID="{16B4869F-C2EF-43D9-91AE-C28BB5A84E76}">
+					<ChildrenList>
+						<Action Name="" ID="{4907C6B9-ED04-4D32-BACE-A57C68666D0B}" ShortID="787888473">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="LinearMusic_Introduction_Awakening" ID="{BD4DB2FC-CDB3-41E7-BE5F-DC34654AA3CE}" WorkUnitID="{E77EEFBD-EA05-4D1F-BD63-6204F50016F7}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
 		</WorkUnit>
 	</Events>
 </WwiseDocument>

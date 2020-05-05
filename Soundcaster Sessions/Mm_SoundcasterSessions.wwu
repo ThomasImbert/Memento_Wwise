@@ -41,6 +41,10 @@
 							<ObjectRef Name="Play_TestLaurent" ID="{F9351F78-442A-4BA3-B652-A8C24D2AE3F9}" WorkUnitID="{0F5CD6D9-FAB7-4DD0-8CEC-D3176E4D7676}"/>
 							<Position X="0" Y="0"/>
 						</Module>
+						<Module>
+							<ObjectRef Name="Play_Ambiance_01" ID="{C3E09CF0-C7A7-4E08-8218-31307BAFC64E}" WorkUnitID="{94D94C6E-0D41-4408-A0CE-E3983F49FD1B}"/>
+							<Position X="1" Y="0"/>
+						</Module>
 					</ModuleList>
 					<RTPCValueList ShowAll="true"/>
 					<CurrentStateList ShowAll="true"/>

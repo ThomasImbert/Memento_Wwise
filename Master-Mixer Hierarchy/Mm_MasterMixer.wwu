@@ -15,6 +15,9 @@
 						<Reference Name="AudioDevice">
 							<ObjectRef Name="System" ID="{87FFC8E8-0D17-4D95-87F7-D77CE9D32A89}" WorkUnitID="{A752DFB4-F159-4B10-9837-D17AEC03C77F}"/>
 						</Reference>
+						<Reference Name="Effect0" PluginName="Wwise Recorder" CompanyID="0" PluginID="132" PluginType="3">
+							<ObjectRef Name="New_Wwise_Recorder" ID="{96C0FD82-1149-459E-A68D-E65205EC5825}" WorkUnitID="{FA14CCD2-3843-49E6-B05F-E4CC2A10557E}"/>
+						</Reference>
 					</ReferenceList>
 					<ChildrenList>
 						<Bus Name="SFX" ID="{9A54A52E-9FC5-41BD-A717-8B87A80A48DA}">

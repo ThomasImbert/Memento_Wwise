@@ -1,6 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{FA14CCD2-3843-49E6-B05F-E4CC2A10557E}" SchemaVersion="97">
 	<Effects>
-		<WorkUnit Name="Default Work Unit" ID="{FA14CCD2-3843-49E6-B05F-E4CC2A10557E}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{FA14CCD2-3843-49E6-B05F-E4CC2A10557E}" PersistMode="Standalone">
+			<ChildrenList>
+				<Effect Name="New_Wwise_Recorder" ID="{96C0FD82-1149-459E-A68D-E65205EC5825}" PluginName="Wwise Recorder" CompanyID="0" PluginID="132" PluginType="3">
+					<PropertyList>
+						<Property Name="AuthoringFilename" Type="string" Value="C:\Users\Propriétaire\Desktop\Ambience_Memento.wav"/>
+						<Property Name="DownmixToStereo" Type="bool" Value="False"/>
+					</PropertyList>
+				</Effect>
+			</ChildrenList>
+		</WorkUnit>
 	</Effects>
 </WwiseDocument>

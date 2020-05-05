@@ -1,6 +1,76 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{E77EEFBD-EA05-4D1F-BD63-6204F50016F7}" SchemaVersion="97">
 	<InteractiveMusic>
-		<WorkUnit Name="Mm_LinearMusic" ID="{E77EEFBD-EA05-4D1F-BD63-6204F50016F7}" PersistMode="Standalone"/>
+		<WorkUnit Name="Mm_LinearMusic" ID="{E77EEFBD-EA05-4D1F-BD63-6204F50016F7}" PersistMode="Standalone">
+			<ChildrenList>
+				<MusicSegment Name="LinearMusic_Introduction_Awakening" ID="{BD4DB2FC-CDB3-41E7-BE5F-DC34654AA3CE}" ShortID="63856505">
+					<PropertyList>
+						<Property Name="EndPosition" Type="Real64" Value="136615.37414966"/>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-6</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D0B9DB4F-7FF6-4CDB-BEF4-05863A8070B7}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master" ID="{364AE0A9-F634-4E70-98DF-127D35F6D855}" WorkUnitID="{61D42960-93D3-4FF0-8FC0-3437DB41C134}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<MusicTrack Name="LinearMusic_Introduction_Awakening" ID="{FFAE0EA8-BDCE-4486-99C9-F4751C495FDB}" ShortID="282809862">
+							<ReferenceList>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8A69F515-C57F-4A97-8978-0B9FB4F47B02}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Musique - Eveil Mix - Mastering" ID="{6C62A8A8-CFDB-4E3F-818F-27ACC01DECE9}">
+									<Language>SFX</Language>
+									<AudioFile>Musique - Eveil Mix - Mastering.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="705066311"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<TransitionList>
+								<MusicTransition Name="Root" ID="{1F4511CC-0C11-49D0-BB1D-3F634AE58892}">
+									<PropertyList>
+										<Property Name="IsFolder" Type="bool" Value="True"/>
+									</PropertyList>
+									<TransitionInfo/>
+								</MusicTransition>
+							</TransitionList>
+							<SequenceList>
+								<MusicTrackSequence Name="" ID="{215E5BB2-FA2B-424D-8889-15AC1F2A9EF1}">
+									<ClipList>
+										<MusicClip Name="Musique - Eveil Mix - Mastering" ID="{4F521D52-0B3E-4B5C-A499-5D794A033BAB}">
+											<PropertyList>
+												<Property Name="EndTrimOffset" Type="Real64" Value="136615.37414966"/>
+												<Property Name="FadeInMode" Type="int16" Value="0"/>
+												<Property Name="FadeOutMode" Type="int16" Value="0"/>
+											</PropertyList>
+											<AudioSourceRef Name="Musique - Eveil Mix - Mastering" ID="{6C62A8A8-CFDB-4E3F-818F-27ACC01DECE9}"/>
+										</MusicClip>
+									</ClipList>
+								</MusicTrackSequence>
+							</SequenceList>
+						</MusicTrack>
+					</ChildrenList>
+					<CueList>
+						<MusicCue Name="Entry Cue" ID="{C0F266F6-16C1-4C25-81ED-5F1BDF7EC1D0}"/>
+						<MusicCue Name="Exit Cue" ID="{7A0982F2-FBBE-4AAF-B074-ED0075173C4A}">
+							<PropertyList>
+								<Property Name="CueType" Type="int16" Value="1"/>
+								<Property Name="TimeMs" Type="Real64" Value="136615.37414966"/>
+							</PropertyList>
+						</MusicCue>
+					</CueList>
+				</MusicSegment>
+			</ChildrenList>
+		</WorkUnit>
 	</InteractiveMusic>
 </WwiseDocument>
