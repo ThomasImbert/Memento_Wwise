@@ -14,6 +14,13 @@
 					</ReferenceList>
 					<ChildrenList>
 						<Sound Name="MemoryFull" ID="{01640209-F6E7-42E8-9893-23060991DA0F}" ShortID="669859276">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-6</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D0B9DB4F-7FF6-4CDB-BEF4-05863A8070B7}"/>
@@ -22,6 +29,18 @@
 									<ObjectRef Name="UI" ID="{F760DD1E-F55E-4F9D-9F4F-03830D9435B1}" WorkUnitID="{61D42960-93D3-4FF0-8FC0-3437DB41C134}"/>
 								</Reference>
 							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="UI_MemoryFull" ID="{04F73691-C3B4-4D0B-8D3D-D28F755B0B98}">
+									<Language>SFX</Language>
+									<AudioFile>UI\UI_MemoryFull.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="497741023"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="UI_MemoryFull" ID="{04F73691-C3B4-4D0B-8D3D-D28F755B0B98}" Platform="Linked"/>
+							</ActiveSourceList>
 						</Sound>
 					</ChildrenList>
 				</ActorMixer>
