@@ -14,6 +14,13 @@
 					</ReferenceList>
 					<ChildrenList>
 						<RandomSequenceContainer Name="ViewPortGlitch" ID="{E594FAE6-9D95-4B26-8D6B-18654A68D82E}" ShortID="1032284624">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-6</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D0B9DB4F-7FF6-4CDB-BEF4-05863A8070B7}"/>
@@ -32,30 +39,26 @@
 											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8A69F515-C57F-4A97-8978-0B9FB4F47B02}"/>
 										</Reference>
 									</ReferenceList>
-								</Sound>
-								<Sound Name="ViewPortGlitch_02" ID="{256E240D-AD49-4569-B5F9-C94B8067F875}" ShortID="798358688">
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D0B9DB4F-7FF6-4CDB-BEF4-05863A8070B7}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8A69F515-C57F-4A97-8978-0B9FB4F47B02}"/>
-										</Reference>
-									</ReferenceList>
-								</Sound>
-								<Sound Name="ViewPortGlitch_03" ID="{51158CBF-CF93-4B26-B845-A7FCA9229E0F}" ShortID="728168598">
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D0B9DB4F-7FF6-4CDB-BEF4-05863A8070B7}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8A69F515-C57F-4A97-8978-0B9FB4F47B02}"/>
-										</Reference>
-									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="UI_ViewPortGlitch_01" ID="{B976D639-8EB4-46E4-81E1-C2E538BF8977}">
+											<Language>SFX</Language>
+											<AudioFile>UI\UI_ViewPortGlitch_01.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="UI_ViewPortGlitch_01" ID="{B976D639-8EB4-46E4-81E1-C2E538BF8977}" Platform="Linked"/>
+									</ActiveSourceList>
 								</Sound>
 							</ChildrenList>
 						</RandomSequenceContainer>
 						<Sound Name="ClockBug" ID="{8E4AAA51-E8A4-4E8D-B1C9-7A7D2D4BCFE7}" ShortID="459197930">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-6</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D0B9DB4F-7FF6-4CDB-BEF4-05863A8070B7}"/>
@@ -64,6 +67,18 @@
 									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8A69F515-C57F-4A97-8978-0B9FB4F47B02}"/>
 								</Reference>
 							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="UI_ClockBug01" ID="{798335F4-0BFC-41BC-A673-C211CEDC06DC}">
+									<Language>SFX</Language>
+									<AudioFile>UI\UI_ClockBug01.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="629189357"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="UI_ClockBug01" ID="{798335F4-0BFC-41BC-A673-C211CEDC06DC}" Platform="Linked"/>
+							</ActiveSourceList>
 						</Sound>
 					</ChildrenList>
 				</ActorMixer>

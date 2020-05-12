@@ -4,6 +4,7 @@
 		<WorkUnit Name="Mm_GameParameters" ID="{CA7E81EE-EEE0-4759-842F-0D4DF7A72458}" PersistMode="Standalone">
 			<ChildrenList>
 				<WorkUnit Name="PlayerParameters" ID="{A7C728CA-03F4-4957-BFFD-ECBCE8437D51}" PersistMode="Reference"/>
+				<WorkUnit Name="VolumeController" ID="{B64005E9-45A4-4E0B-9200-B5BEEC0F4164}" PersistMode="Reference"/>
 			</ChildrenList>
 		</WorkUnit>
 	</GameParameters>

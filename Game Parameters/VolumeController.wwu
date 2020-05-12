@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{B64005E9-45A4-4E0B-9200-B5BEEC0F4164}" SchemaVersion="97" RootDocumentID="{CA7E81EE-EEE0-4759-842F-0D4DF7A72458}">
+	<GameParameters>
+		<WorkUnit Name="VolumeController" ID="{B64005E9-45A4-4E0B-9200-B5BEEC0F4164}" OwnerID="{CA7E81EE-EEE0-4759-842F-0D4DF7A72458}" PersistMode="Nested">
+			<ChildrenList>
+				<GameParameter Name="VolumeMaster" ID="{58EAF35B-58D6-490A-9BFE-C38AF7DCD943}">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="10"/>
+						<Property Name="InitialValue" Type="Real64" Value="100"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
+				</GameParameter>
+				<GameParameter Name="VolumeAmbiance" ID="{D4F5C67B-1BB3-48E2-83DD-E09DE7C070C3}">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="19"/>
+						<Property Name="InitialValue" Type="Real64" Value="100"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
+				</GameParameter>
+				<GameParameter Name="VolumeUI" ID="{9D9A93FB-10F0-4586-AD04-A3891218D2CD}">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="22"/>
+						<Property Name="InitialValue" Type="Real64" Value="100"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
+				</GameParameter>
+				<GameParameter Name="VolumeSFX" ID="{FDE4A8D5-4272-443A-95FE-02A5723ED01A}">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="17"/>
+						<Property Name="InitialValue" Type="Real64" Value="100"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
+				</GameParameter>
+				<GameParameter Name="VolumeMusic" ID="{1B8F9745-BB7B-4B63-8067-D3B7A7B598C9}">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="2"/>
+						<Property Name="InitialValue" Type="Real64" Value="100"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
+				</GameParameter>
+			</ChildrenList>
+		</WorkUnit>
+	</GameParameters>
+</WwiseDocument>

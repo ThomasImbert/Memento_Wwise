@@ -40,61 +40,6 @@
 						</Action>
 					</ChildrenList>
 				</Event>
-				<Event Name="Play_IGMenuOpenedCancel" ID="{24570AAA-7244-458D-87E5-464C3731AABB}">
-					<ChildrenList>
-						<Action Name="" ID="{013867C1-132C-43A7-83C1-0655AAAE711F}" ShortID="178777880">
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="IGMenuOpenedCancel" ID="{95126AFA-330F-4B0F-9FCC-39370FA6C0D4}" WorkUnitID="{26993BB8-9179-4E01-8D2F-F49020DA4CC7}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-					</ChildrenList>
-				</Event>
-				<Event Name="Play_MemoryFull" ID="{05B022CC-2487-49CF-930A-009352B05618}">
-					<ChildrenList>
-						<Action Name="" ID="{42BBE05F-1F33-4342-9C3D-1D41DFDCD286}" ShortID="430112461">
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="MemoryFull" ID="{01640209-F6E7-42E8-9893-23060991DA0F}" WorkUnitID="{CF3E2865-0A67-465B-A841-4CC2C1CFED2B}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-					</ChildrenList>
-				</Event>
-				<Event Name="Play_ViewPortGlitch" ID="{78FE5F9C-01B0-45E7-AC16-6601C23DBBA6}">
-					<ChildrenList>
-						<Action Name="" ID="{AD339CEE-221D-4FBA-B69A-FFA5D3B394C5}" ShortID="58838548">
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="ViewPortGlitch" ID="{E594FAE6-9D95-4B26-8D6B-18654A68D82E}" WorkUnitID="{8B48F0C6-6D20-4281-B52D-24AD01467572}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-					</ChildrenList>
-				</Event>
-				<Event Name="Play_IGMenuOpened" ID="{9A386459-93E7-40DC-8753-6B7C3AA49ABE}">
-					<ChildrenList>
-						<Action Name="" ID="{9365A91B-1D01-482D-9E8D-ACCAC7A0F348}" ShortID="416423332">
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="IGMenuOpened" ID="{7AF6411D-9776-43F6-A6A8-B39731C9B006}" WorkUnitID="{26993BB8-9179-4E01-8D2F-F49020DA4CC7}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-					</ChildrenList>
-				</Event>
-				<Event Name="Play_IGMenuOpenedConfirm" ID="{59811855-0A64-4772-8750-A2B442B5F00E}">
-					<ChildrenList>
-						<Action Name="" ID="{B5BA88EA-AEBB-49BB-9A5D-25ECFAA131A0}" ShortID="658999837">
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="IGMenuOpenedConfirm" ID="{DA3DB89C-C3B5-4848-93F5-CD6DC1A86AC0}" WorkUnitID="{26993BB8-9179-4E01-8D2F-F49020DA4CC7}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-					</ChildrenList>
-				</Event>
 				<Event Name="Play_TitleScreenPlay" ID="{F46C1143-F7FD-44A1-8172-2F2E65645B90}">
 					<ChildrenList>
 						<Action Name="" ID="{C823619C-F10C-4A94-AAA8-F48B7E9BB136}" ShortID="143634751">
@@ -106,9 +51,86 @@
 						</Action>
 					</ChildrenList>
 				</Event>
-				<Event Name="Play_ClockBug" ID="{06824A92-5AAF-4622-B4CC-323DA72A4138}">
+				<Event Name="Play_TitleScreenQuit" ID="{0A6FFA63-B4F3-48D2-B9CB-8DCBF3312A90}">
 					<ChildrenList>
-						<Action Name="" ID="{2FC4521A-6B92-4DA9-A727-E3ED0E7820CC}" ShortID="831590157">
+						<Action Name="" ID="{86606E9E-FF66-4FAD-8E50-F4463E54E58F}" ShortID="540012835">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="TitleScreenQuit" ID="{CC4FF3C0-86CB-4238-B365-021AA3FEDF27}" WorkUnitID="{E72C23DF-56D7-42A9-B631-3230C3209289}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_IGMenuClosed" ID="{7F7B8741-6E7D-4C75-BE4C-20987B2949DD}">
+					<ChildrenList>
+						<Action Name="" ID="{1F7E22CA-D3BE-40D2-9C54-ED939236D8DE}" ShortID="576941688">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="IGMenuClosed" ID="{6417CAAE-2B2D-4F25-9730-7BC88D45BE4F}" WorkUnitID="{26993BB8-9179-4E01-8D2F-F49020DA4CC7}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_IGMenuCancel" ID="{8E44DCFE-3B9D-45A8-8074-2F423BC8BFF7}">
+					<ChildrenList>
+						<Action Name="" ID="{67DB7DE8-8040-4ACB-AFE6-EF98183C9684}" ShortID="496880926">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="IGMenuCancel" ID="{A90D8D41-FBDD-4825-82EE-AA9CD5C93D1A}" WorkUnitID="{26993BB8-9179-4E01-8D2F-F49020DA4CC7}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_IGMenuConfirm" ID="{8D0A15C4-9950-4461-92DB-38D3579DE99A}">
+					<ChildrenList>
+						<Action Name="" ID="{7EA177C6-0C34-4235-8A36-892BEFF55F73}" ShortID="680228836">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="IGMenuConfirm" ID="{7544B584-166D-4563-A156-EEE8A5E51701}" WorkUnitID="{26993BB8-9179-4E01-8D2F-F49020DA4CC7}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_ViewPortGlitch" ID="{4C4D1E52-8324-497A-B6F9-29AC6517565F}">
+					<ChildrenList>
+						<Action Name="" ID="{405A7E68-2E56-4C2A-8F4E-C52B56FC6952}" ShortID="115264238">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="ViewPortGlitch" ID="{E594FAE6-9D95-4B26-8D6B-18654A68D82E}" WorkUnitID="{8B48F0C6-6D20-4281-B52D-24AD01467572}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_IGMenuNavigation" ID="{02DB7B60-B42F-4F9E-B348-9F8FDD4CE4A1}">
+					<ChildrenList>
+						<Action Name="" ID="{B5D4028E-1419-41CC-BB51-5692FAB6C577}" ShortID="180856563">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="IGMenuNavigation" ID="{098A6B3D-1363-4CA1-AC23-3A5D52244E2A}" WorkUnitID="{26993BB8-9179-4E01-8D2F-F49020DA4CC7}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_IGMenuOpened" ID="{FE28F35E-1E36-4F57-B2F1-4C62A3641939}">
+					<ChildrenList>
+						<Action Name="" ID="{71DB001F-5665-4B66-A431-9BAE0DDC4317}" ShortID="543651861">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="IGMenuOpened" ID="{51164608-9E15-4B5C-B152-8B9285539230}" WorkUnitID="{26993BB8-9179-4E01-8D2F-F49020DA4CC7}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_ClockBug" ID="{3419FA01-A48A-4BCB-858A-E73429AD92DC}">
+					<ChildrenList>
+						<Action Name="" ID="{D7C59A05-8FBE-46ED-BAC4-C3C68C78955B}" ShortID="710139440">
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="ClockBug" ID="{8E4AAA51-E8A4-4E8D-B1C9-7A7D2D4BCFE7}" WorkUnitID="{8B48F0C6-6D20-4281-B52D-24AD01467572}"/>
@@ -117,34 +139,12 @@
 						</Action>
 					</ChildrenList>
 				</Event>
-				<Event Name="Play_IGMenuClosed" ID="{3BB98427-2E0D-4F8E-8188-D5FDABD6C0F8}">
+				<Event Name="Play_MemoryFull" ID="{BD84094A-79DF-45B1-B721-67E78D0A8EB7}">
 					<ChildrenList>
-						<Action Name="" ID="{7361B006-8AC0-4D91-BB55-5A9E311927AA}" ShortID="300926360">
+						<Action Name="" ID="{A02A4A54-C13B-43F4-8A67-99C2544C24B1}" ShortID="137294747">
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="IGMenuClosed" ID="{E11AA755-5E84-4145-834B-E4BE6EA38503}" WorkUnitID="{26993BB8-9179-4E01-8D2F-F49020DA4CC7}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-					</ChildrenList>
-				</Event>
-				<Event Name="Play_IGMenuNavigation" ID="{56782C03-C44F-4876-88B7-C540657F98A5}">
-					<ChildrenList>
-						<Action Name="" ID="{A8D001EF-B875-41BF-BEFF-337F46215451}" ShortID="577411509">
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="IGMenuNavigation" ID="{6FE108BA-3585-4CD7-8407-AE5DD19F2D0B}" WorkUnitID="{26993BB8-9179-4E01-8D2F-F49020DA4CC7}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-					</ChildrenList>
-				</Event>
-				<Event Name="Play_TitleScreenQuit" ID="{0A6FFA63-B4F3-48D2-B9CB-8DCBF3312A90}">
-					<ChildrenList>
-						<Action Name="" ID="{86606E9E-FF66-4FAD-8E50-F4463E54E58F}" ShortID="540012835">
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="TitleScreenQuit" ID="{CC4FF3C0-86CB-4238-B365-021AA3FEDF27}" WorkUnitID="{E72C23DF-56D7-42A9-B631-3230C3209289}"/>
+									<ObjectRef Name="MemoryFull" ID="{01640209-F6E7-42E8-9893-23060991DA0F}" WorkUnitID="{CF3E2865-0A67-465B-A841-4CC2C1CFED2B}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>

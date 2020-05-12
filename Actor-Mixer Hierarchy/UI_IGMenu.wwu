@@ -4,6 +4,13 @@
 		<WorkUnit Name="UI_IGMenu" ID="{26993BB8-9179-4E01-8D2F-F49020DA4CC7}" OwnerID="{486E251F-5A87-499A-9993-1FC20C925E6D}" PersistMode="Nested">
 			<ChildrenList>
 				<ActorMixer Name="IGMenu" ID="{A9689271-5BEB-431C-A4FB-8FD4471D39E7}" ShortID="397032458">
+					<PropertyList>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-6</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D0B9DB4F-7FF6-4CDB-BEF4-05863A8070B7}"/>
@@ -13,7 +20,7 @@
 						</Reference>
 					</ReferenceList>
 					<ChildrenList>
-						<Sound Name="IGMenuOpened" ID="{7AF6411D-9776-43F6-A6A8-B39731C9B006}" ShortID="767460516">
+						<Sound Name="IGMenuCancel" ID="{A90D8D41-FBDD-4825-82EE-AA9CD5C93D1A}" ShortID="471776134">
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D0B9DB4F-7FF6-4CDB-BEF4-05863A8070B7}"/>
@@ -22,8 +29,20 @@
 									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8A69F515-C57F-4A97-8978-0B9FB4F47B02}"/>
 								</Reference>
 							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="UI_IGMenuCancel" ID="{E7ED7B1B-C071-45B3-A8E3-9895512FB233}">
+									<Language>SFX</Language>
+									<AudioFile>UI\UI_IGMenuCancel.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="636766892"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="UI_IGMenuCancel" ID="{E7ED7B1B-C071-45B3-A8E3-9895512FB233}" Platform="Linked"/>
+							</ActiveSourceList>
 						</Sound>
-						<Sound Name="IGMenuClosed" ID="{E11AA755-5E84-4145-834B-E4BE6EA38503}" ShortID="796801956">
+						<Sound Name="IGMenuClosed" ID="{6417CAAE-2B2D-4F25-9730-7BC88D45BE4F}" ShortID="33118460">
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D0B9DB4F-7FF6-4CDB-BEF4-05863A8070B7}"/>
@@ -32,8 +51,20 @@
 									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8A69F515-C57F-4A97-8978-0B9FB4F47B02}"/>
 								</Reference>
 							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="UI_IGMenuClosed" ID="{51790441-0B71-440F-9D0C-C3F267F44647}">
+									<Language>SFX</Language>
+									<AudioFile>UI\UI_IGMenuClosed.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="1008363512"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="UI_IGMenuClosed" ID="{51790441-0B71-440F-9D0C-C3F267F44647}" Platform="Linked"/>
+							</ActiveSourceList>
 						</Sound>
-						<Sound Name="IGMenuNavigation" ID="{6FE108BA-3585-4CD7-8407-AE5DD19F2D0B}" ShortID="985858482">
+						<Sound Name="IGMenuConfirm" ID="{7544B584-166D-4563-A156-EEE8A5E51701}" ShortID="718113312">
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D0B9DB4F-7FF6-4CDB-BEF4-05863A8070B7}"/>
@@ -42,8 +73,20 @@
 									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8A69F515-C57F-4A97-8978-0B9FB4F47B02}"/>
 								</Reference>
 							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="UI_IGMenuConfirm" ID="{E863E80D-18CB-45D4-B08B-EF2F7DA16C23}">
+									<Language>SFX</Language>
+									<AudioFile>UI\UI_IGMenuConfirm.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="302943355"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="UI_IGMenuConfirm" ID="{E863E80D-18CB-45D4-B08B-EF2F7DA16C23}" Platform="Linked"/>
+							</ActiveSourceList>
 						</Sound>
-						<Sound Name="IGMenuOpenedConfirm" ID="{DA3DB89C-C3B5-4848-93F5-CD6DC1A86AC0}" ShortID="558328205">
+						<Sound Name="IGMenuNavigation" ID="{098A6B3D-1363-4CA1-AC23-3A5D52244E2A}" ShortID="4466897">
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D0B9DB4F-7FF6-4CDB-BEF4-05863A8070B7}"/>
@@ -52,8 +95,20 @@
 									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8A69F515-C57F-4A97-8978-0B9FB4F47B02}"/>
 								</Reference>
 							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="UI_IGMenuNavigation" ID="{0C760F2A-B800-41E0-89F0-98E47FFB759C}">
+									<Language>SFX</Language>
+									<AudioFile>UI\UI_IGMenuNavigation.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="59065254"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="UI_IGMenuNavigation" ID="{0C760F2A-B800-41E0-89F0-98E47FFB759C}" Platform="Linked"/>
+							</ActiveSourceList>
 						</Sound>
-						<Sound Name="IGMenuOpenedCancel" ID="{95126AFA-330F-4B0F-9FCC-39370FA6C0D4}" ShortID="643864269">
+						<Sound Name="IGMenuOpened" ID="{51164608-9E15-4B5C-B152-8B9285539230}" ShortID="269247090">
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D0B9DB4F-7FF6-4CDB-BEF4-05863A8070B7}"/>
@@ -62,6 +117,18 @@
 									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8A69F515-C57F-4A97-8978-0B9FB4F47B02}"/>
 								</Reference>
 							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="UI_IGMenuOpened" ID="{F4BB99C1-AB66-4485-95F8-FE829E6D8D75}">
+									<Language>SFX</Language>
+									<AudioFile>UI\UI_IGMenuOpened.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="414388422"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="UI_IGMenuOpened" ID="{F4BB99C1-AB66-4485-95F8-FE829E6D8D75}" Platform="Linked"/>
+							</ActiveSourceList>
 						</Sound>
 					</ChildrenList>
 				</ActorMixer>

@@ -18,13 +18,6 @@
 					</ReferenceList>
 					<ChildrenList>
 						<BlendContainer Name="TestThomas" ID="{317C4430-C980-4768-878E-D54DEA9C85BC}" ShortID="345337297">
-							<PropertyList>
-								<Property Name="Volume" Type="Real64">
-									<ValueList>
-										<Value>-11</Value>
-									</ValueList>
-								</Property>
-							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D0B9DB4F-7FF6-4CDB-BEF4-05863A8070B7}"/>
@@ -36,6 +29,11 @@
 							<ChildrenList>
 								<Sound Name="200327_Memento_AluminumWorry_InstrumentTest" ID="{2C0EF03D-4460-480C-88D3-E5D6D27CD2B1}" ShortID="11387405">
 									<PropertyList>
+										<Property Name="Inclusion" Type="bool">
+											<ValueList>
+												<Value>False</Value>
+											</ValueList>
+										</Property>
 										<Property Name="Volume" Type="Real64">
 											<ValueList>
 												<Value>-3</Value>
@@ -70,6 +68,40 @@
 									</ChildrenList>
 									<ActiveSourceList>
 										<ActiveSource Name="200327_Memento_AluminumWorry_InstrumentTest" ID="{7BF52945-5A7D-488E-9299-25EDDA331A82}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Memento_PointOfNoReturn" ID="{FCBD0314-6911-493F-8A1B-55DD49139215}" ShortID="51988197">
+									<PropertyList>
+										<Property Name="Highpass" Type="int16">
+											<ValueList>
+												<Value>13</Value>
+											</ValueList>
+										</Property>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D0B9DB4F-7FF6-4CDB-BEF4-05863A8070B7}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Linear" ID="{9E0D93B9-EF96-4AC7-B726-31F73C554B7B}" WorkUnitID="{61D42960-93D3-4FF0-8FC0-3437DB41C134}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Memento_PointOfNoReturn" ID="{EE9DAEBD-CD8C-43D5-9E26-D71F28B2C2FD}">
+											<PropertyList>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimEnd" Type="Real64" Value="22.8213685787672"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>Music\Memento_PointOfNoReturn.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="1067923024"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Memento_PointOfNoReturn" ID="{EE9DAEBD-CD8C-43D5-9E26-D71F28B2C2FD}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
 							</ChildrenList>

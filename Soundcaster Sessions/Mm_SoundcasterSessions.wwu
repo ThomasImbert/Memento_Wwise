@@ -29,11 +29,13 @@
 					<RTPCValueList ShowAll="true">
 						<RTPCValue>
 							<GameParameterRef Name="WalkSpeed" ID="{E1064E41-C1EF-48D7-9F88-59A3D70419E0}"/>
-							<Value>0</Value>
+							<Value>100</Value>
 						</RTPCValue>
 					</RTPCValueList>
 					<CurrentStateList ShowAll="true"/>
-					<CurrentSwitchList ShowAll="true"/>
+					<CurrentSwitchList ShowAll="true">
+						<CurrentSwitchRef Name="PurpleMoss" ID="{74CEED8B-1961-47D4-AF3C-83B4EF9F333B}"/>
+					</CurrentSwitchList>
 				</SoundcasterSession>
 				<SoundcasterSession Name="Test Laurent" ID="{0CE8EE25-0EB7-4EF3-9063-D7CCBCC49538}">
 					<ModuleList>
@@ -49,6 +51,230 @@
 					<RTPCValueList ShowAll="true"/>
 					<CurrentStateList ShowAll="true"/>
 					<CurrentSwitchList ShowAll="true"/>
+				</SoundcasterSession>
+				<SoundcasterSession Name="Walk" ID="{7947AB08-BA74-44AE-A7EA-906DA5AD7206}">
+					<ModuleList>
+						<Module>
+							<ObjectRef Name="PlayerWalk" ID="{84EAABA6-C74C-4EA4-B709-864EB4285BAD}" WorkUnitID="{B09A25F1-BDF1-46AB-B77C-AEBE45E0E3FC}"/>
+							<Position X="0" Y="0"/>
+						</Module>
+					</ModuleList>
+					<RTPCValueList ShowAll="true">
+						<RTPCValue>
+							<GameParameterRef Name="VolumeSFX" ID="{FDE4A8D5-4272-443A-95FE-02A5723ED01A}"/>
+							<Value>100</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="VolumeUI" ID="{9D9A93FB-10F0-4586-AD04-A3891218D2CD}"/>
+							<Value>100</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="WalkSpeed" ID="{E1064E41-C1EF-48D7-9F88-59A3D70419E0}"/>
+							<Value>100</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="VolumeAmbiance" ID="{D4F5C67B-1BB3-48E2-83DD-E09DE7C070C3}"/>
+							<Value>100</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="VolumeMaster" ID="{58EAF35B-58D6-490A-9BFE-C38AF7DCD943}"/>
+							<Value>100</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="VolumeMusic" ID="{1B8F9745-BB7B-4B63-8067-D3B7A7B598C9}"/>
+							<Value>100</Value>
+						</RTPCValue>
+					</RTPCValueList>
+					<CurrentStateList ShowAll="true"/>
+					<CurrentSwitchList ShowAll="true">
+						<CurrentSwitchRef Name="PurpleMoss" ID="{74CEED8B-1961-47D4-AF3C-83B4EF9F333B}"/>
+					</CurrentSwitchList>
+				</SoundcasterSession>
+				<SoundcasterSession Name="UI" ID="{164B1799-20FA-4A67-86AB-D8502F9A5700}">
+					<ModuleList>
+						<Module>
+							<ObjectRef Name="Play_IGMenuOpened" ID="{FE28F35E-1E36-4F57-B2F1-4C62A3641939}" WorkUnitID="{AB2810BE-7DE9-477E-8299-B311E00E153D}"/>
+							<Position X="0" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_IGMenuConfirm" ID="{8D0A15C4-9950-4461-92DB-38D3579DE99A}" WorkUnitID="{AB2810BE-7DE9-477E-8299-B311E00E153D}"/>
+							<Position X="0" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_TitleScreenConfirm" ID="{DF781034-D3D3-49C1-8DBD-EE96E3FD62F8}" WorkUnitID="{AB2810BE-7DE9-477E-8299-B311E00E153D}"/>
+							<Position X="0" Y="2"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_ViewPortGlitch" ID="{4C4D1E52-8324-497A-B6F9-29AC6517565F}" WorkUnitID="{AB2810BE-7DE9-477E-8299-B311E00E153D}"/>
+							<Position X="0" Y="3"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_ClockBug" ID="{3419FA01-A48A-4BCB-858A-E73429AD92DC}" WorkUnitID="{AB2810BE-7DE9-477E-8299-B311E00E153D}"/>
+							<Position X="1" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_IGMenuNavigation" ID="{02DB7B60-B42F-4F9E-B348-9F8FDD4CE4A1}" WorkUnitID="{AB2810BE-7DE9-477E-8299-B311E00E153D}"/>
+							<Position X="1" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_TitleScreenNavigation" ID="{4B09EE64-983B-42A0-AE32-3B3640DDDEBB}" WorkUnitID="{AB2810BE-7DE9-477E-8299-B311E00E153D}"/>
+							<Position X="1" Y="2"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_IGMenuCancel" ID="{8E44DCFE-3B9D-45A8-8074-2F423BC8BFF7}" WorkUnitID="{AB2810BE-7DE9-477E-8299-B311E00E153D}"/>
+							<Position X="2" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_MemoryFull" ID="{BD84094A-79DF-45B1-B721-67E78D0A8EB7}" WorkUnitID="{AB2810BE-7DE9-477E-8299-B311E00E153D}"/>
+							<Position X="2" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_TitleScreenPlay" ID="{F46C1143-F7FD-44A1-8172-2F2E65645B90}" WorkUnitID="{AB2810BE-7DE9-477E-8299-B311E00E153D}"/>
+							<Position X="2" Y="2"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_IGMenuClosed" ID="{7F7B8741-6E7D-4C75-BE4C-20987B2949DD}" WorkUnitID="{AB2810BE-7DE9-477E-8299-B311E00E153D}"/>
+							<Position X="3" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_TitleScreenCancel" ID="{6F3C1957-131D-4CEB-AF08-7EB73A3B43F8}" WorkUnitID="{AB2810BE-7DE9-477E-8299-B311E00E153D}"/>
+							<Position X="3" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_TitleScreenQuit" ID="{0A6FFA63-B4F3-48D2-B9CB-8DCBF3312A90}" WorkUnitID="{AB2810BE-7DE9-477E-8299-B311E00E153D}"/>
+							<Position X="3" Y="2"/>
+						</Module>
+					</ModuleList>
+					<RTPCValueList ShowAll="true">
+						<RTPCValue>
+							<GameParameterRef Name="VolumeSFX" ID="{FDE4A8D5-4272-443A-95FE-02A5723ED01A}"/>
+							<Value>100</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="VolumeUI" ID="{9D9A93FB-10F0-4586-AD04-A3891218D2CD}"/>
+							<Value>100</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="WalkSpeed" ID="{E1064E41-C1EF-48D7-9F88-59A3D70419E0}"/>
+							<Value>0</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="VolumeAmbiance" ID="{D4F5C67B-1BB3-48E2-83DD-E09DE7C070C3}"/>
+							<Value>100</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="VolumeMaster" ID="{58EAF35B-58D6-490A-9BFE-C38AF7DCD943}"/>
+							<Value>100</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="VolumeMusic" ID="{1B8F9745-BB7B-4B63-8067-D3B7A7B598C9}"/>
+							<Value>100</Value>
+						</RTPCValue>
+					</RTPCValueList>
+					<CurrentStateList ShowAll="true"/>
+					<CurrentSwitchList ShowAll="true">
+						<CurrentSwitchRef Name="PurpleMoss" ID="{74CEED8B-1961-47D4-AF3C-83B4EF9F333B}"/>
+					</CurrentSwitchList>
+				</SoundcasterSession>
+				<SoundcasterSession Name="Music" ID="{287EC08B-C1C6-49A5-81A5-4E747571304F}">
+					<ModuleList>
+						<Module>
+							<ObjectRef Name="Play_TestMusic" ID="{8759F748-1A5D-4147-88EB-8278AA8484F1}" WorkUnitID="{7570666D-BB74-4A87-81DD-9DB16234FCD4}"/>
+							<Position X="0" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_Ambiance_01" ID="{C3E09CF0-C7A7-4E08-8218-31307BAFC64E}" WorkUnitID="{94D94C6E-0D41-4408-A0CE-E3983F49FD1B}"/>
+							<Position X="1" Y="0"/>
+						</Module>
+					</ModuleList>
+					<RTPCValueList ShowAll="true">
+						<RTPCValue>
+							<GameParameterRef Name="VolumeSFX" ID="{FDE4A8D5-4272-443A-95FE-02A5723ED01A}"/>
+							<Value>100</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="VolumeUI" ID="{9D9A93FB-10F0-4586-AD04-A3891218D2CD}"/>
+							<Value>100</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="WalkSpeed" ID="{E1064E41-C1EF-48D7-9F88-59A3D70419E0}"/>
+							<Value>100</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="VolumeAmbiance" ID="{D4F5C67B-1BB3-48E2-83DD-E09DE7C070C3}"/>
+							<Value>100</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="VolumeMaster" ID="{58EAF35B-58D6-490A-9BFE-C38AF7DCD943}"/>
+							<Value>100</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="VolumeMusic" ID="{1B8F9745-BB7B-4B63-8067-D3B7A7B598C9}"/>
+							<Value>100</Value>
+						</RTPCValue>
+					</RTPCValueList>
+					<CurrentStateList ShowAll="true"/>
+					<CurrentSwitchList ShowAll="true">
+						<CurrentSwitchRef Name="PurpleMoss" ID="{74CEED8B-1961-47D4-AF3C-83B4EF9F333B}"/>
+					</CurrentSwitchList>
+				</SoundcasterSession>
+				<SoundcasterSession Name="MixGlobal" ID="{1B67C2E1-2DA4-4472-A580-C131A7801EF1}">
+					<ModuleList>
+						<Module>
+							<ObjectRef Name="Play_Ambiance_01" ID="{C3E09CF0-C7A7-4E08-8218-31307BAFC64E}" WorkUnitID="{94D94C6E-0D41-4408-A0CE-E3983F49FD1B}"/>
+							<Position X="0" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_IGMenuCancel" ID="{8E44DCFE-3B9D-45A8-8074-2F423BC8BFF7}" WorkUnitID="{AB2810BE-7DE9-477E-8299-B311E00E153D}"/>
+							<Position X="0" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_TestMusic" ID="{8759F748-1A5D-4147-88EB-8278AA8484F1}" WorkUnitID="{7570666D-BB74-4A87-81DD-9DB16234FCD4}"/>
+							<Position X="1" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_IGMenuClosed" ID="{7F7B8741-6E7D-4C75-BE4C-20987B2949DD}" WorkUnitID="{AB2810BE-7DE9-477E-8299-B311E00E153D}"/>
+							<Position X="1" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_PlayerWalk" ID="{57669FC4-8025-429D-8680-E6CE4E4B50D4}" WorkUnitID="{2108F57A-A96C-4E61-AD24-2AA4B1564C55}"/>
+							<Position X="2" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_IGMenuOpened" ID="{FE28F35E-1E36-4F57-B2F1-4C62A3641939}" WorkUnitID="{AB2810BE-7DE9-477E-8299-B311E00E153D}"/>
+							<Position X="2" Y="1"/>
+						</Module>
+					</ModuleList>
+					<RTPCValueList ShowAll="true">
+						<RTPCValue>
+							<GameParameterRef Name="VolumeSFX" ID="{FDE4A8D5-4272-443A-95FE-02A5723ED01A}"/>
+							<Value>100</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="VolumeUI" ID="{9D9A93FB-10F0-4586-AD04-A3891218D2CD}"/>
+							<Value>100</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="WalkSpeed" ID="{E1064E41-C1EF-48D7-9F88-59A3D70419E0}"/>
+							<Value>98.4939759036145</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="VolumeAmbiance" ID="{D4F5C67B-1BB3-48E2-83DD-E09DE7C070C3}"/>
+							<Value>100</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="VolumeMaster" ID="{58EAF35B-58D6-490A-9BFE-C38AF7DCD943}"/>
+							<Value>100</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="VolumeMusic" ID="{1B8F9745-BB7B-4B63-8067-D3B7A7B598C9}"/>
+							<Value>100</Value>
+						</RTPCValue>
+					</RTPCValueList>
+					<CurrentStateList ShowAll="true"/>
+					<CurrentSwitchList ShowAll="true">
+						<CurrentSwitchRef Name="RedMoss" ID="{51C21A70-4FF9-48CC-86D4-817DDBD76F1A}"/>
+					</CurrentSwitchList>
 				</SoundcasterSession>
 			</ChildrenList>
 		</WorkUnit>
