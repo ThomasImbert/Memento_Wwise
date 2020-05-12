@@ -9,6 +9,7 @@
 			<ChildrenList>
 				<WorkUnit Name="Player_Foleys" ID="{B09A25F1-BDF1-46AB-B77C-AEBE45E0E3FC}" PersistMode="Reference"/>
 				<WorkUnit Name="Player_PhotoMode" ID="{5D71DD36-5D04-4072-AAF2-B8F0D4077DE3}" PersistMode="Reference"/>
+				<WorkUnit Name="Player_Entity" ID="{D25DCC02-18D0-4F29-888E-F89A5249F8C9}" PersistMode="Reference"/>
 			</ChildrenList>
 		</WorkUnit>
 	</AudioObjects>

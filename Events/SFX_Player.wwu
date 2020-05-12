@@ -124,6 +124,17 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Play_Photo_Zoom" ID="{62978147-A76C-44A3-9663-CE3E1F984047}">
+					<ChildrenList>
+						<Action Name="" ID="{4145F812-B999-452D-9D02-7491D549227E}" ShortID="202801455">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Photo_Zoom" ID="{71756E0B-26AF-46EF-8E7E-77D5DB98FFF6}" WorkUnitID="{5D71DD36-5D04-4072-AAF2-B8F0D4077DE3}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>
