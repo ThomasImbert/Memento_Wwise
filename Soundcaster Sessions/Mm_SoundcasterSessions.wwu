@@ -179,10 +179,6 @@
 				<SoundcasterSession Name="Music" ID="{287EC08B-C1C6-49A5-81A5-4E747571304F}">
 					<ModuleList>
 						<Module>
-							<ObjectRef Name="Play_TestMusic" ID="{8759F748-1A5D-4147-88EB-8278AA8484F1}" WorkUnitID="{7570666D-BB74-4A87-81DD-9DB16234FCD4}"/>
-							<Position X="0" Y="0"/>
-						</Module>
-						<Module>
 							<ObjectRef Name="Play_Ambiance_01" ID="{C3E09CF0-C7A7-4E08-8218-31307BAFC64E}" WorkUnitID="{94D94C6E-0D41-4408-A0CE-E3983F49FD1B}"/>
 							<Position X="1" Y="0"/>
 						</Module>
@@ -227,10 +223,6 @@
 						<Module>
 							<ObjectRef Name="Play_IGMenuCancel" ID="{8E44DCFE-3B9D-45A8-8074-2F423BC8BFF7}" WorkUnitID="{AB2810BE-7DE9-477E-8299-B311E00E153D}"/>
 							<Position X="0" Y="1"/>
-						</Module>
-						<Module>
-							<ObjectRef Name="Play_TestMusic" ID="{8759F748-1A5D-4147-88EB-8278AA8484F1}" WorkUnitID="{7570666D-BB74-4A87-81DD-9DB16234FCD4}"/>
-							<Position X="1" Y="0"/>
 						</Module>
 						<Module>
 							<ObjectRef Name="Play_IGMenuClosed" ID="{7F7B8741-6E7D-4C75-BE4C-20987B2949DD}" WorkUnitID="{AB2810BE-7DE9-477E-8299-B311E00E153D}"/>

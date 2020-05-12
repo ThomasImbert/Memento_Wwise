@@ -9,7 +9,7 @@
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D0B9DB4F-7FF6-4CDB-BEF4-05863A8070B7}"/>
 						</Reference>
 						<Reference Name="OutputBus">
-							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8A69F515-C57F-4A97-8978-0B9FB4F47B02}"/>
+							<ObjectRef Name="Master" ID="{364AE0A9-F634-4E70-98DF-127D35F6D855}" WorkUnitID="{61D42960-93D3-4FF0-8FC0-3437DB41C134}"/>
 						</Reference>
 					</ReferenceList>
 					<ChildrenList>
@@ -23,15 +23,16 @@
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<SourcePlugin Name="Wwise Sine" ID="{8CB20AA3-1E39-459E-8ED3-0FBE32C851FF}" ShortID="460817288" PluginName="Wwise Sine" CompanyID="0" PluginID="100">
-									<PropertyList>
-										<Property Name="SineDuration" Type="Real32" Value="0.5"/>
-									</PropertyList>
+								<AudioFileSource Name="Interface_Camera_Open_Menu" ID="{6907ACDF-8525-4E3F-B0E2-C96E03F65ED5}">
 									<Language>SFX</Language>
-								</SourcePlugin>
+									<AudioFile>Interface_Camera_Open_Menu.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="643538498"/>
+									</MediaIDList>
+								</AudioFileSource>
 							</ChildrenList>
 							<ActiveSourceList>
-								<ActiveSource Name="Wwise Sine" ID="{8CB20AA3-1E39-459E-8ED3-0FBE32C851FF}" Platform="Linked"/>
+								<ActiveSource Name="Interface_Camera_Open_Menu" ID="{6907ACDF-8525-4E3F-B0E2-C96E03F65ED5}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
 						<Sound Name="Photo_Desactivate" ID="{2D026B26-14D3-41C2-9DF4-6D3EFD7CE170}" ShortID="767813765">
@@ -66,19 +67,145 @@
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<SourcePlugin Name="Wwise Sine" ID="{2BF9C85F-A5C5-4266-81A2-6DD808615DC7}" ShortID="630504518" PluginName="Wwise Sine" CompanyID="0" PluginID="100">
-									<PropertyList>
-										<Property Name="SineDuration" Type="Real32" Value="0.1"/>
-										<Property Name="SineFrequency" Type="Real32" Value="1000"/>
-										<Property Name="SineGain" Type="Real32" Value="-15"/>
-									</PropertyList>
+								<AudioFileSource Name="Photo_Shooting" ID="{3090916A-E1F8-4005-9D71-F75814352F9B}">
 									<Language>SFX</Language>
-								</SourcePlugin>
+									<AudioFile>Photo_Shooting.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="514085295"/>
+									</MediaIDList>
+								</AudioFileSource>
 							</ChildrenList>
 							<ActiveSourceList>
-								<ActiveSource Name="Wwise Sine" ID="{2BF9C85F-A5C5-4266-81A2-6DD808615DC7}" Platform="Linked"/>
+								<ActiveSource Name="Photo_Shooting" ID="{3090916A-E1F8-4005-9D71-F75814352F9B}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
+						<BlendContainer Name="Photo_Shutter Open" ID="{12F34B08-79F2-46A3-8DAB-975ED10FADC7}" ShortID="660943799">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D0B9DB4F-7FF6-4CDB-BEF4-05863A8070B7}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8A69F515-C57F-4A97-8978-0B9FB4F47B02}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="Photo_Shutter Open" ID="{B91A346D-9CB1-42A3-887C-A8430E25F0FE}" ShortID="1008452677">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D0B9DB4F-7FF6-4CDB-BEF4-05863A8070B7}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8A69F515-C57F-4A97-8978-0B9FB4F47B02}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Photo_Shutter Open" ID="{F557E0C5-73C0-4C11-A455-325DB149A383}">
+											<Language>SFX</Language>
+											<AudioFile>Photo_Shutter Open.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="1042271529"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Photo_Shutter Open" ID="{F557E0C5-73C0-4C11-A455-325DB149A383}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</BlendContainer>
+						<BlendContainer Name="Photo_Settings_Focus" ID="{B977D230-AB6C-429D-B118-06194457D486}" ShortID="1059131128">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D0B9DB4F-7FF6-4CDB-BEF4-05863A8070B7}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8A69F515-C57F-4A97-8978-0B9FB4F47B02}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="Photo_Settings_Focus" ID="{080A989A-28D3-494D-8F8D-B4CE4836E537}" ShortID="167011422">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D0B9DB4F-7FF6-4CDB-BEF4-05863A8070B7}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8A69F515-C57F-4A97-8978-0B9FB4F47B02}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Photo_Settings_Focus" ID="{176597D7-AD11-4AED-ABD6-CE72D0BE5D2C}">
+											<Language>SFX</Language>
+											<AudioFile>Photo_Settings_Focus.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="830431570"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Photo_Settings_Focus" ID="{176597D7-AD11-4AED-ABD6-CE72D0BE5D2C}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<RandomSequenceContainer Name="Interface_Camera_Charging" ID="{6C1AD9B1-6DC8-445B-BF68-650792094193}" ShortID="859006637">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-6</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D0B9DB4F-7FF6-4CDB-BEF4-05863A8070B7}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8A69F515-C57F-4A97-8978-0B9FB4F47B02}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="Silence" ID="{6C88E067-CFDD-42D3-9C15-60EC04DC676F}" ShortID="550898751">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D0B9DB4F-7FF6-4CDB-BEF4-05863A8070B7}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8A69F515-C57F-4A97-8978-0B9FB4F47B02}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<SourcePlugin Name="Wwise Silence" ID="{EBC22E7D-7470-4FAE-9C1B-317AC9EEDF4A}" ShortID="930096501" PluginName="Wwise Silence" CompanyID="0" PluginID="101">
+													<Language>SFX</Language>
+												</SourcePlugin>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Wwise Silence" ID="{EBC22E7D-7470-4FAE-9C1B-317AC9EEDF4A}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Interface_Camera_Charging" ID="{57EDA254-184C-456A-B27F-DE0DFD3DABCD}" ShortID="816498449">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D0B9DB4F-7FF6-4CDB-BEF4-05863A8070B7}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8A69F515-C57F-4A97-8978-0B9FB4F47B02}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Interface_Camera_Charging" ID="{F8E46F8B-41BD-42BE-A218-B0AAFBDB51F4}">
+													<Language>SFX</Language>
+													<AudioFile>Interface_Camera_Charging.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="1049277715"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Interface_Camera_Charging" ID="{F8E46F8B-41BD-42BE-A218-B0AAFBDB51F4}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+								</RandomSequenceContainer>
+							</ChildrenList>
+						</BlendContainer>
 					</ChildrenList>
 				</ActorMixer>
 			</ChildrenList>

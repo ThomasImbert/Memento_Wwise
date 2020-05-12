@@ -102,6 +102,17 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Play_Photo_Settings_Focus" ID="{7432E279-49B1-48D0-9E53-D0D053D11E75}">
+					<ChildrenList>
+						<Action Name="" ID="{A38EBD0C-B83D-4C9F-8709-CE549A72DBB9}" ShortID="943796969">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Photo_Settings_Focus" ID="{B977D230-AB6C-429D-B118-06194457D486}" WorkUnitID="{5D71DD36-5D04-4072-AAF2-B8F0D4077DE3}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

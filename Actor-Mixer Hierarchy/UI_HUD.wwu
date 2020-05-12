@@ -43,6 +43,9 @@
 										<AudioFileSource Name="UI_ViewPortGlitch_01" ID="{B976D639-8EB4-46E4-81E1-C2E538BF8977}">
 											<Language>SFX</Language>
 											<AudioFile>UI\UI_ViewPortGlitch_01.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="427918614"/>
+											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
