@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{A00745C1-AF43-41A8-8476-6BE112FF41B3}" SchemaVersion="97" RootDocumentID="{968B145A-44D4-4ED7-9C02-96CDE1F6F4D5}">
+	<Events>
+		<WorkUnit Name="Player_Entity" ID="{A00745C1-AF43-41A8-8476-6BE112FF41B3}" OwnerID="{0B53BEA9-72FD-40A4-9BEA-6B47AA64B91B}" PersistMode="Nested">
+			<ChildrenList>
+				<Event Name="Play_Player_Presence_Nuclear_Energy" ID="{E451C55A-ED11-4035-AC22-0BF26C19DD9C}">
+					<ChildrenList>
+						<Action Name="" ID="{C94AE230-335B-40ED-93C8-67C6164CBC70}" ShortID="436607123">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Player_Presence_Nuclear_Energy" ID="{20444266-9FF1-410E-86EA-4CB9EE5204D8}" WorkUnitID="{D25DCC02-18D0-4F29-888E-F89A5249F8C9}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

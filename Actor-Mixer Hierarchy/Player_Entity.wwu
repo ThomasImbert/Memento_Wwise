@@ -4,12 +4,29 @@
 		<WorkUnit Name="Player_Entity" ID="{D25DCC02-18D0-4F29-888E-F89A5249F8C9}" OwnerID="{4D494155-884F-4A60-B92D-D7813DDE96B1}" PersistMode="Nested">
 			<ChildrenList>
 				<ActorMixer Name="Player_Presence" ID="{6E68D258-8361-4135-B0DF-298FD9071A90}" ShortID="15994709">
+					<PropertyList>
+						<Property Name="Highpass" Type="int16">
+							<ValueList>
+								<Value>1</Value>
+							</ValueList>
+						</Property>
+						<Property Name="Lowpass" Type="int16">
+							<ValueList>
+								<Value>33</Value>
+							</ValueList>
+						</Property>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-24</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D0B9DB4F-7FF6-4CDB-BEF4-05863A8070B7}"/>
 						</Reference>
 						<Reference Name="OutputBus">
-							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8A69F515-C57F-4A97-8978-0B9FB4F47B02}"/>
+							<ObjectRef Name="Master" ID="{364AE0A9-F634-4E70-98DF-127D35F6D855}" WorkUnitID="{61D42960-93D3-4FF0-8FC0-3437DB41C134}"/>
 						</Reference>
 					</ReferenceList>
 					<ChildrenList>
@@ -22,6 +39,41 @@
 									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8A69F515-C57F-4A97-8978-0B9FB4F47B02}"/>
 								</Reference>
 							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="Robot_Presence" ID="{BF7C93D0-AFE3-4D2E-B0DC-B90F056ED6D4}" ShortID="837028168">
+									<PropertyList>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D0B9DB4F-7FF6-4CDB-BEF4-05863A8070B7}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8A69F515-C57F-4A97-8978-0B9FB4F47B02}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Robot_Presence" ID="{E2D0B1F9-6D04-4D2F-B574-ABEBBA66008C}">
+											<PropertyList>
+												<Property Name="CrossfadeDuration" Type="Real64" Value="1806.87224790839"/>
+												<Property Name="LoopBegin" Type="Real64" Value="16.6338533410392"/>
+												<Property Name="LoopEnd" Type="Real64" Value="23.8081990312638"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimBegin" Type="Real64" Value="15.5709873128578"/>
+												<Property Name="TrimEnd" Type="Real64" Value="24.8179217580361"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>Robot_Presence.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="698057758"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Robot_Presence" ID="{E2D0B1F9-6D04-4D2F-B574-ABEBBA66008C}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
 						</BlendContainer>
 					</ChildrenList>
 				</ActorMixer>
@@ -31,7 +83,7 @@
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D0B9DB4F-7FF6-4CDB-BEF4-05863A8070B7}"/>
 						</Reference>
 						<Reference Name="OutputBus">
-							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8A69F515-C57F-4A97-8978-0B9FB4F47B02}"/>
+							<ObjectRef Name="Master" ID="{364AE0A9-F634-4E70-98DF-127D35F6D855}" WorkUnitID="{61D42960-93D3-4FF0-8FC0-3437DB41C134}"/>
 						</Reference>
 					</ReferenceList>
 					<ChildrenList>

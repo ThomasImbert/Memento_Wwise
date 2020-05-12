@@ -8,6 +8,7 @@
 			</PropertyList>
 			<ChildrenList>
 				<WorkUnit Name="SFX_Player" ID="{2108F57A-A96C-4E61-AD24-2AA4B1564C55}" PersistMode="Reference"/>
+				<WorkUnit Name="Player_Entity" ID="{A00745C1-AF43-41A8-8476-6BE112FF41B3}" PersistMode="Reference"/>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>
