@@ -14,6 +14,120 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Folder Name="Player_Emotions" ID="{78C821E1-FD28-4302-9533-F80FFD65C493}" ShortID="52713638">
+					<ChildrenList>
+						<Event Name="Play_Player_Sad_Compassion_02" ID="{DC67D0A6-3F97-45C9-99E4-2F8055CD6BF4}">
+							<ChildrenList>
+								<Action Name="" ID="{CD7F8B2F-A533-44FC-B1C8-B0AA1A651C70}" ShortID="721553250">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Player_Sad_Compassion_02" ID="{F8872876-B6D9-4764-9024-7350BB02C89F}" WorkUnitID="{D25DCC02-18D0-4F29-888E-F89A5249F8C9}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Player_Sad_Compassion_01" ID="{42FAD826-0999-47F4-A63D-36CEE1D72B22}">
+							<ChildrenList>
+								<Action Name="" ID="{E042FA82-D38C-46DA-AB21-2BA618212E33}" ShortID="261909708">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Player_Sad_Compassion_01" ID="{3B3C88EE-988E-4DAB-AF69-6B6287E3A258}" WorkUnitID="{D25DCC02-18D0-4F29-888E-F89A5249F8C9}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Player_Sad_Simple" ID="{09652B26-5E70-45E2-9EDE-0C197190EDD6}">
+							<ChildrenList>
+								<Action Name="" ID="{C6C3869B-2781-4EC9-9D6D-20C633221D1E}" ShortID="533228935">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Player_Sad_Simple" ID="{F830A6D0-8BC1-4CCA-9982-2CE84AF412DC}" WorkUnitID="{D25DCC02-18D0-4F29-888E-F89A5249F8C9}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Player_Happy_Satisfied" ID="{B65407EC-16FC-451E-8D40-7C34B413F4E2}">
+							<ChildrenList>
+								<Action Name="" ID="{B1C503F6-EC32-4831-A833-DC3F9D2BBCFE}" ShortID="105218456">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Player_Happy_Satisfied" ID="{EE6740B7-E676-491C-A4CF-401533908CC0}" WorkUnitID="{D25DCC02-18D0-4F29-888E-F89A5249F8C9}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Player_Surprised_02" ID="{64FAC5E5-59DE-4B85-B43F-79F83945F397}">
+							<ChildrenList>
+								<Action Name="" ID="{5D81651E-C7F2-41BF-BAE4-EB091EE21D99}" ShortID="341743155">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Player_Surprised_02" ID="{2F28FACD-9046-4BB7-B9FB-A1A5793EB487}" WorkUnitID="{D25DCC02-18D0-4F29-888E-F89A5249F8C9}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Player_Disturbed" ID="{34101B74-8863-42D2-B4AC-606D3EEFF10F}">
+							<ChildrenList>
+								<Action Name="" ID="{7C07A71D-3D81-43F3-BCF1-AC22A1FFA171}" ShortID="125315311">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Player_Disturbed" ID="{6F827C20-4D9E-4BB0-9231-A440916A9EFC}" WorkUnitID="{D25DCC02-18D0-4F29-888E-F89A5249F8C9}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Player_Happy_Simple" ID="{1F8EFE69-DC38-46A3-89F2-6B0C0862A532}">
+							<ChildrenList>
+								<Action Name="" ID="{A3223B1C-17AA-44D4-9350-879FDF321DF1}" ShortID="619327759">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Player_Happy_Simple" ID="{5D437305-0834-44FB-ADD8-F7C5D2429527}" WorkUnitID="{D25DCC02-18D0-4F29-888E-F89A5249F8C9}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Player_Sad_Deception" ID="{BB0600CC-F104-478C-A090-D0E0D5400FB5}">
+							<ChildrenList>
+								<Action Name="" ID="{8FB89CC0-D4FE-4197-AAFD-7535ECB5F252}" ShortID="70972353">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Player_Sad_Deception" ID="{287A0D2C-F931-4649-B874-6C9DB6F3DA97}" WorkUnitID="{D25DCC02-18D0-4F29-888E-F89A5249F8C9}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Player_Happy_Exited" ID="{60AA602D-03DE-4257-9388-E294AD3C1AC6}">
+							<ChildrenList>
+								<Action Name="" ID="{A79C9585-524B-400B-BD96-2F93E05A53C5}" ShortID="104589331">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Player_Happy_Exited" ID="{5B19F21A-29D9-445A-AB24-C7B3895B8226}" WorkUnitID="{D25DCC02-18D0-4F29-888E-F89A5249F8C9}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Player_Surprised_01" ID="{D299888B-AF6F-49D1-83EB-8838FC671B73}">
+							<ChildrenList>
+								<Action Name="" ID="{BE866781-6FE2-4118-889A-35AE2C652A4D}" ShortID="321552501">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Player_Surprised_01" ID="{B8E45804-E70A-4A9B-ACB7-F7782E532A52}" WorkUnitID="{D25DCC02-18D0-4F29-888E-F89A5249F8C9}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>
