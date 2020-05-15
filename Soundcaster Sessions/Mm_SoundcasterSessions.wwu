@@ -60,6 +60,26 @@
 							<ObjectRef Name="PlayerWalk" ID="{84EAABA6-C74C-4EA4-B709-864EB4285BAD}" WorkUnitID="{B09A25F1-BDF1-46AB-B77C-AEBE45E0E3FC}"/>
 							<Position X="0" Y="0"/>
 						</Module>
+						<Module>
+							<ObjectRef Name="Play_JumpRegular" ID="{9E52264A-E0F4-44C8-AA96-48235B68845B}" WorkUnitID="{2108F57A-A96C-4E61-AD24-2AA4B1564C55}"/>
+							<Position X="0" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_JumpCharge" ID="{7D6BC0FC-18F6-4442-BA43-345BE9280427}" WorkUnitID="{2108F57A-A96C-4E61-AD24-2AA4B1564C55}"/>
+							<Position X="1" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_JumpCharge_Cancel" ID="{447D0745-229C-4E95-BA2A-E360DA0EE460}" WorkUnitID="{2108F57A-A96C-4E61-AD24-2AA4B1564C55}"/>
+							<Position X="1" Y="2"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_JumpPowerful" ID="{20B53967-A9A6-4369-B748-E6E209B70486}" WorkUnitID="{2108F57A-A96C-4E61-AD24-2AA4B1564C55}"/>
+							<Position X="2" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_JumpLanding" ID="{B16F8077-5118-40B1-878D-D33E05BAF0A1}" WorkUnitID="{2108F57A-A96C-4E61-AD24-2AA4B1564C55}"/>
+							<Position X="3" Y="1"/>
+						</Module>
 					</ModuleList>
 					<RTPCValueList ShowAll="true">
 						<RTPCValue>
@@ -72,7 +92,7 @@
 						</RTPCValue>
 						<RTPCValue>
 							<GameParameterRef Name="WalkSpeed" ID="{E1064E41-C1EF-48D7-9F88-59A3D70419E0}"/>
-							<Value>100</Value>
+							<Value>86</Value>
 						</RTPCValue>
 						<RTPCValue>
 							<GameParameterRef Name="VolumeAmbiance" ID="{D4F5C67B-1BB3-48E2-83DD-E09DE7C070C3}"/>
@@ -90,6 +110,7 @@
 					<CurrentStateList ShowAll="true"/>
 					<CurrentSwitchList ShowAll="true">
 						<CurrentSwitchRef Name="PurpleMoss" ID="{74CEED8B-1961-47D4-AF3C-83B4EF9F333B}"/>
+						<CurrentSwitchRef Name="Running" ID="{9A779AA1-83F6-42E1-920E-C2B4AA1F5F70}"/>
 					</CurrentSwitchList>
 				</SoundcasterSession>
 				<SoundcasterSession Name="UI" ID="{164B1799-20FA-4A67-86AB-D8502F9A5700}">

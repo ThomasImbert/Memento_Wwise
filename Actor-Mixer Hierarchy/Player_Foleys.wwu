@@ -1093,6 +1093,206 @@
 										<ItemRef Name="Down" ID="{59BE3E86-894A-456C-AA24-5C6FCF7CFA2F}"/>
 									</Playlist>
 								</RandomSequenceContainer>
+							</ChildrenList>
+							<BlendTrackList>
+								<BlendTrack Name="Robot_Walk_Run" ID="{D6DA06E5-6233-4B75-8D09-DDB4F7441F98}" ShortID="220687705">
+									<PropertyList>
+										<Property Name="EnableCrossFading" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="LayerCrossFadeControlInput">
+											<ObjectRef Name="WalkSpeed" ID="{E1064E41-C1EF-48D7-9F88-59A3D70419E0}" WorkUnitID="{A7C728CA-03F4-4957-BFFD-ECBCE8437D51}"/>
+										</Reference>
+									</ReferenceList>
+									<BlendTrackAssocList>
+										<BlendTrackAssoc>
+											<ItemRef Name="RobotWalk" ID="{C5FFF9E8-3528-4229-A68B-B4B170976132}"/>
+											<CrossfadingInfo>
+												<LeftEdgePos>0</LeftEdgePos>
+												<LeftFadingMode>Automatic</LeftFadingMode>
+												<RightEdgePos>51.8072289156627</RightEdgePos>
+												<RightFadingMode>Automatic</RightFadingMode>
+											</CrossfadingInfo>
+										</BlendTrackAssoc>
+										<BlendTrackAssoc>
+											<ItemRef Name="RobotRun" ID="{84EB7A36-52AF-4D8B-B821-73B8AC52570C}"/>
+											<CrossfadingInfo>
+												<LeftEdgePos>49.99975</LeftEdgePos>
+												<LeftFadingMode>Automatic</LeftFadingMode>
+												<RightEdgePos>100</RightEdgePos>
+												<RightFadingMode>Automatic</RightFadingMode>
+											</CrossfadingInfo>
+										</BlendTrackAssoc>
+									</BlendTrackAssocList>
+								</BlendTrack>
+							</BlendTrackList>
+						</BlendContainer>
+						<BlendContainer Name="PlayerHalt" ID="{AD783EF1-E4CA-46BD-A96F-3557A62E11FB}" ShortID="842410016">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D0B9DB4F-7FF6-4CDB-BEF4-05863A8070B7}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Player" ID="{DFA6C097-5927-4545-962D-13BDFF6ED199}" WorkUnitID="{61D42960-93D3-4FF0-8FC0-3437DB41C134}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<SwitchContainer Name="Terrain" ID="{70B2FA2E-F73E-429B-B252-CCE572CCF148}" ShortID="120979424">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D0B9DB4F-7FF6-4CDB-BEF4-05863A8070B7}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Player" ID="{DFA6C097-5927-4545-962D-13BDFF6ED199}" WorkUnitID="{61D42960-93D3-4FF0-8FC0-3437DB41C134}"/>
+										</Reference>
+										<Reference Name="SwitchGroupOrStateGroup">
+											<ObjectRef Name="Terrain" ID="{3842F16B-D57A-4E9C-885B-8FE87F6DAF65}" WorkUnitID="{740E40F7-EC6D-4FA8-AF41-FF17DE7876CB}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<BlendContainer Name="PurpleMoss" ID="{B50EE93E-2A5E-440F-AC9E-346585EB741E}" ShortID="916325334">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D0B9DB4F-7FF6-4CDB-BEF4-05863A8070B7}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8A69F515-C57F-4A97-8978-0B9FB4F47B02}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="WalkHalt_FS_PurpleMoss_01" ID="{87B8FDF7-4129-4AC5-BD32-9BDCA32986AB}" ShortID="678576001">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D0B9DB4F-7FF6-4CDB-BEF4-05863A8070B7}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Player" ID="{DFA6C097-5927-4545-962D-13BDFF6ED199}" WorkUnitID="{61D42960-93D3-4FF0-8FC0-3437DB41C134}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="WalkHalt_FS_PurpleMoss_05" ID="{89897B72-3C74-45FD-9A38-21AFE7FA8E99}">
+															<Language>SFX</Language>
+															<AudioFile>Player\Foleys\WalkHalt_FS_PurpleMoss_05.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="717110243"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="WalkHalt_FS_PurpleMoss_05" ID="{89897B72-3C74-45FD-9A38-21AFE7FA8E99}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+											<BlendTrackList>
+												<BlendTrack Name="Walk_Run" ID="{64669968-B370-4911-B89B-53073B52FB8B}" ShortID="740021085">
+													<PropertyList>
+														<Property Name="EnableCrossFading" Type="bool" Value="True"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="LayerCrossFadeControlInput">
+															<ObjectRef Name="WalkSpeed" ID="{E1064E41-C1EF-48D7-9F88-59A3D70419E0}" WorkUnitID="{A7C728CA-03F4-4957-BFFD-ECBCE8437D51}"/>
+														</Reference>
+													</ReferenceList>
+												</BlendTrack>
+											</BlendTrackList>
+										</BlendContainer>
+										<BlendContainer Name="RedMoss" ID="{5213010E-CCB0-4AC2-A1E7-95DEE1CAF20A}" ShortID="389356175">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D0B9DB4F-7FF6-4CDB-BEF4-05863A8070B7}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8A69F515-C57F-4A97-8978-0B9FB4F47B02}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="WalkHalt_FS_PurpleMoss_01" ID="{FDCCE9E8-83FB-4E78-AE6D-64521007D10D}" ShortID="181538669">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D0B9DB4F-7FF6-4CDB-BEF4-05863A8070B7}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Player" ID="{DFA6C097-5927-4545-962D-13BDFF6ED199}" WorkUnitID="{61D42960-93D3-4FF0-8FC0-3437DB41C134}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="WalkHalt_FS_PurpleMoss_05" ID="{D4AE8A25-DE79-4104-9811-13694E12A2FE}">
+															<Language>SFX</Language>
+															<AudioFile>Player\Foleys\WalkHalt_FS_PurpleMoss_05.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="717110243"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="WalkHalt_FS_PurpleMoss_05" ID="{D4AE8A25-DE79-4104-9811-13694E12A2FE}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+											<BlendTrackList>
+												<BlendTrack Name="RedMoss_Walk_Run" ID="{BE1EA219-6A0A-4275-8ED3-55F87532743E}" ShortID="710915674">
+													<PropertyList>
+														<Property Name="EnableCrossFading" Type="bool" Value="True"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="LayerCrossFadeControlInput">
+															<ObjectRef Name="WalkSpeed" ID="{E1064E41-C1EF-48D7-9F88-59A3D70419E0}" WorkUnitID="{A7C728CA-03F4-4957-BFFD-ECBCE8437D51}"/>
+														</Reference>
+													</ReferenceList>
+												</BlendTrack>
+											</BlendTrackList>
+										</BlendContainer>
+									</ChildrenList>
+									<GroupingInfo>
+										<GroupingBehaviorList>
+											<GroupingBehavior>
+												<ItemRef Name="RedMoss" ID="{5213010E-CCB0-4AC2-A1E7-95DEE1CAF20A}"/>
+											</GroupingBehavior>
+											<GroupingBehavior>
+												<ItemRef Name="PurpleMoss" ID="{B50EE93E-2A5E-440F-AC9E-346585EB741E}"/>
+											</GroupingBehavior>
+										</GroupingBehaviorList>
+										<GroupingList>
+											<Grouping>
+												<SwitchRef Name="RedMoss" ID="{51C21A70-4FF9-48CC-86D4-817DDBD76F1A}"/>
+												<ItemList>
+													<ItemRef Name="RedMoss" ID="{5213010E-CCB0-4AC2-A1E7-95DEE1CAF20A}"/>
+												</ItemList>
+											</Grouping>
+											<Grouping>
+												<SwitchRef Name="PurpleMoss" ID="{74CEED8B-1961-47D4-AF3C-83B4EF9F333B}"/>
+												<ItemList>
+													<ItemRef Name="PurpleMoss" ID="{B50EE93E-2A5E-440F-AC9E-346585EB741E}"/>
+												</ItemList>
+											</Grouping>
+										</GroupingList>
+									</GroupingInfo>
+								</SwitchContainer>
+							</ChildrenList>
+						</BlendContainer>
+						<SwitchContainer Name="RattleNoise" ID="{CC849597-5159-47CD-8DA0-DA1B185E971C}" ShortID="265424811">
+							<PropertyList>
+								<Property Name="Inclusion" Type="bool">
+									<ValueList>
+										<Value>False</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D0B9DB4F-7FF6-4CDB-BEF4-05863A8070B7}"/>
+								</Reference>
+								<Reference Name="DefaultSwitchOrState">
+									<ObjectRef Name="notRunning" ID="{41358E26-691B-466E-ABE9-7AEEF3965687}" WorkUnitID="{740E40F7-EC6D-4FA8-AF41-FF17DE7876CB}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8A69F515-C57F-4A97-8978-0B9FB4F47B02}"/>
+								</Reference>
+								<Reference Name="SwitchGroupOrStateGroup">
+									<ObjectRef Name="isRunning" ID="{5BA20E16-08F8-4EDD-8732-0E8825094C5B}" WorkUnitID="{740E40F7-EC6D-4FA8-AF41-FF17DE7876CB}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
 								<RandomSequenceContainer Name="Rattle" ID="{7547BC29-7B74-4DB5-9BE4-C47CDFD68F1D}" ShortID="127155397">
 									<PropertyList>
 										<Property Name="Highpass" Type="int16">
@@ -1123,11 +1323,6 @@
 													</Curve>
 												</RTPC>
 											</RTPCList>
-										</Property>
-										<Property Name="Inclusion" Type="bool">
-											<ValueList>
-												<Value>False</Value>
-											</ValueList>
 										</Property>
 										<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
 										<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
@@ -1346,88 +1541,32 @@
 									</ChildrenList>
 								</RandomSequenceContainer>
 							</ChildrenList>
-							<BlendTrackList>
-								<BlendTrack Name="Robot_Walk_Run" ID="{D6DA06E5-6233-4B75-8D09-DDB4F7441F98}" ShortID="220687705">
-									<PropertyList>
-										<Property Name="EnableCrossFading" Type="bool" Value="True"/>
-									</PropertyList>
-									<ReferenceList>
-										<Reference Name="LayerCrossFadeControlInput">
-											<ObjectRef Name="WalkSpeed" ID="{E1064E41-C1EF-48D7-9F88-59A3D70419E0}" WorkUnitID="{A7C728CA-03F4-4957-BFFD-ECBCE8437D51}"/>
-										</Reference>
-									</ReferenceList>
-									<BlendTrackAssocList>
-										<BlendTrackAssoc>
-											<ItemRef Name="RobotWalk" ID="{C5FFF9E8-3528-4229-A68B-B4B170976132}"/>
-											<CrossfadingInfo>
-												<LeftEdgePos>0</LeftEdgePos>
-												<LeftFadingMode>Automatic</LeftFadingMode>
-												<RightEdgePos>51.8072289156627</RightEdgePos>
-												<RightFadingMode>Automatic</RightFadingMode>
-											</CrossfadingInfo>
-										</BlendTrackAssoc>
-										<BlendTrackAssoc>
-											<ItemRef Name="RobotRun" ID="{84EB7A36-52AF-4D8B-B821-73B8AC52570C}"/>
-											<CrossfadingInfo>
-												<LeftEdgePos>49.99975</LeftEdgePos>
-												<LeftFadingMode>Automatic</LeftFadingMode>
-												<RightEdgePos>100</RightEdgePos>
-												<RightFadingMode>Automatic</RightFadingMode>
-											</CrossfadingInfo>
-										</BlendTrackAssoc>
-									</BlendTrackAssocList>
-								</BlendTrack>
-							</BlendTrackList>
-						</BlendContainer>
-						<BlendContainer Name="PlayerHalt" ID="{AD783EF1-E4CA-46BD-A96F-3557A62E11FB}" ShortID="842410016">
-							<ReferenceList>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D0B9DB4F-7FF6-4CDB-BEF4-05863A8070B7}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Player" ID="{DFA6C097-5927-4545-962D-13BDFF6ED199}" WorkUnitID="{61D42960-93D3-4FF0-8FC0-3437DB41C134}"/>
-								</Reference>
-							</ReferenceList>
-							<ChildrenList>
-								<RandomSequenceContainer Name="WalkHalt_FS_PurpleMoss" ID="{90E36B29-9920-4BE4-A10A-A2305EE8D1CA}" ShortID="846673108">
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D0B9DB4F-7FF6-4CDB-BEF4-05863A8070B7}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Player" ID="{DFA6C097-5927-4545-962D-13BDFF6ED199}" WorkUnitID="{61D42960-93D3-4FF0-8FC0-3437DB41C134}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<Sound Name="WalkHalt_FS_PurpleMoss_01" ID="{87B8FDF7-4129-4AC5-BD32-9BDCA32986AB}" ShortID="678576001">
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D0B9DB4F-7FF6-4CDB-BEF4-05863A8070B7}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8A69F515-C57F-4A97-8978-0B9FB4F47B02}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="WalkHalt_FS_PurpleMoss_05" ID="{89897B72-3C74-45FD-9A38-21AFE7FA8E99}">
-													<Language>SFX</Language>
-													<AudioFile>Player\Foleys\WalkHalt_FS_PurpleMoss_05.wav</AudioFile>
-													<MediaIDList>
-														<MediaID ID="717110243"/>
-													</MediaIDList>
-												</AudioFileSource>
-											</ChildrenList>
-											<ActiveSourceList>
-												<ActiveSource Name="WalkHalt_FS_PurpleMoss_05" ID="{89897B72-3C74-45FD-9A38-21AFE7FA8E99}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
-									</ChildrenList>
-								</RandomSequenceContainer>
-							</ChildrenList>
-						</BlendContainer>
+							<GroupingInfo>
+								<GroupingBehaviorList>
+									<GroupingBehavior>
+										<ItemRef Name="Rattle" ID="{7547BC29-7B74-4DB5-9BE4-C47CDFD68F1D}"/>
+									</GroupingBehavior>
+								</GroupingBehaviorList>
+								<GroupingList>
+									<Grouping>
+										<SwitchRef Name="Running" ID="{9A779AA1-83F6-42E1-920E-C2B4AA1F5F70}"/>
+										<ItemList>
+											<ItemRef Name="Rattle" ID="{7547BC29-7B74-4DB5-9BE4-C47CDFD68F1D}"/>
+										</ItemList>
+									</Grouping>
+								</GroupingList>
+							</GroupingInfo>
+						</SwitchContainer>
 					</ChildrenList>
 				</ActorMixer>
 				<ActorMixer Name="Jump" ID="{624432DE-A81D-4C28-996E-F920C60512BA}" ShortID="384183672">
+					<PropertyList>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-3</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D0B9DB4F-7FF6-4CDB-BEF4-05863A8070B7}"/>
@@ -1437,7 +1576,14 @@
 						</Reference>
 					</ReferenceList>
 					<ChildrenList>
-						<BlendContainer Name="JumpLanding" ID="{B16A8E81-E51C-47F3-8FD5-FAA4856D2D70}" ShortID="315628896">
+						<BlendContainer Name="JumpRegular" ID="{9874EBD5-BF67-4E45-B83C-1D2609D4876A}" ShortID="1028860866">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-3</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D0B9DB4F-7FF6-4CDB-BEF4-05863A8070B7}"/>
@@ -1447,7 +1593,7 @@
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<RandomSequenceContainer Name="JumpLanding_PurpleMoss" ID="{41242689-3662-499C-87E5-1BDDB0A0182C}" ShortID="59403537">
+								<RandomSequenceContainer Name="JumpRegular_Robot" ID="{F4F82AA9-C95A-49F9-B3C6-E87D2B30D084}" ShortID="910618899">
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D0B9DB4F-7FF6-4CDB-BEF4-05863A8070B7}"/>
@@ -1457,75 +1603,125 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<Sound Name="JumpLanding_PurpleMoss_02" ID="{82A46B16-A037-42B0-A5CA-D19EB14FA00F}" ShortID="24550847">
+										<Sound Name="JumpRegular01" ID="{861772E5-97B7-4AC2-8762-3BF2C1C67D3A}" ShortID="559758335">
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D0B9DB4F-7FF6-4CDB-BEF4-05863A8070B7}"/>
 												</Reference>
 												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8A69F515-C57F-4A97-8978-0B9FB4F47B02}"/>
+													<ObjectRef Name="Player" ID="{DFA6C097-5927-4545-962D-13BDFF6ED199}" WorkUnitID="{61D42960-93D3-4FF0-8FC0-3437DB41C134}"/>
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="JumpLanding_PurpleMoss_02" ID="{2DD1C097-FE6B-43AD-B6CC-911833263AF2}">
+												<AudioFileSource Name="JumpRegular01" ID="{47E38A85-FFE2-495E-8071-4CD1CFBEC944}">
 													<Language>SFX</Language>
-													<AudioFile>Player\Foleys\JumpLanding_PurpleMoss_02.wav</AudioFile>
+													<AudioFile>Player\Foleys\JumpRegular01.wav</AudioFile>
 													<MediaIDList>
-														<MediaID ID="927942017"/>
+														<MediaID ID="157513454"/>
 													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
-												<ActiveSource Name="JumpLanding_PurpleMoss_02" ID="{2DD1C097-FE6B-43AD-B6CC-911833263AF2}" Platform="Linked"/>
+												<ActiveSource Name="JumpRegular01" ID="{47E38A85-FFE2-495E-8071-4CD1CFBEC944}" Platform="Linked"/>
 											</ActiveSourceList>
 										</Sound>
-										<Sound Name="JumpLanding_PurpleMoss_01" ID="{3758C21E-A2AD-4987-B155-D4C3E2418256}" ShortID="447540606">
+										<Sound Name="JumpRegular02" ID="{BCBB9856-950B-44AE-927F-A13E1230D98A}" ShortID="691333294">
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D0B9DB4F-7FF6-4CDB-BEF4-05863A8070B7}"/>
 												</Reference>
 												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8A69F515-C57F-4A97-8978-0B9FB4F47B02}"/>
+													<ObjectRef Name="Player" ID="{DFA6C097-5927-4545-962D-13BDFF6ED199}" WorkUnitID="{61D42960-93D3-4FF0-8FC0-3437DB41C134}"/>
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="JumpLanding_PurpleMoss_01" ID="{32E02DDB-0A5B-49D7-9A6A-2402A0757A9E}">
+												<AudioFileSource Name="JumpRegular02" ID="{AC233AAA-0495-4813-B4A8-63F9CD2B701D}">
 													<Language>SFX</Language>
-													<AudioFile>Player\Foleys\JumpLanding_PurpleMoss_01.wav</AudioFile>
+													<AudioFile>Player\Foleys\JumpRegular02.wav</AudioFile>
 													<MediaIDList>
-														<MediaID ID="869577298"/>
+														<MediaID ID="373086321"/>
 													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
-												<ActiveSource Name="JumpLanding_PurpleMoss_01" ID="{32E02DDB-0A5B-49D7-9A6A-2402A0757A9E}" Platform="Linked"/>
+												<ActiveSource Name="JumpRegular02" ID="{AC233AAA-0495-4813-B4A8-63F9CD2B701D}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="JumpRegular03" ID="{188EE7B2-4ADE-4C02-B070-D08C3332EDCF}" ShortID="356712997">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D0B9DB4F-7FF6-4CDB-BEF4-05863A8070B7}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Player" ID="{DFA6C097-5927-4545-962D-13BDFF6ED199}" WorkUnitID="{61D42960-93D3-4FF0-8FC0-3437DB41C134}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="JumpRegular03" ID="{40BB11CA-4A98-4330-9D52-826F4A16970F}">
+													<Language>SFX</Language>
+													<AudioFile>Player\Foleys\JumpRegular03.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="784064497"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="JumpRegular03" ID="{40BB11CA-4A98-4330-9D52-826F4A16970F}" Platform="Linked"/>
 											</ActiveSourceList>
 										</Sound>
 									</ChildrenList>
 								</RandomSequenceContainer>
 							</ChildrenList>
 						</BlendContainer>
-						<RandomSequenceContainer Name="JumpCharge" ID="{3F4FB4DE-4889-4903-A8D6-F70D5D9AED13}" ShortID="187629466">
+						<BlendContainer Name="JumpCharge" ID="{2FE42114-153D-46D2-BD1A-B5D470A5CE96}" ShortID="243583342">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-3</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D0B9DB4F-7FF6-4CDB-BEF4-05863A8070B7}"/>
 								</Reference>
 								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8A69F515-C57F-4A97-8978-0B9FB4F47B02}"/>
+									<ObjectRef Name="Player" ID="{DFA6C097-5927-4545-962D-13BDFF6ED199}" WorkUnitID="{61D42960-93D3-4FF0-8FC0-3437DB41C134}"/>
 								</Reference>
 							</ReferenceList>
-						</RandomSequenceContainer>
-						<RandomSequenceContainer Name="JumpPowerful" ID="{11545FCA-B9F5-4E69-BA2E-AAE087EF3C0E}" ShortID="371230247">
-							<ReferenceList>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D0B9DB4F-7FF6-4CDB-BEF4-05863A8070B7}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8A69F515-C57F-4A97-8978-0B9FB4F47B02}"/>
-								</Reference>
-							</ReferenceList>
-						</RandomSequenceContainer>
-						<BlendContainer Name="JumpRegular" ID="{9874EBD5-BF67-4E45-B83C-1D2609D4876A}" ShortID="1028860866">
+							<ChildrenList>
+								<Sound Name="JumpCharge" ID="{E10D8764-CF5A-4FC5-B860-BB9FB084138F}" ShortID="527908843">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D0B9DB4F-7FF6-4CDB-BEF4-05863A8070B7}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8A69F515-C57F-4A97-8978-0B9FB4F47B02}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="JumpCharge" ID="{56084F39-0E5C-4712-A21D-D574224F7AC6}">
+											<Language>SFX</Language>
+											<AudioFile>Player\Foleys\JumpCharge.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="1026172130"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="JumpCharge" ID="{56084F39-0E5C-4712-A21D-D574224F7AC6}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</BlendContainer>
+						<BlendContainer Name="JumpCharge_Cancel" ID="{2FACF676-3E8A-4045-9BAB-BA4055F9FE05}" ShortID="715061302">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-9</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D0B9DB4F-7FF6-4CDB-BEF4-05863A8070B7}"/>
@@ -1535,20 +1731,65 @@
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<RandomSequenceContainer Name="JumpRegular_PurpleMoss" ID="{7D97ABF0-4CD7-42FC-8328-A3D0273FDD8F}" ShortID="959068160">
+								<Sound Name="JumpCharge_Cancel" ID="{418C5D64-7F4D-4CF2-B00A-3479D756A862}" ShortID="385634492">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D0B9DB4F-7FF6-4CDB-BEF4-05863A8070B7}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Player" ID="{DFA6C097-5927-4545-962D-13BDFF6ED199}" WorkUnitID="{61D42960-93D3-4FF0-8FC0-3437DB41C134}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="JumpCharge_Cancel" ID="{249C2B77-F9B9-4025-A889-6201D1A2CD84}">
+											<Language>SFX</Language>
+											<AudioFile>Player\Foleys\JumpCharge_Cancel.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="609590236"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="JumpCharge_Cancel" ID="{249C2B77-F9B9-4025-A889-6201D1A2CD84}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</BlendContainer>
+						<BlendContainer Name="JumpLanding" ID="{2A712263-02D3-4E46-BBCA-1C5CAACC278A}" ShortID="169481184">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-3</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D0B9DB4F-7FF6-4CDB-BEF4-05863A8070B7}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8A69F515-C57F-4A97-8978-0B9FB4F47B02}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<RandomSequenceContainer Name="JumpPowerful_RobotLanding" ID="{418C0A93-9AB7-4800-94B4-F1EA1EFD9ED2}" ShortID="526358936">
 									<PropertyList>
-										<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-3</Value>
+											</ValueList>
+										</Property>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D0B9DB4F-7FF6-4CDB-BEF4-05863A8070B7}"/>
 										</Reference>
 										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8A69F515-C57F-4A97-8978-0B9FB4F47B02}"/>
+											<ObjectRef Name="Player" ID="{DFA6C097-5927-4545-962D-13BDFF6ED199}" WorkUnitID="{61D42960-93D3-4FF0-8FC0-3437DB41C134}"/>
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<Sound Name="JumpRegular_PurpleMoss_01" ID="{35A2DA68-F018-49B2-9FE6-CC4032FE0944}" ShortID="27804777">
+										<Sound Name="JumpPowerfulLanding_Robot" ID="{2D7EA64B-15D9-452D-813F-FFCF17A69255}" ShortID="975682825">
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D0B9DB4F-7FF6-4CDB-BEF4-05863A8070B7}"/>
@@ -1558,44 +1799,274 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="JumpRegular_PurpleMoss_03" ID="{5292F3AA-56C1-44CF-82E8-AB17A3388FB9}">
+												<AudioFileSource Name="JumpLanding_Robot" ID="{71C67426-95FD-4C49-8A70-840F55DCB6D1}">
 													<Language>SFX</Language>
-													<AudioFile>Player\Foleys\JumpRegular_PurpleMoss_03.wav</AudioFile>
+													<AudioFile>Player\Foleys\JumpLanding_Robot.wav</AudioFile>
 													<MediaIDList>
-														<MediaID ID="532340029"/>
+														<MediaID ID="628564365"/>
 													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
-												<ActiveSource Name="JumpRegular_PurpleMoss_03" ID="{5292F3AA-56C1-44CF-82E8-AB17A3388FB9}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
-										<Sound Name="JumpRegular_PurpleMoss_02" ID="{98606AC1-D8FF-45B1-8098-6B770D60C2FF}" ShortID="532562582">
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D0B9DB4F-7FF6-4CDB-BEF4-05863A8070B7}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Player" ID="{DFA6C097-5927-4545-962D-13BDFF6ED199}" WorkUnitID="{61D42960-93D3-4FF0-8FC0-3437DB41C134}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="JumpRegular_PurpleMoss_04" ID="{A326E836-35FA-4FFE-9C64-6399D66253F8}">
-													<Language>SFX</Language>
-													<AudioFile>Player\Foleys\JumpRegular_PurpleMoss_04.wav</AudioFile>
-													<MediaIDList>
-														<MediaID ID="312828198"/>
-													</MediaIDList>
-												</AudioFileSource>
-											</ChildrenList>
-											<ActiveSourceList>
-												<ActiveSource Name="JumpRegular_PurpleMoss_04" ID="{A326E836-35FA-4FFE-9C64-6399D66253F8}" Platform="Linked"/>
+												<ActiveSource Name="JumpLanding_Robot" ID="{71C67426-95FD-4C49-8A70-840F55DCB6D1}" Platform="Linked"/>
 											</ActiveSourceList>
 										</Sound>
 									</ChildrenList>
 								</RandomSequenceContainer>
+								<RandomSequenceContainer Name="JumpRegular_RobotLanding" ID="{4B041284-6958-4417-A451-29DC524648EE}" ShortID="212078421">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-3</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D0B9DB4F-7FF6-4CDB-BEF4-05863A8070B7}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Player" ID="{DFA6C097-5927-4545-962D-13BDFF6ED199}" WorkUnitID="{61D42960-93D3-4FF0-8FC0-3437DB41C134}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="JumpRegularLanding_Robot01" ID="{78D5FBC4-0F4F-4602-996A-9BBD90360F79}" ShortID="78975436">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D0B9DB4F-7FF6-4CDB-BEF4-05863A8070B7}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Player" ID="{DFA6C097-5927-4545-962D-13BDFF6ED199}" WorkUnitID="{61D42960-93D3-4FF0-8FC0-3437DB41C134}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="JumpRegularLanding01" ID="{FC36C00B-C015-453C-BA3B-3CEB8F0F2D2E}">
+													<Language>SFX</Language>
+													<AudioFile>Player\Foleys\JumpRegularLanding01.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="365942420"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="JumpRegularLanding01" ID="{FC36C00B-C015-453C-BA3B-3CEB8F0F2D2E}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="JumpRegularLanding_Robot02" ID="{9800999A-1F4B-4B5E-AAE4-2E059D5E2C66}" ShortID="188915211">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D0B9DB4F-7FF6-4CDB-BEF4-05863A8070B7}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Player" ID="{DFA6C097-5927-4545-962D-13BDFF6ED199}" WorkUnitID="{61D42960-93D3-4FF0-8FC0-3437DB41C134}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="JumpRegularLanding02" ID="{233EB812-250F-42CE-8D13-83D8B8416D6B}">
+													<Language>SFX</Language>
+													<AudioFile>Player\Foleys\JumpRegularLanding02.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="1048793642"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="JumpRegularLanding02" ID="{233EB812-250F-42CE-8D13-83D8B8416D6B}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+								</RandomSequenceContainer>
+								<SwitchContainer Name="JumpLanding_TerrainLanding" ID="{4EA023EC-D386-44EB-9F02-F3838CBFF416}" ShortID="405052600">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-3</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D0B9DB4F-7FF6-4CDB-BEF4-05863A8070B7}"/>
+										</Reference>
+										<Reference Name="DefaultSwitchOrState">
+											<ObjectRef Name="PurpleMoss" ID="{74CEED8B-1961-47D4-AF3C-83B4EF9F333B}" WorkUnitID="{740E40F7-EC6D-4FA8-AF41-FF17DE7876CB}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Player" ID="{DFA6C097-5927-4545-962D-13BDFF6ED199}" WorkUnitID="{61D42960-93D3-4FF0-8FC0-3437DB41C134}"/>
+										</Reference>
+										<Reference Name="SwitchGroupOrStateGroup">
+											<ObjectRef Name="Terrain" ID="{3842F16B-D57A-4E9C-885B-8FE87F6DAF65}" WorkUnitID="{740E40F7-EC6D-4FA8-AF41-FF17DE7876CB}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<RandomSequenceContainer Name="JumpLanding_PurpleMoss" ID="{41242689-3662-499C-87E5-1BDDB0A0182C}" ShortID="59403537">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D0B9DB4F-7FF6-4CDB-BEF4-05863A8070B7}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Player" ID="{DFA6C097-5927-4545-962D-13BDFF6ED199}" WorkUnitID="{61D42960-93D3-4FF0-8FC0-3437DB41C134}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="JumpLanding_PurpleMoss_02" ID="{82A46B16-A037-42B0-A5CA-D19EB14FA00F}" ShortID="24550847">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64">
+															<ValueList>
+																<Value>-3</Value>
+															</ValueList>
+														</Property>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D0B9DB4F-7FF6-4CDB-BEF4-05863A8070B7}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8A69F515-C57F-4A97-8978-0B9FB4F47B02}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="JumpLanding_PurpleMoss_02" ID="{2DD1C097-FE6B-43AD-B6CC-911833263AF2}">
+															<Language>SFX</Language>
+															<AudioFile>Player\Foleys\JumpLanding_PurpleMoss_02.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="927942017"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="JumpLanding_PurpleMoss_02" ID="{2DD1C097-FE6B-43AD-B6CC-911833263AF2}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="JumpLanding_PurpleMoss_01" ID="{3758C21E-A2AD-4987-B155-D4C3E2418256}" ShortID="447540606">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D0B9DB4F-7FF6-4CDB-BEF4-05863A8070B7}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8A69F515-C57F-4A97-8978-0B9FB4F47B02}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="JumpLanding_PurpleMoss_01" ID="{32E02DDB-0A5B-49D7-9A6A-2402A0757A9E}">
+															<Language>SFX</Language>
+															<AudioFile>Player\Foleys\JumpLanding_PurpleMoss_01.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="869577298"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="JumpLanding_PurpleMoss_01" ID="{32E02DDB-0A5B-49D7-9A6A-2402A0757A9E}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+										</RandomSequenceContainer>
+									</ChildrenList>
+									<GroupingInfo>
+										<GroupingBehaviorList>
+											<GroupingBehavior>
+												<ItemRef Name="JumpLanding_PurpleMoss" ID="{41242689-3662-499C-87E5-1BDDB0A0182C}"/>
+											</GroupingBehavior>
+										</GroupingBehaviorList>
+										<GroupingList>
+											<Grouping>
+												<SwitchRef Name="PurpleMoss" ID="{74CEED8B-1961-47D4-AF3C-83B4EF9F333B}"/>
+												<ItemList>
+													<ItemRef Name="JumpLanding_PurpleMoss" ID="{41242689-3662-499C-87E5-1BDDB0A0182C}"/>
+												</ItemList>
+											</Grouping>
+										</GroupingList>
+									</GroupingInfo>
+								</SwitchContainer>
 							</ChildrenList>
 						</BlendContainer>
+						<Sound Name="JumpPowerful" ID="{9C9955EC-E3D6-4808-8F47-2A4D3CDF2DE6}" ShortID="580197760">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D0B9DB4F-7FF6-4CDB-BEF4-05863A8070B7}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8A69F515-C57F-4A97-8978-0B9FB4F47B02}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="JumpPowerful" ID="{1DBC8CFA-EF77-4143-8AA1-0A8B7C131F5E}">
+									<Language>SFX</Language>
+									<AudioFile>Player\Foleys\JumpPowerful.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="1065805941"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="JumpPowerful" ID="{1DBC8CFA-EF77-4143-8AA1-0A8B7C131F5E}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<RandomSequenceContainer Name="JumpRegular_PurpleMoss" ID="{7D97ABF0-4CD7-42FC-8328-A3D0273FDD8F}" ShortID="959068160">
+							<PropertyList>
+								<Property Name="Inclusion" Type="bool">
+									<ValueList>
+										<Value>False</Value>
+									</ValueList>
+								</Property>
+								<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D0B9DB4F-7FF6-4CDB-BEF4-05863A8070B7}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Player" ID="{DFA6C097-5927-4545-962D-13BDFF6ED199}" WorkUnitID="{61D42960-93D3-4FF0-8FC0-3437DB41C134}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="JumpRegular_PurpleMoss_01" ID="{35A2DA68-F018-49B2-9FE6-CC4032FE0944}" ShortID="27804777">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D0B9DB4F-7FF6-4CDB-BEF4-05863A8070B7}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Player" ID="{DFA6C097-5927-4545-962D-13BDFF6ED199}" WorkUnitID="{61D42960-93D3-4FF0-8FC0-3437DB41C134}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="JumpRegular_PurpleMoss_03" ID="{5292F3AA-56C1-44CF-82E8-AB17A3388FB9}">
+											<Language>SFX</Language>
+											<AudioFile>Player\Foleys\JumpRegular_PurpleMoss_03.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="532340029"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="JumpRegular_PurpleMoss_03" ID="{5292F3AA-56C1-44CF-82E8-AB17A3388FB9}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="JumpRegular_PurpleMoss_02" ID="{98606AC1-D8FF-45B1-8098-6B770D60C2FF}" ShortID="532562582">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D0B9DB4F-7FF6-4CDB-BEF4-05863A8070B7}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Player" ID="{DFA6C097-5927-4545-962D-13BDFF6ED199}" WorkUnitID="{61D42960-93D3-4FF0-8FC0-3437DB41C134}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="JumpRegular_PurpleMoss_04" ID="{A326E836-35FA-4FFE-9C64-6399D66253F8}">
+											<Language>SFX</Language>
+											<AudioFile>Player\Foleys\JumpRegular_PurpleMoss_04.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="312828198"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="JumpRegular_PurpleMoss_04" ID="{A326E836-35FA-4FFE-9C64-6399D66253F8}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
 					</ChildrenList>
 				</ActorMixer>
 			</ChildrenList>

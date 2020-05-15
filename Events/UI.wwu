@@ -12,7 +12,7 @@
 						<Action Name="" ID="{5272B845-16E9-4CCD-8C26-43341FC1F83E}" ShortID="370531084">
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="TitleScreenCancel" ID="{73010875-B2EE-4749-9E1A-7D7CB0DC23FE}" WorkUnitID="{E72C23DF-56D7-42A9-B631-3230C3209289}"/>
+									<ObjectRef Name="TitleScreenKey" ID="{73010875-B2EE-4749-9E1A-7D7CB0DC23FE}" WorkUnitID="{26993BB8-9179-4E01-8D2F-F49020DA4CC7}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
@@ -45,7 +45,7 @@
 						<Action Name="" ID="{C823619C-F10C-4A94-AAA8-F48B7E9BB136}" ShortID="143634751">
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="TitleScreenPlay" ID="{FB63298C-7F36-4BDC-A879-0C4F99CC1D4A}" WorkUnitID="{E72C23DF-56D7-42A9-B631-3230C3209289}"/>
+									<ObjectRef Name="TitleScreenStart" ID="{FB63298C-7F36-4BDC-A879-0C4F99CC1D4A}" WorkUnitID="{26993BB8-9179-4E01-8D2F-F49020DA4CC7}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
@@ -56,7 +56,7 @@
 						<Action Name="" ID="{86606E9E-FF66-4FAD-8E50-F4463E54E58F}" ShortID="540012835">
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="TitleScreenQuit" ID="{CC4FF3C0-86CB-4238-B365-021AA3FEDF27}" WorkUnitID="{E72C23DF-56D7-42A9-B631-3230C3209289}"/>
+									<ObjectRef Name="TitleScreenExit" ID="{CC4FF3C0-86CB-4238-B365-021AA3FEDF27}" WorkUnitID="{26993BB8-9179-4E01-8D2F-F49020DA4CC7}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
@@ -145,6 +145,28 @@
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="MemoryFull" ID="{01640209-F6E7-42E8-9893-23060991DA0F}" WorkUnitID="{CF3E2865-0A67-465B-A841-4CC2C1CFED2B}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Map_FullSize" ID="{F864F98F-D579-4475-9BCD-14EBD5E41E88}">
+					<ChildrenList>
+						<Action Name="" ID="{1CE120BA-D873-4E69-9465-8F013FA97948}" ShortID="265040284">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Map_FullSize" ID="{7F6E76FE-CF1B-4079-9AC6-BDAE10EE9E7D}" WorkUnitID="{26993BB8-9179-4E01-8D2F-F49020DA4CC7}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Map_SmallSize" ID="{65223537-E6B0-4BEC-B315-C356AE539FFC}">
+					<ChildrenList>
+						<Action Name="" ID="{DDAC6432-3C6C-470A-890F-310EA0E0FB0D}" ShortID="419870643">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Map_SmallSize" ID="{EF9D8FAB-5C59-432C-94B3-4EC7F0EB2AF8}" WorkUnitID="{26993BB8-9179-4E01-8D2F-F49020DA4CC7}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>

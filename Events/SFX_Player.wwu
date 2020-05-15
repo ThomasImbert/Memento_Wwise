@@ -69,34 +69,12 @@
 						</Action>
 					</ChildrenList>
 				</Event>
-				<Event Name="Play_JumpLanding" ID="{1E96109F-9935-45E1-8218-88FD75AC8D33}">
-					<ChildrenList>
-						<Action Name="" ID="{4E85900A-5388-4AB5-8579-25E6ED607635}" ShortID="416043820">
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="JumpLanding" ID="{B16A8E81-E51C-47F3-8FD5-FAA4856D2D70}" WorkUnitID="{B09A25F1-BDF1-46AB-B77C-AEBE45E0E3FC}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-					</ChildrenList>
-				</Event>
 				<Event Name="Play_PlayerHalt" ID="{3B223034-64AF-468F-BE15-84A09E103C47}">
 					<ChildrenList>
 						<Action Name="" ID="{E033CD78-C2CF-4248-8B10-0B619BBF87D2}" ShortID="141092650">
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="PlayerHalt" ID="{AD783EF1-E4CA-46BD-A96F-3557A62E11FB}" WorkUnitID="{B09A25F1-BDF1-46AB-B77C-AEBE45E0E3FC}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-					</ChildrenList>
-				</Event>
-				<Event Name="Play_JumpRegular" ID="{296E9D73-0A77-4B94-93E0-931DC9CBDC43}">
-					<ChildrenList>
-						<Action Name="" ID="{EDF6A98B-4A9A-433E-9204-3D9CC6E71FF6}" ShortID="305065160">
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="JumpRegular" ID="{9874EBD5-BF67-4E45-B83C-1D2609D4876A}" WorkUnitID="{B09A25F1-BDF1-46AB-B77C-AEBE45E0E3FC}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
@@ -130,6 +108,97 @@
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="Photo_Zoom" ID="{71756E0B-26AF-46EF-8E7E-77D5DB98FFF6}" WorkUnitID="{5D71DD36-5D04-4072-AAF2-B8F0D4077DE3}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_JumpRegular" ID="{9E52264A-E0F4-44C8-AA96-48235B68845B}">
+					<ChildrenList>
+						<Action Name="" ID="{108E1A1B-56EE-4DB5-85C6-4494B568BBEB}" ShortID="75675144">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+								<Property Name="FadeTime" Type="Real64" Value="0.1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="JumpCharge" ID="{2FE42114-153D-46D2-BD1A-B5D470A5CE96}" WorkUnitID="{B09A25F1-BDF1-46AB-B77C-AEBE45E0E3FC}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{66195FE0-45A1-4CFB-8604-69F88B050B3E}" ShortID="541165219">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="JumpRegular" ID="{9874EBD5-BF67-4E45-B83C-1D2609D4876A}" WorkUnitID="{B09A25F1-BDF1-46AB-B77C-AEBE45E0E3FC}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_JumpCharge_Cancel" ID="{447D0745-229C-4E95-BA2A-E360DA0EE460}">
+					<ChildrenList>
+						<Action Name="" ID="{D93B98BA-C384-405E-B9AD-09A53A506402}" ShortID="983270442">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+								<Property Name="FadeTime" Type="Real64" Value="0.1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="JumpCharge" ID="{2FE42114-153D-46D2-BD1A-B5D470A5CE96}" WorkUnitID="{B09A25F1-BDF1-46AB-B77C-AEBE45E0E3FC}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{62A6A65A-DB4C-44FD-9658-583A951A8CCB}" ShortID="362909358">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="JumpCharge_Cancel" ID="{2FACF676-3E8A-4045-9BAB-BA4055F9FE05}" WorkUnitID="{B09A25F1-BDF1-46AB-B77C-AEBE45E0E3FC}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_JumpCharge" ID="{7D6BC0FC-18F6-4442-BA43-345BE9280427}">
+					<ChildrenList>
+						<Action Name="" ID="{DBB1633A-37DE-4FA9-BB42-03FEAB27F895}" ShortID="392898354">
+							<PropertyList>
+								<Property Name="FadeInCurve" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="JumpCharge" ID="{2FE42114-153D-46D2-BD1A-B5D470A5CE96}" WorkUnitID="{B09A25F1-BDF1-46AB-B77C-AEBE45E0E3FC}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_JumpPowerful" ID="{20B53967-A9A6-4369-B748-E6E209B70486}">
+					<ChildrenList>
+						<Action Name="" ID="{F17CC37B-2CAB-4A5C-A06E-4931C70E7D17}" ShortID="857133519">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+								<Property Name="FadeTime" Type="Real64" Value="0.1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="JumpCharge" ID="{2FE42114-153D-46D2-BD1A-B5D470A5CE96}" WorkUnitID="{B09A25F1-BDF1-46AB-B77C-AEBE45E0E3FC}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{5F3B5F21-A6E9-4D8F-8821-649B96101389}" ShortID="653299594">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="JumpPowerful" ID="{9C9955EC-E3D6-4808-8F47-2A4D3CDF2DE6}" WorkUnitID="{B09A25F1-BDF1-46AB-B77C-AEBE45E0E3FC}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_JumpLanding" ID="{B16F8077-5118-40B1-878D-D33E05BAF0A1}">
+					<ChildrenList>
+						<Action Name="" ID="{8D9FDC5B-3842-4A20-9383-85D95B5701C1}" ShortID="863940087">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="JumpLanding" ID="{2A712263-02D3-4E46-BBCA-1C5CAACC278A}" WorkUnitID="{B09A25F1-BDF1-46AB-B77C-AEBE45E0E3FC}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
