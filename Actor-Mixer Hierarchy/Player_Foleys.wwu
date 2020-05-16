@@ -17,7 +17,7 @@
 							<PropertyList>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>-9</Value>
+										<Value>-5</Value>
 									</ValueList>
 								</Property>
 							</PropertyList>
@@ -31,9 +31,19 @@
 							</ReferenceList>
 							<ChildrenList>
 								<SwitchContainer Name="Terrain" ID="{18AC20CE-C900-418C-A1D8-56FACB584680}" ShortID="950509813">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-2</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D0B9DB4F-7FF6-4CDB-BEF4-05863A8070B7}"/>
+										</Reference>
+										<Reference Name="DefaultSwitchOrState">
+											<ObjectRef Name="PurpleMoss" ID="{74CEED8B-1961-47D4-AF3C-83B4EF9F333B}" WorkUnitID="{740E40F7-EC6D-4FA8-AF41-FF17DE7876CB}"/>
 										</Reference>
 										<Reference Name="OutputBus">
 											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8A69F515-C57F-4A97-8978-0B9FB4F47B02}"/>
@@ -1073,7 +1083,7 @@
 										<Property Name="RandomOrSequence" Type="int16" Value="0"/>
 										<Property Name="Volume" Type="Real64">
 											<ValueList>
-												<Value>-3</Value>
+												<Value>-5</Value>
 											</ValueList>
 										</Property>
 									</PropertyList>
@@ -1253,7 +1263,7 @@
 										<Property Name="RandomOrSequence" Type="int16" Value="0"/>
 										<Property Name="Volume" Type="Real64">
 											<ValueList>
-												<Value>-3</Value>
+												<Value>-5</Value>
 											</ValueList>
 										</Property>
 									</PropertyList>
@@ -1476,6 +1486,9 @@
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D0B9DB4F-7FF6-4CDB-BEF4-05863A8070B7}"/>
+										</Reference>
+										<Reference Name="DefaultSwitchOrState">
+											<ObjectRef Name="PurpleMoss" ID="{74CEED8B-1961-47D4-AF3C-83B4EF9F333B}" WorkUnitID="{740E40F7-EC6D-4FA8-AF41-FF17DE7876CB}"/>
 										</Reference>
 										<Reference Name="OutputBus">
 											<ObjectRef Name="Player" ID="{DFA6C097-5927-4545-962D-13BDFF6ED199}" WorkUnitID="{61D42960-93D3-4FF0-8FC0-3437DB41C134}"/>
@@ -1968,6 +1981,11 @@
 					<ChildrenList>
 						<BlendContainer Name="JumpRegular" ID="{9874EBD5-BF67-4E45-B83C-1D2609D4876A}" ShortID="1028860866">
 							<PropertyList>
+								<Property Name="Highpass" Type="int16">
+									<ValueList>
+										<Value>15</Value>
+									</ValueList>
+								</Property>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
 										<Value>-3</Value>
@@ -1984,6 +2002,21 @@
 							</ReferenceList>
 							<ChildrenList>
 								<RandomSequenceContainer Name="JumpRegular_Robot" ID="{F4F82AA9-C95A-49F9-B3C6-E87D2B30D084}" ShortID="910618899">
+									<PropertyList>
+										<Property Name="Pitch" Type="int32">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{7025009B-86EF-4E59-B743-49E349C085AF}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="76"/>
+															<Property Name="Min" Type="Real64" Value="-25"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D0B9DB4F-7FF6-4CDB-BEF4-05863A8070B7}"/>
@@ -2067,7 +2100,7 @@
 							<PropertyList>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>-3</Value>
+										<Value>2</Value>
 									</ValueList>
 								</Property>
 							</PropertyList>
@@ -2108,7 +2141,7 @@
 							<PropertyList>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>-9</Value>
+										<Value>-6</Value>
 									</ValueList>
 								</Property>
 							</PropertyList>
@@ -2164,6 +2197,11 @@
 							<ChildrenList>
 								<RandomSequenceContainer Name="JumpPowerful_RobotLanding" ID="{418C0A93-9AB7-4800-94B4-F1EA1EFD9ED2}" ShortID="526358936">
 									<PropertyList>
+										<Property Name="Inclusion" Type="bool">
+											<ValueList>
+												<Value>False</Value>
+											</ValueList>
+										</Property>
 										<Property Name="Volume" Type="Real64">
 											<ValueList>
 												<Value>-3</Value>
@@ -2516,6 +2554,13 @@
 							</ChildrenList>
 						</BlendContainer>
 						<Sound Name="JumpPowerful" ID="{9C9955EC-E3D6-4808-8F47-2A4D3CDF2DE6}" ShortID="580197760">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>2</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D0B9DB4F-7FF6-4CDB-BEF4-05863A8070B7}"/>

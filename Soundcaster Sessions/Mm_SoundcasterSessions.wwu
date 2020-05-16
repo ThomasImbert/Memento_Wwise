@@ -92,7 +92,7 @@
 						</RTPCValue>
 						<RTPCValue>
 							<GameParameterRef Name="WalkSpeed" ID="{E1064E41-C1EF-48D7-9F88-59A3D70419E0}"/>
-							<Value>86</Value>
+							<Value>65</Value>
 						</RTPCValue>
 						<RTPCValue>
 							<GameParameterRef Name="VolumeAmbiance" ID="{D4F5C67B-1BB3-48E2-83DD-E09DE7C070C3}"/>
@@ -124,10 +124,6 @@
 							<Position X="0" Y="1"/>
 						</Module>
 						<Module>
-							<ObjectRef Name="Play_TitleScreenConfirm" ID="{DF781034-D3D3-49C1-8DBD-EE96E3FD62F8}" WorkUnitID="{AB2810BE-7DE9-477E-8299-B311E00E153D}"/>
-							<Position X="0" Y="2"/>
-						</Module>
-						<Module>
 							<ObjectRef Name="Play_ViewPortGlitch" ID="{4C4D1E52-8324-497A-B6F9-29AC6517565F}" WorkUnitID="{AB2810BE-7DE9-477E-8299-B311E00E153D}"/>
 							<Position X="0" Y="3"/>
 						</Module>
@@ -140,10 +136,6 @@
 							<Position X="1" Y="1"/>
 						</Module>
 						<Module>
-							<ObjectRef Name="Play_TitleScreenNavigation" ID="{4B09EE64-983B-42A0-AE32-3B3640DDDEBB}" WorkUnitID="{AB2810BE-7DE9-477E-8299-B311E00E153D}"/>
-							<Position X="1" Y="2"/>
-						</Module>
-						<Module>
 							<ObjectRef Name="Play_IGMenuCancel" ID="{8E44DCFE-3B9D-45A8-8074-2F423BC8BFF7}" WorkUnitID="{AB2810BE-7DE9-477E-8299-B311E00E153D}"/>
 							<Position X="2" Y="0"/>
 						</Module>
@@ -152,20 +144,8 @@
 							<Position X="2" Y="1"/>
 						</Module>
 						<Module>
-							<ObjectRef Name="Play_TitleScreenPlay" ID="{F46C1143-F7FD-44A1-8172-2F2E65645B90}" WorkUnitID="{AB2810BE-7DE9-477E-8299-B311E00E153D}"/>
-							<Position X="2" Y="2"/>
-						</Module>
-						<Module>
 							<ObjectRef Name="Play_IGMenuClosed" ID="{7F7B8741-6E7D-4C75-BE4C-20987B2949DD}" WorkUnitID="{AB2810BE-7DE9-477E-8299-B311E00E153D}"/>
 							<Position X="3" Y="0"/>
-						</Module>
-						<Module>
-							<ObjectRef Name="Play_TitleScreenCancel" ID="{6F3C1957-131D-4CEB-AF08-7EB73A3B43F8}" WorkUnitID="{AB2810BE-7DE9-477E-8299-B311E00E153D}"/>
-							<Position X="3" Y="1"/>
-						</Module>
-						<Module>
-							<ObjectRef Name="Play_TitleScreenQuit" ID="{0A6FFA63-B4F3-48D2-B9CB-8DCBF3312A90}" WorkUnitID="{AB2810BE-7DE9-477E-8299-B311E00E153D}"/>
-							<Position X="3" Y="2"/>
 						</Module>
 					</ModuleList>
 					<RTPCValueList ShowAll="true">
@@ -235,6 +215,7 @@
 					<CurrentStateList ShowAll="true"/>
 					<CurrentSwitchList ShowAll="true">
 						<CurrentSwitchRef Name="PurpleMoss" ID="{74CEED8B-1961-47D4-AF3C-83B4EF9F333B}"/>
+						<CurrentSwitchRef Name="notRunning" ID="{41358E26-691B-466E-ABE9-7AEEF3965687}"/>
 					</CurrentSwitchList>
 				</SoundcasterSession>
 				<SoundcasterSession Name="MixGlobal" ID="{1B67C2E1-2DA4-4472-A580-C131A7801EF1}">
@@ -244,20 +225,72 @@
 							<Position X="0" Y="0"/>
 						</Module>
 						<Module>
-							<ObjectRef Name="Play_IGMenuCancel" ID="{8E44DCFE-3B9D-45A8-8074-2F423BC8BFF7}" WorkUnitID="{AB2810BE-7DE9-477E-8299-B311E00E153D}"/>
-							<Position X="0" Y="1"/>
-						</Module>
-						<Module>
-							<ObjectRef Name="Play_IGMenuClosed" ID="{7F7B8741-6E7D-4C75-BE4C-20987B2949DD}" WorkUnitID="{AB2810BE-7DE9-477E-8299-B311E00E153D}"/>
-							<Position X="1" Y="1"/>
+							<ObjectRef Name="Play_Music_Awakening" ID="{9D843472-14E9-4C5C-A099-1A60DCD538A5}" WorkUnitID="{7570666D-BB74-4A87-81DD-9DB16234FCD4}"/>
+							<Position X="1" Y="0"/>
 						</Module>
 						<Module>
 							<ObjectRef Name="Play_PlayerWalk" ID="{57669FC4-8025-429D-8680-E6CE4E4B50D4}" WorkUnitID="{2108F57A-A96C-4E61-AD24-2AA4B1564C55}"/>
 							<Position X="2" Y="0"/>
 						</Module>
 						<Module>
+							<ObjectRef Name="Play_JumpCharge" ID="{7D6BC0FC-18F6-4442-BA43-345BE9280427}" WorkUnitID="{2108F57A-A96C-4E61-AD24-2AA4B1564C55}"/>
+							<Position X="3" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_JumpCharge_Cancel" ID="{447D0745-229C-4E95-BA2A-E360DA0EE460}" WorkUnitID="{2108F57A-A96C-4E61-AD24-2AA4B1564C55}"/>
+							<Position X="3" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_JumpPowerful" ID="{20B53967-A9A6-4369-B748-E6E209B70486}" WorkUnitID="{2108F57A-A96C-4E61-AD24-2AA4B1564C55}"/>
+							<Position X="3" Y="2"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_JumpRegular" ID="{9E52264A-E0F4-44C8-AA96-48235B68845B}" WorkUnitID="{2108F57A-A96C-4E61-AD24-2AA4B1564C55}"/>
+							<Position X="3" Y="3"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_JumpLanding" ID="{B16F8077-5118-40B1-878D-D33E05BAF0A1}" WorkUnitID="{2108F57A-A96C-4E61-AD24-2AA4B1564C55}"/>
+							<Position X="3" Y="4"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_IGMenuCancel" ID="{8E44DCFE-3B9D-45A8-8074-2F423BC8BFF7}" WorkUnitID="{AB2810BE-7DE9-477E-8299-B311E00E153D}"/>
+							<Position X="4" Y="0"/>
+						</Module>
+						<Module>
 							<ObjectRef Name="Play_IGMenuOpened" ID="{FE28F35E-1E36-4F57-B2F1-4C62A3641939}" WorkUnitID="{AB2810BE-7DE9-477E-8299-B311E00E153D}"/>
-							<Position X="2" Y="1"/>
+							<Position X="4" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_IGMenuClosed" ID="{7F7B8741-6E7D-4C75-BE4C-20987B2949DD}" WorkUnitID="{AB2810BE-7DE9-477E-8299-B311E00E153D}"/>
+							<Position X="4" Y="2"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_IGMenuNavigation" ID="{02DB7B60-B42F-4F9E-B348-9F8FDD4CE4A1}" WorkUnitID="{AB2810BE-7DE9-477E-8299-B311E00E153D}"/>
+							<Position X="4" Y="3"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_IGMenuConfirm" ID="{8D0A15C4-9950-4461-92DB-38D3579DE99A}" WorkUnitID="{AB2810BE-7DE9-477E-8299-B311E00E153D}"/>
+							<Position X="4" Y="4"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_Photo_Activate" ID="{5EC27E4B-97A1-4A4E-A2FE-3A93422A7D86}" WorkUnitID="{2108F57A-A96C-4E61-AD24-2AA4B1564C55}"/>
+							<Position X="5" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_Photo_Trigger" ID="{7BEB3419-652F-4C3D-A817-C3B12441169C}" WorkUnitID="{2108F57A-A96C-4E61-AD24-2AA4B1564C55}"/>
+							<Position X="5" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_Photo_Zoom" ID="{62978147-A76C-44A3-9663-CE3E1F984047}" WorkUnitID="{2108F57A-A96C-4E61-AD24-2AA4B1564C55}"/>
+							<Position X="5" Y="2"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_Photo_Settings_Focus" ID="{7432E279-49B1-48D0-9E53-D0D053D11E75}" WorkUnitID="{2108F57A-A96C-4E61-AD24-2AA4B1564C55}"/>
+							<Position X="5" Y="3"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_Photo_Desactivate" ID="{53800D45-F2EB-4C9A-A3DE-225E4A37924E}" WorkUnitID="{2108F57A-A96C-4E61-AD24-2AA4B1564C55}"/>
+							<Position X="5" Y="4"/>
 						</Module>
 					</ModuleList>
 					<RTPCValueList ShowAll="true">
@@ -271,7 +304,7 @@
 						</RTPCValue>
 						<RTPCValue>
 							<GameParameterRef Name="WalkSpeed" ID="{E1064E41-C1EF-48D7-9F88-59A3D70419E0}"/>
-							<Value>98.4939759036145</Value>
+							<Value>52</Value>
 						</RTPCValue>
 						<RTPCValue>
 							<GameParameterRef Name="VolumeAmbiance" ID="{D4F5C67B-1BB3-48E2-83DD-E09DE7C070C3}"/>
@@ -288,7 +321,8 @@
 					</RTPCValueList>
 					<CurrentStateList ShowAll="true"/>
 					<CurrentSwitchList ShowAll="true">
-						<CurrentSwitchRef Name="RedMoss" ID="{51C21A70-4FF9-48CC-86D4-817DDBD76F1A}"/>
+						<CurrentSwitchRef Name="PurpleMoss" ID="{74CEED8B-1961-47D4-AF3C-83B4EF9F333B}"/>
+						<CurrentSwitchRef Name="notRunning" ID="{41358E26-691B-466E-ABE9-7AEEF3965687}"/>
 					</CurrentSwitchList>
 				</SoundcasterSession>
 			</ChildrenList>

@@ -3,7 +3,7 @@
 	<AudioObjects>
 		<WorkUnit Name="Mm_Ambiences - Laurent" ID="{BDCF732B-5724-4543-8D24-9AB09AA8F717}" PersistMode="Standalone">
 			<PropertyList>
-				<Property Name="Color" Type="int16" Value="16"/>
+				<Property Name="Color" Type="int16" Value="19"/>
 				<Property Name="OverrideColor" Type="bool" Value="True"/>
 			</PropertyList>
 			<ChildrenList>
@@ -28,7 +28,7 @@
 								</Property>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>12</Value>
+										<Value>20</Value>
 									</ValueList>
 								</Property>
 							</PropertyList>
@@ -43,6 +43,7 @@
 							<ChildrenList>
 								<Sound Name="Low Linear Wind -21" ID="{5E4039CC-98EB-41E5-94A9-78620BA16574}" ShortID="574629640">
 									<PropertyList>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
 										<Property Name="Volume" Type="Real64">
 											<ValueList>
 												<Value>-18</Value>
@@ -72,6 +73,7 @@
 								</Sound>
 								<Sound Name="Small Metalic Wind - 16" ID="{B62225E6-4845-4664-8B78-A91209BB3274}" ShortID="474602163">
 									<PropertyList>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
 										<Property Name="Volume" Type="Real64">
 											<ValueList>
 												<Value>-9</Value>
@@ -88,6 +90,12 @@
 									</ReferenceList>
 									<ChildrenList>
 										<AudioFileSource Name="Small Metalic Wind - 16" ID="{93A55C84-779A-4DF6-8763-7DCECCF83ADD}">
+											<PropertyList>
+												<Property Name="CrossfadeDuration" Type="Real64" Value="4905.975"/>
+												<Property Name="LoopBegin" Type="Real64" Value="15.0744855878995"/>
+												<Property Name="LoopEnd" Type="Real64" Value="97.8954828767123"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+											</PropertyList>
 											<Language>SFX</Language>
 											<AudioFile>Ambiance\Small Metalic Wind - 16.wav</AudioFile>
 											<MediaIDList>
@@ -101,6 +109,7 @@
 								</Sound>
 								<Sound Name="Wind Trees With crackling -22" ID="{BCD0A104-EA9A-4037-A2AF-8F51726CB1A9}" ShortID="436570018">
 									<PropertyList>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
 										<Property Name="Lowpass" Type="int16">
 											<ValueList>
 												<Value>23</Value>
@@ -127,6 +136,12 @@
 									</ReferenceList>
 									<ChildrenList>
 										<AudioFileSource Name="Wind Trees With crackling -22" ID="{C22D395A-2263-4288-9CEC-541C83604460}">
+											<PropertyList>
+												<Property Name="CrossfadeDuration" Type="Real64" Value="7358.962"/>
+												<Property Name="LoopBegin" Type="Real64" Value="10.9955071347032"/>
+												<Property Name="LoopEnd" Type="Real64" Value="88.141403966895"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+											</PropertyList>
 											<Language>SFX</Language>
 											<AudioFile>Ambiance\Wind Trees With crackling -22.wav</AudioFile>
 											<MediaIDList>
@@ -140,9 +155,13 @@
 								</Sound>
 								<RandomSequenceContainer Name="Windy SFX" ID="{EF9B853E-17C2-42F3-AEF6-E892C5712B1E}" ShortID="1069229582">
 									<PropertyList>
+										<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
+										<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
+										<Property Name="PlayMechanismSpecialTransitionsType" Type="int16" Value="1"/>
+										<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
 										<Property Name="Volume" Type="Real64">
 											<ValueList>
-												<Value>-4</Value>
+												<Value>-5</Value>
 											</ValueList>
 										</Property>
 									</PropertyList>
@@ -173,6 +192,11 @@
 											</ReferenceList>
 											<ChildrenList>
 												<AudioFileSource Name="SFX Windy Reverb Metalic -10" ID="{C06F8CE4-0D30-413C-B24D-C7DA2966307D}">
+													<PropertyList>
+														<Property Name="FadeInDuration" Type="Real64" Value="0.286083261986301"/>
+														<Property Name="LoopBegin" Type="Real64" Value="0"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+													</PropertyList>
 													<Language>SFX</Language>
 													<AudioFile>Ambiance\SFX Windy Reverb Metalic -10.wav</AudioFile>
 													<MediaIDList>
@@ -202,6 +226,11 @@
 											</ReferenceList>
 											<ChildrenList>
 												<AudioFileSource Name="SFX Windy Reverb Metalic Long -10" ID="{6FBDD052-E02B-4899-9290-C98868948851}">
+													<PropertyList>
+														<Property Name="FadeInDuration" Type="Real64" Value="0.398473744292237"/>
+														<Property Name="LoopBegin" Type="Real64" Value="0"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+													</PropertyList>
 													<Language>SFX</Language>
 													<AudioFile>Ambiance\SFX Windy Reverb Metalic Long -10.wav</AudioFile>
 													<MediaIDList>
@@ -226,10 +255,12 @@
 										</Property>
 										<Property Name="OverrideEffect" Type="bool" Value="True"/>
 										<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
+										<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
+										<Property Name="PlayMechanismSpecialTransitionsType" Type="int16" Value="1"/>
 										<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
 										<Property Name="Volume" Type="Real64">
 											<ValueList>
-												<Value>-3</Value>
+												<Value>-5</Value>
 											</ValueList>
 										</Property>
 									</PropertyList>
@@ -427,6 +458,15 @@
 												</ModifierInfo>
 											</ModifierList>
 										</Property>
+										<Property Name="Lowpass" Type="int16">
+											<ValueList>
+												<Value>42</Value>
+											</ValueList>
+										</Property>
+										<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
+										<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
+										<Property Name="PlayMechanismSpecialTransitionsType" Type="int16" Value="1"/>
+										<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
 										<Property Name="Volume" Type="Real64">
 											<ValueList>
 												<Value>-4</Value>

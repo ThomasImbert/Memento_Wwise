@@ -7,61 +7,6 @@
 				<Property Name="OverrideColor" Type="bool" Value="True"/>
 			</PropertyList>
 			<ChildrenList>
-				<Event Name="Play_TitleScreenCancel" ID="{6F3C1957-131D-4CEB-AF08-7EB73A3B43F8}">
-					<ChildrenList>
-						<Action Name="" ID="{5272B845-16E9-4CCD-8C26-43341FC1F83E}" ShortID="370531084">
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="TitleScreenKey" ID="{73010875-B2EE-4749-9E1A-7D7CB0DC23FE}" WorkUnitID="{26993BB8-9179-4E01-8D2F-F49020DA4CC7}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-					</ChildrenList>
-				</Event>
-				<Event Name="Play_TitleScreenConfirm" ID="{DF781034-D3D3-49C1-8DBD-EE96E3FD62F8}">
-					<ChildrenList>
-						<Action Name="" ID="{2AFCCB09-B99C-4720-AA36-9F37F119B914}" ShortID="17568233">
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="TitleScreenConfirm" ID="{4408B92C-02D8-4A48-995E-25F309FA078F}" WorkUnitID="{E72C23DF-56D7-42A9-B631-3230C3209289}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-					</ChildrenList>
-				</Event>
-				<Event Name="Play_TitleScreenNavigation" ID="{4B09EE64-983B-42A0-AE32-3B3640DDDEBB}">
-					<ChildrenList>
-						<Action Name="" ID="{BC4EC4A1-E869-43AE-975B-85D7DDCB52AD}" ShortID="265036139">
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="TitleScreenNavigation" ID="{6CBF0FD8-63B8-4016-83ED-AC0CA2BB4799}" WorkUnitID="{E72C23DF-56D7-42A9-B631-3230C3209289}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-					</ChildrenList>
-				</Event>
-				<Event Name="Play_TitleScreenPlay" ID="{F46C1143-F7FD-44A1-8172-2F2E65645B90}">
-					<ChildrenList>
-						<Action Name="" ID="{C823619C-F10C-4A94-AAA8-F48B7E9BB136}" ShortID="143634751">
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="TitleScreenStart" ID="{FB63298C-7F36-4BDC-A879-0C4F99CC1D4A}" WorkUnitID="{26993BB8-9179-4E01-8D2F-F49020DA4CC7}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-					</ChildrenList>
-				</Event>
-				<Event Name="Play_TitleScreenQuit" ID="{0A6FFA63-B4F3-48D2-B9CB-8DCBF3312A90}">
-					<ChildrenList>
-						<Action Name="" ID="{86606E9E-FF66-4FAD-8E50-F4463E54E58F}" ShortID="540012835">
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="TitleScreenExit" ID="{CC4FF3C0-86CB-4238-B365-021AA3FEDF27}" WorkUnitID="{26993BB8-9179-4E01-8D2F-F49020DA4CC7}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-					</ChildrenList>
-				</Event>
 				<Event Name="Play_IGMenuClosed" ID="{7F7B8741-6E7D-4C75-BE4C-20987B2949DD}">
 					<ChildrenList>
 						<Action Name="" ID="{1F7E22CA-D3BE-40D2-9C54-ED939236D8DE}" ShortID="576941688">
@@ -167,6 +112,39 @@
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="Map_SmallSize" ID="{EF9D8FAB-5C59-432C-94B3-4EC7F0EB2AF8}" WorkUnitID="{26993BB8-9179-4E01-8D2F-F49020DA4CC7}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_TitleScreenExit" ID="{39B1DD72-1AB4-4510-9738-BBB47F1DB54C}">
+					<ChildrenList>
+						<Action Name="" ID="{BD4D0BC3-924D-4AF6-BDD7-B30687F6EB9D}" ShortID="198123299">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="TitleScreenExit" ID="{CC4FF3C0-86CB-4238-B365-021AA3FEDF27}" WorkUnitID="{26993BB8-9179-4E01-8D2F-F49020DA4CC7}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_TitleScreenKey" ID="{F8506C17-04A1-4490-A5C6-CACB40E35E73}">
+					<ChildrenList>
+						<Action Name="" ID="{AABAC614-188F-4247-B59C-07164BC27DFA}" ShortID="435265652">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="TitleScreenKey" ID="{73010875-B2EE-4749-9E1A-7D7CB0DC23FE}" WorkUnitID="{26993BB8-9179-4E01-8D2F-F49020DA4CC7}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_TitleScreenStart" ID="{7D068EFA-FA28-4307-9681-773C11F90AEE}">
+					<ChildrenList>
+						<Action Name="" ID="{F1E25AA7-1593-4B96-9BAB-E703EE2B9C21}" ShortID="773106457">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="TitleScreenStart" ID="{FB63298C-7F36-4BDC-A879-0C4F99CC1D4A}" WorkUnitID="{26993BB8-9179-4E01-8D2F-F49020DA4CC7}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>

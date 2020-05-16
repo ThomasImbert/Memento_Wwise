@@ -12,6 +12,19 @@
 								</Reference>
 							</ReferenceList>
 						</Action>
+						<Action Name="" ID="{9BCF102A-307F-4D1A-BC83-0F49327BFCFD}" ShortID="106885308">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="26"/>
+								<Property Name="FadeInCurve" Type="int16" Value="1"/>
+								<Property Name="FadeTime" Type="Real64" Value="1"/>
+								<Property Name="Lowpass" Type="int16" Value="31"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Ambiences" ID="{457EEC29-48E2-4B94-92C9-E26F3EB56A07}" WorkUnitID="{BDCF732B-5724-4543-8D24-9AB09AA8F717}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
 					</ChildrenList>
 				</Event>
 				<Event Name="Play_Photo_Desactivate" ID="{53800D45-F2EB-4C9A-A3DE-225E4A37924E}">
@@ -20,6 +33,18 @@
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="Photo_Desactivate" ID="{2D026B26-14D3-41C2-9DF4-6D3EFD7CE170}" WorkUnitID="{5D71DD36-5D04-4072-AAF2-B8F0D4077DE3}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{C7E84B52-4C27-437B-9D1E-9FE8A24B2A45}" ShortID="186219687">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="26"/>
+								<Property Name="FadeInCurve" Type="int16" Value="1"/>
+								<Property Name="FadeTime" Type="Real64" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Ambiences" ID="{457EEC29-48E2-4B94-92C9-E26F3EB56A07}" WorkUnitID="{BDCF732B-5724-4543-8D24-9AB09AA8F717}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>

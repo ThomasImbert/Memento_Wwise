@@ -21,6 +21,18 @@
 					</ReferenceList>
 					<ChildrenList>
 						<Sound Name="IGMenuCancel" ID="{A90D8D41-FBDD-4825-82EE-AA9CD5C93D1A}" ShortID="471776134">
+							<PropertyList>
+								<Property Name="Pitch" Type="int32">
+									<ValueList>
+										<Value>530</Value>
+									</ValueList>
+								</Property>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-5</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D0B9DB4F-7FF6-4CDB-BEF4-05863A8070B7}"/>
@@ -31,6 +43,13 @@
 							</ReferenceList>
 							<ChildrenList>
 								<AudioFileSource Name="UI_IGMenuCancel" ID="{E7ED7B1B-C071-45B3-A8E3-9895512FB233}">
+									<PropertyList>
+										<Property Name="FadeInDuration" Type="Real64" Value="0.00141106592465753"/>
+										<Property Name="FadeOutDuration" Type="Real64" Value="0.242703339041096"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimBegin" Type="Real64" Value="0.0126995933219178"/>
+										<Property Name="TrimEnd" Type="Real64" Value="0.334422624143836"/>
+									</PropertyList>
 									<Language>SFX</Language>
 									<AudioFile>UI\UI_IGMenuCancel.wav</AudioFile>
 									<MediaIDList>
@@ -43,6 +62,13 @@
 							</ActiveSourceList>
 						</Sound>
 						<Sound Name="IGMenuClosed" ID="{6417CAAE-2B2D-4F25-9730-7BC88D45BE4F}" ShortID="33118460">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-3</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D0B9DB4F-7FF6-4CDB-BEF4-05863A8070B7}"/>
@@ -53,11 +79,16 @@
 							</ReferenceList>
 							<ChildrenList>
 								<AudioFileSource Name="UI_IGMenuClosed" ID="{51790441-0B71-440F-9D0C-C3F267F44647}">
-									<ReferenceList/>
+									<PropertyList>
+										<Property Name="FadeInDuration" Type="Real64" Value="0.00827004851598174"/>
+										<Property Name="FadeOutDuration" Type="Real64" Value="0.229198487442922"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimBegin" Type="Real64" Value="0.0744304366438356"/>
+									</PropertyList>
 									<Language>SFX</Language>
 									<AudioFile>UI\UI_IGMenuClosed.wav</AudioFile>
 									<MediaIDList>
-										<MediaID ID="1008363512"/>
+										<MediaID ID="821558758"/>
 									</MediaIDList>
 								</AudioFileSource>
 							</ChildrenList>
@@ -66,6 +97,13 @@
 							</ActiveSourceList>
 						</Sound>
 						<Sound Name="IGMenuConfirm" ID="{7544B584-166D-4563-A156-EEE8A5E51701}" ShortID="718113312">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-3</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D0B9DB4F-7FF6-4CDB-BEF4-05863A8070B7}"/>
@@ -76,6 +114,13 @@
 							</ReferenceList>
 							<ChildrenList>
 								<AudioFileSource Name="UI_IGMenuConfirm" ID="{E863E80D-18CB-45D4-B08B-EF2F7DA16C23}">
+									<PropertyList>
+										<Property Name="FadeInDuration" Type="Real64" Value="0.00375931078767123"/>
+										<Property Name="FadeOutDuration" Type="Real64" Value="0.0776924229452055"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimBegin" Type="Real64" Value="0.0497064426369863"/>
+										<Property Name="TrimEnd" Type="Real64" Value="0.186294734589041"/>
+									</PropertyList>
 									<Language>SFX</Language>
 									<AudioFile>UI\UI_IGMenuConfirm.wav</AudioFile>
 									<MediaIDList>
@@ -88,6 +133,18 @@
 							</ActiveSourceList>
 						</Sound>
 						<Sound Name="IGMenuNavigation" ID="{098A6B3D-1363-4CA1-AC23-3A5D52244E2A}" ShortID="4466897">
+							<PropertyList>
+								<Property Name="Pitch" Type="int32">
+									<ValueList>
+										<Value>-200</Value>
+									</ValueList>
+								</Property>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-3</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D0B9DB4F-7FF6-4CDB-BEF4-05863A8070B7}"/>
@@ -98,6 +155,13 @@
 							</ReferenceList>
 							<ChildrenList>
 								<AudioFileSource Name="UI_IGMenuNavigation" ID="{0C760F2A-B800-41E0-89F0-98E47FFB759C}">
+									<PropertyList>
+										<Property Name="FadeInDuration" Type="Real64" Value="0.0111530393835616"/>
+										<Property Name="FadeOutDuration" Type="Real64" Value="0.086689533390411"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimBegin" Type="Real64" Value="0.0238269477739726"/>
+										<Property Name="TrimEnd" Type="Real64" Value="0.152086900684932"/>
+									</PropertyList>
 									<Language>SFX</Language>
 									<AudioFile>UI\UI_IGMenuNavigation.wav</AudioFile>
 									<MediaIDList>
@@ -110,6 +174,13 @@
 							</ActiveSourceList>
 						</Sound>
 						<Sound Name="IGMenuOpened" ID="{51164608-9E15-4B5C-B152-8B9285539230}" ShortID="269247090">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-3</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D0B9DB4F-7FF6-4CDB-BEF4-05863A8070B7}"/>
@@ -120,10 +191,15 @@
 							</ReferenceList>
 							<ChildrenList>
 								<AudioFileSource Name="UI_IGMenuOpened" ID="{F4BB99C1-AB66-4485-95F8-FE829E6D8D75}">
+									<PropertyList>
+										<Property Name="FadeInDuration" Type="Real64" Value="0.00809899400684931"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimBegin" Type="Real64" Value="0.0242969820205479"/>
+									</PropertyList>
 									<Language>SFX</Language>
 									<AudioFile>UI\UI_IGMenuOpened.wav</AudioFile>
 									<MediaIDList>
-										<MediaID ID="414388422"/>
+										<MediaID ID="471567840"/>
 									</MediaIDList>
 								</AudioFileSource>
 							</ChildrenList>
@@ -132,6 +208,13 @@
 							</ActiveSourceList>
 						</Sound>
 						<Sound Name="TitleScreenStart" ID="{FB63298C-7F36-4BDC-A879-0C4F99CC1D4A}" ShortID="996813050">
+							<PropertyList>
+								<Property Name="Pitch" Type="int32">
+									<ValueList>
+										<Value>-400</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D0B9DB4F-7FF6-4CDB-BEF4-05863A8070B7}"/>
@@ -142,6 +225,11 @@
 							</ReferenceList>
 							<ChildrenList>
 								<AudioFileSource Name="UI_IGMenuOpened" ID="{E520B189-7045-4720-84F1-AAA2E06AE52A}">
+									<PropertyList>
+										<Property Name="FadeInDuration" Type="Real64" Value="0.0196689854452055"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimBegin" Type="Real64" Value="0.0219829837328767"/>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D0B9DB4F-7FF6-4CDB-BEF4-05863A8070B7}"/>
@@ -159,6 +247,13 @@
 							</ActiveSourceList>
 						</Sound>
 						<Sound Name="TitleScreenExit" ID="{CC4FF3C0-86CB-4238-B365-021AA3FEDF27}" ShortID="1022245564">
+							<PropertyList>
+								<Property Name="Pitch" Type="int32">
+									<ValueList>
+										<Value>-200</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D0B9DB4F-7FF6-4CDB-BEF4-05863A8070B7}"/>
@@ -169,7 +264,13 @@
 							</ReferenceList>
 							<ChildrenList>
 								<AudioFileSource Name="UI_IGMenuClosed" ID="{50529F3D-41E5-46AC-88C5-3877454C7463}">
-									<ReferenceList/>
+									<PropertyList>
+										<Property Name="FadeInDuration" Type="Real64" Value="0.00827004851598174"/>
+										<Property Name="FadeOutDuration" Type="Real64" Value="0.14827015553653"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimBegin" Type="Real64" Value="0.0555274686073059"/>
+										<Property Name="TrimEnd" Type="Real64" Value="0.305991795091324"/>
+									</PropertyList>
 									<Language>SFX</Language>
 									<AudioFile>UI\UI_IGMenuClosed.wav</AudioFile>
 									<MediaIDList>
@@ -182,6 +283,13 @@
 							</ActiveSourceList>
 						</Sound>
 						<Sound Name="TitleScreenKey" ID="{73010875-B2EE-4749-9E1A-7D7CB0DC23FE}" ShortID="24105420">
+							<PropertyList>
+								<Property Name="Pitch" Type="int32">
+									<ValueList>
+										<Value>430</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D0B9DB4F-7FF6-4CDB-BEF4-05863A8070B7}"/>
@@ -192,6 +300,13 @@
 							</ReferenceList>
 							<ChildrenList>
 								<AudioFileSource Name="UI_IGMenuConfirm" ID="{F947DED9-7463-47F0-BFC9-053202F9EC32}">
+									<PropertyList>
+										<Property Name="FadeInDuration" Type="Real64" Value="0.0246443707191781"/>
+										<Property Name="FadeOutDuration" Type="Real64" Value="0.0355046018835617"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimBegin" Type="Real64" Value="0.0626551797945206"/>
+										<Property Name="TrimEnd" Type="Real64" Value="0.191724850171233"/>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D0B9DB4F-7FF6-4CDB-BEF4-05863A8070B7}"/>
@@ -200,7 +315,7 @@
 									<Language>SFX</Language>
 									<AudioFile>UI\UI_IGMenuConfirm.wav</AudioFile>
 									<MediaIDList>
-										<MediaID ID="302943355"/>
+										<MediaID ID="716629618"/>
 									</MediaIDList>
 								</AudioFileSource>
 							</ChildrenList>
