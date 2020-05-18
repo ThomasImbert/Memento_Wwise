@@ -8,7 +8,7 @@
 						<Property Name="EndPosition" Type="Real64" Value="139850.020694348"/>
 						<Property Name="Volume" Type="Real64">
 							<ValueList>
-								<Value>-2</Value>
+								<Value>-1</Value>
 							</ValueList>
 						</Property>
 					</PropertyList>
@@ -63,7 +63,7 @@
 														</PropertyList>
 														<PointList>
 															<Point>
-																<XPos>-0</XPos>
+																<XPos>0</XPos>
 																<YPos>0</YPos>
 																<Flags>5</Flags>
 															</Point>
@@ -82,7 +82,7 @@
 														</PropertyList>
 														<PointList>
 															<Point>
-																<XPos>-0</XPos>
+																<XPos>0</XPos>
 																<YPos>0</YPos>
 																<Flags>5</Flags>
 															</Point>
@@ -101,8 +101,8 @@
 														</PropertyList>
 														<PointList>
 															<Point>
-																<XPos>-0</XPos>
-																<YPos>-0</YPos>
+																<XPos>0</XPos>
+																<YPos>0</YPos>
 																<Flags>5</Flags>
 															</Point>
 															<Point>

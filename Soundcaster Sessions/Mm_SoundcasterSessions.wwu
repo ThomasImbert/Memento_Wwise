@@ -47,11 +47,41 @@
 							<ObjectRef Name="Play_Ambiance_01" ID="{C3E09CF0-C7A7-4E08-8218-31307BAFC64E}" WorkUnitID="{94D94C6E-0D41-4408-A0CE-E3983F49FD1B}"/>
 							<Position X="1" Y="0"/>
 						</Module>
+						<Module>
+							<ObjectRef Name="Music_Awakening" ID="{BD4DB2FC-CDB3-41E7-BE5F-DC34654AA3CE}" WorkUnitID="{E77EEFBD-EA05-4D1F-BD63-6204F50016F7}"/>
+							<Position X="2" Y="0"/>
+						</Module>
 					</ModuleList>
-					<RTPCValueList ShowAll="true"/>
+					<RTPCValueList ShowAll="true">
+						<RTPCValue>
+							<GameParameterRef Name="VolumeSFX" ID="{FDE4A8D5-4272-443A-95FE-02A5723ED01A}"/>
+							<Value>100</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="VolumeUI" ID="{9D9A93FB-10F0-4586-AD04-A3891218D2CD}"/>
+							<Value>100</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="WalkSpeed" ID="{E1064E41-C1EF-48D7-9F88-59A3D70419E0}"/>
+							<Value>0</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="VolumeAmbiance" ID="{D4F5C67B-1BB3-48E2-83DD-E09DE7C070C3}"/>
+							<Value>100</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="VolumeMaster" ID="{58EAF35B-58D6-490A-9BFE-C38AF7DCD943}"/>
+							<Value>100</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="VolumeMusic" ID="{1B8F9745-BB7B-4B63-8067-D3B7A7B598C9}"/>
+							<Value>100</Value>
+						</RTPCValue>
+					</RTPCValueList>
 					<CurrentStateList ShowAll="true"/>
 					<CurrentSwitchList ShowAll="true">
 						<CurrentSwitchRef Name="PurpleMoss" ID="{74CEED8B-1961-47D4-AF3C-83B4EF9F333B}"/>
+						<CurrentSwitchRef Name="notRunning" ID="{41358E26-691B-466E-ABE9-7AEEF3965687}"/>
 					</CurrentSwitchList>
 				</SoundcasterSession>
 				<SoundcasterSession Name="Walk" ID="{7947AB08-BA74-44AE-A7EA-906DA5AD7206}">
