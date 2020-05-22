@@ -18,6 +18,17 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Play_Soundscape_02_Enigmatic" ID="{592513F0-78D5-4011-9558-E2AFB76D69D2}">
+					<ChildrenList>
+						<Action Name="" ID="{BC3EF496-387D-4B49-9CFF-B51703BCD9D2}" ShortID="1182562">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Soundscape 02_Enigmatic" ID="{18A5CB26-6EFD-476E-997E-79CBF1A95D4B}" WorkUnitID="{9BB0DEA4-5243-4788-9407-DCD448A73624}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>
