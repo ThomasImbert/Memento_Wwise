@@ -17,7 +17,7 @@
 						</Property>
 						<Property Name="Volume" Type="Real64">
 							<ValueList>
-								<Value>-24</Value>
+								<Value>-7</Value>
 							</ValueList>
 						</Property>
 					</PropertyList>
@@ -194,9 +194,9 @@
 									<ChildrenList>
 										<AudioFileSource Name="Player_Sad_01_v1" ID="{5EEE8B69-ECD5-49B7-8061-5F175AAE161A}">
 											<PropertyList>
-												<Property Name="FadeOutDuration" Type="Real64" Value="0.239876155878468"/>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.16391537318362"/>
 												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-												<Property Name="TrimEnd" Type="Real64" Value="0.843564481505945"/>
+												<Property Name="TrimEnd" Type="Real64" Value="0.839566545574637"/>
 											</PropertyList>
 											<Language>SFX</Language>
 											<AudioFile>Player_Sad_01_v1.wav</AudioFile>
@@ -249,6 +249,13 @@
 									</ReferenceList>
 									<ChildrenList>
 										<AudioFileSource Name="Player_Sad_03_Simple" ID="{CB0DB675-A1DA-4DC6-8602-A83B6571B748}">
+											<PropertyList>
+												<Property Name="FadeInDuration" Type="Real64" Value="0.0102413033905768"/>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.0489662318361955"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimBegin" Type="Real64" Value="0.0592075352267723"/>
+												<Property Name="TrimEnd" Type="Real64" Value="0.235229937252312"/>
+											</PropertyList>
 											<Language>SFX</Language>
 											<AudioFile>Player_Sad_03_Simple.wav</AudioFile>
 											<MediaIDList>
@@ -271,6 +278,11 @@
 									</ReferenceList>
 									<ChildrenList>
 										<AudioFileSource Name="Player_Sad_02_v2" ID="{68426D3D-3CD9-4F8C-8293-E78D20F3E02D}">
+											<PropertyList>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.200378632760898"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimEnd" Type="Real64" Value="0.527947957948041"/>
+											</PropertyList>
 											<Language>SFX</Language>
 											<AudioFile>Player_Sad_02_v2.wav</AudioFile>
 											<MediaIDList>
