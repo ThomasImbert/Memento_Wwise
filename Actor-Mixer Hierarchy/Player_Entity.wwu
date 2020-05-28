@@ -391,6 +391,113 @@
 						</BlendContainer>
 					</ChildrenList>
 				</ActorMixer>
+				<BlendContainer Name="Play_Robot_Internal_Bug_After_Impact" ID="{11338119-3994-4BAD-A93E-89DEEF643641}" ShortID="327949916">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D0B9DB4F-7FF6-4CDB-BEF4-05863A8070B7}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8A69F515-C57F-4A97-8978-0B9FB4F47B02}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="Bug Impact Bass Distortion Bass After Jump" ID="{29216FFF-221F-4F40-A13A-B01B134DFC97}" ShortID="172607120">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D0B9DB4F-7FF6-4CDB-BEF4-05863A8070B7}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8A69F515-C57F-4A97-8978-0B9FB4F47B02}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Bug Impact Bass Distortion Bass After Jump" ID="{1D55B824-4684-4523-8A57-FFC307000161}">
+									<Language>SFX</Language>
+									<AudioFile>Bug Impact Bass Distortion Bass After Jump.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="963471369"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Bug Impact Bass Distortion Bass After Jump" ID="{1D55B824-4684-4523-8A57-FFC307000161}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Glitch After Impact Jump" ID="{63DDE17C-EA2C-49F3-B487-689DDC2FD295}" ShortID="714061989">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D0B9DB4F-7FF6-4CDB-BEF4-05863A8070B7}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8A69F515-C57F-4A97-8978-0B9FB4F47B02}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Glitch After Impact Jump" ID="{52153A7B-440F-42C6-A76D-7404677A398C}">
+									<Language>SFX</Language>
+									<AudioFile>Glitch After Impact Jump.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="900126430"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Glitch After Impact Jump" ID="{52153A7B-440F-42C6-A76D-7404677A398C}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Noise After Impact Jump" ID="{2E4A2EB4-77CC-4906-959F-2E272A8DBDC8}" ShortID="98061897">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D0B9DB4F-7FF6-4CDB-BEF4-05863A8070B7}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8A69F515-C57F-4A97-8978-0B9FB4F47B02}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Noise After Impact Jump" ID="{34B01F8C-389B-457A-ABB8-343AB385CC45}">
+									<Language>SFX</Language>
+									<AudioFile>Noise After Impact Jump.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="620675887"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Noise After Impact Jump" ID="{34B01F8C-389B-457A-ABB8-343AB385CC45}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Reintialisation After Impact Jump 2,5 delay" ID="{012530C7-F915-4210-96CC-AA4091C48E30}" ShortID="768582698">
+							<PropertyList>
+								<Property Name="InitialDelay" Type="Real64">
+									<ValueList>
+										<Value>2.5</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D0B9DB4F-7FF6-4CDB-BEF4-05863A8070B7}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8A69F515-C57F-4A97-8978-0B9FB4F47B02}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Reintialisation After Impact Jump 2,5 delay" ID="{01EC1661-AD74-4DB0-9A5F-6F5EE4E455FE}">
+									<Language>SFX</Language>
+									<AudioFile>Reintialisation After Impact Jump 2,5 delay.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="1015876273"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Reintialisation After Impact Jump 2,5 delay" ID="{01EC1661-AD74-4DB0-9A5F-6F5EE4E455FE}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</BlendContainer>
 			</ChildrenList>
 		</WorkUnit>
 	</AudioObjects>
