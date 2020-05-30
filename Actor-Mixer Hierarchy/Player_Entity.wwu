@@ -26,7 +26,7 @@
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D0B9DB4F-7FF6-4CDB-BEF4-05863A8070B7}"/>
 						</Reference>
 						<Reference Name="OutputBus">
-							<ObjectRef Name="Master" ID="{364AE0A9-F634-4E70-98DF-127D35F6D855}" WorkUnitID="{61D42960-93D3-4FF0-8FC0-3437DB41C134}"/>
+							<ObjectRef Name="Player" ID="{DFA6C097-5927-4545-962D-13BDFF6ED199}" WorkUnitID="{61D42960-93D3-4FF0-8FC0-3437DB41C134}"/>
 						</Reference>
 					</ReferenceList>
 					<ChildrenList>
@@ -73,9 +73,38 @@
 										<ActiveSource Name="Robot_Presence" ID="{E2D0B1F9-6D04-4D2F-B574-ABEBBA66008C}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
+								<Sound Name="Hum_Max_Power" ID="{1CE4F3A1-20C4-46A6-954E-AE03860EE233}" ShortID="36950643">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>12</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D0B9DB4F-7FF6-4CDB-BEF4-05863A8070B7}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8A69F515-C57F-4A97-8978-0B9FB4F47B02}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Hum_Max_Power" ID="{1E945EA2-02C7-4020-ACE6-84087B98EF13}">
+											<Language>SFX</Language>
+											<AudioFile>Hum_Max_Power.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="497074595"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Hum_Max_Power" ID="{1E945EA2-02C7-4020-ACE6-84087B98EF13}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
 							</ChildrenList>
 						</BlendContainer>
-						<BlendContainer Name="Player_Activation_Max_Power" ID="{26BD176C-606B-4B61-B762-B27934F0FD48}" ShortID="477713134">
+						<BlendContainer Name="High_Power_Energy_Activation" ID="{77623944-894A-42CC-B1DE-5A0700A2C64B}" ShortID="1054984646">
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D0B9DB4F-7FF6-4CDB-BEF4-05863A8070B7}"/>
@@ -84,6 +113,64 @@
 									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8A69F515-C57F-4A97-8978-0B9FB4F47B02}"/>
 								</Reference>
 							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="Activation_Max_Power" ID="{C5421801-7269-4E64-BF6D-63B11C8E1C2E}" ShortID="386825341">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D0B9DB4F-7FF6-4CDB-BEF4-05863A8070B7}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8A69F515-C57F-4A97-8978-0B9FB4F47B02}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Activation_Max_Power" ID="{192C0E2A-2040-44A0-AFF8-C7C7B53271F2}">
+											<Language>SFX</Language>
+											<AudioFile>Activation_Max_Power.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="140281886"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Activation_Max_Power" ID="{192C0E2A-2040-44A0-AFF8-C7C7B53271F2}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</BlendContainer>
+						<BlendContainer Name="High_Power_Energy_Desactivation" ID="{765726F3-FEE6-4AEC-AB1B-9FD38EE5CB83}" ShortID="845318489">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D0B9DB4F-7FF6-4CDB-BEF4-05863A8070B7}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8A69F515-C57F-4A97-8978-0B9FB4F47B02}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="Desactivation_Max_Power" ID="{F14FF8C5-A6C9-4D3B-97CA-15A455367285}" ShortID="35099045">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D0B9DB4F-7FF6-4CDB-BEF4-05863A8070B7}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8A69F515-C57F-4A97-8978-0B9FB4F47B02}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Desactivation_Max_Power" ID="{CE58F133-31AF-44D8-9997-C4B144FCDFD4}">
+											<Language>SFX</Language>
+											<AudioFile>Desactivation_Max_Power.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="491404512"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Desactivation_Max_Power" ID="{CE58F133-31AF-44D8-9997-C4B144FCDFD4}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
 						</BlendContainer>
 					</ChildrenList>
 				</ActorMixer>
@@ -100,7 +187,7 @@
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D0B9DB4F-7FF6-4CDB-BEF4-05863A8070B7}"/>
 						</Reference>
 						<Reference Name="OutputBus">
-							<ObjectRef Name="Master" ID="{364AE0A9-F634-4E70-98DF-127D35F6D855}" WorkUnitID="{61D42960-93D3-4FF0-8FC0-3437DB41C134}"/>
+							<ObjectRef Name="Player" ID="{DFA6C097-5927-4545-962D-13BDFF6ED199}" WorkUnitID="{61D42960-93D3-4FF0-8FC0-3437DB41C134}"/>
 						</Reference>
 					</ReferenceList>
 					<ChildrenList>

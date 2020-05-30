@@ -51,6 +51,14 @@
 							<ObjectRef Name="Music_Awakening" ID="{BD4DB2FC-CDB3-41E7-BE5F-DC34654AA3CE}" WorkUnitID="{E77EEFBD-EA05-4D1F-BD63-6204F50016F7}"/>
 							<Position X="2" Y="0"/>
 						</Module>
+						<Module>
+							<ObjectRef Name="Play_High_Power_Energy_Activation" ID="{87D22A12-19F5-4F19-9C59-E0EBA95664C8}" WorkUnitID="{A00745C1-AF43-41A8-8476-6BE112FF41B3}"/>
+							<Position X="2" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_High_Power_Energy_Desactivation" ID="{0D8B1DE9-3F45-49EA-B0DD-CAB2AAF527B0}" WorkUnitID="{A00745C1-AF43-41A8-8476-6BE112FF41B3}"/>
+							<Position X="3" Y="1"/>
+						</Module>
 					</ModuleList>
 					<RTPCValueList ShowAll="true">
 						<RTPCValue>

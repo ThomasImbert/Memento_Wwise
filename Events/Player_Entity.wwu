@@ -3,17 +3,6 @@
 	<Events>
 		<WorkUnit Name="Player_Entity" ID="{A00745C1-AF43-41A8-8476-6BE112FF41B3}" OwnerID="{0B53BEA9-72FD-40A4-9BEA-6B47AA64B91B}" PersistMode="Nested">
 			<ChildrenList>
-				<Event Name="Play_Player_Presence_Nuclear_Energy" ID="{E451C55A-ED11-4035-AC22-0BF26C19DD9C}">
-					<ChildrenList>
-						<Action Name="" ID="{C94AE230-335B-40ED-93C8-67C6164CBC70}" ShortID="436607123">
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="Player_Presence_Nuclear_Energy" ID="{20444266-9FF1-410E-86EA-4CB9EE5204D8}" WorkUnitID="{D25DCC02-18D0-4F29-888E-F89A5249F8C9}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-					</ChildrenList>
-				</Event>
 				<Folder Name="Player_Emotions" ID="{78C821E1-FD28-4302-9533-F80FFD65C493}" ShortID="52713638">
 					<ChildrenList>
 						<Event Name="Play_Player_Sad_Compassion_02" ID="{DC67D0A6-3F97-45C9-99E4-2F8055CD6BF4}">
@@ -134,6 +123,51 @@
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="Play_Robot_Internal_Bug_After_Impact" ID="{11338119-3994-4BAD-A93E-89DEEF643641}" WorkUnitID="{D25DCC02-18D0-4F29-888E-F89A5249F8C9}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_High_Power_Energy_Activation" ID="{87D22A12-19F5-4F19-9C59-E0EBA95664C8}">
+					<ChildrenList>
+						<Action Name="" ID="{47EC5BCD-9433-4C32-A3D6-05D4E3813B2F}" ShortID="55168063">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="High_Power_Energy_Activation" ID="{77623944-894A-42CC-B1DE-5A0700A2C64B}" WorkUnitID="{D25DCC02-18D0-4F29-888E-F89A5249F8C9}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{4EDBA10F-3ECE-48A0-85F7-7B360BD5F0F7}" ShortID="374271125">
+							<PropertyList>
+								<Property Name="FadeInCurve" Type="int16" Value="1"/>
+								<Property Name="FadeTime" Type="Real64" Value="0.3"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Player_Presence_Nuclear_Energy" ID="{20444266-9FF1-410E-86EA-4CB9EE5204D8}" WorkUnitID="{D25DCC02-18D0-4F29-888E-F89A5249F8C9}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_High_Power_Energy_Desactivation" ID="{0D8B1DE9-3F45-49EA-B0DD-CAB2AAF527B0}">
+					<ChildrenList>
+						<Action Name="" ID="{C8BC77C7-C817-41B8-BC83-7A1C1F5D6655}" ShortID="710820399">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+								<Property Name="FadeOutCurve" Type="int16" Value="1"/>
+								<Property Name="FadeTime" Type="Real64" Value="0.7"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Player_Presence_Nuclear_Energy" ID="{20444266-9FF1-410E-86EA-4CB9EE5204D8}" WorkUnitID="{D25DCC02-18D0-4F29-888E-F89A5249F8C9}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{C438B84E-9184-41F1-95AD-6EBB80D8FD39}" ShortID="173322784">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="High_Power_Energy_Desactivation" ID="{765726F3-FEE6-4AEC-AB1B-9FD38EE5CB83}" WorkUnitID="{D25DCC02-18D0-4F29-888E-F89A5249F8C9}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
