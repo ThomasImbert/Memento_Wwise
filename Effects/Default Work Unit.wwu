@@ -5,7 +5,7 @@
 			<ChildrenList>
 				<Effect Name="New_Wwise_Recorder" ID="{96C0FD82-1149-459E-A68D-E65205EC5825}" PluginName="Wwise Recorder" CompanyID="0" PluginID="132" PluginType="3">
 					<PropertyList>
-						<Property Name="AuthoringFilename" Type="string" Value="C:\Users\Propriétaire\Desktop\Ambience_Memento.wav"/>
+						<Property Name="AuthoringFilename" Type="string" Value="C:\Users\Laurent\Desktop\Record.wav"/>
 						<Property Name="DownmixToStereo" Type="bool" Value="False"/>
 					</PropertyList>
 				</Effect>

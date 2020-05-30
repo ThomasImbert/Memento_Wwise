@@ -84,7 +84,7 @@
 								<Action Name="" ID="{1CE120BA-D873-4E69-9465-8F013FA97948}" ShortID="265040284">
 									<ReferenceList>
 										<Reference Name="Target">
-											<ObjectRef Name="Map_FullSize" ID="{7F6E76FE-CF1B-4079-9AC6-BDAE10EE9E7D}" WorkUnitID="{26993BB8-9179-4E01-8D2F-F49020DA4CC7}"/>
+											<ObjectRef Name="Map_FullSize" ID="{BE98ACC6-4F9A-430A-9D27-7D1B3EBDEF33}" WorkUnitID="{26993BB8-9179-4E01-8D2F-F49020DA4CC7}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
@@ -95,7 +95,7 @@
 								<Action Name="" ID="{DDAC6432-3C6C-470A-890F-310EA0E0FB0D}" ShortID="419870643">
 									<ReferenceList>
 										<Reference Name="Target">
-											<ObjectRef Name="Map_SmallSize" ID="{EF9D8FAB-5C59-432C-94B3-4EC7F0EB2AF8}" WorkUnitID="{26993BB8-9179-4E01-8D2F-F49020DA4CC7}"/>
+											<ObjectRef Name="Map_SmallSize" ID="{94A686B7-F512-4102-A44F-EFC07E8E68DC}" WorkUnitID="{26993BB8-9179-4E01-8D2F-F49020DA4CC7}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
