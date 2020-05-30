@@ -13,47 +13,6 @@
 						</Reference>
 					</ReferenceList>
 					<ChildrenList>
-						<RandomSequenceContainer Name="ViewPortGlitch" ID="{E594FAE6-9D95-4B26-8D6B-18654A68D82E}" ShortID="1032284624">
-							<PropertyList>
-								<Property Name="Volume" Type="Real64">
-									<ValueList>
-										<Value>-6</Value>
-									</ValueList>
-								</Property>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D0B9DB4F-7FF6-4CDB-BEF4-05863A8070B7}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8A69F515-C57F-4A97-8978-0B9FB4F47B02}"/>
-								</Reference>
-							</ReferenceList>
-							<ChildrenList>
-								<Sound Name="ViewPortGlitch_01" ID="{63149C52-9082-4F46-9545-4BBE9A7BE251}" ShortID="580783271">
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D0B9DB4F-7FF6-4CDB-BEF4-05863A8070B7}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8A69F515-C57F-4A97-8978-0B9FB4F47B02}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<AudioFileSource Name="UI_ViewPortGlitch_01" ID="{B976D639-8EB4-46E4-81E1-C2E538BF8977}">
-											<Language>SFX</Language>
-											<AudioFile>UI\UI_ViewPortGlitch_01.wav</AudioFile>
-											<MediaIDList>
-												<MediaID ID="427918614"/>
-											</MediaIDList>
-										</AudioFileSource>
-									</ChildrenList>
-									<ActiveSourceList>
-										<ActiveSource Name="UI_ViewPortGlitch_01" ID="{B976D639-8EB4-46E4-81E1-C2E538BF8977}" Platform="Linked"/>
-									</ActiveSourceList>
-								</Sound>
-							</ChildrenList>
-						</RandomSequenceContainer>
 						<Sound Name="ClockBug" ID="{8E4AAA51-E8A4-4E8D-B1C9-7A7D2D4BCFE7}" ShortID="459197930">
 							<PropertyList>
 								<Property Name="Volume" Type="Real64">
@@ -83,6 +42,255 @@
 								<ActiveSource Name="UI_ClockBug01" ID="{798335F4-0BFC-41BC-A673-C211CEDC06DC}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
+						<BlendContainer Name="ViewPortGlitch" ID="{07353701-A851-49A7-9EFB-1FEECAACCBFA}" ShortID="384286349">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D0B9DB4F-7FF6-4CDB-BEF4-05863A8070B7}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8A69F515-C57F-4A97-8978-0B9FB4F47B02}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<RandomSequenceContainer Name="ViewPortGlitch" ID="{E594FAE6-9D95-4B26-8D6B-18654A68D82E}" ShortID="1032284624">
+									<PropertyList>
+										<Property Name="InitialDelay" Type="Real64">
+											<ValueList>
+												<Value>2</Value>
+											</ValueList>
+										</Property>
+										<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
+										<Property Name="PlayMechanismSpecialTransitionsType" Type="int16" Value="1"/>
+										<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64" Value="0">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{81A332C0-A0C0-49F1-8196-2D7EB99B5ACB}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="7"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+										<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-6</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D0B9DB4F-7FF6-4CDB-BEF4-05863A8070B7}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="UI" ID="{F760DD1E-F55E-4F9D-9F4F-03830D9435B1}" WorkUnitID="{61D42960-93D3-4FF0-8FC0-3437DB41C134}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="UI_ViewPortGlitch_Background_Image_Shift_01" ID="{C51414EF-69CF-47E2-A9A7-992C8D1E6EAE}" ShortID="992925025">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D0B9DB4F-7FF6-4CDB-BEF4-05863A8070B7}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8A69F515-C57F-4A97-8978-0B9FB4F47B02}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="UI_ViewPortGlitch_Background_Image_Shift_01" ID="{7B62D0FA-290D-4502-B41C-A54A80A5EB86}">
+													<Language>SFX</Language>
+													<AudioFile>UI_ViewPortGlitch_Background_Image_Shift_01.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="107318167"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="UI_ViewPortGlitch_Background_Image_Shift_01" ID="{7B62D0FA-290D-4502-B41C-A54A80A5EB86}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="UI_ViewPortGlitch_Background_Image_Shift_02" ID="{8B6A4232-CED5-4C19-8BED-B8FA341DE30E}" ShortID="724867345">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D0B9DB4F-7FF6-4CDB-BEF4-05863A8070B7}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8A69F515-C57F-4A97-8978-0B9FB4F47B02}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="UI_ViewPortGlitch_Background_Image_Shift_02" ID="{35966667-BF72-4D22-91F8-BD28318FD289}">
+													<Language>SFX</Language>
+													<AudioFile>UI_ViewPortGlitch_Background_Image_Shift_02.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="57166847"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="UI_ViewPortGlitch_Background_Image_Shift_02" ID="{35966667-BF72-4D22-91F8-BD28318FD289}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="UI_ViewPortGlitch_Background_Image_Shift_03" ID="{5CABF8E1-C51A-4E8E-A396-6CE7B7013142}" ShortID="796676043">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D0B9DB4F-7FF6-4CDB-BEF4-05863A8070B7}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8A69F515-C57F-4A97-8978-0B9FB4F47B02}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="UI_ViewPortGlitch_Background_Image_Shift_03" ID="{D2C80C90-4B42-4DB6-BCB6-1E3D425C0B9A}">
+													<Language>SFX</Language>
+													<AudioFile>UI_ViewPortGlitch_Background_Image_Shift_03.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="671664992"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="UI_ViewPortGlitch_Background_Image_Shift_03" ID="{D2C80C90-4B42-4DB6-BCB6-1E3D425C0B9A}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="UI_ViewPortGlitch_Background_Image_Shift_04" ID="{0F5DC0F7-98E3-499F-916C-BE5276A9A072}" ShortID="147524262">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D0B9DB4F-7FF6-4CDB-BEF4-05863A8070B7}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8A69F515-C57F-4A97-8978-0B9FB4F47B02}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="UI_ViewPortGlitch_Background_Image_Shift_04" ID="{3E5A36AB-0B17-4EE6-9F2C-98B5B9F1E528}">
+													<Language>SFX</Language>
+													<AudioFile>UI_ViewPortGlitch_Background_Image_Shift_04.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="98177817"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="UI_ViewPortGlitch_Background_Image_Shift_04" ID="{3E5A36AB-0B17-4EE6-9F2C-98B5B9F1E528}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="UI_ViewPortGlitch_Background_Image_Shift_05" ID="{81D42705-A9B8-444E-967B-DC9B3782BB77}" ShortID="734170145">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D0B9DB4F-7FF6-4CDB-BEF4-05863A8070B7}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8A69F515-C57F-4A97-8978-0B9FB4F47B02}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="UI_ViewPortGlitch_Background_Image_Shift_05" ID="{191FA8C0-1F9B-443E-9EB2-D13F5552180C}">
+													<Language>SFX</Language>
+													<AudioFile>UI_ViewPortGlitch_Background_Image_Shift_05.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="761135335"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="UI_ViewPortGlitch_Background_Image_Shift_05" ID="{191FA8C0-1F9B-443E-9EB2-D13F5552180C}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="UI_ViewPortGlitch_Background_Image_Shift_06" ID="{9495DA57-CB31-4360-9CA9-694B2FCFFA53}" ShortID="783248049">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D0B9DB4F-7FF6-4CDB-BEF4-05863A8070B7}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8A69F515-C57F-4A97-8978-0B9FB4F47B02}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="UI_ViewPortGlitch_Background_Image_Shift_06" ID="{2CE95DF4-5AEF-47F5-8348-3C2A84BCFDFB}">
+													<Language>SFX</Language>
+													<AudioFile>UI_ViewPortGlitch_Background_Image_Shift_06.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="334125939"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="UI_ViewPortGlitch_Background_Image_Shift_06" ID="{2CE95DF4-5AEF-47F5-8348-3C2A84BCFDFB}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="UI_ViewPortGlitch_Background_Image_Shift_07" ID="{6D751ACE-51CF-4C2C-A936-34ABC2913982}" ShortID="111594578">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D0B9DB4F-7FF6-4CDB-BEF4-05863A8070B7}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8A69F515-C57F-4A97-8978-0B9FB4F47B02}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="UI_ViewPortGlitch_Background_Image_Shift_07" ID="{F6087EBF-62FC-4B41-A4C1-9C714BE2AA14}">
+													<Language>SFX</Language>
+													<AudioFile>UI_ViewPortGlitch_Background_Image_Shift_07.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="319039841"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="UI_ViewPortGlitch_Background_Image_Shift_07" ID="{F6087EBF-62FC-4B41-A4C1-9C714BE2AA14}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="UI_ViewPortGlitch_Background_Image_Shift_08" ID="{F147FBB9-9C1B-473F-A6D8-886B4C463A05}" ShortID="631400166">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D0B9DB4F-7FF6-4CDB-BEF4-05863A8070B7}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8A69F515-C57F-4A97-8978-0B9FB4F47B02}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="UI_ViewPortGlitch_Background_Image_Shift_08" ID="{C1BA58E8-D7EB-4D5B-AB29-DD9200F805A9}">
+													<Language>SFX</Language>
+													<AudioFile>UI_ViewPortGlitch_Background_Image_Shift_08.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="683524253"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="UI_ViewPortGlitch_Background_Image_Shift_08" ID="{C1BA58E8-D7EB-4D5B-AB29-DD9200F805A9}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+								</RandomSequenceContainer>
+								<Sound Name="UI_ViewPortGlitch_Background_Without_High_Frequency" ID="{F9E3578A-2456-491C-9557-B6D5FEB50E0D}" ShortID="824531462">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D0B9DB4F-7FF6-4CDB-BEF4-05863A8070B7}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8A69F515-C57F-4A97-8978-0B9FB4F47B02}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="UI_ViewPortGlitch_Background_Without_High_Frequency" ID="{5EB3F3F2-81C0-41F4-859B-7A8E7EBD6685}">
+											<Language>SFX</Language>
+											<AudioFile>UI_ViewPortGlitch_Background_Without_High_Frequency.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="448330945"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="UI_ViewPortGlitch_Background_Without_High_Frequency" ID="{5EB3F3F2-81C0-41F4-859B-7A8E7EBD6685}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</BlendContainer>
 					</ChildrenList>
 				</ActorMixer>
 			</ChildrenList>

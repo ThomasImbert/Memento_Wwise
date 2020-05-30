@@ -198,7 +198,7 @@
 								<Action Name="" ID="{405A7E68-2E56-4C2A-8F4E-C52B56FC6952}" ShortID="115264238">
 									<ReferenceList>
 										<Reference Name="Target">
-											<ObjectRef Name="ViewPortGlitch" ID="{E594FAE6-9D95-4B26-8D6B-18654A68D82E}" WorkUnitID="{8B48F0C6-6D20-4281-B52D-24AD01467572}"/>
+											<ObjectRef Name="ViewPortGlitch" ID="{07353701-A851-49A7-9EFB-1FEECAACCBFA}" WorkUnitID="{8B48F0C6-6D20-4281-B52D-24AD01467572}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
