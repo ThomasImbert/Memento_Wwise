@@ -122,7 +122,7 @@
 						<Action Name="" ID="{9AF68B40-9E1D-4439-AC40-8686DD00EEB4}" ShortID="502893792">
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="Play_Robot_Internal_Bug_After_Impact" ID="{11338119-3994-4BAD-A93E-89DEEF643641}" WorkUnitID="{D25DCC02-18D0-4F29-888E-F89A5249F8C9}"/>
+									<ObjectRef Name="Player_Internal_Bug_After_Impact" ID="{11338119-3994-4BAD-A93E-89DEEF643641}" WorkUnitID="{D25DCC02-18D0-4F29-888E-F89A5249F8C9}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>

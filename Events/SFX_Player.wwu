@@ -3,64 +3,6 @@
 	<Events>
 		<WorkUnit Name="SFX_Player" ID="{2108F57A-A96C-4E61-AD24-2AA4B1564C55}" OwnerID="{0B53BEA9-72FD-40A4-9BEA-6B47AA64B91B}" PersistMode="Nested">
 			<ChildrenList>
-				<Event Name="Play_Photo_Activate" ID="{5EC27E4B-97A1-4A4E-A2FE-3A93422A7D86}">
-					<ChildrenList>
-						<Action Name="" ID="{FC32F19A-A184-4AA7-9E8F-52818D29C488}" ShortID="964475923">
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="Photo_Activate" ID="{5FA78846-9F14-4A3D-B99C-F77A8A05F2CD}" WorkUnitID="{5D71DD36-5D04-4072-AAF2-B8F0D4077DE3}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-						<Action Name="" ID="{9BCF102A-307F-4D1A-BC83-0F49327BFCFD}" ShortID="106885308">
-							<PropertyList>
-								<Property Name="ActionType" Type="int16" Value="26"/>
-								<Property Name="FadeInCurve" Type="int16" Value="1"/>
-								<Property Name="FadeTime" Type="Real64" Value="1"/>
-								<Property Name="Lowpass" Type="int16" Value="31"/>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="Ambiences" ID="{457EEC29-48E2-4B94-92C9-E26F3EB56A07}" WorkUnitID="{BDCF732B-5724-4543-8D24-9AB09AA8F717}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-					</ChildrenList>
-				</Event>
-				<Event Name="Play_Photo_Desactivate" ID="{53800D45-F2EB-4C9A-A3DE-225E4A37924E}">
-					<ChildrenList>
-						<Action Name="" ID="{25655181-0815-41E7-A4A4-1192B47A30EB}" ShortID="454665672">
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="Photo_Desactivate" ID="{2D026B26-14D3-41C2-9DF4-6D3EFD7CE170}" WorkUnitID="{5D71DD36-5D04-4072-AAF2-B8F0D4077DE3}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-						<Action Name="" ID="{C7E84B52-4C27-437B-9D1E-9FE8A24B2A45}" ShortID="186219687">
-							<PropertyList>
-								<Property Name="ActionType" Type="int16" Value="26"/>
-								<Property Name="FadeInCurve" Type="int16" Value="1"/>
-								<Property Name="FadeTime" Type="Real64" Value="1"/>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="Ambiences" ID="{457EEC29-48E2-4B94-92C9-E26F3EB56A07}" WorkUnitID="{BDCF732B-5724-4543-8D24-9AB09AA8F717}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-					</ChildrenList>
-				</Event>
-				<Event Name="Play_Photo_Trigger" ID="{7BEB3419-652F-4C3D-A817-C3B12441169C}">
-					<ChildrenList>
-						<Action Name="" ID="{55894B22-AD49-4C4C-986C-3679FF0A0E98}" ShortID="481570070">
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="Photo_Trigger" ID="{6238474B-A74E-4592-A0D7-94DCF95B43FB}" WorkUnitID="{5D71DD36-5D04-4072-AAF2-B8F0D4077DE3}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-					</ChildrenList>
-				</Event>
 				<Event Name="Play_PlayerWalk" ID="{57669FC4-8025-429D-8680-E6CE4E4B50D4}">
 					<ChildrenList>
 						<Action Name="" ID="{16D09E5A-B55D-4406-B5F0-A43D63437E1D}" ShortID="837653523">
@@ -100,39 +42,6 @@
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="PlayerHalt" ID="{AD783EF1-E4CA-46BD-A96F-3557A62E11FB}" WorkUnitID="{B09A25F1-BDF1-46AB-B77C-AEBE45E0E3FC}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-					</ChildrenList>
-				</Event>
-				<Event Name="Play_Photo_Settings_Focus" ID="{7432E279-49B1-48D0-9E53-D0D053D11E75}">
-					<ChildrenList>
-						<Action Name="" ID="{A38EBD0C-B83D-4C9F-8709-CE549A72DBB9}" ShortID="943796969">
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="Photo_Settings_Focus" ID="{B977D230-AB6C-429D-B118-06194457D486}" WorkUnitID="{5D71DD36-5D04-4072-AAF2-B8F0D4077DE3}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-					</ChildrenList>
-				</Event>
-				<Event Name="Play_Photo_Shutter_Open" ID="{BD6D58F2-44BD-43BE-A3B9-323CB9BAFF9F}">
-					<ChildrenList>
-						<Action Name="" ID="{F3DE7BE5-F5E6-48A6-8EA1-489253C24283}" ShortID="962452965">
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="Photo_Shutter Open" ID="{12F34B08-79F2-46A3-8DAB-975ED10FADC7}" WorkUnitID="{5D71DD36-5D04-4072-AAF2-B8F0D4077DE3}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-					</ChildrenList>
-				</Event>
-				<Event Name="Play_Photo_Zoom" ID="{62978147-A76C-44A3-9663-CE3E1F984047}">
-					<ChildrenList>
-						<Action Name="" ID="{4145F812-B999-452D-9D02-7491D549227E}" ShortID="202801455">
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="Photo_Zoom" ID="{71756E0B-26AF-46EF-8E7E-77D5DB98FFF6}" WorkUnitID="{5D71DD36-5D04-4072-AAF2-B8F0D4077DE3}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
@@ -229,6 +138,112 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Folder Name="Player_PhotoMode" ID="{F96EE51C-E9FB-417A-8386-CC604A2EEF00}" ShortID="420806535">
+					<ChildrenList>
+						<Event Name="Play_Photo_Desactivate" ID="{53800D45-F2EB-4C9A-A3DE-225E4A37924E}">
+							<ChildrenList>
+								<Action Name="" ID="{25655181-0815-41E7-A4A4-1192B47A30EB}" ShortID="454665672">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Photo_Desactivate" ID="{2D026B26-14D3-41C2-9DF4-6D3EFD7CE170}" WorkUnitID="{5D71DD36-5D04-4072-AAF2-B8F0D4077DE3}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{C7E84B52-4C27-437B-9D1E-9FE8A24B2A45}" ShortID="186219687">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="26"/>
+										<Property Name="FadeInCurve" Type="int16" Value="1"/>
+										<Property Name="FadeTime" Type="Real64" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Ambiences" ID="{457EEC29-48E2-4B94-92C9-E26F3EB56A07}" WorkUnitID="{BDCF732B-5724-4543-8D24-9AB09AA8F717}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Photo_Settings_Focus" ID="{7432E279-49B1-48D0-9E53-D0D053D11E75}">
+							<ChildrenList>
+								<Action Name="" ID="{A38EBD0C-B83D-4C9F-8709-CE549A72DBB9}" ShortID="943796969">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Photo_Settings_Focus" ID="{B977D230-AB6C-429D-B118-06194457D486}" WorkUnitID="{5D71DD36-5D04-4072-AAF2-B8F0D4077DE3}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Photo_Zoom" ID="{62978147-A76C-44A3-9663-CE3E1F984047}">
+							<ChildrenList>
+								<Action Name="" ID="{4145F812-B999-452D-9D02-7491D549227E}" ShortID="202801455">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Photo_Zoom" ID="{71756E0B-26AF-46EF-8E7E-77D5DB98FFF6}" WorkUnitID="{5D71DD36-5D04-4072-AAF2-B8F0D4077DE3}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Photo_Trigger" ID="{7BEB3419-652F-4C3D-A817-C3B12441169C}">
+							<ChildrenList>
+								<Action Name="" ID="{55894B22-AD49-4C4C-986C-3679FF0A0E98}" ShortID="481570070">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Photo_Trigger" ID="{6238474B-A74E-4592-A0D7-94DCF95B43FB}" WorkUnitID="{5D71DD36-5D04-4072-AAF2-B8F0D4077DE3}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Photo_Shutter_Open" ID="{BD6D58F2-44BD-43BE-A3B9-323CB9BAFF9F}">
+							<ChildrenList>
+								<Action Name="" ID="{F3DE7BE5-F5E6-48A6-8EA1-489253C24283}" ShortID="962452965">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Photo_Shutter Open" ID="{12F34B08-79F2-46A3-8DAB-975ED10FADC7}" WorkUnitID="{5D71DD36-5D04-4072-AAF2-B8F0D4077DE3}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Photo_Activate" ID="{5EC27E4B-97A1-4A4E-A2FE-3A93422A7D86}">
+							<ChildrenList>
+								<Action Name="" ID="{FC32F19A-A184-4AA7-9E8F-52818D29C488}" ShortID="964475923">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Photo_Activate" ID="{5FA78846-9F14-4A3D-B99C-F77A8A05F2CD}" WorkUnitID="{5D71DD36-5D04-4072-AAF2-B8F0D4077DE3}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{9BCF102A-307F-4D1A-BC83-0F49327BFCFD}" ShortID="106885308">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="26"/>
+										<Property Name="FadeInCurve" Type="int16" Value="1"/>
+										<Property Name="FadeTime" Type="Real64" Value="1"/>
+										<Property Name="Lowpass" Type="int16" Value="31"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Ambiences" ID="{457EEC29-48E2-4B94-92C9-E26F3EB56A07}" WorkUnitID="{BDCF732B-5724-4543-8D24-9AB09AA8F717}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Photo_Dezoom" ID="{5167D3F2-F3FB-4B8F-9759-B0D28585DD75}">
+							<ChildrenList>
+								<Action Name="" ID="{97A9E945-6AA1-4BEB-B3C4-53224D6185F3}" ShortID="96149454">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Photo_Dezoom" ID="{C2EFCA09-7BC1-454B-B92A-D6BEF16B6A6B}" WorkUnitID="{5D71DD36-5D04-4072-AAF2-B8F0D4077DE3}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>
