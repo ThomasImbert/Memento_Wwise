@@ -323,10 +323,6 @@
 							<Position X="5" Y="2"/>
 						</Module>
 						<Module>
-							<ObjectRef Name="Play_Photo_Settings_Focus" ID="{7432E279-49B1-48D0-9E53-D0D053D11E75}" WorkUnitID="{2108F57A-A96C-4E61-AD24-2AA4B1564C55}"/>
-							<Position X="5" Y="3"/>
-						</Module>
-						<Module>
 							<ObjectRef Name="Play_Photo_Desactivate" ID="{53800D45-F2EB-4C9A-A3DE-225E4A37924E}" WorkUnitID="{2108F57A-A96C-4E61-AD24-2AA4B1564C55}"/>
 							<Position X="5" Y="4"/>
 						</Module>

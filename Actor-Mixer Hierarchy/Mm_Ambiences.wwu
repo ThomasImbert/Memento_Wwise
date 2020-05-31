@@ -38,6 +38,11 @@
 							<ChildrenList>
 								<RandomSequenceContainer Name="Windy SFX" ID="{EF9B853E-17C2-42F3-AEF6-E892C5712B1E}" ShortID="1069229582">
 									<PropertyList>
+										<Property Name="InitialDelay" Type="Real64">
+											<ValueList>
+												<Value>5</Value>
+											</ValueList>
+										</Property>
 										<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
 										<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
 										<Property Name="PlayMechanismSpecialTransitionsType" Type="int16" Value="1"/>
@@ -58,13 +63,6 @@
 									</ReferenceList>
 									<ChildrenList>
 										<Sound Name="SFX Windy Reverb Metalic -10" ID="{04C39D8A-194D-451C-BAE6-1B941F73FB3A}" ShortID="484893954">
-											<PropertyList>
-												<Property Name="InitialDelay" Type="Real64">
-													<ValueList>
-														<Value>5</Value>
-													</ValueList>
-												</Property>
-											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D0B9DB4F-7FF6-4CDB-BEF4-05863A8070B7}"/>
@@ -92,13 +90,6 @@
 											</ActiveSourceList>
 										</Sound>
 										<Sound Name="SFX Windy Reverb Metalic Long -10" ID="{DFD828E9-5535-4D60-9228-36E7C61BFA22}" ShortID="459743958">
-											<PropertyList>
-												<Property Name="InitialDelay" Type="Real64">
-													<ValueList>
-														<Value>5</Value>
-													</ValueList>
-												</Property>
-											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D0B9DB4F-7FF6-4CDB-BEF4-05863A8070B7}"/>
@@ -127,24 +118,28 @@
 										</Sound>
 									</ChildrenList>
 								</RandomSequenceContainer>
-								<RandomSequenceContainer Name="Planet_Respiration" ID="{D2F4280C-A5DC-42FF-B91A-F71AB32571B3}" ShortID="496374853">
+								<RandomSequenceContainer Name="Planet_Breath" ID="{D2F4280C-A5DC-42FF-B91A-F71AB32571B3}" ShortID="496374853">
 									<PropertyList>
 										<Property Name="InitialDelay" Type="Real64">
+											<ValueList>
+												<Value>4</Value>
+											</ValueList>
 											<ModifierList>
 												<ModifierInfo>
 													<Modifier Name="" ID="{28A916D2-A204-4F6E-B949-5EDC72C49860}"/>
 												</ModifierInfo>
 											</ModifierList>
 										</Property>
+										<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
 										<Property Name="OverrideEffect" Type="bool" Value="True"/>
 										<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
 										<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
 										<Property Name="PlayMechanismSpecialTransitionsType" Type="int16" Value="1"/>
-										<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64" Value="5"/>
+										<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64" Value="4"/>
 										<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
 										<Property Name="Volume" Type="Real64">
 											<ValueList>
-												<Value>-5</Value>
+												<Value>-7</Value>
 											</ValueList>
 										</Property>
 									</PropertyList>
@@ -157,7 +152,7 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<Sound Name="Planet_Respiration_01" ID="{C1AF536A-BEDF-4DCB-82F1-F2F7F9C92737}" ShortID="635848569">
+										<RandomSequenceContainer Name="Planet_Inspiration" ID="{F8C1E648-7D68-446B-AA24-FA6078910492}" ShortID="141979528">
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D0B9DB4F-7FF6-4CDB-BEF4-05863A8070B7}"/>
@@ -167,19 +162,93 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="Planet_Respiration_01" ID="{64ECBA21-B2A9-4E95-88DE-B16443AAA3DC}">
-													<Language>SFX</Language>
-													<AudioFile>Ambiance\Planet_Respiration_01.wav</AudioFile>
-													<MediaIDList>
-														<MediaID ID="973050314"/>
-													</MediaIDList>
-												</AudioFileSource>
+												<Sound Name="Planet_Inspiration_01" ID="{DF2EE23B-04F7-4681-AED8-32898BE368A3}" ShortID="405435149">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D0B9DB4F-7FF6-4CDB-BEF4-05863A8070B7}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Ambiance" ID="{DB046278-7D18-4B34-A7EE-4946B00C7686}" WorkUnitID="{61D42960-93D3-4FF0-8FC0-3437DB41C134}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Planet_Respiration_04" ID="{85B07F01-2548-4D60-86B8-64245AFFAB18}">
+															<PropertyList>
+																<Property Name="FadeInDuration" Type="Real64" Value="0.0954506101583114"/>
+																<Property Name="FadeOutDuration" Type="Real64" Value="1.29388604881267"/>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimBegin" Type="Real64" Value="0.169689973614776"/>
+																<Property Name="TrimEnd" Type="Real64" Value="4.61344615765172"/>
+															</PropertyList>
+															<Language>SFX</Language>
+															<AudioFile>Ambiance\Planet_Respiration_04.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="1015265949"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Planet_Respiration_04" ID="{85B07F01-2548-4D60-86B8-64245AFFAB18}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Planet_Inspiration_03" ID="{6D81AB40-DCAD-462F-9D3F-ACB0134E54F7}" ShortID="275670971">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D0B9DB4F-7FF6-4CDB-BEF4-05863A8070B7}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Ambiance" ID="{DB046278-7D18-4B34-A7EE-4946B00C7686}" WorkUnitID="{61D42960-93D3-4FF0-8FC0-3437DB41C134}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Planet_Respiration_05" ID="{4136EA79-793D-4269-BD13-39A8F620154D}">
+															<PropertyList>
+																<Property Name="FadeInDuration" Type="Real64" Value="0.123732409850484"/>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimBegin" Type="Real64" Value="1.33631002638522"/>
+															</PropertyList>
+															<Language>SFX</Language>
+															<AudioFile>Ambiance\Planet_Respiration_05.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="815328958"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Planet_Respiration_05" ID="{4136EA79-793D-4269-BD13-39A8F620154D}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Planet_Inspiration_02" ID="{D92A0AB2-4531-4B42-A838-B1553962BA9A}" ShortID="538314405">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D0B9DB4F-7FF6-4CDB-BEF4-05863A8070B7}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Ambiance" ID="{DB046278-7D18-4B34-A7EE-4946B00C7686}" WorkUnitID="{61D42960-93D3-4FF0-8FC0-3437DB41C134}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Planet_Respiration_06" ID="{A6958E24-12DE-4116-B789-9AF5D6501213}">
+															<PropertyList>
+																<Property Name="FadeInDuration" Type="Real64" Value="0.0566246701846966"/>
+																<Property Name="FadeOutDuration" Type="Real64" Value="0.226498680738786"/>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimBegin" Type="Real64" Value="0.353904188654354"/>
+															</PropertyList>
+															<Language>SFX</Language>
+															<AudioFile>Ambiance\Planet_Respiration_06.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="4862025"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Planet_Respiration_06" ID="{A6958E24-12DE-4116-B789-9AF5D6501213}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
 											</ChildrenList>
-											<ActiveSourceList>
-												<ActiveSource Name="Planet_Respiration_01" ID="{64ECBA21-B2A9-4E95-88DE-B16443AAA3DC}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
-										<Sound Name="Planet_Respiration_02" ID="{05EF9665-8153-4267-A726-3BE70926296C}" ShortID="572327728">
+										</RandomSequenceContainer>
+										<RandomSequenceContainer Name="Planet_Respiration" ID="{AEE74AD9-93D3-4AA3-8E9B-40E1F9F50D49}" ShortID="521756667">
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D0B9DB4F-7FF6-4CDB-BEF4-05863A8070B7}"/>
@@ -189,111 +258,99 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="Planet_Respiration_02" ID="{E9F8E69B-8FD6-4C25-8F53-1CE14CC599AE}">
-													<Language>SFX</Language>
-													<AudioFile>Ambiance\Planet_Respiration_02.wav</AudioFile>
-													<MediaIDList>
-														<MediaID ID="711574113"/>
-													</MediaIDList>
-												</AudioFileSource>
+												<Sound Name="Planet_Respiration_03" ID="{97CF9F38-4542-4C05-B52C-4746B05E6AE2}" ShortID="455097715">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D0B9DB4F-7FF6-4CDB-BEF4-05863A8070B7}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Ambiance" ID="{DB046278-7D18-4B34-A7EE-4946B00C7686}" WorkUnitID="{61D42960-93D3-4FF0-8FC0-3437DB41C134}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Planet_Respiration_03" ID="{BF4D7F22-D37E-421A-BBA4-BE1342E6783D}">
+															<PropertyList>
+																<Property Name="FadeOutDuration" Type="Real64" Value="1.75201132365875"/>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimEnd" Type="Real64" Value="2.35169305189095"/>
+															</PropertyList>
+															<Language>SFX</Language>
+															<AudioFile>Ambiance\Planet_Respiration_03.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="369307447"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Planet_Respiration_03" ID="{BF4D7F22-D37E-421A-BBA4-BE1342E6783D}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Planet_Respiration_02" ID="{05EF9665-8153-4267-A726-3BE70926296C}" ShortID="572327728">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D0B9DB4F-7FF6-4CDB-BEF4-05863A8070B7}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Ambiance" ID="{DB046278-7D18-4B34-A7EE-4946B00C7686}" WorkUnitID="{61D42960-93D3-4FF0-8FC0-3437DB41C134}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Planet_Respiration_02" ID="{E9F8E69B-8FD6-4C25-8F53-1CE14CC599AE}">
+															<PropertyList>
+																<Property Name="FadeInDuration" Type="Real64" Value="0.338758575197889"/>
+																<Property Name="FadeOutDuration" Type="Real64" Value="2.44658970976254"/>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimBegin" Type="Real64" Value="0.46422471416007"/>
+																<Property Name="TrimEnd" Type="Real64" Value="2.91081442392261"/>
+															</PropertyList>
+															<Language>SFX</Language>
+															<AudioFile>Ambiance\Planet_Respiration_02.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="711574113"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Planet_Respiration_02" ID="{E9F8E69B-8FD6-4C25-8F53-1CE14CC599AE}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Planet_Respiration_01" ID="{C1AF536A-BEDF-4DCB-82F1-F2F7F9C92737}" ShortID="635848569">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D0B9DB4F-7FF6-4CDB-BEF4-05863A8070B7}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Ambiance" ID="{DB046278-7D18-4B34-A7EE-4946B00C7686}" WorkUnitID="{61D42960-93D3-4FF0-8FC0-3437DB41C134}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Planet_Respiration_01" ID="{64ECBA21-B2A9-4E95-88DE-B16443AAA3DC}">
+															<Language>SFX</Language>
+															<AudioFile>Ambiance\Planet_Respiration_01.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="973050314"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Planet_Respiration_01" ID="{64ECBA21-B2A9-4E95-88DE-B16443AAA3DC}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
 											</ChildrenList>
-											<ActiveSourceList>
-												<ActiveSource Name="Planet_Respiration_02" ID="{E9F8E69B-8FD6-4C25-8F53-1CE14CC599AE}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
-										<Sound Name="Planet_Respiration_03" ID="{97CF9F38-4542-4C05-B52C-4746B05E6AE2}" ShortID="455097715">
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D0B9DB4F-7FF6-4CDB-BEF4-05863A8070B7}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8A69F515-C57F-4A97-8978-0B9FB4F47B02}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="Planet_Respiration_03" ID="{BF4D7F22-D37E-421A-BBA4-BE1342E6783D}">
-													<Language>SFX</Language>
-													<AudioFile>Ambiance\Planet_Respiration_03.wav</AudioFile>
-													<MediaIDList>
-														<MediaID ID="369307447"/>
-													</MediaIDList>
-												</AudioFileSource>
-											</ChildrenList>
-											<ActiveSourceList>
-												<ActiveSource Name="Planet_Respiration_03" ID="{BF4D7F22-D37E-421A-BBA4-BE1342E6783D}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
-										<Sound Name="Planet_Respiration_04" ID="{DF2EE23B-04F7-4681-AED8-32898BE368A3}" ShortID="405435149">
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D0B9DB4F-7FF6-4CDB-BEF4-05863A8070B7}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8A69F515-C57F-4A97-8978-0B9FB4F47B02}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="Planet_Respiration_04" ID="{85B07F01-2548-4D60-86B8-64245AFFAB18}">
-													<Language>SFX</Language>
-													<AudioFile>Ambiance\Planet_Respiration_04.wav</AudioFile>
-													<MediaIDList>
-														<MediaID ID="1015265949"/>
-													</MediaIDList>
-												</AudioFileSource>
-											</ChildrenList>
-											<ActiveSourceList>
-												<ActiveSource Name="Planet_Respiration_04" ID="{85B07F01-2548-4D60-86B8-64245AFFAB18}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
-										<Sound Name="Planet_Respiration_05" ID="{6D81AB40-DCAD-462F-9D3F-ACB0134E54F7}" ShortID="275670971">
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D0B9DB4F-7FF6-4CDB-BEF4-05863A8070B7}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8A69F515-C57F-4A97-8978-0B9FB4F47B02}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="Planet_Respiration_05" ID="{4136EA79-793D-4269-BD13-39A8F620154D}">
-													<Language>SFX</Language>
-													<AudioFile>Ambiance\Planet_Respiration_05.wav</AudioFile>
-													<MediaIDList>
-														<MediaID ID="815328958"/>
-													</MediaIDList>
-												</AudioFileSource>
-											</ChildrenList>
-											<ActiveSourceList>
-												<ActiveSource Name="Planet_Respiration_05" ID="{4136EA79-793D-4269-BD13-39A8F620154D}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
-										<Sound Name="Planet_Respiration_06" ID="{D92A0AB2-4531-4B42-A838-B1553962BA9A}" ShortID="538314405">
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D0B9DB4F-7FF6-4CDB-BEF4-05863A8070B7}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8A69F515-C57F-4A97-8978-0B9FB4F47B02}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="Planet_Respiration_06" ID="{A6958E24-12DE-4116-B789-9AF5D6501213}">
-													<Language>SFX</Language>
-													<AudioFile>Ambiance\Planet_Respiration_06.wav</AudioFile>
-													<MediaIDList>
-														<MediaID ID="4862025"/>
-													</MediaIDList>
-												</AudioFileSource>
-											</ChildrenList>
-											<ActiveSourceList>
-												<ActiveSource Name="Planet_Respiration_06" ID="{A6958E24-12DE-4116-B789-9AF5D6501213}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
+										</RandomSequenceContainer>
 									</ChildrenList>
 								</RandomSequenceContainer>
 								<RandomSequenceContainer Name="Bubbles" ID="{47C04D83-8C0F-4039-8E9D-958706FEB6F3}" ShortID="604725219">
 									<PropertyList>
+										<Property Name="Inclusion" Type="bool">
+											<ValueList>
+												<Value>False</Value>
+											</ValueList>
+										</Property>
 										<Property Name="InitialDelay" Type="Real64">
+											<ValueList>
+												<Value>5</Value>
+											</ValueList>
 											<ModifierList>
 												<ModifierInfo>
 													<Modifier Name="" ID="{F0AB957E-1143-437D-85CF-DD07FFA996EA}"/>
@@ -308,10 +365,22 @@
 										<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
 										<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
 										<Property Name="PlayMechanismSpecialTransitionsType" Type="int16" Value="1"/>
+										<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{76E74A34-67A9-4A6F-88BE-B7BF6ABA13BE}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="5"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
 										<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
 										<Property Name="Volume" Type="Real64">
 											<ValueList>
-												<Value>-4</Value>
+												<Value>12</Value>
 											</ValueList>
 										</Property>
 									</PropertyList>
@@ -329,12 +398,7 @@
 												<Property Name="InitialDelay" Type="Real64">
 													<ModifierList>
 														<ModifierInfo>
-															<Modifier Name="" ID="{E54BAAA3-49E7-40CF-A3F3-0178EB078B4F}">
-																<PropertyList>
-																	<Property Name="Enabled" Type="bool" Value="True"/>
-																	<Property Name="Max" Type="Real64" Value="6"/>
-																</PropertyList>
-															</Modifier>
+															<Modifier Name="" ID="{E54BAAA3-49E7-40CF-A3F3-0178EB078B4F}"/>
 														</ModifierInfo>
 													</ModifierList>
 												</Property>
@@ -349,6 +413,11 @@
 											</ReferenceList>
 											<ChildrenList>
 												<AudioFileSource Name="Bubbles_01" ID="{D069D60C-8DCC-49EA-A723-31E81295ED0A}">
+													<PropertyList>
+														<Property Name="FadeOutDuration" Type="Real64" Value="0.884236587510994"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimEnd" Type="Real64" Value="0.997117854001759"/>
+													</PropertyList>
 													<Language>SFX</Language>
 													<AudioFile>Ambiance\Bubbles_01.wav</AudioFile>
 													<MediaIDList>
@@ -365,12 +434,7 @@
 												<Property Name="InitialDelay" Type="Real64">
 													<ModifierList>
 														<ModifierInfo>
-															<Modifier Name="" ID="{C5B468D7-CE81-4AF5-83C8-97A9027006BA}">
-																<PropertyList>
-																	<Property Name="Enabled" Type="bool" Value="True"/>
-																	<Property Name="Max" Type="Real64" Value="6"/>
-																</PropertyList>
-															</Modifier>
+															<Modifier Name="" ID="{C5B468D7-CE81-4AF5-83C8-97A9027006BA}"/>
 														</ModifierInfo>
 													</ModifierList>
 												</Property>
@@ -385,6 +449,11 @@
 											</ReferenceList>
 											<ChildrenList>
 												<AudioFileSource Name="Bubbles_02" ID="{701175B4-A5D8-425C-8B2E-F3B2F47ED24D}">
+													<PropertyList>
+														<Property Name="FadeOutDuration" Type="Real64" Value="0.613392122911169"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimEnd" Type="Real64" Value="0.64211282431838"/>
+													</PropertyList>
 													<Language>SFX</Language>
 													<AudioFile>Ambiance\Bubbles_02.wav</AudioFile>
 													<MediaIDList>
@@ -401,12 +470,7 @@
 												<Property Name="InitialDelay" Type="Real64">
 													<ModifierList>
 														<ModifierInfo>
-															<Modifier Name="" ID="{B92568DD-C97F-4F96-9500-DC36FF744397}">
-																<PropertyList>
-																	<Property Name="Enabled" Type="bool" Value="True"/>
-																	<Property Name="Max" Type="Real64" Value="6"/>
-																</PropertyList>
-															</Modifier>
+															<Modifier Name="" ID="{B92568DD-C97F-4F96-9500-DC36FF744397}"/>
 														</ModifierInfo>
 													</ModifierList>
 												</Property>
@@ -421,6 +485,11 @@
 											</ReferenceList>
 											<ChildrenList>
 												<AudioFileSource Name="Bubbles_03" ID="{1EBFD2CC-4F8F-4E2E-ADC9-88D56DE58B3B}">
+													<PropertyList>
+														<Property Name="FadeOutDuration" Type="Real64" Value="0.640960587071241"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimEnd" Type="Real64" Value="0.946179914248023"/>
+													</PropertyList>
 													<Language>SFX</Language>
 													<AudioFile>Ambiance\Bubbles_03.wav</AudioFile>
 													<MediaIDList>
@@ -454,6 +523,11 @@
 										<Sound Name="Low Linear Wind -21" ID="{5E4039CC-98EB-41E5-94A9-78620BA16574}" ShortID="574629640">
 											<PropertyList>
 												<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+												<Property Name="Pitch" Type="int32">
+													<ValueList>
+														<Value>1640</Value>
+													</ValueList>
+												</Property>
 											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
@@ -512,7 +586,12 @@
 												<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
 												<Property Name="Pitch" Type="int32">
 													<ValueList>
-														<Value>-380</Value>
+														<Value>-130</Value>
+													</ValueList>
+												</Property>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>4</Value>
 													</ValueList>
 												</Property>
 											</PropertyList>
@@ -547,7 +626,7 @@
 								</BlendContainer>
 							</ChildrenList>
 						</BlendContainer>
-						<BlendContainer Name="Ambience_02" ID="{77204486-76C2-4BEF-BF88-A192E792DE4A}" ShortID="730486592">
+						<BlendContainer Name="Ambiance_02" ID="{867F813D-0920-49A5-9716-74D532179AAF}" ShortID="503175770">
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D0B9DB4F-7FF6-4CDB-BEF4-05863A8070B7}"/>

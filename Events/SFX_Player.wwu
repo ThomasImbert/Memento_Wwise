@@ -145,7 +145,7 @@
 								<Action Name="" ID="{25655181-0815-41E7-A4A4-1192B47A30EB}" ShortID="454665672">
 									<ReferenceList>
 										<Reference Name="Target">
-											<ObjectRef Name="Photo_Desactivate" ID="{2D026B26-14D3-41C2-9DF4-6D3EFD7CE170}" WorkUnitID="{5D71DD36-5D04-4072-AAF2-B8F0D4077DE3}"/>
+											<ObjectRef Name="Photo_Desactivate" ID="{FC0A654E-3B2B-4539-BD87-696DB5DCB89B}" WorkUnitID="{5D71DD36-5D04-4072-AAF2-B8F0D4077DE3}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
@@ -158,17 +158,6 @@
 									<ReferenceList>
 										<Reference Name="Target">
 											<ObjectRef Name="Ambiences" ID="{457EEC29-48E2-4B94-92C9-E26F3EB56A07}" WorkUnitID="{BDCF732B-5724-4543-8D24-9AB09AA8F717}"/>
-										</Reference>
-									</ReferenceList>
-								</Action>
-							</ChildrenList>
-						</Event>
-						<Event Name="Play_Photo_Settings_Focus" ID="{7432E279-49B1-48D0-9E53-D0D053D11E75}">
-							<ChildrenList>
-								<Action Name="" ID="{A38EBD0C-B83D-4C9F-8709-CE549A72DBB9}" ShortID="943796969">
-									<ReferenceList>
-										<Reference Name="Target">
-											<ObjectRef Name="Photo_Settings_Focus" ID="{B977D230-AB6C-429D-B118-06194457D486}" WorkUnitID="{5D71DD36-5D04-4072-AAF2-B8F0D4077DE3}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
@@ -190,18 +179,7 @@
 								<Action Name="" ID="{55894B22-AD49-4C4C-986C-3679FF0A0E98}" ShortID="481570070">
 									<ReferenceList>
 										<Reference Name="Target">
-											<ObjectRef Name="Photo_Trigger" ID="{6238474B-A74E-4592-A0D7-94DCF95B43FB}" WorkUnitID="{5D71DD36-5D04-4072-AAF2-B8F0D4077DE3}"/>
-										</Reference>
-									</ReferenceList>
-								</Action>
-							</ChildrenList>
-						</Event>
-						<Event Name="Play_Photo_Shutter_Open" ID="{BD6D58F2-44BD-43BE-A3B9-323CB9BAFF9F}">
-							<ChildrenList>
-								<Action Name="" ID="{F3DE7BE5-F5E6-48A6-8EA1-489253C24283}" ShortID="962452965">
-									<ReferenceList>
-										<Reference Name="Target">
-											<ObjectRef Name="Photo_Shutter Open" ID="{12F34B08-79F2-46A3-8DAB-975ED10FADC7}" WorkUnitID="{5D71DD36-5D04-4072-AAF2-B8F0D4077DE3}"/>
+											<ObjectRef Name="Photo_Trigger" ID="{4BB5380A-A1AB-4A5B-9BA8-EAE7EDEBA8DB}" WorkUnitID="{5D71DD36-5D04-4072-AAF2-B8F0D4077DE3}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
@@ -212,7 +190,7 @@
 								<Action Name="" ID="{FC32F19A-A184-4AA7-9E8F-52818D29C488}" ShortID="964475923">
 									<ReferenceList>
 										<Reference Name="Target">
-											<ObjectRef Name="Photo_Activate" ID="{5FA78846-9F14-4A3D-B99C-F77A8A05F2CD}" WorkUnitID="{5D71DD36-5D04-4072-AAF2-B8F0D4077DE3}"/>
+											<ObjectRef Name="Photo_Activate" ID="{03FC7725-CD40-457D-B391-99C19EFBA98D}" WorkUnitID="{5D71DD36-5D04-4072-AAF2-B8F0D4077DE3}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
@@ -220,8 +198,8 @@
 									<PropertyList>
 										<Property Name="ActionType" Type="int16" Value="26"/>
 										<Property Name="FadeInCurve" Type="int16" Value="1"/>
-										<Property Name="FadeTime" Type="Real64" Value="1"/>
-										<Property Name="Lowpass" Type="int16" Value="31"/>
+										<Property Name="FadeTime" Type="Real64" Value="0.5"/>
+										<Property Name="Lowpass" Type="int16" Value="60"/>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Target">
@@ -237,6 +215,17 @@
 									<ReferenceList>
 										<Reference Name="Target">
 											<ObjectRef Name="Photo_Dezoom" ID="{C2EFCA09-7BC1-454B-B92A-D6BEF16B6A6B}" WorkUnitID="{5D71DD36-5D04-4072-AAF2-B8F0D4077DE3}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Photo_Activate_First_Time" ID="{8509A6C0-8488-4C88-B038-53047759E337}">
+							<ChildrenList>
+								<Action Name="" ID="{3CB69F22-4B3A-47EC-B3B7-FA4774AC9721}" ShortID="880228663">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Photo_Activate_First_Time" ID="{BF0F632C-DF11-4249-A09C-FA689D1D0EA2}" WorkUnitID="{5D71DD36-5D04-4072-AAF2-B8F0D4077DE3}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
