@@ -4,6 +4,13 @@
 		<WorkUnit Name="Player_PhotoMode" ID="{5D71DD36-5D04-4072-AAF2-B8F0D4077DE3}" OwnerID="{4D494155-884F-4A60-B92D-D7813DDE96B1}" PersistMode="Nested">
 			<ChildrenList>
 				<ActorMixer Name="PhotoMode" ID="{5C0AA896-2096-44DC-887B-89E76E8BA58A}" ShortID="547665486">
+					<PropertyList>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-6</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D0B9DB4F-7FF6-4CDB-BEF4-05863A8070B7}"/>
@@ -17,7 +24,7 @@
 							<PropertyList>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>-3</Value>
+										<Value>3.5</Value>
 									</ValueList>
 								</Property>
 							</PropertyList>
@@ -41,6 +48,13 @@
 									</ReferenceList>
 									<ChildrenList>
 										<Sound Name="Zoom_01" ID="{5A9F70BE-2A4D-4692-8910-B87A87CEFC35}" ShortID="747470782">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>0.1</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D0B9DB4F-7FF6-4CDB-BEF4-05863A8070B7}"/>
@@ -69,6 +83,11 @@
 														<Value>-80</Value>
 													</ValueList>
 												</Property>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>2.9</Value>
+													</ValueList>
+												</Property>
 											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
@@ -92,6 +111,13 @@
 											</ActiveSourceList>
 										</Sound>
 										<Sound Name="Zoom_03" ID="{4010C0F5-7DA8-49EC-A93C-BA729DE284BC}" ShortID="59989487">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>2.6</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D0B9DB4F-7FF6-4CDB-BEF4-05863A8070B7}"/>
@@ -142,6 +168,11 @@
 														<Value>-100</Value>
 													</ValueList>
 												</Property>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>2.5</Value>
+													</ValueList>
+												</Property>
 											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
@@ -172,7 +203,7 @@
 							<PropertyList>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>-3</Value>
+										<Value>4</Value>
 									</ValueList>
 								</Property>
 							</PropertyList>
@@ -203,6 +234,13 @@
 									</ReferenceList>
 									<ChildrenList>
 										<Sound Name="Dezoom_01" ID="{58E8D850-ADE1-46E6-80BE-8D89C7D2582E}" ShortID="480764700">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>0.6</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D0B9DB4F-7FF6-4CDB-BEF4-05863A8070B7}"/>
@@ -225,6 +263,13 @@
 											</ActiveSourceList>
 										</Sound>
 										<Sound Name="Dezoom_02" ID="{5C222C9F-4B5A-4B01-9981-FDBAC433E82E}" ShortID="345604184">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>1.5</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D0B9DB4F-7FF6-4CDB-BEF4-05863A8070B7}"/>
@@ -250,7 +295,7 @@
 											<PropertyList>
 												<Property Name="Volume" Type="Real64">
 													<ValueList>
-														<Value>-1</Value>
+														<Value>-0.6</Value>
 													</ValueList>
 												</Property>
 											</PropertyList>
@@ -305,6 +350,13 @@
 											</ActiveSourceList>
 										</Sound>
 										<Sound Name="Dezoom_05" ID="{18844ED2-A1E9-41FD-B908-7EB7A9EFEAC0}" ShortID="40433560">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>1.5</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D0B9DB4F-7FF6-4CDB-BEF4-05863A8070B7}"/>
@@ -334,7 +386,7 @@
 							<PropertyList>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>-3</Value>
+										<Value>1</Value>
 									</ValueList>
 								</Property>
 							</PropertyList>
@@ -401,6 +453,13 @@
 							</ChildrenList>
 						</BlendContainer>
 						<BlendContainer Name="Photo_Activate" ID="{03FC7725-CD40-457D-B391-99C19EFBA98D}" ShortID="632273281">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>1.3</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D0B9DB4F-7FF6-4CDB-BEF4-05863A8070B7}"/>
@@ -435,6 +494,13 @@
 							</ChildrenList>
 						</BlendContainer>
 						<BlendContainer Name="Photo_Trigger" ID="{4BB5380A-A1AB-4A5B-9BA8-EAE7EDEBA8DB}" ShortID="233109040">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>3.6</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D0B9DB4F-7FF6-4CDB-BEF4-05863A8070B7}"/>
@@ -469,6 +535,13 @@
 							</ChildrenList>
 						</BlendContainer>
 						<BlendContainer Name="Photo_Desactivate" ID="{FC0A654E-3B2B-4539-BD87-696DB5DCB89B}" ShortID="165708742">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>3.8</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D0B9DB4F-7FF6-4CDB-BEF4-05863A8070B7}"/>
