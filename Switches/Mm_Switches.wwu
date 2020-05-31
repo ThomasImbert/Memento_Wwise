@@ -12,6 +12,8 @@
 						<Switch Name="PurpleMoss" ID="{74CEED8B-1961-47D4-AF3C-83B4EF9F333B}"/>
 						<Switch Name="RedMoss" ID="{51C21A70-4FF9-48CC-86D4-817DDBD76F1A}"/>
 						<Switch Name="Rock" ID="{3A8FA418-56D4-4AA3-A4BF-F5BCBC0361F5}"/>
+						<Switch Name="Metal" ID="{83E42918-0FE1-47EB-9672-95BAA64751C4}"/>
+						<Switch Name="Fungi" ID="{C63A9A2D-596F-4E47-B252-FD0AC5027D37}"/>
 					</ChildrenList>
 				</SwitchGroup>
 				<SwitchGroup Name="isRunning" ID="{5BA20E16-08F8-4EDD-8732-0E8825094C5B}">

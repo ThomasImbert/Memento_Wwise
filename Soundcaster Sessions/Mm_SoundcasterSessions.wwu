@@ -342,7 +342,7 @@
 						</RTPCValue>
 						<RTPCValue>
 							<GameParameterRef Name="WalkSpeed" ID="{E1064E41-C1EF-48D7-9F88-59A3D70419E0}"/>
-							<Value>52</Value>
+							<Value>29.337</Value>
 						</RTPCValue>
 						<RTPCValue>
 							<GameParameterRef Name="VolumeAmbiance" ID="{D4F5C67B-1BB3-48E2-83DD-E09DE7C070C3}"/>
