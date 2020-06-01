@@ -118,6 +118,38 @@
 								<Property Name="Color" Type="int16" Value="19"/>
 								<Property Name="OverrideColor" Type="bool" Value="True"/>
 							</PropertyList>
+							<StateInfo>
+								<StateGroupList>
+									<StateGroupInfo>
+										<StateGroupRef Name="Menu" ID="{065FE6D7-A4AC-490D-B0D8-8723670FA63A}"/>
+									</StateGroupInfo>
+								</StateGroupList>
+								<CustomStateList>
+									<CustomState>
+										<StateRef Name="inPauseMenu" ID="{AE0E8C79-8909-421B-B8E3-B0C7E76DF072}"/>
+										<CustomState Name="" ID="{30BCB32D-0ED1-495D-A073-610910BFD0D6}" ShortID="631778217">
+											<PropertyList>
+												<Property Name="BusVolume" Type="Real64" Value="-6"/>
+												<Property Name="Lowpass" Type="int16" Value="40"/>
+											</PropertyList>
+										</CustomState>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="inGame" ID="{D34E7C80-FD5C-455E-B679-C8C14C14EEB6}"/>
+										<CustomState Name="" ID="{9EB12364-DEE8-4045-AD3E-B9D96669FD71}" ShortID="1051985023"/>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="inPhotoMode" ID="{2EBB3483-4B2E-4D39-B479-7A1E8CE78787}"/>
+										<CustomState Name="" ID="{A9F9DA4A-FBAA-4D2B-BB5D-C96DC4DDC43A}" ShortID="88930775">
+											<PropertyList>
+												<Property Name="BusVolume" Type="Real64" Value="-3"/>
+												<Property Name="Highpass" Type="int16" Value="20"/>
+												<Property Name="Lowpass" Type="int16" Value="30"/>
+											</PropertyList>
+										</CustomState>
+									</CustomState>
+								</CustomStateList>
+							</StateInfo>
 						</Bus>
 						<Bus Name="Music" ID="{984FF10C-65E0-44B0-86ED-A83F9206518D}">
 							<PropertyList>
@@ -169,6 +201,37 @@
 									</PropertyList>
 								</Bus>
 							</ChildrenList>
+							<StateInfo>
+								<StateGroupList>
+									<StateGroupInfo>
+										<StateGroupRef Name="Menu" ID="{065FE6D7-A4AC-490D-B0D8-8723670FA63A}"/>
+									</StateGroupInfo>
+								</StateGroupList>
+								<CustomStateList>
+									<CustomState>
+										<StateRef Name="inPauseMenu" ID="{AE0E8C79-8909-421B-B8E3-B0C7E76DF072}"/>
+										<CustomState Name="" ID="{20C6B240-2EA6-45DB-BF03-EDAB4FE90884}" ShortID="787713819">
+											<PropertyList>
+												<Property Name="BusVolume" Type="Real64" Value="-6"/>
+												<Property Name="Lowpass" Type="int16" Value="40"/>
+											</PropertyList>
+										</CustomState>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="inGame" ID="{D34E7C80-FD5C-455E-B679-C8C14C14EEB6}"/>
+										<CustomState Name="" ID="{D249D990-ACD3-424A-8038-C641AE2E0F6C}" ShortID="505075971"/>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="inPhotoMode" ID="{2EBB3483-4B2E-4D39-B479-7A1E8CE78787}"/>
+										<CustomState Name="" ID="{CCB27D28-F50E-4122-B449-B18AB467FCF3}" ShortID="977884335">
+											<PropertyList>
+												<Property Name="Highpass" Type="int16" Value="15"/>
+												<Property Name="Lowpass" Type="int16" Value="15"/>
+											</PropertyList>
+										</CustomState>
+									</CustomState>
+								</CustomStateList>
+							</StateInfo>
 						</Bus>
 						<Bus Name="UI" ID="{F760DD1E-F55E-4F9D-9F4F-03830D9435B1}">
 							<PropertyList>

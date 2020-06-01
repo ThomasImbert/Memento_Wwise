@@ -637,6 +637,38 @@
 							</ReferenceList>
 						</BlendContainer>
 					</ChildrenList>
+					<StateInfo>
+						<StateGroupList>
+							<StateGroupInfo>
+								<StateGroupRef Name="Menu" ID="{065FE6D7-A4AC-490D-B0D8-8723670FA63A}"/>
+							</StateGroupInfo>
+						</StateGroupList>
+						<CustomStateList>
+							<CustomState>
+								<StateRef Name="inPauseMenu" ID="{AE0E8C79-8909-421B-B8E3-B0C7E76DF072}"/>
+								<CustomState Name="" ID="{F6EBF1A4-00D6-405B-830D-0CC98B5C9673}" ShortID="1025982373">
+									<PropertyList>
+										<Property Name="Lowpass" Type="int16" Value="40"/>
+										<Property Name="Volume" Type="Real64" Value="-6"/>
+									</PropertyList>
+								</CustomState>
+							</CustomState>
+							<CustomState>
+								<StateRef Name="inGame" ID="{D34E7C80-FD5C-455E-B679-C8C14C14EEB6}"/>
+								<CustomState Name="" ID="{1D1C3CD6-09AC-435E-82B3-557E2F07FA3C}" ShortID="595721711"/>
+							</CustomState>
+							<CustomState>
+								<StateRef Name="inPhotoMode" ID="{2EBB3483-4B2E-4D39-B479-7A1E8CE78787}"/>
+								<CustomState Name="" ID="{8CF822A9-C401-405B-814A-5FEBCDE87767}" ShortID="829407357">
+									<PropertyList>
+										<Property Name="Highpass" Type="int16" Value="20"/>
+										<Property Name="Lowpass" Type="int16" Value="31"/>
+										<Property Name="Volume" Type="Real64" Value="-3"/>
+									</PropertyList>
+								</CustomState>
+							</CustomState>
+						</CustomStateList>
+					</StateInfo>
 				</ActorMixer>
 			</ChildrenList>
 		</WorkUnit>
