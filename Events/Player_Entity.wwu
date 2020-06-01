@@ -93,7 +93,7 @@
 								</Action>
 							</ChildrenList>
 						</Event>
-						<Event Name="Play_Player_Happy_Exited" ID="{60AA602D-03DE-4257-9388-E294AD3C1AC6}">
+						<Event Name="Play_Player_Happy_Excited" ID="{60AA602D-03DE-4257-9388-E294AD3C1AC6}">
 							<ChildrenList>
 								<Action Name="" ID="{A79C9585-524B-400B-BD96-2F93E05A53C5}" ShortID="104589331">
 									<ReferenceList>

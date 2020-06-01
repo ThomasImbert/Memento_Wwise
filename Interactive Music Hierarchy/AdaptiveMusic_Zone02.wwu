@@ -1,6 +1,370 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{E383F8AB-940C-41E5-BB80-C914458AFB22}" SchemaVersion="97" RootDocumentID="{CE75D468-59BE-4833-A7EF-BCF0F65BB88D}">
 	<InteractiveMusic>
-		<WorkUnit Name="AdaptiveMusic_Zone02" ID="{E383F8AB-940C-41E5-BB80-C914458AFB22}" OwnerID="{CE75D468-59BE-4833-A7EF-BCF0F65BB88D}" PersistMode="Nested"/>
+		<WorkUnit Name="AdaptiveMusic_Zone02" ID="{E383F8AB-940C-41E5-BB80-C914458AFB22}" OwnerID="{CE75D468-59BE-4833-A7EF-BCF0F65BB88D}" PersistMode="Nested">
+			<ChildrenList>
+				<MusicPlaylistContainer Name="Soundscape 02" ID="{786F492A-45A4-4332-BC46-5B191714792E}" ShortID="813698044">
+					<PropertyList>
+						<Property Name="Tempo" Type="Real64" Value="119"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D0B9DB4F-7FF6-4CDB-BEF4-05863A8070B7}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Adaptive" ID="{21E84DBD-0823-4991-AD5B-C5D1BC7E80F8}" WorkUnitID="{61D42960-93D3-4FF0-8FC0-3437DB41C134}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<MusicSegment Name="Music_Discover_New_World_Part_02" ID="{A6C593A1-7143-4E7B-AA03-A5EBDE666E79}" ShortID="770174599">
+							<PropertyList>
+								<Property Name="EndPosition" Type="Real64" Value="120873.437691047"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D0B9DB4F-7FF6-4CDB-BEF4-05863A8070B7}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8A69F515-C57F-4A97-8978-0B9FB4F47B02}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<MusicTrack Name="Music_Discover_New_World_Part_02" ID="{51E5B3AF-C1F6-4D6F-AC1A-6BA53859C36A}" ShortID="454952247">
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8A69F515-C57F-4A97-8978-0B9FB4F47B02}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Music_Discover_New_World_Part_02" ID="{3BBB2C5B-06AB-44EA-ACF5-588F5CC201B7}">
+											<Language>SFX</Language>
+											<AudioFile>Music_Discover_New_World_Part_02.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="524567383"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<TransitionList>
+										<MusicTransition Name="Root" ID="{1E3B85F1-5C10-4FF7-A7C3-D01136BE8486}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</TransitionList>
+									<SequenceList>
+										<MusicTrackSequence Name="" ID="{3DEF2F30-C905-4BF6-9857-E5C223697F79}">
+											<ClipList>
+												<MusicClip Name="Music_Discover_New_World_Part_02" ID="{9F0EA59C-2CD3-49D9-B6B0-572C8D36E3F0}">
+													<PropertyList>
+														<Property Name="EndTrimOffset" Type="Real64" Value="53445.3741496599"/>
+														<Property Name="FadeInMode" Type="int16" Value="0"/>
+														<Property Name="FadeOutDuration" Type="Real64" Value="1946.51849416475"/>
+													</PropertyList>
+													<AudioSourceRef Name="Music_Discover_New_World_Part_02" ID="{3BBB2C5B-06AB-44EA-ACF5-588F5CC201B7}"/>
+												</MusicClip>
+											</ClipList>
+										</MusicTrackSequence>
+									</SequenceList>
+								</MusicTrack>
+							</ChildrenList>
+							<CueList>
+								<MusicCue Name="Entry Cue" ID="{1F008343-D0C1-403C-B31C-F9D0F0D36555}">
+									<PropertyList>
+										<Property Name="TimeMs" Type="Real64" Value="2016.80672268908"/>
+									</PropertyList>
+								</MusicCue>
+								<MusicCue Name="Exit Cue" ID="{21C1DD97-024B-4D5C-A1E5-B71A03CC85EF}">
+									<PropertyList>
+										<Property Name="CueType" Type="int16" Value="1"/>
+										<Property Name="TimeMs" Type="Real64" Value="50420.1680672269"/>
+									</PropertyList>
+								</MusicCue>
+							</CueList>
+						</MusicSegment>
+						<MusicSegment Name="Music_Discover_New_World_Introduction" ID="{D5DC4D23-A3C9-44C9-B8BF-F252DE2077E7}" ShortID="193716320">
+							<PropertyList>
+								<Property Name="EndPosition" Type="Real64" Value="146837.768015404"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D0B9DB4F-7FF6-4CDB-BEF4-05863A8070B7}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8A69F515-C57F-4A97-8978-0B9FB4F47B02}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<MusicTrack Name="Music_Discover_New_World_Introduction" ID="{9C3C79F5-3FF8-4437-AE3D-04AE2D570AF8}" ShortID="703283453">
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8A69F515-C57F-4A97-8978-0B9FB4F47B02}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Music_Discover_New_World_Introduction" ID="{0C88B5D0-89EE-4450-B5EB-51904A224ECD}">
+											<Language>SFX</Language>
+											<AudioFile>Music_Discover_New_World_Introduction.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="371181260"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<TransitionList>
+										<MusicTransition Name="Root" ID="{1A3FB626-1F61-4843-BB74-0FBE0F88C7A4}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</TransitionList>
+									<SequenceList>
+										<MusicTrackSequence Name="" ID="{A4EBB3AB-D41D-43C7-B528-F14528FE5856}">
+											<ClipList>
+												<MusicClip Name="Music_Discover_New_World_Introduction" ID="{EAD3F3C5-8AFB-4034-90C0-2BFC786067C4}">
+													<PropertyList>
+														<Property Name="EndTrimOffset" Type="Real64" Value="63529.410430839"/>
+														<Property Name="FadeInMode" Type="int16" Value="0"/>
+														<Property Name="FadeOutDuration" Type="Real64" Value="632.257271533948"/>
+													</PropertyList>
+													<AudioSourceRef Name="Music_Discover_New_World_Introduction" ID="{0C88B5D0-89EE-4450-B5EB-51904A224ECD}"/>
+												</MusicClip>
+											</ClipList>
+										</MusicTrackSequence>
+									</SequenceList>
+								</MusicTrack>
+							</ChildrenList>
+							<CueList>
+								<MusicCue Name="Entry Cue" ID="{1D0B7437-D3AF-456D-9A9E-30C0A586D7E4}"/>
+								<MusicCue Name="Exit Cue" ID="{8920E960-8CD8-4CC2-A7D1-516EF1AFE1A5}">
+									<PropertyList>
+										<Property Name="CueType" Type="int16" Value="1"/>
+										<Property Name="TimeMs" Type="Real64" Value="56470.5882352941"/>
+									</PropertyList>
+								</MusicCue>
+							</CueList>
+						</MusicSegment>
+						<MusicSegment Name="Music_Discover_New_World_Part_03" ID="{B5DCE2B5-1CB4-4C4C-B205-262B94F0FE70}" ShortID="373793977">
+							<PropertyList>
+								<Property Name="EndPosition" Type="Real64" Value="74049.14004914"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D0B9DB4F-7FF6-4CDB-BEF4-05863A8070B7}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8A69F515-C57F-4A97-8978-0B9FB4F47B02}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<MusicTrack Name="Music_Discover_New_World_Part_03" ID="{8978044D-01CA-40BF-AE98-42B3608CC2A2}" ShortID="164708419">
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8A69F515-C57F-4A97-8978-0B9FB4F47B02}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Music_Discover_New_World_Part_03" ID="{58435D2F-D61C-452E-A010-50FAF261FC6D}">
+											<Language>SFX</Language>
+											<AudioFile>Music_Discover_New_World_Part_03.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="991368323"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<TransitionList>
+										<MusicTransition Name="Root" ID="{BCD8D3E3-EABE-4EB1-85B8-1C36917475B2}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</TransitionList>
+									<SequenceList>
+										<MusicTrackSequence Name="" ID="{0ECCAD39-3943-4895-A9AE-2A5EFD935E65}">
+											<ClipList>
+												<MusicClip Name="Music_Discover_New_World_Part_03" ID="{6F09434B-B8AA-48C7-98AC-E354BE661DCE}">
+													<PropertyList>
+														<Property Name="EndTrimOffset" Type="Real64" Value="58991.5873015873"/>
+														<Property Name="FadeInMode" Type="int16" Value="0"/>
+														<Property Name="FadeOutMode" Type="int16" Value="0"/>
+													</PropertyList>
+													<AudioSourceRef Name="Music_Discover_New_World_Part_03" ID="{58435D2F-D61C-452E-A010-50FAF261FC6D}"/>
+												</MusicClip>
+											</ClipList>
+										</MusicTrackSequence>
+									</SequenceList>
+								</MusicTrack>
+							</ChildrenList>
+							<CueList>
+								<MusicCue Name="Entry Cue" ID="{75EDEB88-0B08-4FE3-9186-9FC7E8E1129A}"/>
+								<MusicCue Name="Exit Cue" ID="{F2B805F3-42AF-4CE3-9815-F34A489A73B3}">
+									<PropertyList>
+										<Property Name="CueType" Type="int16" Value="1"/>
+										<Property Name="TimeMs" Type="Real64" Value="52436.974789916"/>
+									</PropertyList>
+								</MusicCue>
+							</CueList>
+						</MusicSegment>
+						<MusicSegment Name="Music_Discover_New_World_Part_04" ID="{B4CE26C6-EFA7-4557-AE79-C4E4E7B46256}" ShortID="950359390">
+							<PropertyList>
+								<Property Name="EndPosition" Type="Real64" Value="86722.6984126984"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D0B9DB4F-7FF6-4CDB-BEF4-05863A8070B7}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Music" ID="{984FF10C-65E0-44B0-86ED-A83F9206518D}" WorkUnitID="{61D42960-93D3-4FF0-8FC0-3437DB41C134}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<MusicTrack Name="Music_Discover_New_World_Part_04" ID="{FFD153BC-2930-4961-B29D-D77397BFA6F3}" ShortID="893614604">
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8A69F515-C57F-4A97-8978-0B9FB4F47B02}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Music_Discover_New_World_Part_04" ID="{2249DAAB-F82C-4E15-9EAF-6224923F3916}">
+											<Language>SFX</Language>
+											<AudioFile>Music_Discover_New_World_Part_04.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="267221205"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<TransitionList>
+										<MusicTransition Name="Root" ID="{B82EB3CB-D2BC-4E75-A3F7-E24EF5BE47C7}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</TransitionList>
+									<SequenceList>
+										<MusicTrackSequence Name="" ID="{80863571-C6BE-4BA4-AFD6-9E4E292DE72D}">
+											<ClipList>
+												<MusicClip Name="Music_Discover_New_World_Part_04" ID="{17BB6591-F43A-409C-B1EF-D0C50B192050}">
+													<PropertyList>
+														<Property Name="EndTrimOffset" Type="Real64" Value="86722.6984126984"/>
+														<Property Name="FadeInMode" Type="int16" Value="0"/>
+														<Property Name="FadeOutMode" Type="int16" Value="0"/>
+													</PropertyList>
+													<AudioSourceRef Name="Music_Discover_New_World_Part_04" ID="{2249DAAB-F82C-4E15-9EAF-6224923F3916}"/>
+												</MusicClip>
+											</ClipList>
+										</MusicTrackSequence>
+									</SequenceList>
+								</MusicTrack>
+							</ChildrenList>
+							<CueList>
+								<MusicCue Name="Entry Cue" ID="{AFE2F053-F5CF-4B3E-A854-1DBC9EAB7119}">
+									<PropertyList>
+										<Property Name="TimeMs" Type="Real64" Value="4000"/>
+									</PropertyList>
+								</MusicCue>
+								<MusicCue Name="Exit Cue" ID="{400A85D0-4537-4059-876E-2ABF383A1495}">
+									<PropertyList>
+										<Property Name="CueType" Type="int16" Value="1"/>
+										<Property Name="TimeMs" Type="Real64" Value="66000"/>
+									</PropertyList>
+								</MusicCue>
+							</CueList>
+						</MusicSegment>
+					</ChildrenList>
+					<TransitionList>
+						<MusicTransition Name="Root" ID="{EC52F114-DCB9-4120-B053-D98A5E3E844E}">
+							<PropertyList>
+								<Property Name="IsFolder" Type="bool" Value="True"/>
+							</PropertyList>
+							<ChildrenList>
+								<MusicTransition Name="Transition" ID="{661A74E7-83F8-4759-AFD7-1D5F1CB88092}">
+									<PropertyList>
+										<Property Name="EnableSourceFadeOut" Type="bool" Value="True"/>
+									</PropertyList>
+									<TransitionInfo>
+										<SourceFadeOut>
+											<MusicFade Name="Source Fade-out" ID="{2715AC7C-C5AB-4407-89F4-09162684B6AC}">
+												<PropertyList>
+													<Property Name="FadeCurve" Type="int16" Value="1"/>
+													<Property Name="FadeOffset" Type="Real64" Value="0.5"/>
+													<Property Name="FadeTime" Type="Real64" Value="1.5"/>
+													<Property Name="FadeType" Type="int16" Value="1"/>
+												</PropertyList>
+											</MusicFade>
+										</SourceFadeOut>
+									</TransitionInfo>
+								</MusicTransition>
+							</ChildrenList>
+							<TransitionInfo/>
+						</MusicTransition>
+					</TransitionList>
+					<Playlist>
+						<MusicPlaylistItem Name="" ID="{44F77C85-D204-44C9-8932-9AE9C669BE36}" ShortID="698695572">
+							<PropertyList>
+								<Property Name="LoopCount" Type="int16" Value="0"/>
+							</PropertyList>
+							<ChildrenList>
+								<MusicPlaylistItem Name="" ID="{72222299-2B8B-4876-AF59-9AFF959C870E}" ShortID="580146753">
+									<PropertyList>
+										<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+									</PropertyList>
+									<SegmentRef Name="Music_Discover_New_World_Introduction" ID="{D5DC4D23-A3C9-44C9-B8BF-F252DE2077E7}"/>
+								</MusicPlaylistItem>
+								<MusicPlaylistItem Name="" ID="{DEA10189-59AA-4E4A-B9A4-55B72273AED3}" ShortID="592944696">
+									<ChildrenList>
+										<MusicPlaylistItem Name="" ID="{9A90F205-1141-4470-99CC-A829890A67E4}" ShortID="514540914">
+											<PropertyList>
+												<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+											</PropertyList>
+											<SegmentRef Name="Music_Discover_New_World_Part_02" ID="{A6C593A1-7143-4E7B-AA03-A5EBDE666E79}"/>
+										</MusicPlaylistItem>
+										<MusicPlaylistItem Name="" ID="{EDDD07E0-81EF-4E8F-89A7-C4A608064297}" ShortID="119172540">
+											<PropertyList>
+												<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+											</PropertyList>
+											<SegmentRef Name="Music_Discover_New_World_Part_03" ID="{B5DCE2B5-1CB4-4C4C-B205-262B94F0FE70}"/>
+										</MusicPlaylistItem>
+										<MusicPlaylistItem Name="" ID="{8C2FDAFA-2AEC-40F5-AE30-C5FD0E1581F4}" ShortID="1043553916">
+											<PropertyList>
+												<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+											</PropertyList>
+											<SegmentRef Name="Music_Discover_New_World_Part_04" ID="{B4CE26C6-EFA7-4557-AE79-C4E4E7B46256}"/>
+										</MusicPlaylistItem>
+									</ChildrenList>
+								</MusicPlaylistItem>
+								<MusicPlaylistItem Name="" ID="{A163FC4A-865D-4EE6-AA31-DD3CD9BE33AD}" ShortID="155935034">
+									<PropertyList>
+										<Property Name="LoopCount" Type="int16" Value="0"/>
+										<Property Name="PlayMode" Type="int16" Value="2"/>
+									</PropertyList>
+									<ChildrenList>
+										<MusicPlaylistItem Name="" ID="{DF2DD39A-BE6C-42C3-89C8-256309FC4C30}" ShortID="549231658">
+											<PropertyList>
+												<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+											</PropertyList>
+											<SegmentRef Name="Music_Discover_New_World_Part_04" ID="{B4CE26C6-EFA7-4557-AE79-C4E4E7B46256}"/>
+										</MusicPlaylistItem>
+										<MusicPlaylistItem Name="" ID="{F0F6A41E-E62C-432D-AE95-DE14B4B41563}" ShortID="607016673">
+											<PropertyList>
+												<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+											</PropertyList>
+											<SegmentRef Name="Music_Discover_New_World_Part_03" ID="{B5DCE2B5-1CB4-4C4C-B205-262B94F0FE70}"/>
+										</MusicPlaylistItem>
+										<MusicPlaylistItem Name="" ID="{0F25E6F6-2F79-4638-B199-E28C1AF4DE0F}" ShortID="1059368951">
+											<PropertyList>
+												<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+											</PropertyList>
+											<SegmentRef Name="Music_Discover_New_World_Part_02" ID="{A6C593A1-7143-4E7B-AA03-A5EBDE666E79}"/>
+										</MusicPlaylistItem>
+									</ChildrenList>
+								</MusicPlaylistItem>
+							</ChildrenList>
+						</MusicPlaylistItem>
+					</Playlist>
+				</MusicPlaylistContainer>
+			</ChildrenList>
+		</WorkUnit>
 	</InteractiveMusic>
 </WwiseDocument>

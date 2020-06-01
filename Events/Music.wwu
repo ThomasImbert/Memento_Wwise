@@ -18,29 +18,29 @@
 						</Action>
 					</ChildrenList>
 				</Event>
-				<Event Name="Play_Soundscape_02_Enigmatic" ID="{592513F0-78D5-4011-9558-E2AFB76D69D2}">
+				<Event Name="Play_Soundscape_01" ID="{592513F0-78D5-4011-9558-E2AFB76D69D2}">
 					<ChildrenList>
 						<Action Name="" ID="{BC3EF496-387D-4B49-9CFF-B51703BCD9D2}" ShortID="1182562">
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="Soundscape 02_Enigmatic" ID="{18A5CB26-6EFD-476E-997E-79CBF1A95D4B}" WorkUnitID="{9BB0DEA4-5243-4788-9407-DCD448A73624}"/>
+									<ObjectRef Name="Soundscape 01" ID="{18A5CB26-6EFD-476E-997E-79CBF1A95D4B}" WorkUnitID="{D25DFC5C-0BAB-434B-A5D9-63E84398F56E}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
 					</ChildrenList>
 				</Event>
-				<Event Name="Play_Music_Discover_New_World_Introduction" ID="{E91A096F-B50B-4CC2-9B11-DCC681C67382}">
+				<Event Name="Play_Soundscape_02" ID="{E91A096F-B50B-4CC2-9B11-DCC681C67382}">
 					<ChildrenList>
 						<Action Name="" ID="{CA750FBF-536B-4246-9A6B-380A85F50ACE}" ShortID="643439295">
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="Music_Discover_New_World_Introduction" ID="{786F492A-45A4-4332-BC46-5B191714792E}" WorkUnitID="{D25DFC5C-0BAB-434B-A5D9-63E84398F56E}"/>
+									<ObjectRef Name="Soundscape 02" ID="{786F492A-45A4-4332-BC46-5B191714792E}" WorkUnitID="{E383F8AB-940C-41E5-BB80-C914458AFB22}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
 					</ChildrenList>
 				</Event>
-				<Event Name="Stop_Music_Discover_New_World_Introduction" ID="{0FF6EB2F-437D-4981-A78E-FE48B360811C}">
+				<Event Name="Stop_Soundscape_02" ID="{0FF6EB2F-437D-4981-A78E-FE48B360811C}">
 					<ChildrenList>
 						<Action Name="" ID="{8015EE3F-4814-415F-A96E-F4A27513BF64}" ShortID="241838310">
 							<PropertyList>
@@ -50,13 +50,13 @@
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="Music_Discover_New_World_Introduction" ID="{786F492A-45A4-4332-BC46-5B191714792E}" WorkUnitID="{D25DFC5C-0BAB-434B-A5D9-63E84398F56E}"/>
+									<ObjectRef Name="Soundscape 02" ID="{786F492A-45A4-4332-BC46-5B191714792E}" WorkUnitID="{E383F8AB-940C-41E5-BB80-C914458AFB22}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
 					</ChildrenList>
 				</Event>
-				<Event Name="Stop_Soundscape_02_Enigmatic" ID="{1C9FC525-D776-4E58-8C66-0B1734ED9DD6}">
+				<Event Name="Stop_Soundscape_01" ID="{1C9FC525-D776-4E58-8C66-0B1734ED9DD6}">
 					<ChildrenList>
 						<Action Name="" ID="{404457B3-B99C-4836-A58C-7F728D40F347}" ShortID="823382367">
 							<PropertyList>
@@ -64,7 +64,7 @@
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="Soundscape 02_Enigmatic" ID="{18A5CB26-6EFD-476E-997E-79CBF1A95D4B}" WorkUnitID="{9BB0DEA4-5243-4788-9407-DCD448A73624}"/>
+									<ObjectRef Name="Soundscape 01" ID="{18A5CB26-6EFD-476E-997E-79CBF1A95D4B}" WorkUnitID="{D25DFC5C-0BAB-434B-A5D9-63E84398F56E}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>

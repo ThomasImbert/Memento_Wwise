@@ -189,6 +189,18 @@
 								</Action>
 							</ChildrenList>
 						</Event>
+						<Event Name="backMainMenu" ID="{B7FB5896-1074-4C2E-A236-6CD21036B528}">
+							<ChildrenList>
+								<Action Name="" ID="{E97A8F2E-711F-48D9-BD0F-BFF73470BB44}" ShortID="737574453">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="3"/>
+										<Property Name="FadeOutCurve" Type="int16" Value="3"/>
+										<Property Name="FadeTime" Type="Real64" Value="2"/>
+									</PropertyList>
+									<ReferenceList/>
+								</Action>
+							</ChildrenList>
+						</Event>
 					</ChildrenList>
 				</Folder>
 				<Folder Name="UI_HUD" ID="{0C33E560-21DC-4CE8-BAD8-D7105E0E127D}" ShortID="128951981">

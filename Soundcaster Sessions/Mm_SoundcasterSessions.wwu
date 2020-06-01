@@ -48,7 +48,7 @@
 							<Position X="1" Y="0"/>
 						</Module>
 						<Module>
-							<ObjectRef Name="Music_Awakening" ID="{BD4DB2FC-CDB3-41E7-BE5F-DC34654AA3CE}" WorkUnitID="{E77EEFBD-EA05-4D1F-BD63-6204F50016F7}"/>
+							<ObjectRef Name="Soundscape_02" ID="{BD4DB2FC-CDB3-41E7-BE5F-DC34654AA3CE}" WorkUnitID="{97246406-9B3E-4F7E-AB5A-781ED0DCEED9}"/>
 							<Position X="2" Y="0"/>
 						</Module>
 						<Module>
@@ -338,7 +338,7 @@
 						</RTPCValue>
 						<RTPCValue>
 							<GameParameterRef Name="WalkSpeed" ID="{E1064E41-C1EF-48D7-9F88-59A3D70419E0}"/>
-							<Value>90.6626506024096</Value>
+							<Value>29.5180722891566</Value>
 						</RTPCValue>
 						<RTPCValue>
 							<GameParameterRef Name="VolumeAmbiance" ID="{D4F5C67B-1BB3-48E2-83DD-E09DE7C070C3}"/>
@@ -353,7 +353,9 @@
 							<Value>100</Value>
 						</RTPCValue>
 					</RTPCValueList>
-					<CurrentStateList ShowAll="true"/>
+					<CurrentStateList ShowAll="true">
+						<CurrentStateRef Name="None" ID="{2A869645-BE16-4AD2-BADF-EB1E3768879F}"/>
+					</CurrentStateList>
 					<CurrentSwitchList ShowAll="true">
 						<CurrentSwitchRef Name="Fungi" ID="{C63A9A2D-596F-4E47-B252-FD0AC5027D37}"/>
 						<CurrentSwitchRef Name="notRunning" ID="{41358E26-691B-466E-ABE9-7AEEF3965687}"/>
