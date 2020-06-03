@@ -39,6 +39,37 @@
 									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8A69F515-C57F-4A97-8978-0B9FB4F47B02}"/>
 								</Reference>
 							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="Activation_Max_Power" ID="{8CEDFF2F-602C-43F0-8358-E1C6C161B2DA}" ShortID="113608261">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-2</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D0B9DB4F-7FF6-4CDB-BEF4-05863A8070B7}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Player" ID="{DFA6C097-5927-4545-962D-13BDFF6ED199}" WorkUnitID="{61D42960-93D3-4FF0-8FC0-3437DB41C134}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Activation_Max_Power" ID="{7BE62A70-9F6D-435E-836A-6ACFFD7D4B43}">
+											<Language>SFX</Language>
+											<AudioFile>Activation_Max_Power.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="140281886"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Activation_Max_Power" ID="{7BE62A70-9F6D-435E-836A-6ACFFD7D4B43}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
 						</BlendContainer>
 						<BlendContainer Name="High_Power_Energy_Desactivation" ID="{765726F3-FEE6-4AEC-AB1B-9FD38EE5CB83}" ShortID="845318489">
 							<ReferenceList>
@@ -49,6 +80,113 @@
 									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8A69F515-C57F-4A97-8978-0B9FB4F47B02}"/>
 								</Reference>
 							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="Desactivation_Max_Power" ID="{5317841D-C6BE-4C93-B5E8-4E876F51D8F3}" ShortID="129731399">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D0B9DB4F-7FF6-4CDB-BEF4-05863A8070B7}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Player" ID="{DFA6C097-5927-4545-962D-13BDFF6ED199}" WorkUnitID="{61D42960-93D3-4FF0-8FC0-3437DB41C134}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Desactivation_Max_Power" ID="{2B4792A3-0F8F-4B1F-8F38-BDC165038B54}">
+											<Language>SFX</Language>
+											<AudioFile>Desactivation_Max_Power.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="491404512"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Desactivation_Max_Power" ID="{2B4792A3-0F8F-4B1F-8F38-BDC165038B54}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</BlendContainer>
+						<BlendContainer Name="Player_Presence_Nuclear_Energy" ID="{4CE16ED5-E01F-4ECB-B936-D5118C9C164F}" ShortID="454981348">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D0B9DB4F-7FF6-4CDB-BEF4-05863A8070B7}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Player" ID="{DFA6C097-5927-4545-962D-13BDFF6ED199}" WorkUnitID="{61D42960-93D3-4FF0-8FC0-3437DB41C134}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="Robot_Presence" ID="{5CFB7546-5CB6-4858-9975-7243601245D2}" ShortID="478191434">
+									<PropertyList>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D0B9DB4F-7FF6-4CDB-BEF4-05863A8070B7}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8A69F515-C57F-4A97-8978-0B9FB4F47B02}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Robot_Presence" ID="{9B75A5AA-06F8-4C11-AF49-97944DEB760C}">
+											<PropertyList>
+												<Property Name="CrossfadeDuration" Type="Real64" Value="1806.87224790839"/>
+												<Property Name="LoopBegin" Type="Real64" Value="16.6338533410392"/>
+												<Property Name="LoopEnd" Type="Real64" Value="23.8081990312638"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimBegin" Type="Real64" Value="15.5709873128578"/>
+												<Property Name="TrimEnd" Type="Real64" Value="24.8179217580361"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>Robot_Presence.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="698057758"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Robot_Presence" ID="{9B75A5AA-06F8-4C11-AF49-97944DEB760C}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Hum_Max_Power" ID="{0D678BF0-98A0-4D80-979E-80345B8804A8}" ShortID="859725913">
+									<PropertyList>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>12</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D0B9DB4F-7FF6-4CDB-BEF4-05863A8070B7}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8A69F515-C57F-4A97-8978-0B9FB4F47B02}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Hum_Max_Power" ID="{E25C914A-862C-4C33-AC79-37C801250266}">
+											<PropertyList>
+												<Property Name="CrossfadeDuration" Type="Real64" Value="2352.117"/>
+												<Property Name="FadeOutDuration" Type="Real64" Value="2.01379851598174"/>
+												<Property Name="LoopBegin" Type="Real64" Value="3.46373344748858"/>
+												<Property Name="LoopEnd" Type="Real64" Value="10.5523042237443"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimEnd" Type="Real64" Value="14.2576934931507"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>Hum_Max_Power.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="497074595"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Hum_Max_Power" ID="{E25C914A-862C-4C33-AC79-37C801250266}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
 						</BlendContainer>
 					</ChildrenList>
 				</ActorMixer>
