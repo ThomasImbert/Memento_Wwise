@@ -144,7 +144,7 @@
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="Player_Presence_Nuclear_Energy" ID="{20444266-9FF1-410E-86EA-4CB9EE5204D8}" WorkUnitID="{D25DCC02-18D0-4F29-888E-F89A5249F8C9}"/>
+									<ObjectRef Name="Player_Presence_Nuclear_Energy" ID="{20444266-9FF1-410E-86EA-4CB9EE5204D8}" WorkUnitID="{B09A25F1-BDF1-46AB-B77C-AEBE45E0E3FC}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
@@ -160,7 +160,7 @@
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="Player_Presence_Nuclear_Energy" ID="{20444266-9FF1-410E-86EA-4CB9EE5204D8}" WorkUnitID="{D25DCC02-18D0-4F29-888E-F89A5249F8C9}"/>
+									<ObjectRef Name="Player_Presence_Nuclear_Energy" ID="{20444266-9FF1-410E-86EA-4CB9EE5204D8}" WorkUnitID="{B09A25F1-BDF1-46AB-B77C-AEBE45E0E3FC}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>

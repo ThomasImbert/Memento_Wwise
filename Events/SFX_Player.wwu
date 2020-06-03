@@ -56,7 +56,7 @@
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="JumpCharge" ID="{547D023E-98E1-4CE4-B5BB-E11CFEF409CD}" WorkUnitID="{B09A25F1-BDF1-46AB-B77C-AEBE45E0E3FC}"/>
+									<ObjectRef Name="JumpCharge" ID="{D37B6C1C-4D3F-4C6E-A356-E453C6560E50}" WorkUnitID="{B09A25F1-BDF1-46AB-B77C-AEBE45E0E3FC}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
@@ -64,6 +64,17 @@
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="JumpRegular" ID="{9874EBD5-BF67-4E45-B83C-1D2609D4876A}" WorkUnitID="{B09A25F1-BDF1-46AB-B77C-AEBE45E0E3FC}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{B704A4A2-7E3D-45D7-817E-3C9D62E85808}" ShortID="552911872">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="38"/>
+								<Property Name="FadeTime" Type="Real64" Value="0.2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="JumpCharge" ID="{A324C6C1-DBA7-4623-ADAB-EFA30960FA71}" WorkUnitID="{A7C728CA-03F4-4957-BFFD-ECBCE8437D51}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
@@ -78,7 +89,7 @@
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="JumpCharge" ID="{547D023E-98E1-4CE4-B5BB-E11CFEF409CD}" WorkUnitID="{B09A25F1-BDF1-46AB-B77C-AEBE45E0E3FC}"/>
+									<ObjectRef Name="JumpCharge" ID="{D37B6C1C-4D3F-4C6E-A356-E453C6560E50}" WorkUnitID="{B09A25F1-BDF1-46AB-B77C-AEBE45E0E3FC}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
@@ -86,6 +97,17 @@
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="JumpCharge_Cancel" ID="{2FACF676-3E8A-4045-9BAB-BA4055F9FE05}" WorkUnitID="{B09A25F1-BDF1-46AB-B77C-AEBE45E0E3FC}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{B4A1B672-FFEA-4CA2-B244-0C8076F576B0}" ShortID="598673340">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="38"/>
+								<Property Name="FadeTime" Type="Real64" Value="0.2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="JumpCharge" ID="{A324C6C1-DBA7-4623-ADAB-EFA30960FA71}" WorkUnitID="{A7C728CA-03F4-4957-BFFD-ECBCE8437D51}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
@@ -99,7 +121,21 @@
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="JumpCharge" ID="{547D023E-98E1-4CE4-B5BB-E11CFEF409CD}" WorkUnitID="{B09A25F1-BDF1-46AB-B77C-AEBE45E0E3FC}"/>
+									<ObjectRef Name="JumpCharge" ID="{D37B6C1C-4D3F-4C6E-A356-E453C6560E50}" WorkUnitID="{B09A25F1-BDF1-46AB-B77C-AEBE45E0E3FC}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{9CBCAD90-E931-45C8-8507-8028EED3BB6A}" ShortID="856081879">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="38"/>
+								<Property Name="BypassGameParameterInternalTransition" Type="bool" Value="True"/>
+								<Property Name="Delay" Type="Real64" Value="1.8"/>
+								<Property Name="GameParameterValue" Type="Real64" Value="1"/>
+								<Property Name="Scope" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="JumpCharge" ID="{A324C6C1-DBA7-4623-ADAB-EFA30960FA71}" WorkUnitID="{A7C728CA-03F4-4957-BFFD-ECBCE8437D51}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
@@ -114,14 +150,26 @@
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="JumpCharge" ID="{547D023E-98E1-4CE4-B5BB-E11CFEF409CD}" WorkUnitID="{B09A25F1-BDF1-46AB-B77C-AEBE45E0E3FC}"/>
+									<ObjectRef Name="JumpCharge" ID="{D37B6C1C-4D3F-4C6E-A356-E453C6560E50}" WorkUnitID="{B09A25F1-BDF1-46AB-B77C-AEBE45E0E3FC}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
 						<Action Name="" ID="{5F3B5F21-A6E9-4D8F-8821-649B96101389}" ShortID="653299594">
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="JumpPowerful" ID="{9C9955EC-E3D6-4808-8F47-2A4D3CDF2DE6}" WorkUnitID="{B09A25F1-BDF1-46AB-B77C-AEBE45E0E3FC}"/>
+									<ObjectRef Name="JumpPowerful" ID="{02418322-9A6E-4FA5-9E6E-B6B4D945B214}" WorkUnitID="{B09A25F1-BDF1-46AB-B77C-AEBE45E0E3FC}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{EB5C00C6-3DDC-4894-81E7-CC8804E995E9}" ShortID="494170423">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="38"/>
+								<Property Name="Delay" Type="Real64" Value="0.5"/>
+								<Property Name="FadeTime" Type="Real64" Value="0.2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="JumpCharge" ID="{A324C6C1-DBA7-4623-ADAB-EFA30960FA71}" WorkUnitID="{A7C728CA-03F4-4957-BFFD-ECBCE8437D51}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
