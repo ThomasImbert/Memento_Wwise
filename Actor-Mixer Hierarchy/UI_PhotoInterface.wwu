@@ -196,6 +196,13 @@
 							</ChildrenList>
 						</BlendContainer>
 						<BlendContainer Name="Photo_Open_Mode" ID="{633EF602-C6E3-4E23-9F8B-EFFAC385CDA5}" ShortID="569010220">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-3</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D0B9DB4F-7FF6-4CDB-BEF4-05863A8070B7}"/>
@@ -230,6 +237,13 @@
 							</ChildrenList>
 						</BlendContainer>
 						<BlendContainer Name="Photo_Close_Mode" ID="{62B109F2-6A80-4078-9E9D-0446991FC072}" ShortID="1058544205">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-8</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D0B9DB4F-7FF6-4CDB-BEF4-05863A8070B7}"/>

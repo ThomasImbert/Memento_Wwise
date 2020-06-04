@@ -197,6 +197,16 @@
 										</Reference>
 									</ReferenceList>
 								</Action>
+								<Action Name="" ID="{43BF74E1-63DC-41A1-B5D5-7D4D512B9B72}" ShortID="276717947">
+									<PropertyList>
+										<Property Name="Delay" Type="Real64" Value="0.3"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Photo_Close_Mode" ID="{62B109F2-6A80-4078-9E9D-0446991FC072}" WorkUnitID="{CF3E2865-0A67-465B-A841-4CC2C1CFED2B}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
 							</ChildrenList>
 						</Event>
 						<Event Name="Play_Photo_Zoom" ID="{62978147-A76C-44A3-9663-CE3E1F984047}">
@@ -219,6 +229,16 @@
 										</Reference>
 									</ReferenceList>
 								</Action>
+								<Action Name="" ID="{39E09B9B-A7F1-4194-8304-259146C27188}" ShortID="813156496">
+									<PropertyList>
+										<Property Name="Delay" Type="Real64" Value="0.3"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Saving_Photo" ID="{D692BC32-5C88-40C1-AE8C-A385E50C4A93}" WorkUnitID="{CF3E2865-0A67-465B-A841-4CC2C1CFED2B}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
 							</ChildrenList>
 						</Event>
 						<Event Name="Play_Photo_Activate" ID="{5EC27E4B-97A1-4A4E-A2FE-3A93422A7D86}">
@@ -227,6 +247,16 @@
 									<ReferenceList>
 										<Reference Name="Target">
 											<ObjectRef Name="Photo_Activate" ID="{03FC7725-CD40-457D-B391-99C19EFBA98D}" WorkUnitID="{5D71DD36-5D04-4072-AAF2-B8F0D4077DE3}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{801CFE61-8F13-433B-A398-11C7F40A767A}" ShortID="966552720">
+									<PropertyList>
+										<Property Name="Delay" Type="Real64" Value="0.3"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Photo_Open_Mode" ID="{633EF602-C6E3-4E23-9F8B-EFFAC385CDA5}" WorkUnitID="{CF3E2865-0A67-465B-A841-4CC2C1CFED2B}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
@@ -249,6 +279,16 @@
 									<ReferenceList>
 										<Reference Name="Target">
 											<ObjectRef Name="Photo_Activate_First_Time" ID="{BF0F632C-DF11-4249-A09C-FA689D1D0EA2}" WorkUnitID="{5D71DD36-5D04-4072-AAF2-B8F0D4077DE3}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{72F2B1D1-052B-426D-9307-E17C086295AD}" ShortID="622178132">
+									<PropertyList>
+										<Property Name="Delay" Type="Real64" Value="0.3"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Photo_Open_Mode" ID="{633EF602-C6E3-4E23-9F8B-EFFAC385CDA5}" WorkUnitID="{CF3E2865-0A67-465B-A841-4CC2C1CFED2B}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
