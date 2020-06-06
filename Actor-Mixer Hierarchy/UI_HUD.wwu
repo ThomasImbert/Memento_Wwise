@@ -268,6 +268,9 @@
 									</ChildrenList>
 								</RandomSequenceContainer>
 								<Sound Name="UI_ViewPortGlitch_Background_Without_High_Frequency" ID="{F9E3578A-2456-491C-9557-B6D5FEB50E0D}" ShortID="824531462">
+									<PropertyList>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D0B9DB4F-7FF6-4CDB-BEF4-05863A8070B7}"/>
@@ -278,6 +281,14 @@
 									</ReferenceList>
 									<ChildrenList>
 										<AudioFileSource Name="UI_ViewPortGlitch_Background_Without_High_Frequency" ID="{5EB3F3F2-81C0-41F4-859B-7A8E7EBD6685}">
+											<PropertyList>
+												<Property Name="CrossfadeDuration" Type="Real64" Value="1326.225"/>
+												<Property Name="FadeInDuration" Type="Real64" Value="0.702726001761339"/>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.702726001761338"/>
+												<Property Name="LoopBegin" Type="Real64" Value="0.776697159841479"/>
+												<Property Name="LoopEnd" Type="Real64" Value="27.295357331572"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+											</PropertyList>
 											<Language>SFX</Language>
 											<AudioFile>UI_ViewPortGlitch_Background_Without_High_Frequency.wav</AudioFile>
 											<MediaIDList>
