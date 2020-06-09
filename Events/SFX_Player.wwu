@@ -207,6 +207,18 @@
 										</Reference>
 									</ReferenceList>
 								</Action>
+								<Action Name="" ID="{F6B67333-06E0-4B28-BAE5-C77B4FBC4F22}" ShortID="991486161">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+										<Property Name="FadeOutCurve" Type="int16" Value="1"/>
+										<Property Name="FadeTime" Type="Real64" Value="1.5"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="ViewPortNoise" ID="{80DADC0C-EC77-4DE9-8FE2-315020B7168C}" WorkUnitID="{8B48F0C6-6D20-4281-B52D-24AD01467572}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
 							</ChildrenList>
 						</Event>
 						<Event Name="Play_Photo_Zoom" ID="{62978147-A76C-44A3-9663-CE3E1F984047}">
@@ -257,6 +269,13 @@
 									<ReferenceList>
 										<Reference Name="Target">
 											<ObjectRef Name="Photo_Open_Mode" ID="{633EF602-C6E3-4E23-9F8B-EFFAC385CDA5}" WorkUnitID="{CF3E2865-0A67-465B-A841-4CC2C1CFED2B}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{CE859F14-4A26-40BB-ACBD-B65CA7A008A6}" ShortID="573893753">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="ViewPortNoise" ID="{80DADC0C-EC77-4DE9-8FE2-315020B7168C}" WorkUnitID="{8B48F0C6-6D20-4281-B52D-24AD01467572}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>

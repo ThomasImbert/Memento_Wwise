@@ -227,20 +227,6 @@
 								</Action>
 							</ChildrenList>
 						</Event>
-						<Event Name="Stop_ViewPortGlitch" ID="{94E13B5D-3DC6-4BF9-8C10-424140926B21}">
-							<ChildrenList>
-								<Action Name="" ID="{EACB4A0C-DEF6-42EF-92B3-DD2D4CAFE1C1}" ShortID="338246433">
-									<PropertyList>
-										<Property Name="ActionType" Type="int16" Value="2"/>
-									</PropertyList>
-									<ReferenceList>
-										<Reference Name="Target">
-											<ObjectRef Name="ViewPortGlitch" ID="{07353701-A851-49A7-9EFB-1FEECAACCBFA}" WorkUnitID="{8B48F0C6-6D20-4281-B52D-24AD01467572}"/>
-										</Reference>
-									</ReferenceList>
-								</Action>
-							</ChildrenList>
-						</Event>
 					</ChildrenList>
 				</Folder>
 			</ChildrenList>
