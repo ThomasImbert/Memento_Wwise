@@ -263,6 +263,14 @@
 							<Position X="0" Y="0"/>
 						</Module>
 						<Module>
+							<ObjectRef Name="Play_Soundscape_03" ID="{62C17B7F-4958-4B60-8E0A-5B75C4B49569}" WorkUnitID="{7570666D-BB74-4A87-81DD-9DB16234FCD4}"/>
+							<Position X="0" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Stop_Soundscape_03" ID="{C3C01E34-1C6A-485E-BF00-F0A77E76F75C}" WorkUnitID="{7570666D-BB74-4A87-81DD-9DB16234FCD4}"/>
+							<Position X="0" Y="2"/>
+						</Module>
+						<Module>
 							<ObjectRef Name="Play_Music_Awakening" ID="{9D843472-14E9-4C5C-A099-1A60DCD538A5}" WorkUnitID="{7570666D-BB74-4A87-81DD-9DB16234FCD4}"/>
 							<Position X="1" Y="0"/>
 						</Module>
