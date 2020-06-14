@@ -1,0 +1,465 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{598F8DA3-0629-4153-A5B8-C50BDD259D26}" SchemaVersion="97">
+	<InteractiveMusic>
+		<WorkUnit Name="Mm_AdaptiveMusic_canyon" ID="{598F8DA3-0629-4153-A5B8-C50BDD259D26}" PersistMode="Standalone">
+			<ChildrenList>
+				<MusicPlaylistContainer Name="Soundscape04" ID="{DBD2D8E2-981F-49DA-85CD-8844398A2A10}" ShortID="766080748">
+					<PropertyList>
+						<Property Name="Tempo" Type="Real64" Value="100"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D0B9DB4F-7FF6-4CDB-BEF4-05863A8070B7}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Adaptive" ID="{21E84DBD-0823-4991-AD5B-C5D1BC7E80F8}" WorkUnitID="{61D42960-93D3-4FF0-8FC0-3437DB41C134}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<MusicSegment Name="Mm_Canyon_full" ID="{AFAF21F5-B708-44B3-9504-D4BF30089635}" ShortID="163224405">
+							<PropertyList>
+								<Property Name="EndPosition" Type="Real64" Value="31689.1383219955"/>
+								<Property Name="Inclusion" Type="bool">
+									<ValueList>
+										<Value>False</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D0B9DB4F-7FF6-4CDB-BEF4-05863A8070B7}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8A69F515-C57F-4A97-8978-0B9FB4F47B02}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<MusicTrack Name="Mm_Canyon_full" ID="{9F9D7793-75E8-45F1-B505-58DACF36CB02}" ShortID="407170082">
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8A69F515-C57F-4A97-8978-0B9FB4F47B02}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Mm_Canyon_full" ID="{A57C0A2C-0963-420B-B52C-A5F26F06EFF0}">
+											<Language>SFX</Language>
+											<AudioFile>Music\Mm_Canyon_full .wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="334454253"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<TransitionList>
+										<MusicTransition Name="Root" ID="{922E53B0-E503-4B05-9FB5-A45D41878E45}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</TransitionList>
+									<SequenceList>
+										<MusicTrackSequence Name="" ID="{226BEED4-C54C-4429-A269-01152DE9FBC6}">
+											<ClipList>
+												<MusicClip Name="Mm_Canyon_full " ID="{929A6A55-53C6-4A02-906C-C7059AC577BB}">
+													<PropertyList>
+														<Property Name="EndTrimOffset" Type="Real64" Value="31689.1383219955"/>
+														<Property Name="FadeInMode" Type="int16" Value="0"/>
+														<Property Name="FadeOutMode" Type="int16" Value="0"/>
+													</PropertyList>
+													<AudioSourceRef Name="Mm_Canyon_full" ID="{A57C0A2C-0963-420B-B52C-A5F26F06EFF0}"/>
+												</MusicClip>
+											</ClipList>
+										</MusicTrackSequence>
+									</SequenceList>
+								</MusicTrack>
+							</ChildrenList>
+							<CueList>
+								<MusicCue Name="Entry Cue" ID="{AD0107B5-D750-46FC-85DE-417D8B597D8A}"/>
+								<MusicCue Name="Exit Cue" ID="{17B003A7-86E2-485A-B44B-D85FD2C5AFB2}">
+									<PropertyList>
+										<Property Name="CueType" Type="int16" Value="1"/>
+										<Property Name="TimeMs" Type="Real64" Value="31689.1383219955"/>
+									</PropertyList>
+								</MusicCue>
+							</CueList>
+						</MusicSegment>
+						<MusicSegment Name="Mm_Canyon_layers" ID="{560D037F-42B6-4B14-9D18-0DB157B195A7}" ShortID="601577691">
+							<PropertyList>
+								<Property Name="EndPosition" Type="Real64" Value="31800"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D0B9DB4F-7FF6-4CDB-BEF4-05863A8070B7}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8A69F515-C57F-4A97-8978-0B9FB4F47B02}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<MusicTrack Name="Mm_Canyon_layer01" ID="{21298B17-A257-4425-930B-46AE52864606}" ShortID="275091070">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>2</Value>
+											</ValueList>
+											<RTPCList>
+												<RTPC Name="" ID="{8C6895C0-2F0B-4495-910A-DF948811A07D}" ShortID="22914972">
+													<ReferenceList>
+														<Reference Name="ControlInput">
+															<ObjectRef Name="Canyon" ID="{9A7FD8AC-72BA-47D6-8778-74890CA8C960}" WorkUnitID="{AB9804D5-E51E-4240-A1EE-DDFEF94AB4A8}"/>
+														</Reference>
+													</ReferenceList>
+													<Curve Name="" ID="{F7A90900-20FD-495F-BD73-FB247BA1FC34}">
+														<PropertyList>
+															<Property Name="Flags" Type="int32" Value="3"/>
+														</PropertyList>
+														<PointList>
+															<Point>
+																<XPos>0</XPos>
+																<YPos>0</YPos>
+																<Flags>5</Flags>
+															</Point>
+															<Point>
+																<XPos>100</XPos>
+																<YPos>0</YPos>
+																<Flags>37</Flags>
+															</Point>
+														</PointList>
+													</Curve>
+												</RTPC>
+											</RTPCList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8A69F515-C57F-4A97-8978-0B9FB4F47B02}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Mm_Canyon_layer01" ID="{530B3A68-694F-4479-B955-760E4023CF9C}">
+											<Language>SFX</Language>
+											<AudioFile>Music\Mm_Canyon_layer01 .wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="554464134"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<TransitionList>
+										<MusicTransition Name="Root" ID="{53E454B3-CCB9-42D0-ACDE-930BC0A61049}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</TransitionList>
+									<SequenceList>
+										<MusicTrackSequence Name="" ID="{96F4DFCF-0F43-404C-9D95-762FBF79662A}">
+											<ClipList>
+												<MusicClip Name="Mm_Canyon_layer01" ID="{8B94AC79-2D48-4037-8229-D624B53BDF04}">
+													<PropertyList>
+														<Property Name="EndTrimOffset" Type="Real64" Value="31689.1383219955"/>
+														<Property Name="FadeInMode" Type="int16" Value="0"/>
+													</PropertyList>
+													<AudioSourceRef Name="Mm_Canyon_layer01" ID="{530B3A68-694F-4479-B955-760E4023CF9C}"/>
+												</MusicClip>
+											</ClipList>
+										</MusicTrackSequence>
+									</SequenceList>
+								</MusicTrack>
+								<MusicTrack Name="Mm_Canyon_layer02" ID="{26D96020-D280-4B65-814D-8201C481D58D}" ShortID="907928225">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<RTPCList>
+												<RTPC Name="" ID="{59179327-2E90-4940-ACA9-800F292D840B}" ShortID="539213577">
+													<ReferenceList>
+														<Reference Name="ControlInput">
+															<ObjectRef Name="Canyon" ID="{9A7FD8AC-72BA-47D6-8778-74890CA8C960}" WorkUnitID="{AB9804D5-E51E-4240-A1EE-DDFEF94AB4A8}"/>
+														</Reference>
+													</ReferenceList>
+													<Curve Name="" ID="{059A4071-90B3-453A-AC00-1DFCC38A5C3B}">
+														<PropertyList>
+															<Property Name="Flags" Type="int32" Value="3"/>
+														</PropertyList>
+														<PointList>
+															<Point>
+																<XPos>0</XPos>
+																<YPos>-200</YPos>
+																<Flags>5</Flags>
+															</Point>
+															<Point>
+																<XPos>25</XPos>
+																<YPos>0</YPos>
+																<Flags>0</Flags>
+															</Point>
+															<Point>
+																<XPos>100</XPos>
+																<YPos>0</YPos>
+																<Flags>37</Flags>
+															</Point>
+														</PointList>
+													</Curve>
+												</RTPC>
+											</RTPCList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D0B9DB4F-7FF6-4CDB-BEF4-05863A8070B7}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8A69F515-C57F-4A97-8978-0B9FB4F47B02}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Mm_Canyon_layer02" ID="{9BD67B54-02F7-4B0E-BC4A-F7DBD5CEFDE5}">
+											<Language>SFX</Language>
+											<AudioFile>Music\Mm_Canyon_layer02.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="998885699"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<TransitionList>
+										<MusicTransition Name="Root" ID="{D28F0239-675F-407C-944C-FA388E90AA4A}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</TransitionList>
+									<SequenceList>
+										<MusicTrackSequence Name="" ID="{8CFB57C6-2B65-4883-82DB-C1CBEF9F734F}">
+											<ClipList>
+												<MusicClip Name="Mm_Canyon_layer02" ID="{72C13584-9414-4A87-A557-AAA8AB59B92F}">
+													<PropertyList>
+														<Property Name="EndTrimOffset" Type="Real64" Value="31689.1383219955"/>
+														<Property Name="FadeInMode" Type="int16" Value="0"/>
+														<Property Name="FadeOutMode" Type="int16" Value="0"/>
+													</PropertyList>
+													<AudioSourceRef Name="Mm_Canyon_layer02" ID="{9BD67B54-02F7-4B0E-BC4A-F7DBD5CEFDE5}"/>
+												</MusicClip>
+											</ClipList>
+										</MusicTrackSequence>
+									</SequenceList>
+								</MusicTrack>
+								<MusicTrack Name="Mm_Canyon_layer04" ID="{DE6B6B9F-ABD0-43A2-9168-DB908B1A16FF}" ShortID="772217141">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-3</Value>
+											</ValueList>
+											<RTPCList>
+												<RTPC Name="" ID="{2ACBAD4D-1182-42DE-BF3F-4072D9F2D0AA}" ShortID="44707384">
+													<ReferenceList>
+														<Reference Name="ControlInput">
+															<ObjectRef Name="Canyon" ID="{9A7FD8AC-72BA-47D6-8778-74890CA8C960}" WorkUnitID="{AB9804D5-E51E-4240-A1EE-DDFEF94AB4A8}"/>
+														</Reference>
+													</ReferenceList>
+													<Curve Name="" ID="{7A85AF1D-FCAC-4D65-97FA-85FC22AD4075}">
+														<PropertyList>
+															<Property Name="Flags" Type="int32" Value="3"/>
+														</PropertyList>
+														<PointList>
+															<Point>
+																<XPos>0</XPos>
+																<YPos>-200</YPos>
+																<Flags>5</Flags>
+															</Point>
+															<Point>
+																<XPos>50</XPos>
+																<YPos>-200</YPos>
+																<Flags>0</Flags>
+															</Point>
+															<Point>
+																<XPos>75</XPos>
+																<YPos>0</YPos>
+																<Flags>0</Flags>
+															</Point>
+															<Point>
+																<XPos>100</XPos>
+																<YPos>0</YPos>
+																<Flags>37</Flags>
+															</Point>
+														</PointList>
+													</Curve>
+												</RTPC>
+											</RTPCList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D0B9DB4F-7FF6-4CDB-BEF4-05863A8070B7}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8A69F515-C57F-4A97-8978-0B9FB4F47B02}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Mm_Canyon_layer04" ID="{E4759637-5F4F-4BB9-899A-AA46C3B8FD9F}">
+											<Language>SFX</Language>
+											<AudioFile>Music\Mm_Canyon_layer04.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="631468982"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<TransitionList>
+										<MusicTransition Name="Root" ID="{7BB277A8-1869-4990-9F4A-A68F077553A9}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</TransitionList>
+									<SequenceList>
+										<MusicTrackSequence Name="" ID="{C867E014-51C2-479C-9D35-F67349D63AFD}">
+											<ClipList>
+												<MusicClip Name="Mm_Canyon_layer04" ID="{B72EDEC8-55DD-4913-9C72-A2F28298D7DC}">
+													<PropertyList>
+														<Property Name="EndTrimOffset" Type="Real64" Value="31689.1383219955"/>
+														<Property Name="FadeInMode" Type="int16" Value="0"/>
+														<Property Name="FadeOutMode" Type="int16" Value="0"/>
+													</PropertyList>
+													<AudioSourceRef Name="Mm_Canyon_layer04" ID="{E4759637-5F4F-4BB9-899A-AA46C3B8FD9F}"/>
+												</MusicClip>
+											</ClipList>
+										</MusicTrackSequence>
+									</SequenceList>
+								</MusicTrack>
+								<MusicTrack Name="Mm_Canyon_layer03" ID="{232AAAC0-9D71-4C6D-A8B1-4EA528D1528D}" ShortID="201590296">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-2</Value>
+											</ValueList>
+											<RTPCList>
+												<RTPC Name="" ID="{1AE57337-F846-4663-9753-67214C99EECE}" ShortID="592714526">
+													<ReferenceList>
+														<Reference Name="ControlInput">
+															<ObjectRef Name="Canyon" ID="{9A7FD8AC-72BA-47D6-8778-74890CA8C960}" WorkUnitID="{AB9804D5-E51E-4240-A1EE-DDFEF94AB4A8}"/>
+														</Reference>
+													</ReferenceList>
+													<Curve Name="" ID="{0C5F0F84-9758-47EC-AD0A-F731BB19E24C}">
+														<PropertyList>
+															<Property Name="Flags" Type="int32" Value="3"/>
+														</PropertyList>
+														<PointList>
+															<Point>
+																<XPos>0</XPos>
+																<YPos>-200</YPos>
+																<Flags>5</Flags>
+															</Point>
+															<Point>
+																<XPos>25</XPos>
+																<YPos>-200</YPos>
+																<Flags>0</Flags>
+															</Point>
+															<Point>
+																<XPos>50</XPos>
+																<YPos>0</YPos>
+																<Flags>0</Flags>
+															</Point>
+															<Point>
+																<XPos>100</XPos>
+																<YPos>0</YPos>
+																<Flags>37</Flags>
+															</Point>
+														</PointList>
+													</Curve>
+												</RTPC>
+											</RTPCList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D0B9DB4F-7FF6-4CDB-BEF4-05863A8070B7}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8A69F515-C57F-4A97-8978-0B9FB4F47B02}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Mm_Canyon_layer03" ID="{EF821065-C089-45E0-B350-47E44FD3A600}">
+											<Language>SFX</Language>
+											<AudioFile>Music\Mm_Canyon_layer03.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="830840363"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<TransitionList>
+										<MusicTransition Name="Root" ID="{7DC377E7-51D1-48B5-AF2A-F7C78C14C416}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</TransitionList>
+									<SequenceList>
+										<MusicTrackSequence Name="" ID="{8E46E30C-AD63-446B-95A0-0AD3ECAD3C21}">
+											<ClipList>
+												<MusicClip Name="Mm_Canyon_layer03" ID="{75DE9333-8219-4942-95E0-AB0A79529065}">
+													<PropertyList>
+														<Property Name="EndTrimOffset" Type="Real64" Value="31689.1383219955"/>
+														<Property Name="FadeInMode" Type="int16" Value="0"/>
+														<Property Name="FadeOutMode" Type="int16" Value="0"/>
+													</PropertyList>
+													<AudioSourceRef Name="Mm_Canyon_layer03" ID="{EF821065-C089-45E0-B350-47E44FD3A600}"/>
+												</MusicClip>
+											</ClipList>
+										</MusicTrackSequence>
+									</SequenceList>
+								</MusicTrack>
+							</ChildrenList>
+							<CueList>
+								<MusicCue Name="Entry Cue" ID="{C66C2D1A-7698-434D-86ED-6DF8B34B6C3C}"/>
+								<MusicCue Name="Exit Cue" ID="{D76F2A58-B521-4593-87E5-2008ED954CEC}">
+									<PropertyList>
+										<Property Name="CueType" Type="int16" Value="1"/>
+										<Property Name="TimeMs" Type="Real64" Value="28800"/>
+									</PropertyList>
+								</MusicCue>
+							</CueList>
+						</MusicSegment>
+					</ChildrenList>
+					<TransitionList>
+						<MusicTransition Name="Root" ID="{1B41F52C-7388-4829-99EF-BDAE0F8B1829}">
+							<PropertyList>
+								<Property Name="IsFolder" Type="bool" Value="True"/>
+							</PropertyList>
+							<ChildrenList>
+								<MusicTransition Name="Transition" ID="{2E0CD20D-BC2F-4D9B-9427-4080676B01A3}">
+									<TransitionInfo/>
+								</MusicTransition>
+							</ChildrenList>
+							<TransitionInfo/>
+						</MusicTransition>
+					</TransitionList>
+					<StingerList>
+						<MusicStinger Name="" ID="{2FE1675B-20B5-4EDA-8BA8-BF7D708B36DB}">
+							<PropertyList>
+								<Property Name="PlaySegmentAt" Type="int16" Value="2"/>
+							</PropertyList>
+							<TriggerRef Name="FinalDownload" ID="{4C208563-30B9-464B-9601-154F1833595D}" WorkUnitID="{1BD2D24D-1F02-403D-93BB-0ECFBB6BC6A8}"/>
+						</MusicStinger>
+					</StingerList>
+					<Playlist>
+						<MusicPlaylistItem Name="" ID="{C56A6FE8-EA0B-4D71-BDED-7BC918FF2FEA}" ShortID="1048114524">
+							<PropertyList>
+								<Property Name="LoopCount" Type="int16" Value="0"/>
+							</PropertyList>
+							<ChildrenList>
+								<MusicPlaylistItem Name="" ID="{700EE9C6-6A3C-4BF0-94BC-2D1E1042DF9A}" ShortID="579497064">
+									<PropertyList>
+										<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+									</PropertyList>
+									<SegmentRef Name="Mm_Canyon_layers" ID="{560D037F-42B6-4B14-9D18-0DB157B195A7}"/>
+								</MusicPlaylistItem>
+							</ChildrenList>
+						</MusicPlaylistItem>
+					</Playlist>
+				</MusicPlaylistContainer>
+			</ChildrenList>
+		</WorkUnit>
+	</InteractiveMusic>
+</WwiseDocument>

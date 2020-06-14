@@ -5,6 +5,7 @@
 			<ChildrenList>
 				<WorkUnit Name="PlayerParameters" ID="{A7C728CA-03F4-4957-BFFD-ECBCE8437D51}" PersistMode="Reference"/>
 				<WorkUnit Name="VolumeController" ID="{B64005E9-45A4-4E0B-9200-B5BEEC0F4164}" PersistMode="Reference"/>
+				<WorkUnit Name="MusicParameters" ID="{AB9804D5-E51E-4240-A1EE-DDFEF94AB4A8}" PersistMode="Reference"/>
 			</ChildrenList>
 		</WorkUnit>
 	</GameParameters>

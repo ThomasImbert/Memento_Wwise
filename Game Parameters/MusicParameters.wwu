@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{AB9804D5-E51E-4240-A1EE-DDFEF94AB4A8}" SchemaVersion="97" RootDocumentID="{CA7E81EE-EEE0-4759-842F-0D4DF7A72458}">
+	<GameParameters>
+		<WorkUnit Name="MusicParameters" ID="{AB9804D5-E51E-4240-A1EE-DDFEF94AB4A8}" OwnerID="{CA7E81EE-EEE0-4759-842F-0D4DF7A72458}" PersistMode="Nested">
+			<PropertyList>
+				<Property Name="Color" Type="int16" Value="2"/>
+				<Property Name="OverrideColor" Type="bool" Value="True"/>
+			</PropertyList>
+			<ChildrenList>
+				<GameParameter Name="Ending" ID="{67CD4841-48EE-41A4-A95C-9C927D4AFB98}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="0"/>
+					</PropertyList>
+				</GameParameter>
+				<GameParameter Name="Canyon" ID="{9A7FD8AC-72BA-47D6-8778-74890CA8C960}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="0"/>
+					</PropertyList>
+				</GameParameter>
+			</ChildrenList>
+		</WorkUnit>
+	</GameParameters>
+</WwiseDocument>

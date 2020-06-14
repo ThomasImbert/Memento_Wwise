@@ -44,6 +44,7 @@
 					<ObjectInclusionList>
 						<ObjectRef Name="SFX" ID="{0B53BEA9-72FD-40A4-9BEA-6B47AA64B91B}" WorkUnitID="{0B53BEA9-72FD-40A4-9BEA-6B47AA64B91B}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Ambiance" ID="{94D94C6E-0D41-4408-A0CE-E3983F49FD1B}" WorkUnitID="{94D94C6E-0D41-4408-A0CE-E3983F49FD1B}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="SFX_Ambiant" ID="{6818FDA9-D46B-4A8C-9714-A4EE4E723538}" WorkUnitID="{6818FDA9-D46B-4A8C-9714-A4EE4E723538}" Origin="Manual" Filter="7"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>

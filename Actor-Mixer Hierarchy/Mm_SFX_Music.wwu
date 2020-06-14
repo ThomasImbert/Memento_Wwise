@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{2C89F08A-2E30-4662-B67B-3CC154AF6CD3}" SchemaVersion="97">
+	<AudioObjects>
+		<WorkUnit Name="Mm_SFX_Music" ID="{2C89F08A-2E30-4662-B67B-3CC154AF6CD3}" PersistMode="Standalone">
+			<PropertyList>
+				<Property Name="Color" Type="int16" Value="2"/>
+				<Property Name="OverrideColor" Type="bool" Value="True"/>
+			</PropertyList>
+			<ChildrenList>
+				<ActorMixer Name="CanyonOut" ID="{30C0453D-66D8-429A-AFC2-E75F33738504}" ShortID="656534576">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="2"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D0B9DB4F-7FF6-4CDB-BEF4-05863A8070B7}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Music" ID="{984FF10C-65E0-44B0-86ED-A83F9206518D}" WorkUnitID="{61D42960-93D3-4FF0-8FC0-3437DB41C134}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="CanyonOut" ID="{5A415F84-91FE-43E1-BADA-87F30D4BB0B4}" ShortID="323781729">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D0B9DB4F-7FF6-4CDB-BEF4-05863A8070B7}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8A69F515-C57F-4A97-8978-0B9FB4F47B02}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Mm_Canyon_out" ID="{C9D3ADD3-7994-4064-A236-30F2ECE9C6FF}">
+									<Language>SFX</Language>
+									<AudioFile>Mm_Canyon_out.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="184380535"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Mm_Canyon_out" ID="{C9D3ADD3-7994-4064-A236-30F2ECE9C6FF}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</ActorMixer>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>

@@ -523,476 +523,6 @@
 												</BlendTrack>
 											</BlendTrackList>
 										</BlendContainer>
-										<BlendContainer Name="RedMoss" ID="{592BCED7-789D-499C-AE74-5634974D9B17}" ShortID="175824944">
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D0B9DB4F-7FF6-4CDB-BEF4-05863A8070B7}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8A69F515-C57F-4A97-8978-0B9FB4F47B02}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<RandomSequenceContainer Name="Walk_FS_RedMoss" ID="{D59EA390-90D8-4ECE-B5CF-F9FBB026EAC9}" ShortID="1024818143">
-													<PropertyList>
-														<Property Name="InitialDelay" Type="Real64">
-															<ValueList>
-																<Value>0.2</Value>
-															</ValueList>
-														</Property>
-														<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
-														<Property Name="Pitch" Type="int32">
-															<ModifierList>
-																<ModifierInfo>
-																	<Modifier Name="" ID="{D6ECF64D-93C9-4074-9C2B-D1152FD05EA8}">
-																		<PropertyList>
-																			<Property Name="Enabled" Type="bool" Value="True"/>
-																			<Property Name="Max" Type="Real64" Value="101"/>
-																			<Property Name="Min" Type="Real64" Value="-101"/>
-																		</PropertyList>
-																	</Modifier>
-																</ModifierInfo>
-															</ModifierList>
-														</Property>
-														<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
-														<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
-														<Property Name="PlayMechanismSpecialTransitionsType" Type="int16" Value="3"/>
-														<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64" Value="0.75"/>
-														<Property Name="Volume" Type="Real64">
-															<ModifierList>
-																<ModifierInfo>
-																	<Modifier Name="" ID="{0AD24728-A3E4-4376-B693-1F21696CB97B}">
-																		<PropertyList>
-																			<Property Name="Enabled" Type="bool" Value="True"/>
-																			<Property Name="Min" Type="Real64" Value="-1"/>
-																		</PropertyList>
-																	</Modifier>
-																</ModifierInfo>
-															</ModifierList>
-														</Property>
-													</PropertyList>
-													<ReferenceList>
-														<Reference Name="Conversion">
-															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D0B9DB4F-7FF6-4CDB-BEF4-05863A8070B7}"/>
-														</Reference>
-														<Reference Name="OutputBus">
-															<ObjectRef Name="Player" ID="{DFA6C097-5927-4545-962D-13BDFF6ED199}" WorkUnitID="{61D42960-93D3-4FF0-8FC0-3437DB41C134}"/>
-														</Reference>
-													</ReferenceList>
-													<ChildrenList>
-														<Sound Name="Walk_FS_RedMoss_03" ID="{AB353376-87E4-4C1A-8B4D-24F33E69C835}" ShortID="1025808166">
-															<ReferenceList>
-																<Reference Name="Conversion">
-																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D0B9DB4F-7FF6-4CDB-BEF4-05863A8070B7}"/>
-																</Reference>
-																<Reference Name="OutputBus">
-																	<ObjectRef Name="Player" ID="{DFA6C097-5927-4545-962D-13BDFF6ED199}" WorkUnitID="{61D42960-93D3-4FF0-8FC0-3437DB41C134}"/>
-																</Reference>
-															</ReferenceList>
-															<ChildrenList>
-																<AudioFileSource Name="Walk_FS_RedMoss_03" ID="{203399D6-D9CC-40BF-8044-B75F96ECF8BD}">
-																	<Language>SFX</Language>
-																	<AudioFile>Walk_FS_RedMoss_03.wav</AudioFile>
-																	<MediaIDList>
-																		<MediaID ID="256700885"/>
-																	</MediaIDList>
-																</AudioFileSource>
-															</ChildrenList>
-															<ActiveSourceList>
-																<ActiveSource Name="Walk_FS_RedMoss_03" ID="{203399D6-D9CC-40BF-8044-B75F96ECF8BD}" Platform="Linked"/>
-															</ActiveSourceList>
-														</Sound>
-														<Sound Name="Walk_FS_RedMoss_05" ID="{3A00E24D-ABD4-4F12-80FF-620CB9C6AF91}" ShortID="974250675">
-															<ReferenceList>
-																<Reference Name="Conversion">
-																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D0B9DB4F-7FF6-4CDB-BEF4-05863A8070B7}"/>
-																</Reference>
-																<Reference Name="OutputBus">
-																	<ObjectRef Name="Player" ID="{DFA6C097-5927-4545-962D-13BDFF6ED199}" WorkUnitID="{61D42960-93D3-4FF0-8FC0-3437DB41C134}"/>
-																</Reference>
-															</ReferenceList>
-															<ChildrenList>
-																<AudioFileSource Name="Walk_FS_RedMoss_05" ID="{680AA896-ABFF-44AB-BAE3-36438538C6F0}">
-																	<Language>SFX</Language>
-																	<AudioFile>Walk_FS_RedMoss_05.wav</AudioFile>
-																	<MediaIDList>
-																		<MediaID ID="246982385"/>
-																	</MediaIDList>
-																</AudioFileSource>
-															</ChildrenList>
-															<ActiveSourceList>
-																<ActiveSource Name="Walk_FS_RedMoss_05" ID="{680AA896-ABFF-44AB-BAE3-36438538C6F0}" Platform="Linked"/>
-															</ActiveSourceList>
-														</Sound>
-														<Sound Name="Walk_FS_RedMoss_01" ID="{518D8ECE-21C5-4B5D-9A61-B54887F3CDDF}" ShortID="347914206">
-															<ReferenceList>
-																<Reference Name="Conversion">
-																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D0B9DB4F-7FF6-4CDB-BEF4-05863A8070B7}"/>
-																</Reference>
-																<Reference Name="OutputBus">
-																	<ObjectRef Name="Player" ID="{DFA6C097-5927-4545-962D-13BDFF6ED199}" WorkUnitID="{61D42960-93D3-4FF0-8FC0-3437DB41C134}"/>
-																</Reference>
-															</ReferenceList>
-															<ChildrenList>
-																<AudioFileSource Name="Walk_FS_RedMoss_01" ID="{56BEC0CF-6EFC-437C-A8AC-8D1ADE8C381C}">
-																	<Language>SFX</Language>
-																	<AudioFile>Walk_FS_RedMoss_01.wav</AudioFile>
-																	<MediaIDList>
-																		<MediaID ID="758653993"/>
-																	</MediaIDList>
-																</AudioFileSource>
-															</ChildrenList>
-															<ActiveSourceList>
-																<ActiveSource Name="Walk_FS_RedMoss_01" ID="{56BEC0CF-6EFC-437C-A8AC-8D1ADE8C381C}" Platform="Linked"/>
-															</ActiveSourceList>
-														</Sound>
-														<Sound Name="Walk_FS_RedMoss_04" ID="{EEB911B0-813E-4311-B0E1-CEF167878D1B}" ShortID="168696836">
-															<ReferenceList>
-																<Reference Name="Conversion">
-																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D0B9DB4F-7FF6-4CDB-BEF4-05863A8070B7}"/>
-																</Reference>
-																<Reference Name="OutputBus">
-																	<ObjectRef Name="Player" ID="{DFA6C097-5927-4545-962D-13BDFF6ED199}" WorkUnitID="{61D42960-93D3-4FF0-8FC0-3437DB41C134}"/>
-																</Reference>
-															</ReferenceList>
-															<ChildrenList>
-																<AudioFileSource Name="Walk_FS_RedMoss_04" ID="{977D6BD5-9DC5-435C-BBBF-4483A86F693F}">
-																	<Language>SFX</Language>
-																	<AudioFile>Walk_FS_RedMoss_04.wav</AudioFile>
-																	<MediaIDList>
-																		<MediaID ID="72762717"/>
-																	</MediaIDList>
-																</AudioFileSource>
-															</ChildrenList>
-															<ActiveSourceList>
-																<ActiveSource Name="Walk_FS_RedMoss_04" ID="{977D6BD5-9DC5-435C-BBBF-4483A86F693F}" Platform="Linked"/>
-															</ActiveSourceList>
-														</Sound>
-														<Sound Name="Walk_FS_RedMoss_02" ID="{BAEB1CE5-9D64-4A8C-8C57-9C111CC84440}" ShortID="576978573">
-															<ReferenceList>
-																<Reference Name="Conversion">
-																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D0B9DB4F-7FF6-4CDB-BEF4-05863A8070B7}"/>
-																</Reference>
-																<Reference Name="OutputBus">
-																	<ObjectRef Name="Player" ID="{DFA6C097-5927-4545-962D-13BDFF6ED199}" WorkUnitID="{61D42960-93D3-4FF0-8FC0-3437DB41C134}"/>
-																</Reference>
-															</ReferenceList>
-															<ChildrenList>
-																<AudioFileSource Name="Walk_FS_RedMoss_02" ID="{5B019E9F-0A90-417C-80D1-5048449D493C}">
-																	<Language>SFX</Language>
-																	<AudioFile>Walk_FS_RedMoss_02.wav</AudioFile>
-																	<MediaIDList>
-																		<MediaID ID="713298910"/>
-																	</MediaIDList>
-																</AudioFileSource>
-															</ChildrenList>
-															<ActiveSourceList>
-																<ActiveSource Name="Walk_FS_RedMoss_02" ID="{5B019E9F-0A90-417C-80D1-5048449D493C}" Platform="Linked"/>
-															</ActiveSourceList>
-														</Sound>
-													</ChildrenList>
-												</RandomSequenceContainer>
-												<RandomSequenceContainer Name="Run_FS_RedMoss" ID="{13C13F93-25B7-4F5F-B14C-74D3E7BA85AF}" ShortID="848806964">
-													<PropertyList>
-														<Property Name="InitialDelay" Type="Real64">
-															<ValueList>
-																<Value>0.15</Value>
-															</ValueList>
-														</Property>
-													</PropertyList>
-													<ReferenceList>
-														<Reference Name="Conversion">
-															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D0B9DB4F-7FF6-4CDB-BEF4-05863A8070B7}"/>
-														</Reference>
-														<Reference Name="OutputBus">
-															<ObjectRef Name="Player" ID="{DFA6C097-5927-4545-962D-13BDFF6ED199}" WorkUnitID="{61D42960-93D3-4FF0-8FC0-3437DB41C134}"/>
-														</Reference>
-													</ReferenceList>
-													<ChildrenList>
-														<Sound Name="Run_FS_RedMoss_01" ID="{ECA4FFD7-77F7-472F-9D52-4D265460194C}" ShortID="504232659">
-															<ReferenceList>
-																<Reference Name="Conversion">
-																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D0B9DB4F-7FF6-4CDB-BEF4-05863A8070B7}"/>
-																</Reference>
-																<Reference Name="OutputBus">
-																	<ObjectRef Name="Player" ID="{DFA6C097-5927-4545-962D-13BDFF6ED199}" WorkUnitID="{61D42960-93D3-4FF0-8FC0-3437DB41C134}"/>
-																</Reference>
-															</ReferenceList>
-															<ChildrenList>
-																<AudioFileSource Name="Run_FS_RedMoss_01" ID="{96415389-1F30-4216-AE12-708D8F4A4DBB}">
-																	<Language>SFX</Language>
-																	<AudioFile>Run_FS_RedMoss_01.wav</AudioFile>
-																	<MediaIDList>
-																		<MediaID ID="419507567"/>
-																	</MediaIDList>
-																</AudioFileSource>
-															</ChildrenList>
-															<ActiveSourceList>
-																<ActiveSource Name="Run_FS_RedMoss_01" ID="{96415389-1F30-4216-AE12-708D8F4A4DBB}" Platform="Linked"/>
-															</ActiveSourceList>
-														</Sound>
-														<Sound Name="Run_FS_RedMoss_02" ID="{7B0C0E3B-4A7F-4054-860E-255F28A32571}" ShortID="383374109">
-															<ReferenceList>
-																<Reference Name="Conversion">
-																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D0B9DB4F-7FF6-4CDB-BEF4-05863A8070B7}"/>
-																</Reference>
-																<Reference Name="OutputBus">
-																	<ObjectRef Name="Player" ID="{DFA6C097-5927-4545-962D-13BDFF6ED199}" WorkUnitID="{61D42960-93D3-4FF0-8FC0-3437DB41C134}"/>
-																</Reference>
-															</ReferenceList>
-															<ChildrenList>
-																<AudioFileSource Name="Run_FS_RedMoss_02" ID="{EEDC7D07-E1A9-40C6-8F32-8A201F446C30}">
-																	<Language>SFX</Language>
-																	<AudioFile>Run_FS_RedMoss_02.wav</AudioFile>
-																	<MediaIDList>
-																		<MediaID ID="854686809"/>
-																	</MediaIDList>
-																</AudioFileSource>
-															</ChildrenList>
-															<ActiveSourceList>
-																<ActiveSource Name="Run_FS_RedMoss_02" ID="{EEDC7D07-E1A9-40C6-8F32-8A201F446C30}" Platform="Linked"/>
-															</ActiveSourceList>
-														</Sound>
-														<Sound Name="Run_FS_RedMoss_03" ID="{58E4DA83-97FB-4C9E-A289-FDD320BCCA69}" ShortID="682689510">
-															<ReferenceList>
-																<Reference Name="Conversion">
-																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D0B9DB4F-7FF6-4CDB-BEF4-05863A8070B7}"/>
-																</Reference>
-																<Reference Name="OutputBus">
-																	<ObjectRef Name="Player" ID="{DFA6C097-5927-4545-962D-13BDFF6ED199}" WorkUnitID="{61D42960-93D3-4FF0-8FC0-3437DB41C134}"/>
-																</Reference>
-															</ReferenceList>
-															<ChildrenList>
-																<AudioFileSource Name="Run_FS_RedMoss_03" ID="{91317664-BA09-4848-962F-5023AC0972A3}">
-																	<Language>SFX</Language>
-																	<AudioFile>Run_FS_RedMoss_03.wav</AudioFile>
-																	<MediaIDList>
-																		<MediaID ID="535041404"/>
-																	</MediaIDList>
-																</AudioFileSource>
-															</ChildrenList>
-															<ActiveSourceList>
-																<ActiveSource Name="Run_FS_RedMoss_03" ID="{91317664-BA09-4848-962F-5023AC0972A3}" Platform="Linked"/>
-															</ActiveSourceList>
-														</Sound>
-														<Sound Name="Run_FS_RedMoss_04" ID="{AAE9A838-2BC9-4770-874A-2B2497D99AB0}" ShortID="605604373">
-															<ReferenceList>
-																<Reference Name="Conversion">
-																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D0B9DB4F-7FF6-4CDB-BEF4-05863A8070B7}"/>
-																</Reference>
-																<Reference Name="OutputBus">
-																	<ObjectRef Name="Player" ID="{DFA6C097-5927-4545-962D-13BDFF6ED199}" WorkUnitID="{61D42960-93D3-4FF0-8FC0-3437DB41C134}"/>
-																</Reference>
-															</ReferenceList>
-															<ChildrenList>
-																<AudioFileSource Name="Run_FS_RedMoss_04" ID="{DC8110F8-A48A-4DB7-A1E9-922619196343}">
-																	<Language>SFX</Language>
-																	<AudioFile>Run_FS_RedMoss_04.wav</AudioFile>
-																	<MediaIDList>
-																		<MediaID ID="359700743"/>
-																	</MediaIDList>
-																</AudioFileSource>
-															</ChildrenList>
-															<ActiveSourceList>
-																<ActiveSource Name="Run_FS_RedMoss_04" ID="{DC8110F8-A48A-4DB7-A1E9-922619196343}" Platform="Linked"/>
-															</ActiveSourceList>
-														</Sound>
-														<Sound Name="Run_FS_RedMoss_05" ID="{3E625C4A-1B14-48E1-8926-75F678E7A9BD}" ShortID="131516314">
-															<ReferenceList>
-																<Reference Name="Conversion">
-																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D0B9DB4F-7FF6-4CDB-BEF4-05863A8070B7}"/>
-																</Reference>
-																<Reference Name="OutputBus">
-																	<ObjectRef Name="Player" ID="{DFA6C097-5927-4545-962D-13BDFF6ED199}" WorkUnitID="{61D42960-93D3-4FF0-8FC0-3437DB41C134}"/>
-																</Reference>
-															</ReferenceList>
-															<ChildrenList>
-																<AudioFileSource Name="Run_FS_RedMoss_05" ID="{19B4DD78-E5E6-4506-B3B3-56941FE6C8F3}">
-																	<Language>SFX</Language>
-																	<AudioFile>Run_FS_RedMoss_05.wav</AudioFile>
-																	<MediaIDList>
-																		<MediaID ID="929540155"/>
-																	</MediaIDList>
-																</AudioFileSource>
-															</ChildrenList>
-															<ActiveSourceList>
-																<ActiveSource Name="Run_FS_RedMoss_05" ID="{19B4DD78-E5E6-4506-B3B3-56941FE6C8F3}" Platform="Linked"/>
-															</ActiveSourceList>
-														</Sound>
-													</ChildrenList>
-												</RandomSequenceContainer>
-												<RandomSequenceContainer Name="Sprint_FS_RedMoss" ID="{FA6436C9-AEED-40C5-AC42-B1AEBCB6F054}" ShortID="687809657">
-													<PropertyList>
-														<Property Name="InitialDelay" Type="Real64">
-															<ValueList>
-																<Value>0.15</Value>
-															</ValueList>
-														</Property>
-													</PropertyList>
-													<ReferenceList>
-														<Reference Name="Conversion">
-															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D0B9DB4F-7FF6-4CDB-BEF4-05863A8070B7}"/>
-														</Reference>
-														<Reference Name="OutputBus">
-															<ObjectRef Name="Player" ID="{DFA6C097-5927-4545-962D-13BDFF6ED199}" WorkUnitID="{61D42960-93D3-4FF0-8FC0-3437DB41C134}"/>
-														</Reference>
-													</ReferenceList>
-													<ChildrenList>
-														<Sound Name="Sprint_FS_RedMoss_02" ID="{396C2C9C-01E2-428C-9314-B856B6DC7748}" ShortID="935819603">
-															<ReferenceList>
-																<Reference Name="Conversion">
-																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D0B9DB4F-7FF6-4CDB-BEF4-05863A8070B7}"/>
-																</Reference>
-																<Reference Name="OutputBus">
-																	<ObjectRef Name="Player" ID="{DFA6C097-5927-4545-962D-13BDFF6ED199}" WorkUnitID="{61D42960-93D3-4FF0-8FC0-3437DB41C134}"/>
-																</Reference>
-															</ReferenceList>
-															<ChildrenList>
-																<AudioFileSource Name="Sprint_FS_RedMoss_02" ID="{55471856-4E3E-4ED5-B694-FCCA845BC596}">
-																	<Language>SFX</Language>
-																	<AudioFile>Sprint_FS_RedMoss_02.wav</AudioFile>
-																	<MediaIDList>
-																		<MediaID ID="873313185"/>
-																	</MediaIDList>
-																</AudioFileSource>
-															</ChildrenList>
-															<ActiveSourceList>
-																<ActiveSource Name="Sprint_FS_RedMoss_02" ID="{55471856-4E3E-4ED5-B694-FCCA845BC596}" Platform="Linked"/>
-															</ActiveSourceList>
-														</Sound>
-														<Sound Name="Sprint_FS_RedMoss_03" ID="{07D212AC-4514-46C9-8A78-3F44F64786B2}" ShortID="737328222">
-															<ReferenceList>
-																<Reference Name="Conversion">
-																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D0B9DB4F-7FF6-4CDB-BEF4-05863A8070B7}"/>
-																</Reference>
-																<Reference Name="OutputBus">
-																	<ObjectRef Name="Player" ID="{DFA6C097-5927-4545-962D-13BDFF6ED199}" WorkUnitID="{61D42960-93D3-4FF0-8FC0-3437DB41C134}"/>
-																</Reference>
-															</ReferenceList>
-															<ChildrenList>
-																<AudioFileSource Name="Sprint_FS_RedMoss_03" ID="{BC30572E-6D49-4837-9902-B7BC9578D898}">
-																	<Language>SFX</Language>
-																	<AudioFile>Sprint_FS_RedMoss_03.wav</AudioFile>
-																	<MediaIDList>
-																		<MediaID ID="383792844"/>
-																	</MediaIDList>
-																</AudioFileSource>
-															</ChildrenList>
-															<ActiveSourceList>
-																<ActiveSource Name="Sprint_FS_RedMoss_03" ID="{BC30572E-6D49-4837-9902-B7BC9578D898}" Platform="Linked"/>
-															</ActiveSourceList>
-														</Sound>
-														<Sound Name="Sprint_FS_RedMoss_05" ID="{76535D1D-0636-463B-9AF3-8C9EDA4559E6}" ShortID="895222614">
-															<ReferenceList>
-																<Reference Name="Conversion">
-																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D0B9DB4F-7FF6-4CDB-BEF4-05863A8070B7}"/>
-																</Reference>
-																<Reference Name="OutputBus">
-																	<ObjectRef Name="Player" ID="{DFA6C097-5927-4545-962D-13BDFF6ED199}" WorkUnitID="{61D42960-93D3-4FF0-8FC0-3437DB41C134}"/>
-																</Reference>
-															</ReferenceList>
-															<ChildrenList>
-																<AudioFileSource Name="Sprint_FS_RedMoss_05" ID="{DCA40B30-A405-45CC-B3C0-32BB5BCE5AE7}">
-																	<Language>SFX</Language>
-																	<AudioFile>Sprint_FS_RedMoss_05.wav</AudioFile>
-																	<MediaIDList>
-																		<MediaID ID="706161085"/>
-																	</MediaIDList>
-																</AudioFileSource>
-															</ChildrenList>
-															<ActiveSourceList>
-																<ActiveSource Name="Sprint_FS_RedMoss_05" ID="{DCA40B30-A405-45CC-B3C0-32BB5BCE5AE7}" Platform="Linked"/>
-															</ActiveSourceList>
-														</Sound>
-														<Sound Name="Sprint_FS_RedMoss_04" ID="{EAD6D903-8564-4A8C-86AE-569884C30E64}" ShortID="835169028">
-															<ReferenceList>
-																<Reference Name="Conversion">
-																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D0B9DB4F-7FF6-4CDB-BEF4-05863A8070B7}"/>
-																</Reference>
-																<Reference Name="OutputBus">
-																	<ObjectRef Name="Player" ID="{DFA6C097-5927-4545-962D-13BDFF6ED199}" WorkUnitID="{61D42960-93D3-4FF0-8FC0-3437DB41C134}"/>
-																</Reference>
-															</ReferenceList>
-															<ChildrenList>
-																<AudioFileSource Name="Sprint_FS_RedMoss_04" ID="{17E3E9FE-8677-41F7-87D6-D406869D6C7F}">
-																	<Language>SFX</Language>
-																	<AudioFile>Sprint_FS_RedMoss_04.wav</AudioFile>
-																	<MediaIDList>
-																		<MediaID ID="571306300"/>
-																	</MediaIDList>
-																</AudioFileSource>
-															</ChildrenList>
-															<ActiveSourceList>
-																<ActiveSource Name="Sprint_FS_RedMoss_04" ID="{17E3E9FE-8677-41F7-87D6-D406869D6C7F}" Platform="Linked"/>
-															</ActiveSourceList>
-														</Sound>
-														<Sound Name="Sprint_FS_RedMoss_01" ID="{E339B013-0D0E-4602-A476-B0964E7C2F84}" ShortID="175960034">
-															<ReferenceList>
-																<Reference Name="Conversion">
-																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D0B9DB4F-7FF6-4CDB-BEF4-05863A8070B7}"/>
-																</Reference>
-																<Reference Name="OutputBus">
-																	<ObjectRef Name="Player" ID="{DFA6C097-5927-4545-962D-13BDFF6ED199}" WorkUnitID="{61D42960-93D3-4FF0-8FC0-3437DB41C134}"/>
-																</Reference>
-															</ReferenceList>
-															<ChildrenList>
-																<AudioFileSource Name="Sprint_FS_RedMoss_01" ID="{9EAD7C41-5241-4ACD-911A-DF7D40EABEF5}">
-																	<Language>SFX</Language>
-																	<AudioFile>Sprint_FS_RedMoss_01.wav</AudioFile>
-																	<MediaIDList>
-																		<MediaID ID="199527553"/>
-																	</MediaIDList>
-																</AudioFileSource>
-															</ChildrenList>
-															<ActiveSourceList>
-																<ActiveSource Name="Sprint_FS_RedMoss_01" ID="{9EAD7C41-5241-4ACD-911A-DF7D40EABEF5}" Platform="Linked"/>
-															</ActiveSourceList>
-														</Sound>
-													</ChildrenList>
-												</RandomSequenceContainer>
-											</ChildrenList>
-											<BlendTrackList>
-												<BlendTrack Name="RedMoss_Walk_Run" ID="{BAD43DE5-36E7-43FF-A707-EE9EDBEEB006}" ShortID="85730335">
-													<PropertyList>
-														<Property Name="EnableCrossFading" Type="bool" Value="True"/>
-													</PropertyList>
-													<ReferenceList>
-														<Reference Name="LayerCrossFadeControlInput">
-															<ObjectRef Name="WalkSpeed" ID="{E1064E41-C1EF-48D7-9F88-59A3D70419E0}" WorkUnitID="{A7C728CA-03F4-4957-BFFD-ECBCE8437D51}"/>
-														</Reference>
-													</ReferenceList>
-													<BlendTrackAssocList>
-														<BlendTrackAssoc>
-															<ItemRef Name="Walk_FS_RedMoss" ID="{D59EA390-90D8-4ECE-B5CF-F9FBB026EAC9}"/>
-															<CrossfadingInfo>
-																<LeftEdgePos>0</LeftEdgePos>
-																<LeftFadingMode>Automatic</LeftFadingMode>
-																<RightEdgePos>51.2048192771084</RightEdgePos>
-																<RightFadingMode>Automatic</RightFadingMode>
-															</CrossfadingInfo>
-														</BlendTrackAssoc>
-														<BlendTrackAssoc>
-															<ItemRef Name="Run_FS_RedMoss" ID="{13C13F93-25B7-4F5F-B14C-74D3E7BA85AF}"/>
-															<CrossfadingInfo>
-																<LeftEdgePos>50</LeftEdgePos>
-																<LeftFadingMode>Automatic</LeftFadingMode>
-																<RightEdgePos>75.6026596385542</RightEdgePos>
-																<RightFadingMode>Automatic</RightFadingMode>
-															</CrossfadingInfo>
-														</BlendTrackAssoc>
-														<BlendTrackAssoc>
-															<ItemRef Name="Sprint_FS_RedMoss" ID="{FA6436C9-AEED-40C5-AC42-B1AEBCB6F054}"/>
-															<CrossfadingInfo>
-																<LeftEdgePos>75</LeftEdgePos>
-																<LeftFadingMode>Automatic</LeftFadingMode>
-																<RightEdgePos>100</RightEdgePos>
-																<RightFadingMode>Automatic</RightFadingMode>
-															</CrossfadingInfo>
-														</BlendTrackAssoc>
-													</BlendTrackAssocList>
-												</BlendTrack>
-											</BlendTrackList>
-										</BlendContainer>
 										<BlendContainer Name="Rock" ID="{83E5E6DA-7269-42DD-85DB-F5D2129647E2}" ShortID="873935871">
 											<ReferenceList>
 												<Reference Name="Conversion">
@@ -2410,9 +1940,1019 @@
 												</BlendTrack>
 											</BlendTrackList>
 										</BlendContainer>
+										<RandomSequenceContainer Name="run" ID="{DBA9028A-3D7B-4DB6-B0ED-EBE0D9CE5CD7}" ShortID="934012204">
+											<PropertyList>
+												<Property Name="Inclusion" Type="bool">
+													<ValueList>
+														<Value>False</Value>
+													</ValueList>
+												</Property>
+												<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
+												<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
+												<Property Name="PlayMechanismSpecialTransitionsType" Type="int16" Value="3"/>
+												<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D0B9DB4F-7FF6-4CDB-BEF4-05863A8070B7}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Player" ID="{DFA6C097-5927-4545-962D-13BDFF6ED199}" WorkUnitID="{61D42960-93D3-4FF0-8FC0-3437DB41C134}"/>
+												</Reference>
+											</ReferenceList>
+										</RandomSequenceContainer>
+										<BlendContainer Name="RedMoss" ID="{700B24DD-484B-430B-9D30-2331CE4FC750}" ShortID="738154605">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D0B9DB4F-7FF6-4CDB-BEF4-05863A8070B7}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Player" ID="{DFA6C097-5927-4545-962D-13BDFF6ED199}" WorkUnitID="{61D42960-93D3-4FF0-8FC0-3437DB41C134}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<BlendContainer Name="RedMoss" ID="{592BCED7-789D-499C-AE74-5634974D9B17}" ShortID="175824944">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D0B9DB4F-7FF6-4CDB-BEF4-05863A8070B7}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Player" ID="{DFA6C097-5927-4545-962D-13BDFF6ED199}" WorkUnitID="{61D42960-93D3-4FF0-8FC0-3437DB41C134}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<RandomSequenceContainer Name="Walk_FS_RedMoss" ID="{D59EA390-90D8-4ECE-B5CF-F9FBB026EAC9}" ShortID="1024818143">
+															<PropertyList>
+																<Property Name="InitialDelay" Type="Real64">
+																	<ValueList>
+																		<Value>0.2</Value>
+																	</ValueList>
+																</Property>
+																<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
+																<Property Name="Pitch" Type="int32">
+																	<ModifierList>
+																		<ModifierInfo>
+																			<Modifier Name="" ID="{D6ECF64D-93C9-4074-9C2B-D1152FD05EA8}">
+																				<PropertyList>
+																					<Property Name="Enabled" Type="bool" Value="True"/>
+																					<Property Name="Max" Type="Real64" Value="101"/>
+																					<Property Name="Min" Type="Real64" Value="-101"/>
+																				</PropertyList>
+																			</Modifier>
+																		</ModifierInfo>
+																	</ModifierList>
+																</Property>
+																<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
+																<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
+																<Property Name="PlayMechanismSpecialTransitionsType" Type="int16" Value="3"/>
+																<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64" Value="0.75"/>
+																<Property Name="Volume" Type="Real64">
+																	<ModifierList>
+																		<ModifierInfo>
+																			<Modifier Name="" ID="{0AD24728-A3E4-4376-B693-1F21696CB97B}">
+																				<PropertyList>
+																					<Property Name="Enabled" Type="bool" Value="True"/>
+																					<Property Name="Min" Type="Real64" Value="-1"/>
+																				</PropertyList>
+																			</Modifier>
+																		</ModifierInfo>
+																	</ModifierList>
+																</Property>
+															</PropertyList>
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D0B9DB4F-7FF6-4CDB-BEF4-05863A8070B7}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Player" ID="{DFA6C097-5927-4545-962D-13BDFF6ED199}" WorkUnitID="{61D42960-93D3-4FF0-8FC0-3437DB41C134}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<Sound Name="Walk_FS_RedMoss_03" ID="{AB353376-87E4-4C1A-8B4D-24F33E69C835}" ShortID="1025808166">
+																	<ReferenceList>
+																		<Reference Name="Conversion">
+																			<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D0B9DB4F-7FF6-4CDB-BEF4-05863A8070B7}"/>
+																		</Reference>
+																		<Reference Name="OutputBus">
+																			<ObjectRef Name="Player" ID="{DFA6C097-5927-4545-962D-13BDFF6ED199}" WorkUnitID="{61D42960-93D3-4FF0-8FC0-3437DB41C134}"/>
+																		</Reference>
+																	</ReferenceList>
+																	<ChildrenList>
+																		<AudioFileSource Name="Walk_FS_RedMoss_03" ID="{203399D6-D9CC-40BF-8044-B75F96ECF8BD}">
+																			<Language>SFX</Language>
+																			<AudioFile>Walk_FS_RedMoss_03.wav</AudioFile>
+																			<MediaIDList>
+																				<MediaID ID="256700885"/>
+																			</MediaIDList>
+																		</AudioFileSource>
+																	</ChildrenList>
+																	<ActiveSourceList>
+																		<ActiveSource Name="Walk_FS_RedMoss_03" ID="{203399D6-D9CC-40BF-8044-B75F96ECF8BD}" Platform="Linked"/>
+																	</ActiveSourceList>
+																</Sound>
+																<Sound Name="Walk_FS_RedMoss_05" ID="{3A00E24D-ABD4-4F12-80FF-620CB9C6AF91}" ShortID="974250675">
+																	<ReferenceList>
+																		<Reference Name="Conversion">
+																			<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D0B9DB4F-7FF6-4CDB-BEF4-05863A8070B7}"/>
+																		</Reference>
+																		<Reference Name="OutputBus">
+																			<ObjectRef Name="Player" ID="{DFA6C097-5927-4545-962D-13BDFF6ED199}" WorkUnitID="{61D42960-93D3-4FF0-8FC0-3437DB41C134}"/>
+																		</Reference>
+																	</ReferenceList>
+																	<ChildrenList>
+																		<AudioFileSource Name="Walk_FS_RedMoss_05" ID="{680AA896-ABFF-44AB-BAE3-36438538C6F0}">
+																			<Language>SFX</Language>
+																			<AudioFile>Walk_FS_RedMoss_05.wav</AudioFile>
+																			<MediaIDList>
+																				<MediaID ID="246982385"/>
+																			</MediaIDList>
+																		</AudioFileSource>
+																	</ChildrenList>
+																	<ActiveSourceList>
+																		<ActiveSource Name="Walk_FS_RedMoss_05" ID="{680AA896-ABFF-44AB-BAE3-36438538C6F0}" Platform="Linked"/>
+																	</ActiveSourceList>
+																</Sound>
+																<Sound Name="Walk_FS_RedMoss_01" ID="{518D8ECE-21C5-4B5D-9A61-B54887F3CDDF}" ShortID="347914206">
+																	<ReferenceList>
+																		<Reference Name="Conversion">
+																			<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D0B9DB4F-7FF6-4CDB-BEF4-05863A8070B7}"/>
+																		</Reference>
+																		<Reference Name="OutputBus">
+																			<ObjectRef Name="Player" ID="{DFA6C097-5927-4545-962D-13BDFF6ED199}" WorkUnitID="{61D42960-93D3-4FF0-8FC0-3437DB41C134}"/>
+																		</Reference>
+																	</ReferenceList>
+																	<ChildrenList>
+																		<AudioFileSource Name="Walk_FS_RedMoss_01" ID="{56BEC0CF-6EFC-437C-A8AC-8D1ADE8C381C}">
+																			<Language>SFX</Language>
+																			<AudioFile>Walk_FS_RedMoss_01.wav</AudioFile>
+																			<MediaIDList>
+																				<MediaID ID="758653993"/>
+																			</MediaIDList>
+																		</AudioFileSource>
+																	</ChildrenList>
+																	<ActiveSourceList>
+																		<ActiveSource Name="Walk_FS_RedMoss_01" ID="{56BEC0CF-6EFC-437C-A8AC-8D1ADE8C381C}" Platform="Linked"/>
+																	</ActiveSourceList>
+																</Sound>
+																<Sound Name="Walk_FS_RedMoss_04" ID="{EEB911B0-813E-4311-B0E1-CEF167878D1B}" ShortID="168696836">
+																	<ReferenceList>
+																		<Reference Name="Conversion">
+																			<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D0B9DB4F-7FF6-4CDB-BEF4-05863A8070B7}"/>
+																		</Reference>
+																		<Reference Name="OutputBus">
+																			<ObjectRef Name="Player" ID="{DFA6C097-5927-4545-962D-13BDFF6ED199}" WorkUnitID="{61D42960-93D3-4FF0-8FC0-3437DB41C134}"/>
+																		</Reference>
+																	</ReferenceList>
+																	<ChildrenList>
+																		<AudioFileSource Name="Walk_FS_RedMoss_04" ID="{977D6BD5-9DC5-435C-BBBF-4483A86F693F}">
+																			<Language>SFX</Language>
+																			<AudioFile>Walk_FS_RedMoss_04.wav</AudioFile>
+																			<MediaIDList>
+																				<MediaID ID="72762717"/>
+																			</MediaIDList>
+																		</AudioFileSource>
+																	</ChildrenList>
+																	<ActiveSourceList>
+																		<ActiveSource Name="Walk_FS_RedMoss_04" ID="{977D6BD5-9DC5-435C-BBBF-4483A86F693F}" Platform="Linked"/>
+																	</ActiveSourceList>
+																</Sound>
+																<Sound Name="Walk_FS_RedMoss_02" ID="{BAEB1CE5-9D64-4A8C-8C57-9C111CC84440}" ShortID="576978573">
+																	<ReferenceList>
+																		<Reference Name="Conversion">
+																			<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D0B9DB4F-7FF6-4CDB-BEF4-05863A8070B7}"/>
+																		</Reference>
+																		<Reference Name="OutputBus">
+																			<ObjectRef Name="Player" ID="{DFA6C097-5927-4545-962D-13BDFF6ED199}" WorkUnitID="{61D42960-93D3-4FF0-8FC0-3437DB41C134}"/>
+																		</Reference>
+																	</ReferenceList>
+																	<ChildrenList>
+																		<AudioFileSource Name="Walk_FS_RedMoss_02" ID="{5B019E9F-0A90-417C-80D1-5048449D493C}">
+																			<Language>SFX</Language>
+																			<AudioFile>Walk_FS_RedMoss_02.wav</AudioFile>
+																			<MediaIDList>
+																				<MediaID ID="713298910"/>
+																			</MediaIDList>
+																		</AudioFileSource>
+																	</ChildrenList>
+																	<ActiveSourceList>
+																		<ActiveSource Name="Walk_FS_RedMoss_02" ID="{5B019E9F-0A90-417C-80D1-5048449D493C}" Platform="Linked"/>
+																	</ActiveSourceList>
+																</Sound>
+															</ChildrenList>
+														</RandomSequenceContainer>
+														<RandomSequenceContainer Name="Run_FS_RedMoss" ID="{13C13F93-25B7-4F5F-B14C-74D3E7BA85AF}" ShortID="848806964">
+															<PropertyList>
+																<Property Name="InitialDelay" Type="Real64">
+																	<ValueList>
+																		<Value>0.15</Value>
+																	</ValueList>
+																</Property>
+															</PropertyList>
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D0B9DB4F-7FF6-4CDB-BEF4-05863A8070B7}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Player" ID="{DFA6C097-5927-4545-962D-13BDFF6ED199}" WorkUnitID="{61D42960-93D3-4FF0-8FC0-3437DB41C134}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<Sound Name="Run_FS_RedMoss_01" ID="{ECA4FFD7-77F7-472F-9D52-4D265460194C}" ShortID="504232659">
+																	<ReferenceList>
+																		<Reference Name="Conversion">
+																			<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D0B9DB4F-7FF6-4CDB-BEF4-05863A8070B7}"/>
+																		</Reference>
+																		<Reference Name="OutputBus">
+																			<ObjectRef Name="Player" ID="{DFA6C097-5927-4545-962D-13BDFF6ED199}" WorkUnitID="{61D42960-93D3-4FF0-8FC0-3437DB41C134}"/>
+																		</Reference>
+																	</ReferenceList>
+																	<ChildrenList>
+																		<AudioFileSource Name="Run_FS_RedMoss_01" ID="{96415389-1F30-4216-AE12-708D8F4A4DBB}">
+																			<Language>SFX</Language>
+																			<AudioFile>Run_FS_RedMoss_01.wav</AudioFile>
+																			<MediaIDList>
+																				<MediaID ID="419507567"/>
+																			</MediaIDList>
+																		</AudioFileSource>
+																	</ChildrenList>
+																	<ActiveSourceList>
+																		<ActiveSource Name="Run_FS_RedMoss_01" ID="{96415389-1F30-4216-AE12-708D8F4A4DBB}" Platform="Linked"/>
+																	</ActiveSourceList>
+																</Sound>
+																<Sound Name="Run_FS_RedMoss_02" ID="{7B0C0E3B-4A7F-4054-860E-255F28A32571}" ShortID="383374109">
+																	<ReferenceList>
+																		<Reference Name="Conversion">
+																			<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D0B9DB4F-7FF6-4CDB-BEF4-05863A8070B7}"/>
+																		</Reference>
+																		<Reference Name="OutputBus">
+																			<ObjectRef Name="Player" ID="{DFA6C097-5927-4545-962D-13BDFF6ED199}" WorkUnitID="{61D42960-93D3-4FF0-8FC0-3437DB41C134}"/>
+																		</Reference>
+																	</ReferenceList>
+																	<ChildrenList>
+																		<AudioFileSource Name="Run_FS_RedMoss_02" ID="{EEDC7D07-E1A9-40C6-8F32-8A201F446C30}">
+																			<Language>SFX</Language>
+																			<AudioFile>Run_FS_RedMoss_02.wav</AudioFile>
+																			<MediaIDList>
+																				<MediaID ID="854686809"/>
+																			</MediaIDList>
+																		</AudioFileSource>
+																	</ChildrenList>
+																	<ActiveSourceList>
+																		<ActiveSource Name="Run_FS_RedMoss_02" ID="{EEDC7D07-E1A9-40C6-8F32-8A201F446C30}" Platform="Linked"/>
+																	</ActiveSourceList>
+																</Sound>
+																<Sound Name="Run_FS_RedMoss_03" ID="{58E4DA83-97FB-4C9E-A289-FDD320BCCA69}" ShortID="682689510">
+																	<ReferenceList>
+																		<Reference Name="Conversion">
+																			<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D0B9DB4F-7FF6-4CDB-BEF4-05863A8070B7}"/>
+																		</Reference>
+																		<Reference Name="OutputBus">
+																			<ObjectRef Name="Player" ID="{DFA6C097-5927-4545-962D-13BDFF6ED199}" WorkUnitID="{61D42960-93D3-4FF0-8FC0-3437DB41C134}"/>
+																		</Reference>
+																	</ReferenceList>
+																	<ChildrenList>
+																		<AudioFileSource Name="Run_FS_RedMoss_03" ID="{91317664-BA09-4848-962F-5023AC0972A3}">
+																			<Language>SFX</Language>
+																			<AudioFile>Run_FS_RedMoss_03.wav</AudioFile>
+																			<MediaIDList>
+																				<MediaID ID="535041404"/>
+																			</MediaIDList>
+																		</AudioFileSource>
+																	</ChildrenList>
+																	<ActiveSourceList>
+																		<ActiveSource Name="Run_FS_RedMoss_03" ID="{91317664-BA09-4848-962F-5023AC0972A3}" Platform="Linked"/>
+																	</ActiveSourceList>
+																</Sound>
+																<Sound Name="Run_FS_RedMoss_04" ID="{AAE9A838-2BC9-4770-874A-2B2497D99AB0}" ShortID="605604373">
+																	<ReferenceList>
+																		<Reference Name="Conversion">
+																			<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D0B9DB4F-7FF6-4CDB-BEF4-05863A8070B7}"/>
+																		</Reference>
+																		<Reference Name="OutputBus">
+																			<ObjectRef Name="Player" ID="{DFA6C097-5927-4545-962D-13BDFF6ED199}" WorkUnitID="{61D42960-93D3-4FF0-8FC0-3437DB41C134}"/>
+																		</Reference>
+																	</ReferenceList>
+																	<ChildrenList>
+																		<AudioFileSource Name="Run_FS_RedMoss_04" ID="{DC8110F8-A48A-4DB7-A1E9-922619196343}">
+																			<Language>SFX</Language>
+																			<AudioFile>Run_FS_RedMoss_04.wav</AudioFile>
+																			<MediaIDList>
+																				<MediaID ID="359700743"/>
+																			</MediaIDList>
+																		</AudioFileSource>
+																	</ChildrenList>
+																	<ActiveSourceList>
+																		<ActiveSource Name="Run_FS_RedMoss_04" ID="{DC8110F8-A48A-4DB7-A1E9-922619196343}" Platform="Linked"/>
+																	</ActiveSourceList>
+																</Sound>
+																<Sound Name="Run_FS_RedMoss_05" ID="{3E625C4A-1B14-48E1-8926-75F678E7A9BD}" ShortID="131516314">
+																	<ReferenceList>
+																		<Reference Name="Conversion">
+																			<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D0B9DB4F-7FF6-4CDB-BEF4-05863A8070B7}"/>
+																		</Reference>
+																		<Reference Name="OutputBus">
+																			<ObjectRef Name="Player" ID="{DFA6C097-5927-4545-962D-13BDFF6ED199}" WorkUnitID="{61D42960-93D3-4FF0-8FC0-3437DB41C134}"/>
+																		</Reference>
+																	</ReferenceList>
+																	<ChildrenList>
+																		<AudioFileSource Name="Run_FS_RedMoss_05" ID="{19B4DD78-E5E6-4506-B3B3-56941FE6C8F3}">
+																			<Language>SFX</Language>
+																			<AudioFile>Run_FS_RedMoss_05.wav</AudioFile>
+																			<MediaIDList>
+																				<MediaID ID="929540155"/>
+																			</MediaIDList>
+																		</AudioFileSource>
+																	</ChildrenList>
+																	<ActiveSourceList>
+																		<ActiveSource Name="Run_FS_RedMoss_05" ID="{19B4DD78-E5E6-4506-B3B3-56941FE6C8F3}" Platform="Linked"/>
+																	</ActiveSourceList>
+																</Sound>
+															</ChildrenList>
+														</RandomSequenceContainer>
+														<RandomSequenceContainer Name="Sprint_FS_RedMoss" ID="{FA6436C9-AEED-40C5-AC42-B1AEBCB6F054}" ShortID="687809657">
+															<PropertyList>
+																<Property Name="InitialDelay" Type="Real64">
+																	<ValueList>
+																		<Value>0.15</Value>
+																	</ValueList>
+																</Property>
+															</PropertyList>
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D0B9DB4F-7FF6-4CDB-BEF4-05863A8070B7}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Player" ID="{DFA6C097-5927-4545-962D-13BDFF6ED199}" WorkUnitID="{61D42960-93D3-4FF0-8FC0-3437DB41C134}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<Sound Name="Sprint_FS_RedMoss_02" ID="{396C2C9C-01E2-428C-9314-B856B6DC7748}" ShortID="935819603">
+																	<ReferenceList>
+																		<Reference Name="Conversion">
+																			<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D0B9DB4F-7FF6-4CDB-BEF4-05863A8070B7}"/>
+																		</Reference>
+																		<Reference Name="OutputBus">
+																			<ObjectRef Name="Player" ID="{DFA6C097-5927-4545-962D-13BDFF6ED199}" WorkUnitID="{61D42960-93D3-4FF0-8FC0-3437DB41C134}"/>
+																		</Reference>
+																	</ReferenceList>
+																	<ChildrenList>
+																		<AudioFileSource Name="Sprint_FS_RedMoss_02" ID="{55471856-4E3E-4ED5-B694-FCCA845BC596}">
+																			<Language>SFX</Language>
+																			<AudioFile>Sprint_FS_RedMoss_02.wav</AudioFile>
+																			<MediaIDList>
+																				<MediaID ID="873313185"/>
+																			</MediaIDList>
+																		</AudioFileSource>
+																	</ChildrenList>
+																	<ActiveSourceList>
+																		<ActiveSource Name="Sprint_FS_RedMoss_02" ID="{55471856-4E3E-4ED5-B694-FCCA845BC596}" Platform="Linked"/>
+																	</ActiveSourceList>
+																</Sound>
+																<Sound Name="Sprint_FS_RedMoss_03" ID="{07D212AC-4514-46C9-8A78-3F44F64786B2}" ShortID="737328222">
+																	<ReferenceList>
+																		<Reference Name="Conversion">
+																			<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D0B9DB4F-7FF6-4CDB-BEF4-05863A8070B7}"/>
+																		</Reference>
+																		<Reference Name="OutputBus">
+																			<ObjectRef Name="Player" ID="{DFA6C097-5927-4545-962D-13BDFF6ED199}" WorkUnitID="{61D42960-93D3-4FF0-8FC0-3437DB41C134}"/>
+																		</Reference>
+																	</ReferenceList>
+																	<ChildrenList>
+																		<AudioFileSource Name="Sprint_FS_RedMoss_03" ID="{BC30572E-6D49-4837-9902-B7BC9578D898}">
+																			<Language>SFX</Language>
+																			<AudioFile>Sprint_FS_RedMoss_03.wav</AudioFile>
+																			<MediaIDList>
+																				<MediaID ID="383792844"/>
+																			</MediaIDList>
+																		</AudioFileSource>
+																	</ChildrenList>
+																	<ActiveSourceList>
+																		<ActiveSource Name="Sprint_FS_RedMoss_03" ID="{BC30572E-6D49-4837-9902-B7BC9578D898}" Platform="Linked"/>
+																	</ActiveSourceList>
+																</Sound>
+																<Sound Name="Sprint_FS_RedMoss_05" ID="{76535D1D-0636-463B-9AF3-8C9EDA4559E6}" ShortID="895222614">
+																	<ReferenceList>
+																		<Reference Name="Conversion">
+																			<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D0B9DB4F-7FF6-4CDB-BEF4-05863A8070B7}"/>
+																		</Reference>
+																		<Reference Name="OutputBus">
+																			<ObjectRef Name="Player" ID="{DFA6C097-5927-4545-962D-13BDFF6ED199}" WorkUnitID="{61D42960-93D3-4FF0-8FC0-3437DB41C134}"/>
+																		</Reference>
+																	</ReferenceList>
+																	<ChildrenList>
+																		<AudioFileSource Name="Sprint_FS_RedMoss_05" ID="{DCA40B30-A405-45CC-B3C0-32BB5BCE5AE7}">
+																			<Language>SFX</Language>
+																			<AudioFile>Sprint_FS_RedMoss_05.wav</AudioFile>
+																			<MediaIDList>
+																				<MediaID ID="706161085"/>
+																			</MediaIDList>
+																		</AudioFileSource>
+																	</ChildrenList>
+																	<ActiveSourceList>
+																		<ActiveSource Name="Sprint_FS_RedMoss_05" ID="{DCA40B30-A405-45CC-B3C0-32BB5BCE5AE7}" Platform="Linked"/>
+																	</ActiveSourceList>
+																</Sound>
+																<Sound Name="Sprint_FS_RedMoss_04" ID="{EAD6D903-8564-4A8C-86AE-569884C30E64}" ShortID="835169028">
+																	<ReferenceList>
+																		<Reference Name="Conversion">
+																			<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D0B9DB4F-7FF6-4CDB-BEF4-05863A8070B7}"/>
+																		</Reference>
+																		<Reference Name="OutputBus">
+																			<ObjectRef Name="Player" ID="{DFA6C097-5927-4545-962D-13BDFF6ED199}" WorkUnitID="{61D42960-93D3-4FF0-8FC0-3437DB41C134}"/>
+																		</Reference>
+																	</ReferenceList>
+																	<ChildrenList>
+																		<AudioFileSource Name="Sprint_FS_RedMoss_04" ID="{17E3E9FE-8677-41F7-87D6-D406869D6C7F}">
+																			<Language>SFX</Language>
+																			<AudioFile>Sprint_FS_RedMoss_04.wav</AudioFile>
+																			<MediaIDList>
+																				<MediaID ID="571306300"/>
+																			</MediaIDList>
+																		</AudioFileSource>
+																	</ChildrenList>
+																	<ActiveSourceList>
+																		<ActiveSource Name="Sprint_FS_RedMoss_04" ID="{17E3E9FE-8677-41F7-87D6-D406869D6C7F}" Platform="Linked"/>
+																	</ActiveSourceList>
+																</Sound>
+																<Sound Name="Sprint_FS_RedMoss_01" ID="{E339B013-0D0E-4602-A476-B0964E7C2F84}" ShortID="175960034">
+																	<ReferenceList>
+																		<Reference Name="Conversion">
+																			<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D0B9DB4F-7FF6-4CDB-BEF4-05863A8070B7}"/>
+																		</Reference>
+																		<Reference Name="OutputBus">
+																			<ObjectRef Name="Player" ID="{DFA6C097-5927-4545-962D-13BDFF6ED199}" WorkUnitID="{61D42960-93D3-4FF0-8FC0-3437DB41C134}"/>
+																		</Reference>
+																	</ReferenceList>
+																	<ChildrenList>
+																		<AudioFileSource Name="Sprint_FS_RedMoss_01" ID="{9EAD7C41-5241-4ACD-911A-DF7D40EABEF5}">
+																			<Language>SFX</Language>
+																			<AudioFile>Sprint_FS_RedMoss_01.wav</AudioFile>
+																			<MediaIDList>
+																				<MediaID ID="199527553"/>
+																			</MediaIDList>
+																		</AudioFileSource>
+																	</ChildrenList>
+																	<ActiveSourceList>
+																		<ActiveSource Name="Sprint_FS_RedMoss_01" ID="{9EAD7C41-5241-4ACD-911A-DF7D40EABEF5}" Platform="Linked"/>
+																	</ActiveSourceList>
+																</Sound>
+															</ChildrenList>
+														</RandomSequenceContainer>
+													</ChildrenList>
+													<BlendTrackList>
+														<BlendTrack Name="RedMoss_Walk_Run" ID="{BAD43DE5-36E7-43FF-A707-EE9EDBEEB006}" ShortID="85730335">
+															<PropertyList>
+																<Property Name="EnableCrossFading" Type="bool" Value="True"/>
+															</PropertyList>
+															<ReferenceList>
+																<Reference Name="LayerCrossFadeControlInput">
+																	<ObjectRef Name="WalkSpeed" ID="{E1064E41-C1EF-48D7-9F88-59A3D70419E0}" WorkUnitID="{A7C728CA-03F4-4957-BFFD-ECBCE8437D51}"/>
+																</Reference>
+															</ReferenceList>
+															<BlendTrackAssocList>
+																<BlendTrackAssoc>
+																	<ItemRef Name="Walk_FS_RedMoss" ID="{D59EA390-90D8-4ECE-B5CF-F9FBB026EAC9}"/>
+																	<CrossfadingInfo>
+																		<LeftEdgePos>0</LeftEdgePos>
+																		<LeftFadingMode>Automatic</LeftFadingMode>
+																		<RightEdgePos>51.2048192771084</RightEdgePos>
+																		<RightFadingMode>Automatic</RightFadingMode>
+																	</CrossfadingInfo>
+																</BlendTrackAssoc>
+																<BlendTrackAssoc>
+																	<ItemRef Name="Run_FS_RedMoss" ID="{13C13F93-25B7-4F5F-B14C-74D3E7BA85AF}"/>
+																	<CrossfadingInfo>
+																		<LeftEdgePos>50</LeftEdgePos>
+																		<LeftFadingMode>Automatic</LeftFadingMode>
+																		<RightEdgePos>75.6026596385542</RightEdgePos>
+																		<RightFadingMode>Automatic</RightFadingMode>
+																	</CrossfadingInfo>
+																</BlendTrackAssoc>
+																<BlendTrackAssoc>
+																	<ItemRef Name="Sprint_FS_RedMoss" ID="{FA6436C9-AEED-40C5-AC42-B1AEBCB6F054}"/>
+																	<CrossfadingInfo>
+																		<LeftEdgePos>75</LeftEdgePos>
+																		<LeftFadingMode>Automatic</LeftFadingMode>
+																		<RightEdgePos>100</RightEdgePos>
+																		<RightFadingMode>Automatic</RightFadingMode>
+																	</CrossfadingInfo>
+																</BlendTrackAssoc>
+															</BlendTrackAssocList>
+														</BlendTrack>
+													</BlendTrackList>
+												</BlendContainer>
+												<BlendContainer Name="Rock" ID="{7EE224B3-EE8C-4C94-83FE-1DF6435A04F7}" ShortID="683669302">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D0B9DB4F-7FF6-4CDB-BEF4-05863A8070B7}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Player" ID="{DFA6C097-5927-4545-962D-13BDFF6ED199}" WorkUnitID="{61D42960-93D3-4FF0-8FC0-3437DB41C134}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<RandomSequenceContainer Name="Walk_FS_Rock" ID="{F334ABA8-BF7D-4D42-A72C-F17E585A0182}" ShortID="726258235">
+															<PropertyList>
+																<Property Name="InitialDelay" Type="Real64">
+																	<ValueList>
+																		<Value>0.2</Value>
+																	</ValueList>
+																</Property>
+																<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
+																<Property Name="Pitch" Type="int32">
+																	<ModifierList>
+																		<ModifierInfo>
+																			<Modifier Name="" ID="{9C4E18EC-A6B6-4D3A-9292-E49FCB1320AA}">
+																				<PropertyList>
+																					<Property Name="Enabled" Type="bool" Value="True"/>
+																					<Property Name="Max" Type="Real64" Value="101"/>
+																					<Property Name="Min" Type="Real64" Value="-101"/>
+																				</PropertyList>
+																			</Modifier>
+																		</ModifierInfo>
+																	</ModifierList>
+																</Property>
+																<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
+																<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
+																<Property Name="PlayMechanismSpecialTransitionsType" Type="int16" Value="3"/>
+																<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64" Value="0.75"/>
+																<Property Name="Volume" Type="Real64">
+																	<ModifierList>
+																		<ModifierInfo>
+																			<Modifier Name="" ID="{5AABC3F1-77BA-4BC3-9CBF-A3527F9F0BE1}">
+																				<PropertyList>
+																					<Property Name="Enabled" Type="bool" Value="True"/>
+																					<Property Name="Min" Type="Real64" Value="-1"/>
+																				</PropertyList>
+																			</Modifier>
+																		</ModifierInfo>
+																	</ModifierList>
+																</Property>
+															</PropertyList>
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D0B9DB4F-7FF6-4CDB-BEF4-05863A8070B7}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Player" ID="{DFA6C097-5927-4545-962D-13BDFF6ED199}" WorkUnitID="{61D42960-93D3-4FF0-8FC0-3437DB41C134}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<Sound Name="Walk_FS_Rock_01" ID="{83557FA1-8C91-4473-90C5-6837D32EE94C}" ShortID="86211425">
+																	<ReferenceList>
+																		<Reference Name="Conversion">
+																			<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D0B9DB4F-7FF6-4CDB-BEF4-05863A8070B7}"/>
+																		</Reference>
+																		<Reference Name="OutputBus">
+																			<ObjectRef Name="Player" ID="{DFA6C097-5927-4545-962D-13BDFF6ED199}" WorkUnitID="{61D42960-93D3-4FF0-8FC0-3437DB41C134}"/>
+																		</Reference>
+																	</ReferenceList>
+																	<ChildrenList>
+																		<AudioFileSource Name="Walk_FS_Rock_01" ID="{8E433136-5752-42B2-8505-327E857C3264}">
+																			<Language>SFX</Language>
+																			<AudioFile>Walk_FS_Rock_01.wav</AudioFile>
+																			<MediaIDList>
+																				<MediaID ID="378889780"/>
+																			</MediaIDList>
+																		</AudioFileSource>
+																	</ChildrenList>
+																	<ActiveSourceList>
+																		<ActiveSource Name="Walk_FS_Rock_01" ID="{8E433136-5752-42B2-8505-327E857C3264}" Platform="Linked"/>
+																	</ActiveSourceList>
+																</Sound>
+																<Sound Name="Walk_FS_Rock_02" ID="{FEFA21E8-1268-4AAA-825A-FACD9AEDF98E}" ShortID="312866497">
+																	<ReferenceList>
+																		<Reference Name="Conversion">
+																			<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D0B9DB4F-7FF6-4CDB-BEF4-05863A8070B7}"/>
+																		</Reference>
+																		<Reference Name="OutputBus">
+																			<ObjectRef Name="Player" ID="{DFA6C097-5927-4545-962D-13BDFF6ED199}" WorkUnitID="{61D42960-93D3-4FF0-8FC0-3437DB41C134}"/>
+																		</Reference>
+																	</ReferenceList>
+																	<ChildrenList>
+																		<AudioFileSource Name="Walk_FS_Rock_02" ID="{7C45E77A-EEE0-487F-841F-B51E080F1D20}">
+																			<Language>SFX</Language>
+																			<AudioFile>Walk_FS_Rock_02.wav</AudioFile>
+																			<MediaIDList>
+																				<MediaID ID="231048917"/>
+																			</MediaIDList>
+																		</AudioFileSource>
+																	</ChildrenList>
+																	<ActiveSourceList>
+																		<ActiveSource Name="Walk_FS_Rock_02" ID="{7C45E77A-EEE0-487F-841F-B51E080F1D20}" Platform="Linked"/>
+																	</ActiveSourceList>
+																</Sound>
+																<Sound Name="Walk_FS_Rock_05" ID="{3E895392-9932-4F00-A0A5-A3BEF1EE970E}" ShortID="163441156">
+																	<ReferenceList>
+																		<Reference Name="Conversion">
+																			<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D0B9DB4F-7FF6-4CDB-BEF4-05863A8070B7}"/>
+																		</Reference>
+																		<Reference Name="OutputBus">
+																			<ObjectRef Name="Player" ID="{DFA6C097-5927-4545-962D-13BDFF6ED199}" WorkUnitID="{61D42960-93D3-4FF0-8FC0-3437DB41C134}"/>
+																		</Reference>
+																	</ReferenceList>
+																	<ChildrenList>
+																		<AudioFileSource Name="Walk_FS_Rock_05" ID="{D2A0B012-FFD1-42C7-B517-AD55A3338F54}">
+																			<Language>SFX</Language>
+																			<AudioFile>Walk_FS_Rock_05.wav</AudioFile>
+																			<MediaIDList>
+																				<MediaID ID="71629610"/>
+																			</MediaIDList>
+																		</AudioFileSource>
+																	</ChildrenList>
+																	<ActiveSourceList>
+																		<ActiveSource Name="Walk_FS_Rock_05" ID="{D2A0B012-FFD1-42C7-B517-AD55A3338F54}" Platform="Linked"/>
+																	</ActiveSourceList>
+																</Sound>
+																<Sound Name="Walk_FS_Rock_03" ID="{A83C74F7-0BA5-4DCC-8CB6-DFC1FC230C3C}" ShortID="1016534123">
+																	<ReferenceList>
+																		<Reference Name="Conversion">
+																			<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D0B9DB4F-7FF6-4CDB-BEF4-05863A8070B7}"/>
+																		</Reference>
+																		<Reference Name="OutputBus">
+																			<ObjectRef Name="Player" ID="{DFA6C097-5927-4545-962D-13BDFF6ED199}" WorkUnitID="{61D42960-93D3-4FF0-8FC0-3437DB41C134}"/>
+																		</Reference>
+																	</ReferenceList>
+																	<ChildrenList>
+																		<AudioFileSource Name="Walk_FS_Rock_03" ID="{214B69A6-8B2D-46A9-9D94-F77C681FD771}">
+																			<Language>SFX</Language>
+																			<AudioFile>Walk_FS_Rock_03.wav</AudioFile>
+																			<MediaIDList>
+																				<MediaID ID="693497413"/>
+																			</MediaIDList>
+																		</AudioFileSource>
+																	</ChildrenList>
+																	<ActiveSourceList>
+																		<ActiveSource Name="Walk_FS_Rock_03" ID="{214B69A6-8B2D-46A9-9D94-F77C681FD771}" Platform="Linked"/>
+																	</ActiveSourceList>
+																</Sound>
+																<Sound Name="Walk_FS_Rock_04" ID="{7412E85B-A81E-4D07-9E06-88AE6ECBCF0B}" ShortID="778273124">
+																	<ReferenceList>
+																		<Reference Name="Conversion">
+																			<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D0B9DB4F-7FF6-4CDB-BEF4-05863A8070B7}"/>
+																		</Reference>
+																		<Reference Name="OutputBus">
+																			<ObjectRef Name="Player" ID="{DFA6C097-5927-4545-962D-13BDFF6ED199}" WorkUnitID="{61D42960-93D3-4FF0-8FC0-3437DB41C134}"/>
+																		</Reference>
+																	</ReferenceList>
+																	<ChildrenList>
+																		<AudioFileSource Name="Walk_FS_Rock_04" ID="{1CE58BA2-90CF-4E32-AD06-EBE8D7F3E13B}">
+																			<Language>SFX</Language>
+																			<AudioFile>Walk_FS_Rock_04.wav</AudioFile>
+																			<MediaIDList>
+																				<MediaID ID="233662186"/>
+																			</MediaIDList>
+																		</AudioFileSource>
+																	</ChildrenList>
+																	<ActiveSourceList>
+																		<ActiveSource Name="Walk_FS_Rock_04" ID="{1CE58BA2-90CF-4E32-AD06-EBE8D7F3E13B}" Platform="Linked"/>
+																	</ActiveSourceList>
+																</Sound>
+															</ChildrenList>
+														</RandomSequenceContainer>
+														<RandomSequenceContainer Name="Run_FS_Rock" ID="{30ED3D56-9401-414D-AF2E-D03C7FF34A2F}" ShortID="846265711">
+															<PropertyList>
+																<Property Name="InitialDelay" Type="Real64">
+																	<ValueList>
+																		<Value>0.15</Value>
+																	</ValueList>
+																</Property>
+															</PropertyList>
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D0B9DB4F-7FF6-4CDB-BEF4-05863A8070B7}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Player" ID="{DFA6C097-5927-4545-962D-13BDFF6ED199}" WorkUnitID="{61D42960-93D3-4FF0-8FC0-3437DB41C134}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<Sound Name="Run_FS_Rock_01" ID="{CD99EE70-8AB6-4647-A9C2-F62CAAF53505}" ShortID="304387615">
+																	<ReferenceList>
+																		<Reference Name="Conversion">
+																			<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D0B9DB4F-7FF6-4CDB-BEF4-05863A8070B7}"/>
+																		</Reference>
+																		<Reference Name="OutputBus">
+																			<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8A69F515-C57F-4A97-8978-0B9FB4F47B02}"/>
+																		</Reference>
+																	</ReferenceList>
+																	<ChildrenList>
+																		<AudioFileSource Name="Run_FS_Rock_01" ID="{B28AF4B6-2CDD-4577-93D8-9EAA67C7D128}">
+																			<Language>SFX</Language>
+																			<AudioFile>Run_FS_Rock_01.wav</AudioFile>
+																			<MediaIDList>
+																				<MediaID ID="391816557"/>
+																			</MediaIDList>
+																		</AudioFileSource>
+																	</ChildrenList>
+																	<ActiveSourceList>
+																		<ActiveSource Name="Run_FS_Rock_01" ID="{B28AF4B6-2CDD-4577-93D8-9EAA67C7D128}" Platform="Linked"/>
+																	</ActiveSourceList>
+																</Sound>
+																<Sound Name="Run_FS_Rock_02" ID="{5EDD0BD5-00CF-4208-86AF-1F0D8ABB1848}" ShortID="1023179404">
+																	<ReferenceList>
+																		<Reference Name="Conversion">
+																			<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D0B9DB4F-7FF6-4CDB-BEF4-05863A8070B7}"/>
+																		</Reference>
+																		<Reference Name="OutputBus">
+																			<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8A69F515-C57F-4A97-8978-0B9FB4F47B02}"/>
+																		</Reference>
+																	</ReferenceList>
+																	<ChildrenList>
+																		<AudioFileSource Name="Run_FS_Rock_02" ID="{95F6AD21-8B03-4C43-9313-10038D35CE09}">
+																			<Language>SFX</Language>
+																			<AudioFile>Run_FS_Rock_02.wav</AudioFile>
+																			<MediaIDList>
+																				<MediaID ID="695197864"/>
+																			</MediaIDList>
+																		</AudioFileSource>
+																	</ChildrenList>
+																	<ActiveSourceList>
+																		<ActiveSource Name="Run_FS_Rock_02" ID="{95F6AD21-8B03-4C43-9313-10038D35CE09}" Platform="Linked"/>
+																	</ActiveSourceList>
+																</Sound>
+																<Sound Name="Run_FS_Rock_03" ID="{6F337188-04F0-4A5A-81AA-B70DABDB7AC7}" ShortID="340923952">
+																	<ReferenceList>
+																		<Reference Name="Conversion">
+																			<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D0B9DB4F-7FF6-4CDB-BEF4-05863A8070B7}"/>
+																		</Reference>
+																		<Reference Name="OutputBus">
+																			<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8A69F515-C57F-4A97-8978-0B9FB4F47B02}"/>
+																		</Reference>
+																	</ReferenceList>
+																	<ChildrenList>
+																		<AudioFileSource Name="Run_FS_Rock_03" ID="{6AC5BC23-5B29-424C-BA07-8030AE399334}">
+																			<Language>SFX</Language>
+																			<AudioFile>Run_FS_Rock_03.wav</AudioFile>
+																			<MediaIDList>
+																				<MediaID ID="386422747"/>
+																			</MediaIDList>
+																		</AudioFileSource>
+																	</ChildrenList>
+																	<ActiveSourceList>
+																		<ActiveSource Name="Run_FS_Rock_03" ID="{6AC5BC23-5B29-424C-BA07-8030AE399334}" Platform="Linked"/>
+																	</ActiveSourceList>
+																</Sound>
+																<Sound Name="Run_FS_Rock_04" ID="{264B296D-4707-4079-BB0E-ACD878C6D613}" ShortID="452062647">
+																	<ReferenceList>
+																		<Reference Name="Conversion">
+																			<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D0B9DB4F-7FF6-4CDB-BEF4-05863A8070B7}"/>
+																		</Reference>
+																		<Reference Name="OutputBus">
+																			<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8A69F515-C57F-4A97-8978-0B9FB4F47B02}"/>
+																		</Reference>
+																	</ReferenceList>
+																	<ChildrenList>
+																		<AudioFileSource Name="Run_FS_Rock_04" ID="{B4073297-F9C8-4905-8B5B-486D21FE22DD}">
+																			<Language>SFX</Language>
+																			<AudioFile>Run_FS_Rock_04.wav</AudioFile>
+																			<MediaIDList>
+																				<MediaID ID="156596382"/>
+																			</MediaIDList>
+																		</AudioFileSource>
+																	</ChildrenList>
+																	<ActiveSourceList>
+																		<ActiveSource Name="Run_FS_Rock_04" ID="{B4073297-F9C8-4905-8B5B-486D21FE22DD}" Platform="Linked"/>
+																	</ActiveSourceList>
+																</Sound>
+																<Sound Name="Run_FS_Rock_05" ID="{0D050ECD-F8EE-4708-8EAB-948FC5A097E3}" ShortID="520107616">
+																	<ReferenceList>
+																		<Reference Name="Conversion">
+																			<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D0B9DB4F-7FF6-4CDB-BEF4-05863A8070B7}"/>
+																		</Reference>
+																		<Reference Name="OutputBus">
+																			<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8A69F515-C57F-4A97-8978-0B9FB4F47B02}"/>
+																		</Reference>
+																	</ReferenceList>
+																	<ChildrenList>
+																		<AudioFileSource Name="Run_FS_Rock_05" ID="{0A6F63BA-FA7D-4D80-BB30-A91A3CF387C9}">
+																			<Language>SFX</Language>
+																			<AudioFile>Run_FS_Rock_05.wav</AudioFile>
+																			<MediaIDList>
+																				<MediaID ID="184688619"/>
+																			</MediaIDList>
+																		</AudioFileSource>
+																	</ChildrenList>
+																	<ActiveSourceList>
+																		<ActiveSource Name="Run_FS_Rock_05" ID="{0A6F63BA-FA7D-4D80-BB30-A91A3CF387C9}" Platform="Linked"/>
+																	</ActiveSourceList>
+																</Sound>
+															</ChildrenList>
+														</RandomSequenceContainer>
+														<RandomSequenceContainer Name="Sprint_FS_Rock" ID="{4848BC8E-44E2-410D-B7E3-1177837D5286}" ShortID="996116027">
+															<PropertyList>
+																<Property Name="InitialDelay" Type="Real64">
+																	<ValueList>
+																		<Value>0.15</Value>
+																	</ValueList>
+																</Property>
+															</PropertyList>
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D0B9DB4F-7FF6-4CDB-BEF4-05863A8070B7}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Player" ID="{DFA6C097-5927-4545-962D-13BDFF6ED199}" WorkUnitID="{61D42960-93D3-4FF0-8FC0-3437DB41C134}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<Sound Name="Sprint_FS_Rock_01" ID="{D5D9AF0D-BBF6-4539-803C-BABEF21488E9}" ShortID="585094987">
+																	<ReferenceList>
+																		<Reference Name="Conversion">
+																			<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D0B9DB4F-7FF6-4CDB-BEF4-05863A8070B7}"/>
+																		</Reference>
+																		<Reference Name="OutputBus">
+																			<ObjectRef Name="Player" ID="{DFA6C097-5927-4545-962D-13BDFF6ED199}" WorkUnitID="{61D42960-93D3-4FF0-8FC0-3437DB41C134}"/>
+																		</Reference>
+																	</ReferenceList>
+																	<ChildrenList>
+																		<AudioFileSource Name="Sprint_FS_Rock_01" ID="{D7C38C6B-AD99-4F45-80D5-170F1845C4F1}">
+																			<Language>SFX</Language>
+																			<AudioFile>Sprint_FS_Rock_01.wav</AudioFile>
+																			<MediaIDList>
+																				<MediaID ID="372115538"/>
+																			</MediaIDList>
+																		</AudioFileSource>
+																	</ChildrenList>
+																	<ActiveSourceList>
+																		<ActiveSource Name="Sprint_FS_Rock_01" ID="{D7C38C6B-AD99-4F45-80D5-170F1845C4F1}" Platform="Linked"/>
+																	</ActiveSourceList>
+																</Sound>
+																<Sound Name="Sprint_FS_Rock_02" ID="{595C7A82-3C5D-4E5C-B496-46708D457AE9}" ShortID="1010840794">
+																	<ReferenceList>
+																		<Reference Name="Conversion">
+																			<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D0B9DB4F-7FF6-4CDB-BEF4-05863A8070B7}"/>
+																		</Reference>
+																		<Reference Name="OutputBus">
+																			<ObjectRef Name="Player" ID="{DFA6C097-5927-4545-962D-13BDFF6ED199}" WorkUnitID="{61D42960-93D3-4FF0-8FC0-3437DB41C134}"/>
+																		</Reference>
+																	</ReferenceList>
+																	<ChildrenList>
+																		<AudioFileSource Name="Sprint_FS_Rock_02" ID="{42B8EE60-0220-4C91-8A7E-8858E5F4C29D}">
+																			<Language>SFX</Language>
+																			<AudioFile>Sprint_FS_Rock_02.wav</AudioFile>
+																			<MediaIDList>
+																				<MediaID ID="626270443"/>
+																			</MediaIDList>
+																		</AudioFileSource>
+																	</ChildrenList>
+																	<ActiveSourceList>
+																		<ActiveSource Name="Sprint_FS_Rock_02" ID="{42B8EE60-0220-4C91-8A7E-8858E5F4C29D}" Platform="Linked"/>
+																	</ActiveSourceList>
+																</Sound>
+																<Sound Name="Sprint_FS_Rock_04" ID="{35F35C66-372F-4249-A215-C0EC7A288CAB}" ShortID="422036478">
+																	<ReferenceList>
+																		<Reference Name="Conversion">
+																			<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D0B9DB4F-7FF6-4CDB-BEF4-05863A8070B7}"/>
+																		</Reference>
+																		<Reference Name="OutputBus">
+																			<ObjectRef Name="Player" ID="{DFA6C097-5927-4545-962D-13BDFF6ED199}" WorkUnitID="{61D42960-93D3-4FF0-8FC0-3437DB41C134}"/>
+																		</Reference>
+																	</ReferenceList>
+																	<ChildrenList>
+																		<AudioFileSource Name="Sprint_FS_Rock_04" ID="{86F5115A-FF9A-4B5A-B66C-18811A0074C4}">
+																			<Language>SFX</Language>
+																			<AudioFile>Sprint_FS_Rock_04.wav</AudioFile>
+																			<MediaIDList>
+																				<MediaID ID="373547541"/>
+																			</MediaIDList>
+																		</AudioFileSource>
+																	</ChildrenList>
+																	<ActiveSourceList>
+																		<ActiveSource Name="Sprint_FS_Rock_04" ID="{86F5115A-FF9A-4B5A-B66C-18811A0074C4}" Platform="Linked"/>
+																	</ActiveSourceList>
+																</Sound>
+																<Sound Name="Sprint_FS_Rock_03" ID="{733D67B1-05DF-4E23-845F-A61DE1B6A22F}" ShortID="1004132773">
+																	<ReferenceList>
+																		<Reference Name="Conversion">
+																			<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D0B9DB4F-7FF6-4CDB-BEF4-05863A8070B7}"/>
+																		</Reference>
+																		<Reference Name="OutputBus">
+																			<ObjectRef Name="Player" ID="{DFA6C097-5927-4545-962D-13BDFF6ED199}" WorkUnitID="{61D42960-93D3-4FF0-8FC0-3437DB41C134}"/>
+																		</Reference>
+																	</ReferenceList>
+																	<ChildrenList>
+																		<AudioFileSource Name="Sprint_FS_Rock_03" ID="{4A5C047E-E9F6-4382-AB06-3DF93F71AA64}">
+																			<Language>SFX</Language>
+																			<AudioFile>Sprint_FS_Rock_03.wav</AudioFile>
+																			<MediaIDList>
+																				<MediaID ID="644520916"/>
+																			</MediaIDList>
+																		</AudioFileSource>
+																	</ChildrenList>
+																	<ActiveSourceList>
+																		<ActiveSource Name="Sprint_FS_Rock_03" ID="{4A5C047E-E9F6-4382-AB06-3DF93F71AA64}" Platform="Linked"/>
+																	</ActiveSourceList>
+																</Sound>
+																<Sound Name="Sprint_FS_Rock_05" ID="{5B7F166E-D05A-4D1D-AC28-4759BA188F0C}" ShortID="105472312">
+																	<ReferenceList>
+																		<Reference Name="Conversion">
+																			<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D0B9DB4F-7FF6-4CDB-BEF4-05863A8070B7}"/>
+																		</Reference>
+																		<Reference Name="OutputBus">
+																			<ObjectRef Name="Player" ID="{DFA6C097-5927-4545-962D-13BDFF6ED199}" WorkUnitID="{61D42960-93D3-4FF0-8FC0-3437DB41C134}"/>
+																		</Reference>
+																	</ReferenceList>
+																	<ChildrenList>
+																		<AudioFileSource Name="Sprint_FS_Rock_05" ID="{7830AC74-4E5E-4BA5-866C-75BED7F84C06}">
+																			<Language>SFX</Language>
+																			<AudioFile>Sprint_FS_Rock_05.wav</AudioFile>
+																			<MediaIDList>
+																				<MediaID ID="7755423"/>
+																			</MediaIDList>
+																		</AudioFileSource>
+																	</ChildrenList>
+																	<ActiveSourceList>
+																		<ActiveSource Name="Sprint_FS_Rock_05" ID="{7830AC74-4E5E-4BA5-866C-75BED7F84C06}" Platform="Linked"/>
+																	</ActiveSourceList>
+																</Sound>
+															</ChildrenList>
+														</RandomSequenceContainer>
+													</ChildrenList>
+													<BlendTrackList>
+														<BlendTrack Name="RedMoss_Walk_Run" ID="{02DDFBB7-1A0C-4364-82C0-21F64C02CD56}" ShortID="81806142">
+															<PropertyList>
+																<Property Name="EnableCrossFading" Type="bool" Value="True"/>
+															</PropertyList>
+															<ReferenceList>
+																<Reference Name="LayerCrossFadeControlInput">
+																	<ObjectRef Name="WalkSpeed" ID="{E1064E41-C1EF-48D7-9F88-59A3D70419E0}" WorkUnitID="{A7C728CA-03F4-4957-BFFD-ECBCE8437D51}"/>
+																</Reference>
+															</ReferenceList>
+															<BlendTrackAssocList>
+																<BlendTrackAssoc>
+																	<ItemRef Name="Walk_FS_Rock" ID="{F334ABA8-BF7D-4D42-A72C-F17E585A0182}"/>
+																	<CrossfadingInfo>
+																		<LeftEdgePos>0</LeftEdgePos>
+																		<LeftFadingMode>Automatic</LeftFadingMode>
+																		<RightEdgePos>51.2048192771084</RightEdgePos>
+																		<RightFadingMode>Automatic</RightFadingMode>
+																	</CrossfadingInfo>
+																</BlendTrackAssoc>
+																<BlendTrackAssoc>
+																	<ItemRef Name="Run_FS_Rock" ID="{30ED3D56-9401-414D-AF2E-D03C7FF34A2F}"/>
+																	<CrossfadingInfo>
+																		<LeftEdgePos>50</LeftEdgePos>
+																		<LeftFadingMode>Automatic</LeftFadingMode>
+																		<RightEdgePos>75.6026596385542</RightEdgePos>
+																		<RightFadingMode>Automatic</RightFadingMode>
+																	</CrossfadingInfo>
+																</BlendTrackAssoc>
+																<BlendTrackAssoc>
+																	<ItemRef Name="Sprint_FS_Rock" ID="{4848BC8E-44E2-410D-B7E3-1177837D5286}"/>
+																	<CrossfadingInfo>
+																		<LeftEdgePos>75</LeftEdgePos>
+																		<LeftFadingMode>Automatic</LeftFadingMode>
+																		<RightEdgePos>100</RightEdgePos>
+																		<RightFadingMode>Automatic</RightFadingMode>
+																	</CrossfadingInfo>
+																</BlendTrackAssoc>
+															</BlendTrackAssocList>
+														</BlendTrack>
+													</BlendTrackList>
+												</BlendContainer>
+											</ChildrenList>
+											<BlendTrackList>
+												<BlendTrack Name="RedMoss_Rock" ID="{9988A79C-CE35-49B6-BD15-03E6F50B431D}" ShortID="1061112522">
+													<PropertyList>
+														<Property Name="EnableCrossFading" Type="bool" Value="True"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="LayerCrossFadeControlInput">
+															<ObjectRef Name="Redmoss" ID="{80BC9985-A8D9-43F1-BA92-100D0D7A46A1}" WorkUnitID="{A7C728CA-03F4-4957-BFFD-ECBCE8437D51}"/>
+														</Reference>
+													</ReferenceList>
+													<BlendTrackAssocList>
+														<BlendTrackAssoc>
+															<ItemRef Name="Rock" ID="{7EE224B3-EE8C-4C94-83FE-1DF6435A04F7}"/>
+															<CrossfadingInfo>
+																<LeftEdgePos>0</LeftEdgePos>
+																<LeftFadingMode>Automatic</LeftFadingMode>
+																<RightEdgePos>96.6867469879518</RightEdgePos>
+																<RightFadingMode>Automatic</RightFadingMode>
+																<RightFadingSegmentShape>Exp2</RightFadingSegmentShape>
+															</CrossfadingInfo>
+														</BlendTrackAssoc>
+														<BlendTrackAssoc>
+															<ItemRef Name="RedMoss" ID="{592BCED7-789D-499C-AE74-5634974D9B17}"/>
+															<CrossfadingInfo>
+																<LeftEdgePos>4.51807228915663</LeftEdgePos>
+																<LeftFadingMode>Automatic</LeftFadingMode>
+																<LeftFadingSegmentShape>Log2</LeftFadingSegmentShape>
+																<RightEdgePos>100</RightEdgePos>
+																<RightFadingMode>Automatic</RightFadingMode>
+															</CrossfadingInfo>
+														</BlendTrackAssoc>
+													</BlendTrackAssocList>
+												</BlendTrack>
+											</BlendTrackList>
+										</BlendContainer>
 									</ChildrenList>
 									<GroupingInfo>
 										<GroupingBehaviorList>
+											<GroupingBehavior>
+												<ItemRef Name="run" ID="{DBA9028A-3D7B-4DB6-B0ED-EBE0D9CE5CD7}"/>
+											</GroupingBehavior>
 											<GroupingBehavior>
 												<ItemRef Name="Fungi" ID="{C338228D-7B89-400B-8A48-F66FA6F7EEC9}"/>
 											</GroupingBehavior>
@@ -2420,10 +2960,10 @@
 												<ItemRef Name="Metal" ID="{F36C6DAC-97C2-4F33-830F-9EC89696D0F8}"/>
 											</GroupingBehavior>
 											<GroupingBehavior>
-												<ItemRef Name="RedMoss" ID="{592BCED7-789D-499C-AE74-5634974D9B17}"/>
+												<ItemRef Name="Rock" ID="{83E5E6DA-7269-42DD-85DB-F5D2129647E2}"/>
 											</GroupingBehavior>
 											<GroupingBehavior>
-												<ItemRef Name="Rock" ID="{83E5E6DA-7269-42DD-85DB-F5D2129647E2}"/>
+												<ItemRef Name="RedMoss" ID="{700B24DD-484B-430B-9D30-2331CE4FC750}"/>
 											</GroupingBehavior>
 											<GroupingBehavior>
 												<ItemRef Name="PurpleMoss" ID="{861D55E9-8EE3-430D-971E-B8F2FFA2F7CE}"/>
@@ -2451,7 +2991,7 @@
 											<Grouping>
 												<SwitchRef Name="RedMoss" ID="{51C21A70-4FF9-48CC-86D4-817DDBD76F1A}"/>
 												<ItemList>
-													<ItemRef Name="RedMoss" ID="{592BCED7-789D-499C-AE74-5634974D9B17}"/>
+													<ItemRef Name="RedMoss" ID="{700B24DD-484B-430B-9D30-2331CE4FC750}"/>
 												</ItemList>
 											</Grouping>
 											<Grouping>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{6818FDA9-D46B-4A8C-9714-A4EE4E723538}" SchemaVersion="97" RootDocumentID="{968B145A-44D4-4ED7-9C02-96CDE1F6F4D5}">
+	<Events>
+		<WorkUnit Name="SFX_Ambiant" ID="{6818FDA9-D46B-4A8C-9714-A4EE4E723538}" OwnerID="{0B53BEA9-72FD-40A4-9BEA-6B47AA64B91B}" PersistMode="Nested">
+			<ChildrenList>
+				<Event Name="Play_Shipwreck" ID="{65F066E2-98CD-4D8D-9C4A-EAD7784BC329}">
+					<ChildrenList>
+						<Action Name="" ID="{A0A649DD-8A81-4A42-ACBF-6501A0527508}" ShortID="652383153">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Shipwreck" ID="{282F5D02-FACB-41F1-B908-66F3326EE78E}" WorkUnitID="{1D08DAFE-2A2F-4703-963C-44383784F1A4}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_BigFungus" ID="{1CD9581B-BFDD-493E-96D1-EB7EB522CC6C}">
+					<ChildrenList>
+						<Action Name="" ID="{F8BF7A8D-CCCB-4195-ADD1-3CE70FE6975E}" ShortID="829513469">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="BigFungus" ID="{2375AF81-4DF0-411D-A698-CC8BEDF3BEFC}" WorkUnitID="{1D08DAFE-2A2F-4703-963C-44383784F1A4}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Tree" ID="{A75BB789-F679-4D32-BA10-8EA7875D2D84}">
+					<ChildrenList>
+						<Action Name="" ID="{4A515D19-6E07-49CF-A1C5-B478DE92CE21}" ShortID="577893968">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Tree" ID="{5D7DED24-A279-4F6F-9BD8-41DB53FCE605}" WorkUnitID="{1D08DAFE-2A2F-4703-963C-44383784F1A4}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Fungus" ID="{5BA47567-E087-4579-94D1-B43769736290}">
+					<ChildrenList>
+						<Action Name="" ID="{96DBC06D-9BA6-49C5-A9D6-DC382F84FA12}" ShortID="561468352">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Fungus" ID="{DA1A5C49-A47E-4C50-8CEA-B9326373B37E}" WorkUnitID="{1D08DAFE-2A2F-4703-963C-44383784F1A4}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Pod" ID="{8139D6D7-163B-481F-9A3D-29DD70C46743}">
+					<ChildrenList>
+						<Action Name="" ID="{C59C6ECF-E761-448A-A49F-F10679A62C06}" ShortID="1027514568">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Pod" ID="{5D43918D-B1BD-4E56-A82B-713D9B827B66}" WorkUnitID="{1D08DAFE-2A2F-4703-963C-44383784F1A4}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

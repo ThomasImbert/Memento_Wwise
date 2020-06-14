@@ -104,6 +104,138 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Play_CanyonOut" ID="{A06C2E14-5B27-4129-BD10-8AEAD29BE6BF}">
+					<ChildrenList>
+						<Action Name="" ID="{451A1923-4096-4565-87F9-C21E40BBB7CB}" ShortID="992842942">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="CanyonOut" ID="{5A415F84-91FE-43E1-BADA-87F30D4BB0B4}" WorkUnitID="{2C89F08A-2E30-4662-B67B-3CC154AF6CD3}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{674E0091-3F2B-4476-A334-040CF248782F}" ShortID="636897932">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+								<Property Name="Delay" Type="Real64" Value="1"/>
+								<Property Name="FadeOutCurve" Type="int16" Value="1"/>
+								<Property Name="FadeTime" Type="Real64" Value="1.5"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Soundscape04" ID="{DBD2D8E2-981F-49DA-85CD-8844398A2A10}" WorkUnitID="{598F8DA3-0629-4153-A5B8-C50BDD259D26}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{9246C905-3ABF-4177-9CC4-8FFC3A126F78}" ShortID="274254144">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="38"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Ending" ID="{67CD4841-48EE-41A4-A95C-9C927D4AFB98}" WorkUnitID="{AB9804D5-E51E-4240-A1EE-DDFEF94AB4A8}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{254AF816-FB83-4BA9-AE93-6D8BE93DB62F}" ShortID="136988338">
+							<PropertyList>
+								<Property Name="Delay" Type="Real64" Value="5"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Music_NoReturn" ID="{47737A4F-D014-43F6-BF6D-A0E6DA341867}" WorkUnitID="{3D524758-A9C6-465D-8C21-A38D2658C022}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Stop_Music_NoReturn" ID="{F115D368-25F5-48B0-B813-9615619504AF}">
+					<ChildrenList>
+						<Action Name="" ID="{6460C0DA-032F-4756-B49C-D481ADA179FE}" ShortID="367512874">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Music_NoReturn" ID="{47737A4F-D014-43F6-BF6D-A0E6DA341867}" WorkUnitID="{3D524758-A9C6-465D-8C21-A38D2658C022}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Soundscape_04" ID="{13CD3D0D-83D3-499F-921C-DA9FE0CC71D3}">
+					<ChildrenList>
+						<Action Name="" ID="{E5EB9ED7-D543-4445-A820-5A2B00B3D315}" ShortID="739145026">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="38"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Canyon" ID="{9A7FD8AC-72BA-47D6-8778-74890CA8C960}" WorkUnitID="{AB9804D5-E51E-4240-A1EE-DDFEF94AB4A8}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{B0331C15-5953-4A44-B6A8-F69762042995}" ShortID="606904567">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Soundscape04" ID="{DBD2D8E2-981F-49DA-85CD-8844398A2A10}" WorkUnitID="{598F8DA3-0629-4153-A5B8-C50BDD259D26}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Music_NoReturn" ID="{FB53A600-0266-4FBA-ACBD-A31A47E2CC59}">
+					<ChildrenList>
+						<Action Name="" ID="{B6149752-CE36-46B4-93A0-95858D2AB169}" ShortID="356726465">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="38"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Ending" ID="{67CD4841-48EE-41A4-A95C-9C927D4AFB98}" WorkUnitID="{AB9804D5-E51E-4240-A1EE-DDFEF94AB4A8}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{974D4368-696E-4FA5-A6BC-2E61E033DE04}" ShortID="756968307">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Music_NoReturn" ID="{47737A4F-D014-43F6-BF6D-A0E6DA341867}" WorkUnitID="{3D524758-A9C6-465D-8C21-A38D2658C022}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="RTPC_MusicNoReturn_Fx" ID="{E4B8168C-1699-4674-B72E-07362F394B1B}">
+					<ChildrenList>
+						<Action Name="" ID="{72F76577-8FFF-48A5-B58A-C94256AF8230}" ShortID="1069138213">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="38"/>
+								<Property Name="FadeTime" Type="Real64" Value="10"/>
+								<Property Name="GameParameterValue" Type="Real64" Value="50"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Ending" ID="{67CD4841-48EE-41A4-A95C-9C927D4AFB98}" WorkUnitID="{AB9804D5-E51E-4240-A1EE-DDFEF94AB4A8}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="RTPC_MusicNoReturn_FadeOut" ID="{A86B0D83-EC92-4C1F-9AD9-9AE4750CFD90}">
+					<ChildrenList>
+						<Action Name="" ID="{E5E90F85-DEB4-4356-BAE8-B43C4076BE2F}" ShortID="794004514">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="38"/>
+								<Property Name="FadeTime" Type="Real64" Value="10"/>
+								<Property Name="GameParameterValue" Type="Real64" Value="100"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Ending" ID="{67CD4841-48EE-41A4-A95C-9C927D4AFB98}" WorkUnitID="{AB9804D5-E51E-4240-A1EE-DDFEF94AB4A8}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

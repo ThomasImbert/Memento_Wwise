@@ -271,8 +271,28 @@
 							<Position X="0" Y="2"/>
 						</Module>
 						<Module>
+							<ObjectRef Name="Play_Music_NoReturn" ID="{FB53A600-0266-4FBA-ACBD-A31A47E2CC59}" WorkUnitID="{7570666D-BB74-4A87-81DD-9DB16234FCD4}"/>
+							<Position X="0" Y="4"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="RTPC_MusicNoReturn_Fx" ID="{E4B8168C-1699-4674-B72E-07362F394B1B}" WorkUnitID="{7570666D-BB74-4A87-81DD-9DB16234FCD4}"/>
+							<Position X="0" Y="5"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="RTPC_MusicNoReturn_FadeOut" ID="{A86B0D83-EC92-4C1F-9AD9-9AE4750CFD90}" WorkUnitID="{7570666D-BB74-4A87-81DD-9DB16234FCD4}"/>
+							<Position X="0" Y="6"/>
+						</Module>
+						<Module>
 							<ObjectRef Name="Play_Music_Awakening" ID="{9D843472-14E9-4C5C-A099-1A60DCD538A5}" WorkUnitID="{7570666D-BB74-4A87-81DD-9DB16234FCD4}"/>
 							<Position X="1" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_CanyonOut" ID="{A06C2E14-5B27-4129-BD10-8AEAD29BE6BF}" WorkUnitID="{7570666D-BB74-4A87-81DD-9DB16234FCD4}"/>
+							<Position X="1" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_Soundscape_04" ID="{13CD3D0D-83D3-499F-921C-DA9FE0CC71D3}" WorkUnitID="{7570666D-BB74-4A87-81DD-9DB16234FCD4}"/>
+							<Position X="1" Y="2"/>
 						</Module>
 						<Module>
 							<ObjectRef Name="Play_PlayerWalk" ID="{57669FC4-8025-429D-8680-E6CE4E4B50D4}" WorkUnitID="{2108F57A-A96C-4E61-AD24-2AA4B1564C55}"/>
@@ -341,6 +361,14 @@
 					</ModuleList>
 					<RTPCValueList ShowAll="true">
 						<RTPCValue>
+							<GameParameterRef Name="Ending" ID="{67CD4841-48EE-41A4-A95C-9C927D4AFB98}"/>
+							<Value>0</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="Redmoss" ID="{80BC9985-A8D9-43F1-BA92-100D0D7A46A1}"/>
+							<Value>100</Value>
+						</RTPCValue>
+						<RTPCValue>
 							<GameParameterRef Name="VolumeSFX" ID="{FDE4A8D5-4272-443A-95FE-02A5723ED01A}"/>
 							<Value>100</Value>
 						</RTPCValue>
@@ -351,6 +379,10 @@
 						<RTPCValue>
 							<GameParameterRef Name="JumpCharge" ID="{A324C6C1-DBA7-4623-ADAB-EFA30960FA71}"/>
 							<Value>1</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="Canyon" ID="{9A7FD8AC-72BA-47D6-8778-74890CA8C960}"/>
+							<Value>100</Value>
 						</RTPCValue>
 						<RTPCValue>
 							<GameParameterRef Name="WalkSpeed" ID="{E1064E41-C1EF-48D7-9F88-59A3D70419E0}"/>
@@ -373,7 +405,7 @@
 						<CurrentStateRef Name="None" ID="{2A869645-BE16-4AD2-BADF-EB1E3768879F}"/>
 					</CurrentStateList>
 					<CurrentSwitchList ShowAll="true">
-						<CurrentSwitchRef Name="Fungi" ID="{C63A9A2D-596F-4E47-B252-FD0AC5027D37}"/>
+						<CurrentSwitchRef Name="RedMoss" ID="{51C21A70-4FF9-48CC-86D4-817DDBD76F1A}"/>
 						<CurrentSwitchRef Name="notRunning" ID="{41358E26-691B-466E-ABE9-7AEEF3965687}"/>
 					</CurrentSwitchList>
 				</SoundcasterSession>

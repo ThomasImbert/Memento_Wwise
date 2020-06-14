@@ -1,0 +1,389 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{1D08DAFE-2A2F-4703-963C-44383784F1A4}" SchemaVersion="97">
+	<AudioObjects>
+		<WorkUnit Name="Mm_SFX_Ambiant" ID="{1D08DAFE-2A2F-4703-963C-44383784F1A4}" PersistMode="Standalone">
+			<PropertyList>
+				<Property Name="Color" Type="int16" Value="19"/>
+				<Property Name="OverrideColor" Type="bool" Value="True"/>
+			</PropertyList>
+			<ChildrenList>
+				<ActorMixer Name="SFX_Ambiant" ID="{0C6474F5-54C4-4D41-834F-78673B8AF8EB}" ShortID="478426944">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D0B9DB4F-7FF6-4CDB-BEF4-05863A8070B7}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Ambiance" ID="{DB046278-7D18-4B34-A7EE-4946B00C7686}" WorkUnitID="{61D42960-93D3-4FF0-8FC0-3437DB41C134}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="BigFungus" ID="{2375AF81-4DF0-411D-A698-CC8BEDF3BEFC}" ShortID="923874647">
+							<PropertyList>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-8</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D0B9DB4F-7FF6-4CDB-BEF4-05863A8070B7}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8A69F515-C57F-4A97-8978-0B9FB4F47B02}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="BigFungus01-imported" ID="{43F0FE0B-8D0D-4FF2-A00D-F2908483FD73}">
+									<PropertyList>
+										<Property Name="CrossfadeDuration" Type="Real64" Value="1334.232"/>
+										<Property Name="LoopBegin" Type="Real64" Value="0.992188356164384"/>
+										<Property Name="LoopEnd" Type="Real64" Value="29.0215094178082"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimEnd" Type="Real64" Value="31.8740509417807"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>BigFungus01-imported.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="423377120"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="BigFungus01-imported" ID="{43F0FE0B-8D0D-4FF2-A00D-F2908483FD73}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Fungus" ID="{DA1A5C49-A47E-4C50-8CEA-B9326373B37E}" ShortID="739997328">
+							<PropertyList>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-8</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D0B9DB4F-7FF6-4CDB-BEF4-05863A8070B7}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8A69F515-C57F-4A97-8978-0B9FB4F47B02}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Fungus01-imported" ID="{E5E8AA35-CED4-481F-A7E7-E145AF4ECB95}">
+									<PropertyList>
+										<Property Name="CrossfadeDuration" Type="Real64" Value="1487.964"/>
+										<Property Name="LoopBegin" Type="Real64" Value="1.59752279537671"/>
+										<Property Name="LoopEnd" Type="Real64" Value="23.4787441138699"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimEnd" Type="Real64" Value="24.3017104023973"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>Fungus01-imported.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="494256899"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Fungus01-imported" ID="{E5E8AA35-CED4-481F-A7E7-E145AF4ECB95}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Pod" ID="{5D43918D-B1BD-4E56-A82B-713D9B827B66}" ShortID="775344321">
+							<PropertyList>
+								<Property Name="Highpass" Type="int16">
+									<ValueList>
+										<Value>24</Value>
+									</ValueList>
+								</Property>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+								<Property Name="Lowpass" Type="int16">
+									<ValueList>
+										<Value>25</Value>
+									</ValueList>
+								</Property>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-14</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D0B9DB4F-7FF6-4CDB-BEF4-05863A8070B7}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8A69F515-C57F-4A97-8978-0B9FB4F47B02}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Pod01-imported" ID="{399E087D-DC52-4181-8608-C67E963DF3C4}">
+									<PropertyList>
+										<Property Name="CrossfadeDuration" Type="Real64" Value="641.372"/>
+										<Property Name="LoopBegin" Type="Real64" Value="0.74523401826484"/>
+										<Property Name="LoopEnd" Type="Real64" Value="15.5306769406393"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimEnd" Type="Real64" Value="15.9480079908676"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>Pod01-imported.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="945822697"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Pod01-imported" ID="{399E087D-DC52-4181-8608-C67E963DF3C4}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Tree" ID="{5D7DED24-A279-4F6F-9BD8-41DB53FCE605}" ShortID="100108378">
+							<PropertyList>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+								<Property Name="Lowpass" Type="int16">
+									<ValueList>
+										<Value>29</Value>
+									</ValueList>
+								</Property>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-11</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D0B9DB4F-7FF6-4CDB-BEF4-05863A8070B7}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8A69F515-C57F-4A97-8978-0B9FB4F47B02}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Tree01" ID="{3368F6C6-FC5C-4E6E-B514-3A6538B8BBAA}">
+									<PropertyList>
+										<Property Name="CrossfadeDuration" Type="Real64" Value="4433.376"/>
+										<Property Name="LoopBegin" Type="Real64" Value="3.09078339041096"/>
+										<Property Name="LoopEnd" Type="Real64" Value="52.0281870719178"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimEnd" Type="Real64" Value="58.9309366438356"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>Tree01.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="779674286"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Tree01" ID="{3368F6C6-FC5C-4E6E-B514-3A6538B8BBAA}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<BlendContainer Name="Shipwreck" ID="{282F5D02-FACB-41F1-B908-66F3326EE78E}" ShortID="940714684">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D0B9DB4F-7FF6-4CDB-BEF4-05863A8070B7}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8A69F515-C57F-4A97-8978-0B9FB4F47B02}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="Shipwreck" ID="{91551155-84E8-430C-BD89-6C0934E932DB}" ShortID="66292341">
+									<PropertyList>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-15</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D0B9DB4F-7FF6-4CDB-BEF4-05863A8070B7}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8A69F515-C57F-4A97-8978-0B9FB4F47B02}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Shipwreck01-imported" ID="{33E4AEE7-1C73-458D-B50A-88B9B4D26B36}">
+											<PropertyList>
+												<Property Name="CrossfadeDuration" Type="Real64" Value="4010.245"/>
+												<Property Name="LoopBegin" Type="Real64" Value="4.29102325913242"/>
+												<Property Name="LoopEnd" Type="Real64" Value="29.1093740011416"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimBegin" Type="Real64" Value="1.10174921518265"/>
+												<Property Name="TrimEnd" Type="Real64" Value="31.8347536386987"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>Shipwreck01-imported.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="954446877"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Shipwreck01-imported" ID="{33E4AEE7-1C73-458D-B50A-88B9B4D26B36}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<RandomSequenceContainer Name="Shipwreck_Ss" ID="{C8AD00A0-C11C-4425-92FF-F2F976DF9479}" ShortID="360393834">
+									<PropertyList>
+										<Property Name="InitialDelay" Type="Real64">
+											<ValueList>
+												<Value>8</Value>
+											</ValueList>
+										</Property>
+										<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
+										<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
+										<Property Name="PlayMechanismSpecialTransitionsType" Type="int16" Value="4"/>
+										<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64" Value="8">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{989E89D3-8E20-4CFE-933D-5E4221417668}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="1"/>
+															<Property Name="Min" Type="Real64" Value="-1"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+										<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-17</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D0B9DB4F-7FF6-4CDB-BEF4-05863A8070B7}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8A69F515-C57F-4A97-8978-0B9FB4F47B02}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="Shipwreck_Ss01" ID="{C2C41CCC-9755-4E93-ACD4-BBC6CA398F2A}" ShortID="873801042">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D0B9DB4F-7FF6-4CDB-BEF4-05863A8070B7}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8A69F515-C57F-4A97-8978-0B9FB4F47B02}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Shipwreck_Ss01-imported" ID="{E09F69AC-8D33-4C9E-BC1E-428AB176A5BB}">
+													<Language>SFX</Language>
+													<AudioFile>Shipwreck_Ss01-imported.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="657489063"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Shipwreck_Ss01-imported" ID="{E09F69AC-8D33-4C9E-BC1E-428AB176A5BB}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Shipwreck_Ss02-imported" ID="{F7B76251-8448-453B-8984-3CB1D1EE7034}" ShortID="172938755">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D0B9DB4F-7FF6-4CDB-BEF4-05863A8070B7}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8A69F515-C57F-4A97-8978-0B9FB4F47B02}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Shipwreck_Ss02-imported" ID="{FF2E142C-2CB7-4E8E-B83B-D0C6D4FC6223}">
+													<Language>SFX</Language>
+													<AudioFile>Shipwreck_Ss02-imported.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="981327148"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Shipwreck_Ss02-imported" ID="{FF2E142C-2CB7-4E8E-B83B-D0C6D4FC6223}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Shipwreck_Ss03-imported" ID="{36AED4D8-A84E-4B68-A2A8-25390C37383D}" ShortID="699653439">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D0B9DB4F-7FF6-4CDB-BEF4-05863A8070B7}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8A69F515-C57F-4A97-8978-0B9FB4F47B02}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Shipwreck_Ss03-imported" ID="{83F3ECA2-4934-47DB-B7EB-BBC09C123F16}">
+													<Language>SFX</Language>
+													<AudioFile>Shipwreck_Ss03-imported.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="738078023"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Shipwreck_Ss03-imported" ID="{83F3ECA2-4934-47DB-B7EB-BBC09C123F16}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Shipwreck_Ss04-imported" ID="{EA3213A3-A954-4A7C-8A24-AE70BFBE987E}" ShortID="418998698">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D0B9DB4F-7FF6-4CDB-BEF4-05863A8070B7}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8A69F515-C57F-4A97-8978-0B9FB4F47B02}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Shipwreck_Ss04-imported" ID="{5207B9B0-B976-4437-94AC-6948ED6D0056}">
+													<Language>SFX</Language>
+													<AudioFile>Shipwreck_Ss04-imported.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="440934379"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Shipwreck_Ss04-imported" ID="{5207B9B0-B976-4437-94AC-6948ED6D0056}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Shipwreck_Ss05-imported" ID="{1B92DD88-F36A-46BF-83E3-5B30DBB6D625}" ShortID="1044427988">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D0B9DB4F-7FF6-4CDB-BEF4-05863A8070B7}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8A69F515-C57F-4A97-8978-0B9FB4F47B02}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Shipwreck_Ss05-imported" ID="{5D4C9A52-50AB-4210-B250-814CBAA990CB}">
+													<Language>SFX</Language>
+													<AudioFile>Shipwreck_Ss05-imported.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="900309090"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Shipwreck_Ss05-imported" ID="{5D4C9A52-50AB-4210-B250-814CBAA990CB}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+								</RandomSequenceContainer>
+							</ChildrenList>
+						</BlendContainer>
+					</ChildrenList>
+				</ActorMixer>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>
