@@ -192,9 +192,20 @@
 				</ActorMixer>
 				<ActorMixer Name="Player_Emotions" ID="{2BC3A922-5553-4CA3-A63A-A683CF319D51}" ShortID="192945369">
 					<PropertyList>
+						<Property Name="GameAuxSendVolume" Type="Real64">
+							<ValueList>
+								<Value>-3</Value>
+							</ValueList>
+						</Property>
+						<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
+						<Property Name="UserAuxSendVolume0" Type="Real64">
+							<ValueList>
+								<Value>-3</Value>
+							</ValueList>
+						</Property>
 						<Property Name="Volume" Type="Real64">
 							<ValueList>
-								<Value>-6</Value>
+								<Value>-10</Value>
 							</ValueList>
 						</Property>
 					</PropertyList>

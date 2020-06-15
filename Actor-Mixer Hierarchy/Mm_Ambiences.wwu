@@ -11,7 +11,7 @@
 					<PropertyList>
 						<Property Name="Volume" Type="Real64">
 							<ValueList>
-								<Value>10</Value>
+								<Value>6</Value>
 							</ValueList>
 						</Property>
 					</PropertyList>
@@ -35,7 +35,7 @@
 								</Property>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>-3</Value>
+										<Value>-5</Value>
 									</ValueList>
 								</Property>
 							</PropertyList>
@@ -1107,51 +1107,6 @@
 									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8A69F515-C57F-4A97-8978-0B9FB4F47B02}"/>
 								</Reference>
 							</ReferenceList>
-							<ChildrenList>
-								<BlendContainer Name="Wind Gusts Elevation" ID="{E99861B9-9AF8-4696-8B84-3DB3F3D25988}" ShortID="335684918">
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D0B9DB4F-7FF6-4CDB-BEF4-05863A8070B7}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Ambiance" ID="{DB046278-7D18-4B34-A7EE-4946B00C7686}" WorkUnitID="{61D42960-93D3-4FF0-8FC0-3437DB41C134}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<Sound Name="Wind desert strong blustery with lull" ID="{B559A0A7-7867-4726-B30C-2734AC37B3FA}" ShortID="240821842">
-											<PropertyList>
-												<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
-											</PropertyList>
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D0B9DB4F-7FF6-4CDB-BEF4-05863A8070B7}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Ambiance" ID="{DB046278-7D18-4B34-A7EE-4946B00C7686}" WorkUnitID="{61D42960-93D3-4FF0-8FC0-3437DB41C134}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="QP02 0261 Wind desert strong blustery with lull" ID="{6E464835-3FC6-4429-A40C-5777407C6D51}">
-													<PropertyList>
-														<Property Name="CrossfadeDuration" Type="Real64" Value="6016.067"/>
-														<Property Name="LoopBegin" Type="Real64" Value="3.14136854499113"/>
-														<Property Name="LoopEnd" Type="Real64" Value="73.0621522883422"/>
-														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-													</PropertyList>
-													<Language>SFX</Language>
-													<AudioFile>QP02 0261 Wind desert strong blustery with lull.wav</AudioFile>
-													<MediaIDList>
-														<MediaID ID="962596783"/>
-													</MediaIDList>
-												</AudioFileSource>
-											</ChildrenList>
-											<ActiveSourceList>
-												<ActiveSource Name="QP02 0261 Wind desert strong blustery with lull" ID="{6E464835-3FC6-4429-A40C-5777407C6D51}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
-									</ChildrenList>
-								</BlendContainer>
-							</ChildrenList>
 						</BlendContainer>
 						<BlendContainer Name="Ambiance_03" ID="{04AE5BCE-AE68-4C29-971B-CCC3FF5C3667}" ShortID="798041471">
 							<PropertyList>
@@ -1159,11 +1114,91 @@
 									<ValueList>
 										<Value>28</Value>
 									</ValueList>
+									<RTPCList>
+										<RTPC Name="" ID="{3A57BFC2-B682-4E78-A27B-DC078FEF6191}" ShortID="511879943">
+											<ReferenceList>
+												<Reference Name="ControlInput">
+													<ObjectRef Name="CanyonRVB" ID="{DED7D399-1B4A-446D-A4CE-D706D9F28D5F}" WorkUnitID="{6A9F0FDB-2A02-4958-AE7D-7BCE46F356CA}"/>
+												</Reference>
+											</ReferenceList>
+											<Curve Name="" ID="{F89E2E3E-89A5-49C3-BA33-23ABA3BFE3F9}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="65537"/>
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>0</XPos>
+														<YPos>0</YPos>
+														<Flags>5</Flags>
+													</Point>
+													<Point>
+														<XPos>100</XPos>
+														<YPos>1</YPos>
+														<Flags>37</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</RTPC>
+									</RTPCList>
+								</Property>
+								<Property Name="Lowpass" Type="int16">
+									<RTPCList>
+										<RTPC Name="" ID="{C359A2DA-CC76-4F20-89E2-33C930183C79}" ShortID="1037921146">
+											<ReferenceList>
+												<Reference Name="ControlInput">
+													<ObjectRef Name="CanyonRVB" ID="{DED7D399-1B4A-446D-A4CE-D706D9F28D5F}" WorkUnitID="{6A9F0FDB-2A02-4958-AE7D-7BCE46F356CA}"/>
+												</Reference>
+											</ReferenceList>
+											<Curve Name="" ID="{AE330368-46BB-4E17-852E-5666DA3BD1D9}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="65537"/>
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>0</XPos>
+														<YPos>0</YPos>
+														<Flags>5</Flags>
+													</Point>
+													<Point>
+														<XPos>100</XPos>
+														<YPos>1</YPos>
+														<Flags>37</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</RTPC>
+									</RTPCList>
 								</Property>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>-2</Value>
+										<Value>-1</Value>
 									</ValueList>
+									<RTPCList>
+										<RTPC Name="" ID="{A1E49BC5-8219-431B-8AD7-449DCCEC0131}" ShortID="993722189">
+											<ReferenceList>
+												<Reference Name="ControlInput">
+													<ObjectRef Name="CanyonRVB" ID="{DED7D399-1B4A-446D-A4CE-D706D9F28D5F}" WorkUnitID="{6A9F0FDB-2A02-4958-AE7D-7BCE46F356CA}"/>
+												</Reference>
+											</ReferenceList>
+											<Curve Name="" ID="{55AF961D-7477-46B5-AF05-B065A836C60E}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="3"/>
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>0</XPos>
+														<YPos>0</YPos>
+														<Flags>5</Flags>
+													</Point>
+													<Point>
+														<XPos>100</XPos>
+														<YPos>-1.26775</YPos>
+														<Flags>37</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</RTPC>
+									</RTPCList>
 								</Property>
 							</PropertyList>
 							<ReferenceList>
@@ -1397,96 +1432,6 @@
 										</RandomSequenceContainer>
 									</ChildrenList>
 								</RandomSequenceContainer>
-								<BlendContainer Name="Wind" ID="{D07C2B0F-FD74-4149-980C-57A9A6C87C57}" ShortID="393168243">
-									<PropertyList>
-										<Property Name="Volume" Type="Real64">
-											<ValueList>
-												<Value>-16</Value>
-											</ValueList>
-										</Property>
-									</PropertyList>
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D0B9DB4F-7FF6-4CDB-BEF4-05863A8070B7}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Ambiance" ID="{DB046278-7D18-4B34-A7EE-4946B00C7686}" WorkUnitID="{61D42960-93D3-4FF0-8FC0-3437DB41C134}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<Sound Name="Low Linear Wind -21" ID="{D43333A6-2CAC-487D-9071-1659A0397BF7}" ShortID="204595470">
-											<PropertyList>
-												<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
-												<Property Name="Pitch" Type="int32">
-													<ValueList>
-														<Value>1640</Value>
-													</ValueList>
-												</Property>
-											</PropertyList>
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D0B9DB4F-7FF6-4CDB-BEF4-05863A8070B7}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Ambiance" ID="{DB046278-7D18-4B34-A7EE-4946B00C7686}" WorkUnitID="{61D42960-93D3-4FF0-8FC0-3437DB41C134}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="Low Linear Wind -21" ID="{F47883C4-8017-46AA-B7A6-FD383C2B7A4C}">
-													<Language>SFX</Language>
-													<AudioFile>Ambiance\Low Linear Wind -21.wav</AudioFile>
-													<MediaIDList>
-														<MediaID ID="59232626"/>
-													</MediaIDList>
-												</AudioFileSource>
-											</ChildrenList>
-											<ActiveSourceList>
-												<ActiveSource Name="Low Linear Wind -21" ID="{F47883C4-8017-46AA-B7A6-FD383C2B7A4C}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
-										<Sound Name="Wind Trees With crackling -22" ID="{2AE1C34B-5E3F-42BA-894A-F3BA625DA7F7}" ShortID="229907378">
-											<PropertyList>
-												<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
-												<Property Name="Pitch" Type="int32">
-													<ValueList>
-														<Value>-130</Value>
-													</ValueList>
-												</Property>
-												<Property Name="Volume" Type="Real64">
-													<ValueList>
-														<Value>-13</Value>
-													</ValueList>
-												</Property>
-											</PropertyList>
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D0B9DB4F-7FF6-4CDB-BEF4-05863A8070B7}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Ambiance" ID="{DB046278-7D18-4B34-A7EE-4946B00C7686}" WorkUnitID="{61D42960-93D3-4FF0-8FC0-3437DB41C134}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="Wind Trees With crackling -22" ID="{AB697F20-7342-46AC-BDA7-8E676E8BB0C9}">
-													<PropertyList>
-														<Property Name="CrossfadeDuration" Type="Real64" Value="7358.962"/>
-														<Property Name="LoopBegin" Type="Real64" Value="10.9955071347032"/>
-														<Property Name="LoopEnd" Type="Real64" Value="88.141403966895"/>
-														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-													</PropertyList>
-													<Language>SFX</Language>
-													<AudioFile>Ambiance\Wind Trees With crackling -22.wav</AudioFile>
-													<MediaIDList>
-														<MediaID ID="464198739"/>
-													</MediaIDList>
-												</AudioFileSource>
-											</ChildrenList>
-											<ActiveSourceList>
-												<ActiveSource Name="Wind Trees With crackling -22" ID="{AB697F20-7342-46AC-BDA7-8E676E8BB0C9}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
-									</ChildrenList>
-								</BlendContainer>
 								<BlendContainer Name="Canyon Inside Wind" ID="{A5C1979C-B583-4BFF-886C-5BB83CBDF47E}" ShortID="72257308">
 									<PropertyList>
 										<Property Name="Pitch" Type="int32">
@@ -1500,7 +1445,7 @@
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D0B9DB4F-7FF6-4CDB-BEF4-05863A8070B7}"/>
 										</Reference>
 										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8A69F515-C57F-4A97-8978-0B9FB4F47B02}"/>
+											<ObjectRef Name="Ambiance" ID="{DB046278-7D18-4B34-A7EE-4946B00C7686}" WorkUnitID="{61D42960-93D3-4FF0-8FC0-3437DB41C134}"/>
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
@@ -1633,6 +1578,187 @@
 											</ChildrenList>
 											<ActiveSourceList>
 												<ActiveSource Name="QP02 0248 Wind desert low toned enclosure nearby" ID="{93C307FF-8A9E-47B7-99A7-16EF80C435C4}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+								</BlendContainer>
+								<BlendContainer Name="CanyonCorridorWind" ID="{E99861B9-9AF8-4696-8B84-3DB3F3D25988}" ShortID="335684918">
+									<PropertyList>
+										<Property Name="Highpass" Type="int16">
+											<ValueList>
+												<Value>13</Value>
+											</ValueList>
+										</Property>
+										<Property Name="Inclusion" Type="bool">
+											<ValueList>
+												<Value>False</Value>
+											</ValueList>
+										</Property>
+										<Property Name="Pitch" Type="int32">
+											<ValueList>
+												<Value>230</Value>
+											</ValueList>
+										</Property>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>2</Value>
+											</ValueList>
+											<RTPCList>
+												<RTPC Name="" ID="{064604F4-B6B8-4F48-BA41-511FA4CB74F9}" ShortID="123966239">
+													<ReferenceList>
+														<Reference Name="ControlInput">
+															<ObjectRef Name="CanyonRVB" ID="{DED7D399-1B4A-446D-A4CE-D706D9F28D5F}" WorkUnitID="{6A9F0FDB-2A02-4958-AE7D-7BCE46F356CA}"/>
+														</Reference>
+													</ReferenceList>
+													<Curve Name="" ID="{3FFF3CBD-22E0-414E-87F5-54B88D27551D}">
+														<PropertyList>
+															<Property Name="Flags" Type="int32" Value="3"/>
+														</PropertyList>
+														<PointList>
+															<Point>
+																<XPos>0</XPos>
+																<YPos>-200</YPos>
+																<Flags>5</Flags>
+															</Point>
+															<Point>
+																<XPos>100</XPos>
+																<YPos>0</YPos>
+																<Flags>37</Flags>
+															</Point>
+														</PointList>
+													</Curve>
+												</RTPC>
+											</RTPCList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D0B9DB4F-7FF6-4CDB-BEF4-05863A8070B7}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Ambiance" ID="{DB046278-7D18-4B34-A7EE-4946B00C7686}" WorkUnitID="{61D42960-93D3-4FF0-8FC0-3437DB41C134}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="Wind desert strong blustery with lull" ID="{B559A0A7-7867-4726-B30C-2734AC37B3FA}" ShortID="240821842">
+											<PropertyList>
+												<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D0B9DB4F-7FF6-4CDB-BEF4-05863A8070B7}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Ambiance" ID="{DB046278-7D18-4B34-A7EE-4946B00C7686}" WorkUnitID="{61D42960-93D3-4FF0-8FC0-3437DB41C134}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="QP02 0261 Wind desert strong blustery with lull" ID="{6E464835-3FC6-4429-A40C-5777407C6D51}">
+													<PropertyList>
+														<Property Name="CrossfadeDuration" Type="Real64" Value="6016.067"/>
+														<Property Name="LoopBegin" Type="Real64" Value="3.14136854499113"/>
+														<Property Name="LoopEnd" Type="Real64" Value="73.0621522883422"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>QP02 0261 Wind desert strong blustery with lull.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="962596783"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="QP02 0261 Wind desert strong blustery with lull" ID="{6E464835-3FC6-4429-A40C-5777407C6D51}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+								</BlendContainer>
+								<BlendContainer Name="Wind" ID="{D07C2B0F-FD74-4149-980C-57A9A6C87C57}" ShortID="393168243">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-16</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D0B9DB4F-7FF6-4CDB-BEF4-05863A8070B7}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Ambiance" ID="{DB046278-7D18-4B34-A7EE-4946B00C7686}" WorkUnitID="{61D42960-93D3-4FF0-8FC0-3437DB41C134}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="Low Linear Wind -21" ID="{D43333A6-2CAC-487D-9071-1659A0397BF7}" ShortID="204595470">
+											<PropertyList>
+												<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+												<Property Name="Pitch" Type="int32">
+													<ValueList>
+														<Value>1640</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D0B9DB4F-7FF6-4CDB-BEF4-05863A8070B7}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Ambiance" ID="{DB046278-7D18-4B34-A7EE-4946B00C7686}" WorkUnitID="{61D42960-93D3-4FF0-8FC0-3437DB41C134}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Low Linear Wind -21" ID="{F47883C4-8017-46AA-B7A6-FD383C2B7A4C}">
+													<Language>SFX</Language>
+													<AudioFile>Ambiance\Low Linear Wind -21.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="59232626"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Low Linear Wind -21" ID="{F47883C4-8017-46AA-B7A6-FD383C2B7A4C}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Wind Trees With crackling -22" ID="{2AE1C34B-5E3F-42BA-894A-F3BA625DA7F7}" ShortID="229907378">
+											<PropertyList>
+												<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+												<Property Name="Pitch" Type="int32">
+													<ValueList>
+														<Value>-130</Value>
+													</ValueList>
+												</Property>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>-13</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D0B9DB4F-7FF6-4CDB-BEF4-05863A8070B7}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Ambiance" ID="{DB046278-7D18-4B34-A7EE-4946B00C7686}" WorkUnitID="{61D42960-93D3-4FF0-8FC0-3437DB41C134}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Wind Trees With crackling -22" ID="{AB697F20-7342-46AC-BDA7-8E676E8BB0C9}">
+													<PropertyList>
+														<Property Name="CrossfadeDuration" Type="Real64" Value="7358.962"/>
+														<Property Name="LoopBegin" Type="Real64" Value="10.9955071347032"/>
+														<Property Name="LoopEnd" Type="Real64" Value="88.141403966895"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>Ambiance\Wind Trees With crackling -22.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="464198739"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Wind Trees With crackling -22" ID="{AB697F20-7342-46AC-BDA7-8E676E8BB0C9}" Platform="Linked"/>
 											</ActiveSourceList>
 										</Sound>
 									</ChildrenList>

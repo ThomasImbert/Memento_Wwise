@@ -5,9 +5,9 @@
 			<ChildrenList>
 				<MusicPlaylistContainer Name="Soundscape 01" ID="{18A5CB26-6EFD-476E-997E-79CBF1A95D4B}" ShortID="147649523">
 					<PropertyList>
-						<Property Name="Inclusion" Type="bool">
+						<Property Name="Volume" Type="Real64">
 							<ValueList>
-								<Value>False</Value>
+								<Value>-3</Value>
 							</ValueList>
 						</Property>
 					</PropertyList>
@@ -89,6 +89,11 @@
 						<MusicSegment Name="Soundscape 02 - Enigmatic Intro" ID="{D90DFDD3-EA0E-4357-9D45-BFB9B3091FCB}" ShortID="836719822">
 							<PropertyList>
 								<Property Name="EndPosition" Type="Real64" Value="146837.768015404"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-2</Value>
+									</ValueList>
+								</Property>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">

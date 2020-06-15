@@ -495,6 +495,18 @@
 						</BlendContainer>
 						<BlendContainer Name="Photo_Trigger" ID="{4BB5380A-A1AB-4A5B-9BA8-EAE7EDEBA8DB}" ShortID="233109040">
 							<PropertyList>
+								<Property Name="GameAuxSendVolume" Type="Real64">
+									<ValueList>
+										<Value>-2</Value>
+									</ValueList>
+								</Property>
+								<Property Name="OverrideGameAuxSends" Type="bool" Value="True"/>
+								<Property Name="OverrideUserAuxSends" Type="bool" Value="True"/>
+								<Property Name="UserAuxSendVolume0" Type="Real64">
+									<ValueList>
+										<Value>-2</Value>
+									</ValueList>
+								</Property>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
 										<Value>3.6</Value>
@@ -507,6 +519,9 @@
 								</Reference>
 								<Reference Name="OutputBus">
 									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8A69F515-C57F-4A97-8978-0B9FB4F47B02}"/>
+								</Reference>
+								<Reference Name="UserAuxSend0">
+									<ObjectRef Name="Reverb_Canyon" ID="{38B94906-E03A-43B8-9741-A9E833733672}" WorkUnitID="{61D42960-93D3-4FF0-8FC0-3437DB41C134}"/>
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>

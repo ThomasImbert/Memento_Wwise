@@ -58,19 +58,18 @@
 																<Flags>0</Flags>
 															</Point>
 															<Point>
-																<XPos>80</XPos>
+																<XPos>47.36347</XPos>
 																<YPos>-0</YPos>
 																<Flags>0</Flags>
-																<SegmentShape>SCurve</SegmentShape>
 															</Point>
 															<Point>
-																<XPos>95</XPos>
-																<YPos>-200</YPos>
+																<XPos>70.10358</XPos>
+																<YPos>-2.30893</YPos>
 																<Flags>0</Flags>
 															</Point>
 															<Point>
 																<XPos>100</XPos>
-																<YPos>-200</YPos>
+																<YPos>-3</YPos>
 																<Flags>37</Flags>
 															</Point>
 														</PointList>
@@ -119,7 +118,7 @@
 									<PropertyList>
 										<Property Name="Volume" Type="Real64">
 											<ValueList>
-												<Value>1</Value>
+												<Value>3</Value>
 											</ValueList>
 											<RTPCList>
 												<RTPC Name="" ID="{59179327-2E90-4940-ACA9-800F292D840B}" ShortID="539213577">
@@ -145,7 +144,7 @@
 															</Point>
 															<Point>
 																<XPos>40.47445</XPos>
-																<YPos>-0</YPos>
+																<YPos>0</YPos>
 																<Flags>0</Flags>
 															</Point>
 															<Point>
@@ -203,7 +202,7 @@
 									<PropertyList>
 										<Property Name="Volume" Type="Real64">
 											<ValueList>
-												<Value>-1</Value>
+												<Value>4</Value>
 											</ValueList>
 											<RTPCList>
 												<RTPC Name="" ID="{2ACBAD4D-1182-42DE-BF3F-4072D9F2D0AA}" ShortID="44707384">
@@ -223,13 +222,13 @@
 																<Flags>5</Flags>
 															</Point>
 															<Point>
-																<XPos>56.93431</XPos>
+																<XPos>29.62734</XPos>
 																<YPos>-200</YPos>
 																<Flags>0</Flags>
 															</Point>
 															<Point>
-																<XPos>85</XPos>
-																<YPos>0</YPos>
+																<XPos>70</XPos>
+																<YPos>0.10042</YPos>
 																<Flags>0</Flags>
 															</Point>
 															<Point>
@@ -310,7 +309,7 @@
 															</Point>
 															<Point>
 																<XPos>64.5073</XPos>
-																<YPos>-0</YPos>
+																<YPos>0</YPos>
 																<Flags>0</Flags>
 															</Point>
 															<Point>

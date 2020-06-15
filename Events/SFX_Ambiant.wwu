@@ -135,6 +135,62 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="RTPC_CanyonRVB_On" ID="{6A0A2D97-F21D-4579-BC8E-42DCF754CFB3}">
+					<ChildrenList>
+						<Action Name="" ID="{4D47B8FD-ED2F-4C55-87A0-B0D8DFDA0E31}" ShortID="249112965">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="25"/>
+								<Property Name="Scope" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Reverb_Canyon" ID="{38B94906-E03A-43B8-9741-A9E833733672}" WorkUnitID="{61D42960-93D3-4FF0-8FC0-3437DB41C134}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{AC85EDAA-61A5-413B-9A35-B6FB6C48E44A}" ShortID="989812949">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="38"/>
+								<Property Name="FadeTime" Type="Real64" Value="1.5"/>
+								<Property Name="GameParameterValue" Type="Real64" Value="100"/>
+								<Property Name="Scope" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="CanyonRVB" ID="{DED7D399-1B4A-446D-A4CE-D706D9F28D5F}" WorkUnitID="{6A9F0FDB-2A02-4958-AE7D-7BCE46F356CA}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="RTPC_CanyonRVB_Off" ID="{2B714F87-731E-4576-AD53-AB21AEB51915}">
+					<ChildrenList>
+						<Action Name="" ID="{8A4DA3B6-3B30-4C21-B75D-94B2AEA54B79}" ShortID="956022299">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="38"/>
+								<Property Name="FadeTime" Type="Real64" Value="3"/>
+								<Property Name="Scope" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="CanyonRVB" ID="{DED7D399-1B4A-446D-A4CE-D706D9F28D5F}" WorkUnitID="{6A9F0FDB-2A02-4958-AE7D-7BCE46F356CA}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{32353BA5-766D-4E3C-8688-9F3C724662AD}" ShortID="369336939">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="24"/>
+								<Property Name="Delay" Type="Real64" Value="6"/>
+								<Property Name="Scope" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Reverb_Canyon" ID="{38B94906-E03A-43B8-9741-A9E833733672}" WorkUnitID="{61D42960-93D3-4FF0-8FC0-3437DB41C134}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

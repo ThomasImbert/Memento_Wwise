@@ -36,7 +36,7 @@
 					<ChildrenList>
 						<Action Name="" ID="{CA750FBF-536B-4246-9A6B-380A85F50ACE}" ShortID="643439295">
 							<PropertyList>
-								<Property Name="Delay" Type="Real64" Value="15"/>
+								<Property Name="Delay" Type="Real64" Value="5"/>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
@@ -52,7 +52,8 @@
 							<PropertyList>
 								<Property Name="ActionType" Type="int16" Value="2"/>
 								<Property Name="FadeOutCurve" Type="int16" Value="5"/>
-								<Property Name="FadeTime" Type="Real64" Value="6"/>
+								<Property Name="FadeTime" Type="Real64" Value="4"/>
+								<Property Name="Scope" Type="int16" Value="1"/>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
@@ -68,7 +69,8 @@
 							<PropertyList>
 								<Property Name="ActionType" Type="int16" Value="2"/>
 								<Property Name="FadeOutCurve" Type="int16" Value="5"/>
-								<Property Name="FadeTime" Type="Real64" Value="8"/>
+								<Property Name="FadeTime" Type="Real64" Value="5"/>
+								<Property Name="Scope" Type="int16" Value="1"/>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
@@ -99,6 +101,7 @@
 								<Property Name="ActionType" Type="int16" Value="2"/>
 								<Property Name="FadeOutCurve" Type="int16" Value="5"/>
 								<Property Name="FadeTime" Type="Real64" Value="2"/>
+								<Property Name="Scope" Type="int16" Value="1"/>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
@@ -268,6 +271,7 @@
 								<Property Name="Delay" Type="Real64" Value="1"/>
 								<Property Name="FadeOutCurve" Type="int16" Value="1"/>
 								<Property Name="FadeTime" Type="Real64" Value="1.5"/>
+								<Property Name="Scope" Type="int16" Value="1"/>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">

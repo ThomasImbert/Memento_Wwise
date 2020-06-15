@@ -112,7 +112,7 @@
 						<Action Name="" ID="{375B193B-DEFD-4C69-A152-555177FFF675}" ShortID="544499651">
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="Wind Gusts Elevation" ID="{E99861B9-9AF8-4696-8B84-3DB3F3D25988}" WorkUnitID="{BDCF732B-5724-4543-8D24-9AB09AA8F717}"/>
+									<ObjectRef Name="CanyonCorridorWind" ID="{E99861B9-9AF8-4696-8B84-3DB3F3D25988}" WorkUnitID="{BDCF732B-5724-4543-8D24-9AB09AA8F717}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>

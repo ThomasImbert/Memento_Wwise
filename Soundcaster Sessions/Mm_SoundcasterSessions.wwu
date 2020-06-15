@@ -73,7 +73,6 @@
 					<CurrentStateList ShowAll="true"/>
 					<CurrentSwitchList ShowAll="true">
 						<CurrentSwitchRef Name="PurpleMoss" ID="{74CEED8B-1961-47D4-AF3C-83B4EF9F333B}"/>
-						<CurrentSwitchRef Name="notRunning" ID="{41358E26-691B-466E-ABE9-7AEEF3965687}"/>
 					</CurrentSwitchList>
 				</SoundcasterSession>
 				<SoundcasterSession Name="Walk" ID="{7947AB08-BA74-44AE-A7EA-906DA5AD7206}">
@@ -132,7 +131,6 @@
 					<CurrentStateList ShowAll="true"/>
 					<CurrentSwitchList ShowAll="true">
 						<CurrentSwitchRef Name="PurpleMoss" ID="{74CEED8B-1961-47D4-AF3C-83B4EF9F333B}"/>
-						<CurrentSwitchRef Name="Running" ID="{9A779AA1-83F6-42E1-920E-C2B4AA1F5F70}"/>
 					</CurrentSwitchList>
 				</SoundcasterSession>
 				<SoundcasterSession Name="UI" ID="{164B1799-20FA-4A67-86AB-D8502F9A5700}">
@@ -237,7 +235,6 @@
 					<CurrentStateList ShowAll="true"/>
 					<CurrentSwitchList ShowAll="true">
 						<CurrentSwitchRef Name="PurpleMoss" ID="{74CEED8B-1961-47D4-AF3C-83B4EF9F333B}"/>
-						<CurrentSwitchRef Name="notRunning" ID="{41358E26-691B-466E-ABE9-7AEEF3965687}"/>
 					</CurrentSwitchList>
 				</SoundcasterSession>
 				<SoundcasterSession Name="MixGlobal" ID="{1B67C2E1-2DA4-4472-A580-C131A7801EF1}">
@@ -389,6 +386,10 @@
 							<Value>100</Value>
 						</RTPCValue>
 						<RTPCValue>
+							<GameParameterRef Name="CanyonRVB" ID="{DED7D399-1B4A-446D-A4CE-D706D9F28D5F}"/>
+							<Value>0</Value>
+						</RTPCValue>
+						<RTPCValue>
 							<GameParameterRef Name="VolumeUI" ID="{9D9A93FB-10F0-4586-AD04-A3891218D2CD}"/>
 							<Value>100</Value>
 						</RTPCValue>
@@ -421,8 +422,7 @@
 						<CurrentStateRef Name="None" ID="{2A869645-BE16-4AD2-BADF-EB1E3768879F}"/>
 					</CurrentStateList>
 					<CurrentSwitchList ShowAll="true">
-						<CurrentSwitchRef Name="PurpleMoss" ID="{74CEED8B-1961-47D4-AF3C-83B4EF9F333B}"/>
-						<CurrentSwitchRef Name="notRunning" ID="{41358E26-691B-466E-ABE9-7AEEF3965687}"/>
+						<CurrentSwitchRef Name="Fungi" ID="{C63A9A2D-596F-4E47-B252-FD0AC5027D37}"/>
 					</CurrentSwitchList>
 				</SoundcasterSession>
 				<SoundcasterSession Name="Ambiances" ID="{C6B591BD-507C-4F71-8B97-52E0BE007637}">
@@ -511,7 +511,6 @@
 					</CurrentStateList>
 					<CurrentSwitchList ShowAll="true">
 						<CurrentSwitchRef Name="Fungi" ID="{C63A9A2D-596F-4E47-B252-FD0AC5027D37}"/>
-						<CurrentSwitchRef Name="notRunning" ID="{41358E26-691B-466E-ABE9-7AEEF3965687}"/>
 					</CurrentSwitchList>
 				</SoundcasterSession>
 			</ChildrenList>

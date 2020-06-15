@@ -16,42 +16,6 @@
 						<Switch Name="Fungi" ID="{C63A9A2D-596F-4E47-B252-FD0AC5027D37}"/>
 					</ChildrenList>
 				</SwitchGroup>
-				<SwitchGroup Name="isRunning" ID="{5BA20E16-08F8-4EDD-8732-0E8825094C5B}">
-					<PropertyList>
-						<Property Name="Color" Type="int16" Value="17"/>
-						<Property Name="OverrideColor" Type="bool" Value="True"/>
-						<Property Name="UseGameParameter" Type="bool" Value="True"/>
-					</PropertyList>
-					<ChildrenList>
-						<Switch Name="Running" ID="{9A779AA1-83F6-42E1-920E-C2B4AA1F5F70}"/>
-						<Switch Name="notRunning" ID="{41358E26-691B-466E-ABE9-7AEEF3965687}"/>
-					</ChildrenList>
-					<SwitchOnRTPC>
-						<GameParameterRef Name="WalkSpeed" ID="{E1064E41-C1EF-48D7-9F88-59A3D70419E0}"/>
-						<Curve Name="" ID="{8BAB5C00-BE8D-44E4-A1C2-3D0FDB398C7B}">
-							<PropertyList>
-								<Property Name="Flags" Type="int32" Value="65537"/>
-							</PropertyList>
-							<PointList>
-								<Point>
-									<XPos>0</XPos>
-									<YPos>2</YPos>
-									<Flags>5</Flags>
-								</Point>
-								<Point>
-									<XPos>50</XPos>
-									<YPos>1</YPos>
-									<Flags>0</Flags>
-								</Point>
-								<Point>
-									<XPos>100</XPos>
-									<YPos>1</YPos>
-									<Flags>37</Flags>
-								</Point>
-							</PointList>
-						</Curve>
-					</SwitchOnRTPC>
-				</SwitchGroup>
 			</ChildrenList>
 		</WorkUnit>
 	</Switches>
