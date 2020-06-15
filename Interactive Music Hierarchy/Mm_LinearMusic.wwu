@@ -50,8 +50,9 @@
 										<MusicClip Name="Musique - Eveil Mix - Mastering" ID="{4F521D52-0B3E-4B5C-A499-5D794A033BAB}">
 											<PropertyList>
 												<Property Name="BeginTrimOffset" Type="Real64" Value="-2.95585778076202E-12"/>
-												<Property Name="EndTrimOffset" Type="Real64" Value="75794.9730973469"/>
-												<Property Name="FadeOutDuration" Type="Real64" Value="7589.94619469482"/>
+												<Property Name="EndTrimOffset" Type="Real64" Value="48000"/>
+												<Property Name="FadeOutDuration" Type="Real64" Value="17052.2755765372"/>
+												<Property Name="FadeOutShape" Type="int16" Value="6"/>
 												<Property Name="PlayAt" Type="Real64" Value="2.95585778076202E-12"/>
 											</PropertyList>
 											<AudioSourceRef Name="Musique - Eveil Mix - Mastering" ID="{6C62A8A8-CFDB-4E3F-818F-27ACC01DECE9}"/>
@@ -68,7 +69,7 @@
 																<Flags>5</Flags>
 															</Point>
 															<Point>
-																<XPos>75.79497</XPos>
+																<XPos>48</XPos>
 																<YPos>0</YPos>
 																<Flags>37</Flags>
 															</Point>
@@ -87,7 +88,7 @@
 																<Flags>5</Flags>
 															</Point>
 															<Point>
-																<XPos>75.79497</XPos>
+																<XPos>48</XPos>
 																<YPos>0</YPos>
 																<Flags>37</Flags>
 															</Point>
@@ -106,7 +107,7 @@
 																<Flags>5</Flags>
 															</Point>
 															<Point>
-																<XPos>75.79497</XPos>
+																<XPos>48</XPos>
 																<YPos>0</YPos>
 																<Flags>37</Flags>
 															</Point>
@@ -125,7 +126,7 @@
 						<MusicCue Name="Exit Cue" ID="{7A0982F2-FBBE-4AAF-B074-ED0075173C4A}">
 							<PropertyList>
 								<Property Name="CueType" Type="int16" Value="1"/>
-								<Property Name="TimeMs" Type="Real64" Value="76104.4177717292"/>
+								<Property Name="TimeMs" Type="Real64" Value="48000"/>
 							</PropertyList>
 						</MusicCue>
 					</CueList>

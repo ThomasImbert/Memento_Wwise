@@ -9,7 +9,20 @@
 			<ChildrenList>
 				<Event Name="Play_Ambiance_01" ID="{C3E09CF0-C7A7-4E08-8218-31307BAFC64E}">
 					<ChildrenList>
+						<Action Name="" ID="{6DCC8652-088D-4E93-A4E0-B7CA15755701}" ShortID="184750586">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="41"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Stop_Ambiance_02" ID="{747EE373-C693-406E-BB7C-01845A0A8F0D}" WorkUnitID="{94D94C6E-0D41-4408-A0CE-E3983F49FD1B}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
 						<Action Name="" ID="{6C5B2B24-E4E2-4675-93FD-724C1D3D5868}" ShortID="393021387">
+							<PropertyList>
+								<Property Name="FadeTime" Type="Real64" Value="2"/>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="Ambiance_01" ID="{20F572F8-33C5-4614-8B84-AFE0059487FB}" WorkUnitID="{BDCF732B-5724-4543-8D24-9AB09AA8F717}"/>
@@ -20,15 +33,23 @@
 				</Event>
 				<Event Name="Play_Ambiance_02" ID="{832293B0-B697-4367-BCEC-5234B31E9F7F}">
 					<ChildrenList>
-						<Action Name="" ID="{0234A6E5-216D-4367-A182-F79706EEAF51}" ShortID="656424959">
+						<Action Name="" ID="{36AFF522-E440-4165-80A4-D16E4BBA8354}" ShortID="614300818">
 							<PropertyList>
-								<Property Name="ActionType" Type="int16" Value="2"/>
-								<Property Name="FadeOutCurve" Type="int16" Value="1"/>
-								<Property Name="FadeTime" Type="Real64" Value="10"/>
+								<Property Name="ActionType" Type="int16" Value="41"/>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="Ambiance_01" ID="{20F572F8-33C5-4614-8B84-AFE0059487FB}" WorkUnitID="{BDCF732B-5724-4543-8D24-9AB09AA8F717}"/>
+									<ObjectRef Name="Stop_Ambiance_01" ID="{AF105E69-E0FF-4303-A22F-59F6B093121D}" WorkUnitID="{94D94C6E-0D41-4408-A0CE-E3983F49FD1B}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{FF679791-DFA9-455D-A356-588D49B77CD5}" ShortID="1072761589">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="41"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Stop_Ambiance_03" ID="{6C08817F-1FDF-4A56-8B63-8ECF45ADA302}" WorkUnitID="{94D94C6E-0D41-4408-A0CE-E3983F49FD1B}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
@@ -63,15 +84,13 @@
 				</Event>
 				<Event Name="Play_Ambiance_03" ID="{BD38201C-6F68-415C-9046-2EEAB14863BF}">
 					<ChildrenList>
-						<Action Name="" ID="{25DB0DD0-8FFB-4AAC-82DE-44BD9081AEFC}" ShortID="536375480">
+						<Action Name="" ID="{5BA72923-C31C-4EF9-BC72-BFC3BD92A637}" ShortID="478783704">
 							<PropertyList>
-								<Property Name="ActionType" Type="int16" Value="2"/>
-								<Property Name="FadeOutCurve" Type="int16" Value="1"/>
-								<Property Name="FadeTime" Type="Real64" Value="10"/>
+								<Property Name="ActionType" Type="int16" Value="41"/>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="Ambiance_02" ID="{867F813D-0920-49A5-9716-74D532179AAF}" WorkUnitID="{BDCF732B-5724-4543-8D24-9AB09AA8F717}"/>
+									<ObjectRef Name="Stop_Ambiance_02" ID="{747EE373-C693-406E-BB7C-01845A0A8F0D}" WorkUnitID="{94D94C6E-0D41-4408-A0CE-E3983F49FD1B}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
@@ -94,6 +113,38 @@
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="Wind Gusts Elevation" ID="{E99861B9-9AF8-4696-8B84-3DB3F3D25988}" WorkUnitID="{BDCF732B-5724-4543-8D24-9AB09AA8F717}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Stop_Ambiance_02" ID="{747EE373-C693-406E-BB7C-01845A0A8F0D}">
+					<ChildrenList>
+						<Action Name="" ID="{17C978E1-324A-4CF6-8C9C-1760102B181A}" ShortID="245541431">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+								<Property Name="FadeOutCurve" Type="int16" Value="1"/>
+								<Property Name="FadeTime" Type="Real64" Value="10"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Ambiance_02" ID="{867F813D-0920-49A5-9716-74D532179AAF}" WorkUnitID="{BDCF732B-5724-4543-8D24-9AB09AA8F717}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Stop_Ambiance_01" ID="{AF105E69-E0FF-4303-A22F-59F6B093121D}">
+					<ChildrenList>
+						<Action Name="" ID="{DF6D1AD4-AF21-4F58-9173-BB998AB5E005}" ShortID="879373084">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+								<Property Name="FadeOutCurve" Type="int16" Value="1"/>
+								<Property Name="FadeTime" Type="Real64" Value="10"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Ambiance_01" ID="{20F572F8-33C5-4614-8B84-AFE0059487FB}" WorkUnitID="{BDCF732B-5724-4543-8D24-9AB09AA8F717}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>

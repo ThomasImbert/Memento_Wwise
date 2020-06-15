@@ -4,6 +4,13 @@
 		<WorkUnit Name="AdaptiveMusic_Zone01" ID="{D25DFC5C-0BAB-434B-A5D9-63E84398F56E}" OwnerID="{CE75D468-59BE-4833-A7EF-BCF0F65BB88D}" PersistMode="Nested">
 			<ChildrenList>
 				<MusicPlaylistContainer Name="Soundscape 01" ID="{18A5CB26-6EFD-476E-997E-79CBF1A95D4B}" ShortID="147649523">
+					<PropertyList>
+						<Property Name="Inclusion" Type="bool">
+							<ValueList>
+								<Value>False</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D0B9DB4F-7FF6-4CDB-BEF4-05863A8070B7}"/>

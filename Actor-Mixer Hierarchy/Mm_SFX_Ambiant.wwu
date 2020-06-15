@@ -15,11 +15,26 @@
 						<Reference Name="OutputBus">
 							<ObjectRef Name="Ambiance" ID="{DB046278-7D18-4B34-A7EE-4946B00C7686}" WorkUnitID="{61D42960-93D3-4FF0-8FC0-3437DB41C134}"/>
 						</Reference>
+						<Reference Name="UserAuxSend0">
+							<ObjectRef Name="Reverb_Outside" ID="{EC4D3B35-9138-49D1-9C10-95986B651976}" WorkUnitID="{61D42960-93D3-4FF0-8FC0-3437DB41C134}"/>
+						</Reference>
 					</ReferenceList>
 					<ChildrenList>
 						<Sound Name="BigFungus" ID="{2375AF81-4DF0-411D-A698-CC8BEDF3BEFC}" ShortID="923874647">
 							<PropertyList>
+								<Property Name="IsGlobalLimit" Type="int16" Value="1"/>
 								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+								<Property Name="MaxSoundPerInstance" Type="int16">
+									<ValueList>
+										<Value>2</Value>
+									</ValueList>
+								</Property>
+								<Property Name="OverridePositioning" Type="bool" Value="True"/>
+								<Property Name="UseMaxSoundPerInstance" Type="bool">
+									<ValueList>
+										<Value>True</Value>
+									</ValueList>
+								</Property>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
 										<Value>-8</Value>
@@ -27,6 +42,9 @@
 								</Property>
 							</PropertyList>
 							<ReferenceList>
+								<Reference Name="Attenuation">
+									<ObjectRef Name="Fungi" ID="{CFC859AE-3729-4A01-9A0B-0991232C2B2F}" WorkUnitID="{272971F3-B693-4A49-9AD2-A7EABED04530}"/>
+								</Reference>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D0B9DB4F-7FF6-4CDB-BEF4-05863A8070B7}"/>
 								</Reference>
@@ -56,7 +74,19 @@
 						</Sound>
 						<Sound Name="Fungus" ID="{DA1A5C49-A47E-4C50-8CEA-B9326373B37E}" ShortID="739997328">
 							<PropertyList>
+								<Property Name="IsGlobalLimit" Type="int16" Value="1"/>
 								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+								<Property Name="MaxSoundPerInstance" Type="int16">
+									<ValueList>
+										<Value>3</Value>
+									</ValueList>
+								</Property>
+								<Property Name="OverridePositioning" Type="bool" Value="True"/>
+								<Property Name="UseMaxSoundPerInstance" Type="bool">
+									<ValueList>
+										<Value>True</Value>
+									</ValueList>
+								</Property>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
 										<Value>-8</Value>
@@ -64,6 +94,9 @@
 								</Property>
 							</PropertyList>
 							<ReferenceList>
+								<Reference Name="Attenuation">
+									<ObjectRef Name="Fungi" ID="{CFC859AE-3729-4A01-9A0B-0991232C2B2F}" WorkUnitID="{272971F3-B693-4A49-9AD2-A7EABED04530}"/>
+								</Reference>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D0B9DB4F-7FF6-4CDB-BEF4-05863A8070B7}"/>
 								</Reference>
@@ -93,6 +126,7 @@
 						</Sound>
 						<Sound Name="Pod" ID="{5D43918D-B1BD-4E56-A82B-713D9B827B66}" ShortID="775344321">
 							<PropertyList>
+								<Property Name="3DSpatialization" Type="int16" Value="2"/>
 								<Property Name="Highpass" Type="int16">
 									<ValueList>
 										<Value>24</Value>
@@ -104,6 +138,8 @@
 										<Value>25</Value>
 									</ValueList>
 								</Property>
+								<Property Name="OverridePositioning" Type="bool" Value="True"/>
+								<Property Name="SpeakerPanning" Type="int16" Value="1"/>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
 										<Value>-14</Value>
@@ -111,6 +147,9 @@
 								</Property>
 							</PropertyList>
 							<ReferenceList>
+								<Reference Name="Attenuation">
+									<ObjectRef Name="Pod" ID="{B43CBADA-DAC3-40A3-AA16-F3AC16920338}" WorkUnitID="{272971F3-B693-4A49-9AD2-A7EABED04530}"/>
+								</Reference>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D0B9DB4F-7FF6-4CDB-BEF4-05863A8070B7}"/>
 								</Reference>
@@ -134,25 +173,56 @@
 									</MediaIDList>
 								</AudioFileSource>
 							</ChildrenList>
+							<PositioningInfo>
+								<Panner Name="" ID="{84E4C5F5-115B-4815-9DAC-54306ADDB82D}">
+									<PropertyList>
+										<Property Name="PanX" Type="Real64" Value="-6.99440505513849E-15"/>
+										<Property Name="PanY" Type="Real64" Value="-9.99200722162641E-16"/>
+									</PropertyList>
+								</Panner>
+								<Position Name="" ID="{64E38504-004B-49C1-AB88-33AD4D396EFC}"/>
+							</PositioningInfo>
 							<ActiveSourceList>
 								<ActiveSource Name="Pod01-imported" ID="{399E087D-DC52-4181-8608-C67E963DF3C4}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
 						<Sound Name="Tree" ID="{5D7DED24-A279-4F6F-9BD8-41DB53FCE605}" ShortID="100108378">
 							<PropertyList>
+								<Property Name="InitialDelay" Type="Real64">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{43A811D2-555D-4C89-8D9B-BC8B041994A3}"/>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+								<Property Name="IsGlobalLimit" Type="int16" Value="1"/>
 								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
 								<Property Name="Lowpass" Type="int16">
 									<ValueList>
 										<Value>29</Value>
 									</ValueList>
 								</Property>
+								<Property Name="MaxSoundPerInstance" Type="int16">
+									<ValueList>
+										<Value>3</Value>
+									</ValueList>
+								</Property>
+								<Property Name="OverridePositioning" Type="bool" Value="True"/>
+								<Property Name="UseMaxSoundPerInstance" Type="bool">
+									<ValueList>
+										<Value>True</Value>
+									</ValueList>
+								</Property>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>-11</Value>
+										<Value>-13</Value>
 									</ValueList>
 								</Property>
 							</PropertyList>
 							<ReferenceList>
+								<Reference Name="Attenuation">
+									<ObjectRef Name="Tree" ID="{1AD83F5B-B499-4735-B9B4-B699CEE715D5}" WorkUnitID="{272971F3-B693-4A49-9AD2-A7EABED04530}"/>
+								</Reference>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D0B9DB4F-7FF6-4CDB-BEF4-05863A8070B7}"/>
 								</Reference>
@@ -181,7 +251,15 @@
 							</ActiveSourceList>
 						</Sound>
 						<BlendContainer Name="Shipwreck" ID="{282F5D02-FACB-41F1-B908-66F3326EE78E}" ShortID="940714684">
+							<PropertyList>
+								<Property Name="3DSpatialization" Type="int16" Value="2"/>
+								<Property Name="OverridePositioning" Type="bool" Value="True"/>
+								<Property Name="SpeakerPanning" Type="int16" Value="1"/>
+							</PropertyList>
 							<ReferenceList>
+								<Reference Name="Attenuation">
+									<ObjectRef Name="Shipwreck" ID="{D8877815-83C9-45B2-A893-AA475B93BA48}" WorkUnitID="{272971F3-B693-4A49-9AD2-A7EABED04530}"/>
+								</Reference>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D0B9DB4F-7FF6-4CDB-BEF4-05863A8070B7}"/>
 								</Reference>
@@ -195,7 +273,7 @@
 										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
 										<Property Name="Volume" Type="Real64">
 											<ValueList>
-												<Value>-15</Value>
+												<Value>-13</Value>
 											</ValueList>
 										</Property>
 									</PropertyList>
@@ -238,7 +316,7 @@
 										<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
 										<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
 										<Property Name="PlayMechanismSpecialTransitionsType" Type="int16" Value="4"/>
-										<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64" Value="8">
+										<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64" Value="9">
 											<ModifierList>
 												<ModifierInfo>
 													<Modifier Name="" ID="{989E89D3-8E20-4CFE-933D-5E4221417668}">
@@ -254,7 +332,7 @@
 										<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
 										<Property Name="Volume" Type="Real64">
 											<ValueList>
-												<Value>-17</Value>
+												<Value>-13</Value>
 											</ValueList>
 										</Property>
 									</PropertyList>
@@ -380,9 +458,35 @@
 									</ChildrenList>
 								</RandomSequenceContainer>
 							</ChildrenList>
+							<PositioningInfo>
+								<Panner Name="" ID="{9910D1F1-DAD4-483A-9BFF-06F1179CD49D}"/>
+							</PositioningInfo>
 						</BlendContainer>
 					</ChildrenList>
 				</ActorMixer>
+				<Sound Name="cinematic" ID="{45745B5F-91E8-403D-8448-0B455FB41D73}" ShortID="722372439">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D0B9DB4F-7FF6-4CDB-BEF4-05863A8070B7}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Ambiance" ID="{DB046278-7D18-4B34-A7EE-4946B00C7686}" WorkUnitID="{61D42960-93D3-4FF0-8FC0-3437DB41C134}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<SourcePlugin Name="Wwise Sine" ID="{E624D95A-F77F-4118-8468-DDB8AFE960D7}" ShortID="80328108" PluginName="Wwise Sine" CompanyID="0" PluginID="100">
+							<PropertyList>
+								<Property Name="SineDuration" Type="Real32" Value="0.2"/>
+								<Property Name="SineFrequency" Type="Real32" Value="880"/>
+								<Property Name="SineGain" Type="Real32" Value="-11"/>
+							</PropertyList>
+							<Language>SFX</Language>
+						</SourcePlugin>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="Wwise Sine" ID="{E624D95A-F77F-4118-8468-DDB8AFE960D7}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
 			</ChildrenList>
 		</WorkUnit>
 	</AudioObjects>

@@ -212,8 +212,7 @@
 										<StateRef Name="inPauseMenu" ID="{AE0E8C79-8909-421B-B8E3-B0C7E76DF072}"/>
 										<CustomState Name="" ID="{20C6B240-2EA6-45DB-BF03-EDAB4FE90884}" ShortID="787713819">
 											<PropertyList>
-												<Property Name="BusVolume" Type="Real64" Value="-6"/>
-												<Property Name="Lowpass" Type="int16" Value="40"/>
+												<Property Name="Lowpass" Type="int16" Value="48"/>
 											</PropertyList>
 										</CustomState>
 									</CustomState>
@@ -273,8 +272,14 @@
 								<Property Name="OverrideColor" Type="bool" Value="True"/>
 							</PropertyList>
 							<ChildrenList>
-								<AuxBus Name="Reverb_Outside" ID="{EC4D3B35-9138-49D1-9C10-95986B651976}"/>
-								<AuxBus Name="Reverb_Inside" ID="{38B94906-E03A-43B8-9741-A9E833733672}"/>
+								<AuxBus Name="Reverb_Outside" ID="{EC4D3B35-9138-49D1-9C10-95986B651976}">
+									<ReferenceList>
+										<Reference Name="Effect0" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3">
+											<ObjectRef Name="Have_U_Ever_Been_Outside" ID="{FE29AE8D-FD86-4652-A95D-68D32F5760EC}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+										</Reference>
+									</ReferenceList>
+								</AuxBus>
+								<AuxBus Name="Reverb_Canyon" ID="{38B94906-E03A-43B8-9741-A9E833733672}"/>
 							</ChildrenList>
 						</Bus>
 					</ChildrenList>

@@ -14,17 +14,6 @@
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>
 				</SoundBank>
-				<SoundBank Name="SBK_Test" ID="{3DD2BB11-CF19-48D7-A730-3D83B9754FAD}">
-					<PropertyList>
-						<Property Name="Color" Type="int16" Value="11"/>
-						<Property Name="OverrideColor" Type="bool" Value="True"/>
-					</PropertyList>
-					<ObjectInclusionList>
-						<ObjectRef Name="Mm_Events_Test" ID="{0F5CD6D9-FAB7-4DD0-8CEC-D3176E4D7676}" WorkUnitID="{0F5CD6D9-FAB7-4DD0-8CEC-D3176E4D7676}" Origin="Manual" Filter="7"/>
-					</ObjectInclusionList>
-					<ObjectExclusionList/>
-					<GameSyncExclusionList/>
-				</SoundBank>
 				<SoundBank Name="SBK_UI" ID="{09521B46-72C5-4B8E-B542-2821E5C6B05A}">
 					<PropertyList>
 						<Property Name="Color" Type="int16" Value="22"/>

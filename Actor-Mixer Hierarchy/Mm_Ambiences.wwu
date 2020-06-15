@@ -11,7 +11,7 @@
 					<PropertyList>
 						<Property Name="Volume" Type="Real64">
 							<ValueList>
-								<Value>-6</Value>
+								<Value>10</Value>
 							</ValueList>
 						</Property>
 					</PropertyList>
@@ -32,6 +32,11 @@
 											<Modifier Name="" ID="{39D2BF30-A55C-43F7-8054-6A6B05F27E94}"/>
 										</ModifierInfo>
 									</ModifierList>
+								</Property>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-3</Value>
+									</ValueList>
 								</Property>
 							</PropertyList>
 							<ReferenceList>
@@ -635,9 +640,14 @@
 						</BlendContainer>
 						<BlendContainer Name="Ambiance_02" ID="{867F813D-0920-49A5-9716-74D532179AAF}" ShortID="503175770">
 							<PropertyList>
+								<Property Name="Highpass" Type="int16">
+									<ValueList>
+										<Value>25</Value>
+									</ValueList>
+								</Property>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>-9</Value>
+										<Value>-7</Value>
 									</ValueList>
 								</Property>
 							</PropertyList>
@@ -1078,6 +1088,11 @@
 						</BlendContainer>
 						<BlendContainer Name="Interactive" ID="{1E3B756C-D35E-4C49-9DD3-6D2B2C45D2FA}" ShortID="808057928">
 							<PropertyList>
+								<Property Name="Inclusion" Type="bool">
+									<ValueList>
+										<Value>False</Value>
+									</ValueList>
+								</Property>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
 										<Value>-25</Value>
@@ -1140,9 +1155,14 @@
 						</BlendContainer>
 						<BlendContainer Name="Ambiance_03" ID="{04AE5BCE-AE68-4C29-971B-CCC3FF5C3667}" ShortID="798041471">
 							<PropertyList>
+								<Property Name="Highpass" Type="int16">
+									<ValueList>
+										<Value>28</Value>
+									</ValueList>
+								</Property>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>-15</Value>
+										<Value>-2</Value>
 									</ValueList>
 								</Property>
 							</PropertyList>
@@ -1631,8 +1651,8 @@
 								<StateRef Name="inPauseMenu" ID="{AE0E8C79-8909-421B-B8E3-B0C7E76DF072}"/>
 								<CustomState Name="" ID="{F6EBF1A4-00D6-405B-830D-0CC98B5C9673}" ShortID="1025982373">
 									<PropertyList>
-										<Property Name="Lowpass" Type="int16" Value="40"/>
-										<Property Name="Volume" Type="Real64" Value="-6"/>
+										<Property Name="Lowpass" Type="int16" Value="8"/>
+										<Property Name="Volume" Type="Real64" Value="-5"/>
 									</PropertyList>
 								</CustomState>
 							</CustomState>
@@ -1644,8 +1664,8 @@
 								<StateRef Name="inPhotoMode" ID="{2EBB3483-4B2E-4D39-B479-7A1E8CE78787}"/>
 								<CustomState Name="" ID="{8CF822A9-C401-405B-814A-5FEBCDE87767}" ShortID="829407357">
 									<PropertyList>
-										<Property Name="Highpass" Type="int16" Value="20"/>
-										<Property Name="Lowpass" Type="int16" Value="31"/>
+										<Property Name="Highpass" Type="int16" Value="9"/>
+										<Property Name="Lowpass" Type="int16" Value="5"/>
 										<Property Name="Volume" Type="Real64" Value="-3"/>
 									</PropertyList>
 								</CustomState>

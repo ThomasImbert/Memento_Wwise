@@ -21,6 +21,9 @@
 				<Event Name="Play_Soundscape_01" ID="{592513F0-78D5-4011-9558-E2AFB76D69D2}">
 					<ChildrenList>
 						<Action Name="" ID="{BC3EF496-387D-4B49-9CFF-B51703BCD9D2}" ShortID="1182562">
+							<PropertyList>
+								<Property Name="Delay" Type="Real64" Value="20"/>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="Soundscape 01" ID="{18A5CB26-6EFD-476E-997E-79CBF1A95D4B}" WorkUnitID="{D25DFC5C-0BAB-434B-A5D9-63E84398F56E}"/>
@@ -32,6 +35,9 @@
 				<Event Name="Play_Soundscape_02" ID="{E91A096F-B50B-4CC2-9B11-DCC681C67382}">
 					<ChildrenList>
 						<Action Name="" ID="{CA750FBF-536B-4246-9A6B-380A85F50ACE}" ShortID="643439295">
+							<PropertyList>
+								<Property Name="Delay" Type="Real64" Value="15"/>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="Soundscape 02" ID="{786F492A-45A4-4332-BC46-5B191714792E}" WorkUnitID="{E383F8AB-940C-41E5-BB80-C914458AFB22}"/>
@@ -45,8 +51,8 @@
 						<Action Name="" ID="{8015EE3F-4814-415F-A96E-F4A27513BF64}" ShortID="241838310">
 							<PropertyList>
 								<Property Name="ActionType" Type="int16" Value="2"/>
-								<Property Name="FadeOutCurve" Type="int16" Value="1"/>
-								<Property Name="FadeTime" Type="Real64" Value="5"/>
+								<Property Name="FadeOutCurve" Type="int16" Value="5"/>
+								<Property Name="FadeTime" Type="Real64" Value="6"/>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
@@ -61,6 +67,8 @@
 						<Action Name="" ID="{404457B3-B99C-4836-A58C-7F728D40F347}" ShortID="823382367">
 							<PropertyList>
 								<Property Name="ActionType" Type="int16" Value="2"/>
+								<Property Name="FadeOutCurve" Type="int16" Value="5"/>
+								<Property Name="FadeTime" Type="Real64" Value="8"/>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
@@ -73,6 +81,9 @@
 				<Event Name="Play_Soundscape_03" ID="{62C17B7F-4958-4B60-8E0A-5B75C4B49569}">
 					<ChildrenList>
 						<Action Name="" ID="{F0659BAF-0E74-4265-A602-ACE3BEE8E1B0}" ShortID="655661849">
+							<PropertyList>
+								<Property Name="Delay" Type="Real64" Value="4"/>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="Soundscape 03" ID="{1E1353B8-DF87-4557-BD22-8B39F6ED28ED}" WorkUnitID="{47478CCA-6FB1-4977-A73F-811DCA27241F}"/>
@@ -86,8 +97,8 @@
 						<Action Name="" ID="{B3D8EC84-2994-4F41-A48B-5514AC9A0623}" ShortID="96606379">
 							<PropertyList>
 								<Property Name="ActionType" Type="int16" Value="2"/>
-								<Property Name="FadeOutCurve" Type="int16" Value="2"/>
-								<Property Name="FadeTime" Type="Real64" Value="1"/>
+								<Property Name="FadeOutCurve" Type="int16" Value="5"/>
+								<Property Name="FadeTime" Type="Real64" Value="2"/>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
@@ -113,12 +124,13 @@
 								</Reference>
 							</ReferenceList>
 						</Action>
-						<Action Name="" ID="{674E0091-3F2B-4476-A334-040CF248782F}" ShortID="636897932">
+						<Action Name="" ID="{612AEB7C-9A74-4EE4-A7B1-64165DE4B54E}" ShortID="149283029">
 							<PropertyList>
 								<Property Name="ActionType" Type="int16" Value="2"/>
 								<Property Name="Delay" Type="Real64" Value="1"/>
 								<Property Name="FadeOutCurve" Type="int16" Value="1"/>
 								<Property Name="FadeTime" Type="Real64" Value="1.5"/>
+								<Property Name="Scope" Type="int16" Value="1"/>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
@@ -126,23 +138,16 @@
 								</Reference>
 							</ReferenceList>
 						</Action>
-						<Action Name="" ID="{9246C905-3ABF-4177-9CC4-8FFC3A126F78}" ShortID="274254144">
+						<Action Name="" ID="{19F7CDAD-F4E8-425C-AD07-ECB3BF56C5C0}" ShortID="570560727">
 							<PropertyList>
-								<Property Name="ActionType" Type="int16" Value="38"/>
+								<Property Name="ActionType" Type="int16" Value="39"/>
+								<Property Name="Delay" Type="Real64" Value="9"/>
+								<Property Name="FadeTime" Type="Real64" Value="1"/>
+								<Property Name="Scope" Type="int16" Value="1"/>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="Ending" ID="{67CD4841-48EE-41A4-A95C-9C927D4AFB98}" WorkUnitID="{AB9804D5-E51E-4240-A1EE-DDFEF94AB4A8}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-						<Action Name="" ID="{254AF816-FB83-4BA9-AE93-6D8BE93DB62F}" ShortID="136988338">
-							<PropertyList>
-								<Property Name="Delay" Type="Real64" Value="5"/>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="Music_NoReturn" ID="{47737A4F-D014-43F6-BF6D-A0E6DA341867}" WorkUnitID="{3D524758-A9C6-465D-8C21-A38D2658C022}"/>
+									<ObjectRef Name="Canyon" ID="{9A7FD8AC-72BA-47D6-8778-74890CA8C960}" WorkUnitID="{AB9804D5-E51E-4240-A1EE-DDFEF94AB4A8}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
@@ -153,6 +158,7 @@
 						<Action Name="" ID="{6460C0DA-032F-4756-B49C-D481ADA179FE}" ShortID="367512874">
 							<PropertyList>
 								<Property Name="ActionType" Type="int16" Value="2"/>
+								<Property Name="Scope" Type="int16" Value="1"/>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
@@ -164,16 +170,6 @@
 				</Event>
 				<Event Name="Play_Soundscape_04" ID="{13CD3D0D-83D3-499F-921C-DA9FE0CC71D3}">
 					<ChildrenList>
-						<Action Name="" ID="{E5EB9ED7-D543-4445-A820-5A2B00B3D315}" ShortID="739145026">
-							<PropertyList>
-								<Property Name="ActionType" Type="int16" Value="38"/>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="Canyon" ID="{9A7FD8AC-72BA-47D6-8778-74890CA8C960}" WorkUnitID="{AB9804D5-E51E-4240-A1EE-DDFEF94AB4A8}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
 						<Action Name="" ID="{B0331C15-5953-4A44-B6A8-F69762042995}" ShortID="606904567">
 							<ReferenceList>
 								<Reference Name="Target">
@@ -185,16 +181,6 @@
 				</Event>
 				<Event Name="Play_Music_NoReturn" ID="{FB53A600-0266-4FBA-ACBD-A31A47E2CC59}">
 					<ChildrenList>
-						<Action Name="" ID="{B6149752-CE36-46B4-93A0-95858D2AB169}" ShortID="356726465">
-							<PropertyList>
-								<Property Name="ActionType" Type="int16" Value="38"/>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="Ending" ID="{67CD4841-48EE-41A4-A95C-9C927D4AFB98}" WorkUnitID="{AB9804D5-E51E-4240-A1EE-DDFEF94AB4A8}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
 						<Action Name="" ID="{974D4368-696E-4FA5-A6BC-2E61E033DE04}" ShortID="756968307">
 							<ReferenceList>
 								<Reference Name="Target">
@@ -202,11 +188,38 @@
 								</Reference>
 							</ReferenceList>
 						</Action>
+						<Action Name="" ID="{00AAF06E-698D-4098-AA12-2A592BB89BC8}" ShortID="316330011">
+							<PropertyList>
+								<Property Name="AbsoluteOrRelative" Type="int16" Value="1"/>
+								<Property Name="ActionType" Type="int16" Value="12"/>
+								<Property Name="FadeTime" Type="Real64" Value="8"/>
+								<Property Name="Volume" Type="Real64" Value="-9"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Ambiences" ID="{457EEC29-48E2-4B94-92C9-E26F3EB56A07}" WorkUnitID="{BDCF732B-5724-4543-8D24-9AB09AA8F717}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{F992F51F-8120-4A58-8C1F-8995A08B5DDF}" ShortID="570355247">
+							<PropertyList>
+								<Property Name="AbsoluteOrRelative" Type="int16" Value="1"/>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+								<Property Name="Delay" Type="Real64" Value="27"/>
+								<Property Name="FadeTime" Type="Real64" Value="3"/>
+								<Property Name="Volume" Type="Real64" Value="-96"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Ambiences" ID="{457EEC29-48E2-4B94-92C9-E26F3EB56A07}" WorkUnitID="{BDCF732B-5724-4543-8D24-9AB09AA8F717}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
 					</ChildrenList>
 				</Event>
 				<Event Name="RTPC_MusicNoReturn_Fx" ID="{E4B8168C-1699-4674-B72E-07362F394B1B}">
 					<ChildrenList>
-						<Action Name="" ID="{72F76577-8FFF-48A5-B58A-C94256AF8230}" ShortID="1069138213">
+						<Action Name="" ID="{3C5D8481-8E9F-42D8-9EB5-C63CCA6A9954}" ShortID="365586709">
 							<PropertyList>
 								<Property Name="ActionType" Type="int16" Value="38"/>
 								<Property Name="FadeTime" Type="Real64" Value="10"/>
@@ -222,7 +235,7 @@
 				</Event>
 				<Event Name="RTPC_MusicNoReturn_FadeOut" ID="{A86B0D83-EC92-4C1F-9AD9-9AE4750CFD90}">
 					<ChildrenList>
-						<Action Name="" ID="{E5E90F85-DEB4-4356-BAE8-B43C4076BE2F}" ShortID="794004514">
+						<Action Name="" ID="{59033986-EF91-41EE-B4CD-541E1BE45D66}" ShortID="779797950">
 							<PropertyList>
 								<Property Name="ActionType" Type="int16" Value="38"/>
 								<Property Name="FadeTime" Type="Real64" Value="10"/>
@@ -231,6 +244,34 @@
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="Ending" ID="{67CD4841-48EE-41A4-A95C-9C927D4AFB98}" WorkUnitID="{AB9804D5-E51E-4240-A1EE-DDFEF94AB4A8}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{15108A53-CDFB-4E0F-8F9D-2AD7BCDA2E18}" ShortID="798636357">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+								<Property Name="Delay" Type="Real64" Value="15"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Music_NoReturn" ID="{47737A4F-D014-43F6-BF6D-A0E6DA341867}" WorkUnitID="{3D524758-A9C6-465D-8C21-A38D2658C022}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Stop_Soundscape_04" ID="{3F3AF110-4238-4D21-B26F-382DEB4C061A}">
+					<ChildrenList>
+						<Action Name="" ID="{674E0091-3F2B-4476-A334-040CF248782F}" ShortID="636897932">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+								<Property Name="Delay" Type="Real64" Value="1"/>
+								<Property Name="FadeOutCurve" Type="int16" Value="1"/>
+								<Property Name="FadeTime" Type="Real64" Value="1.5"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Soundscape04" ID="{DBD2D8E2-981F-49DA-85CD-8844398A2A10}" WorkUnitID="{598F8DA3-0629-4153-A5B8-C50BDD259D26}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>

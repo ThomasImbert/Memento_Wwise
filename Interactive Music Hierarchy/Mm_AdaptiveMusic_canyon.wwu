@@ -16,73 +16,6 @@
 						</Reference>
 					</ReferenceList>
 					<ChildrenList>
-						<MusicSegment Name="Mm_Canyon_full" ID="{AFAF21F5-B708-44B3-9504-D4BF30089635}" ShortID="163224405">
-							<PropertyList>
-								<Property Name="EndPosition" Type="Real64" Value="31689.1383219955"/>
-								<Property Name="Inclusion" Type="bool">
-									<ValueList>
-										<Value>False</Value>
-									</ValueList>
-								</Property>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D0B9DB4F-7FF6-4CDB-BEF4-05863A8070B7}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8A69F515-C57F-4A97-8978-0B9FB4F47B02}"/>
-								</Reference>
-							</ReferenceList>
-							<ChildrenList>
-								<MusicTrack Name="Mm_Canyon_full" ID="{9F9D7793-75E8-45F1-B505-58DACF36CB02}" ShortID="407170082">
-									<ReferenceList>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8A69F515-C57F-4A97-8978-0B9FB4F47B02}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<AudioFileSource Name="Mm_Canyon_full" ID="{A57C0A2C-0963-420B-B52C-A5F26F06EFF0}">
-											<Language>SFX</Language>
-											<AudioFile>Music\Mm_Canyon_full .wav</AudioFile>
-											<MediaIDList>
-												<MediaID ID="334454253"/>
-											</MediaIDList>
-										</AudioFileSource>
-									</ChildrenList>
-									<TransitionList>
-										<MusicTransition Name="Root" ID="{922E53B0-E503-4B05-9FB5-A45D41878E45}">
-											<PropertyList>
-												<Property Name="IsFolder" Type="bool" Value="True"/>
-											</PropertyList>
-											<TransitionInfo/>
-										</MusicTransition>
-									</TransitionList>
-									<SequenceList>
-										<MusicTrackSequence Name="" ID="{226BEED4-C54C-4429-A269-01152DE9FBC6}">
-											<ClipList>
-												<MusicClip Name="Mm_Canyon_full " ID="{929A6A55-53C6-4A02-906C-C7059AC577BB}">
-													<PropertyList>
-														<Property Name="EndTrimOffset" Type="Real64" Value="31689.1383219955"/>
-														<Property Name="FadeInMode" Type="int16" Value="0"/>
-														<Property Name="FadeOutMode" Type="int16" Value="0"/>
-													</PropertyList>
-													<AudioSourceRef Name="Mm_Canyon_full" ID="{A57C0A2C-0963-420B-B52C-A5F26F06EFF0}"/>
-												</MusicClip>
-											</ClipList>
-										</MusicTrackSequence>
-									</SequenceList>
-								</MusicTrack>
-							</ChildrenList>
-							<CueList>
-								<MusicCue Name="Entry Cue" ID="{AD0107B5-D750-46FC-85DE-417D8B597D8A}"/>
-								<MusicCue Name="Exit Cue" ID="{17B003A7-86E2-485A-B44B-D85FD2C5AFB2}">
-									<PropertyList>
-										<Property Name="CueType" Type="int16" Value="1"/>
-										<Property Name="TimeMs" Type="Real64" Value="31689.1383219955"/>
-									</PropertyList>
-								</MusicCue>
-							</CueList>
-						</MusicSegment>
 						<MusicSegment Name="Mm_Canyon_layers" ID="{560D037F-42B6-4B14-9D18-0DB157B195A7}" ShortID="601577691">
 							<PropertyList>
 								<Property Name="EndPosition" Type="Real64" Value="31800"/>
@@ -116,12 +49,28 @@
 														<PointList>
 															<Point>
 																<XPos>0</XPos>
-																<YPos>0</YPos>
+																<YPos>-200</YPos>
 																<Flags>5</Flags>
 															</Point>
 															<Point>
+																<XPos>15</XPos>
+																<YPos>-0.14124</YPos>
+																<Flags>0</Flags>
+															</Point>
+															<Point>
+																<XPos>80</XPos>
+																<YPos>-0</YPos>
+																<Flags>0</Flags>
+																<SegmentShape>SCurve</SegmentShape>
+															</Point>
+															<Point>
+																<XPos>95</XPos>
+																<YPos>-200</YPos>
+																<Flags>0</Flags>
+															</Point>
+															<Point>
 																<XPos>100</XPos>
-																<YPos>0</YPos>
+																<YPos>-200</YPos>
 																<Flags>37</Flags>
 															</Point>
 														</PointList>
@@ -169,6 +118,9 @@
 								<MusicTrack Name="Mm_Canyon_layer02" ID="{26D96020-D280-4B65-814D-8201C481D58D}" ShortID="907928225">
 									<PropertyList>
 										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>1</Value>
+											</ValueList>
 											<RTPCList>
 												<RTPC Name="" ID="{59179327-2E90-4940-ACA9-800F292D840B}" ShortID="539213577">
 													<ReferenceList>
@@ -187,8 +139,13 @@
 																<Flags>5</Flags>
 															</Point>
 															<Point>
-																<XPos>25</XPos>
-																<YPos>0</YPos>
+																<XPos>19.83942</XPos>
+																<YPos>-200</YPos>
+																<Flags>0</Flags>
+															</Point>
+															<Point>
+																<XPos>40.47445</XPos>
+																<YPos>-0</YPos>
 																<Flags>0</Flags>
 															</Point>
 															<Point>
@@ -246,7 +203,7 @@
 									<PropertyList>
 										<Property Name="Volume" Type="Real64">
 											<ValueList>
-												<Value>-3</Value>
+												<Value>-1</Value>
 											</ValueList>
 											<RTPCList>
 												<RTPC Name="" ID="{2ACBAD4D-1182-42DE-BF3F-4072D9F2D0AA}" ShortID="44707384">
@@ -266,12 +223,12 @@
 																<Flags>5</Flags>
 															</Point>
 															<Point>
-																<XPos>50</XPos>
+																<XPos>56.93431</XPos>
 																<YPos>-200</YPos>
 																<Flags>0</Flags>
 															</Point>
 															<Point>
-																<XPos>75</XPos>
+																<XPos>85</XPos>
 																<YPos>0</YPos>
 																<Flags>0</Flags>
 															</Point>
@@ -329,9 +286,6 @@
 								<MusicTrack Name="Mm_Canyon_layer03" ID="{232AAAC0-9D71-4C6D-A8B1-4EA528D1528D}" ShortID="201590296">
 									<PropertyList>
 										<Property Name="Volume" Type="Real64">
-											<ValueList>
-												<Value>-2</Value>
-											</ValueList>
 											<RTPCList>
 												<RTPC Name="" ID="{1AE57337-F846-4663-9753-67214C99EECE}" ShortID="592714526">
 													<ReferenceList>
@@ -350,13 +304,13 @@
 																<Flags>5</Flags>
 															</Point>
 															<Point>
-																<XPos>25</XPos>
+																<XPos>38.86861</XPos>
 																<YPos>-200</YPos>
 																<Flags>0</Flags>
 															</Point>
 															<Point>
-																<XPos>50</XPos>
-																<YPos>0</YPos>
+																<XPos>64.5073</XPos>
+																<YPos>-0</YPos>
 																<Flags>0</Flags>
 															</Point>
 															<Point>
@@ -440,7 +394,6 @@
 							<PropertyList>
 								<Property Name="PlaySegmentAt" Type="int16" Value="2"/>
 							</PropertyList>
-							<TriggerRef Name="FinalDownload" ID="{4C208563-30B9-464B-9601-154F1833595D}" WorkUnitID="{1BD2D24D-1F02-403D-93BB-0ECFBB6BC6A8}"/>
 						</MusicStinger>
 					</StingerList>
 					<Playlist>

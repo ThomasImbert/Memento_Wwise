@@ -23,11 +23,55 @@
 								</Reference>
 							</ReferenceList>
 						</Action>
+						<Action Name="" ID="{21244818-524D-46EC-9A3B-7CD090D0564D}" ShortID="423009269">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="36"/>
+								<Property Name="SeekPercent" Type="Real64">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{FC0E6716-9538-46D5-AB68-E7C0E0574B63}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="49"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="BigFungus" ID="{2375AF81-4DF0-411D-A698-CC8BEDF3BEFC}" WorkUnitID="{1D08DAFE-2A2F-4703-963C-44383784F1A4}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
 					</ChildrenList>
 				</Event>
 				<Event Name="Play_Tree" ID="{A75BB789-F679-4D32-BA10-8EA7875D2D84}">
 					<ChildrenList>
 						<Action Name="" ID="{4A515D19-6E07-49CF-A1C5-B478DE92CE21}" ShortID="577893968">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Tree" ID="{5D7DED24-A279-4F6F-9BD8-41DB53FCE605}" WorkUnitID="{1D08DAFE-2A2F-4703-963C-44383784F1A4}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{EE8D607A-DAF2-4BAD-B171-BD002006CA4D}" ShortID="974010866">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="36"/>
+								<Property Name="SeekPercent" Type="Real64">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{98BA8AFC-F9D0-4325-B3A5-3DBB76EAA04F}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="69"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="Tree" ID="{5D7DED24-A279-4F6F-9BD8-41DB53FCE605}" WorkUnitID="{1D08DAFE-2A2F-4703-963C-44383784F1A4}"/>
@@ -45,6 +89,28 @@
 								</Reference>
 							</ReferenceList>
 						</Action>
+						<Action Name="" ID="{8DA2BB62-3648-4CD1-AE82-8C5245A2B4CB}" ShortID="816256165">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="36"/>
+								<Property Name="SeekPercent" Type="Real64">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{E026B209-7E95-4ACF-BCA4-C27D2D3E9C5B}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="51"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Fungus" ID="{DA1A5C49-A47E-4C50-8CEA-B9326373B37E}" WorkUnitID="{1D08DAFE-2A2F-4703-963C-44383784F1A4}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
 					</ChildrenList>
 				</Event>
 				<Event Name="Play_Pod" ID="{8139D6D7-163B-481F-9A3D-29DD70C46743}">
@@ -53,6 +119,17 @@
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="Pod" ID="{5D43918D-B1BD-4E56-A82B-713D9B827B66}" WorkUnitID="{1D08DAFE-2A2F-4703-963C-44383784F1A4}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Cinematic" ID="{CE5B67CB-EB40-41BC-B86A-92895456F4ED}">
+					<ChildrenList>
+						<Action Name="" ID="{79913583-C307-4F8C-A5CD-553AA0B22D47}" ShortID="568046742">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="cinematic" ID="{45745B5F-91E8-403D-8448-0B455FB41D73}" WorkUnitID="{1D08DAFE-2A2F-4703-963C-44383784F1A4}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>

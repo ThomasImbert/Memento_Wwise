@@ -6,18 +6,6 @@
 				<SoundcasterSession Name="Test" ID="{2AE7C605-E924-46B8-84C3-ED4173530479}">
 					<ModuleList>
 						<Module>
-							<ObjectRef Name="Play_TestLaurent" ID="{F9351F78-442A-4BA3-B652-A8C24D2AE3F9}" WorkUnitID="{0F5CD6D9-FAB7-4DD0-8CEC-D3176E4D7676}"/>
-							<Position X="0" Y="0"/>
-						</Module>
-						<Module>
-							<ObjectRef Name="Play_TestThomas" ID="{33646064-DFB2-42BC-96E7-4D59E9722961}" WorkUnitID="{0F5CD6D9-FAB7-4DD0-8CEC-D3176E4D7676}"/>
-							<Position X="1" Y="0"/>
-						</Module>
-						<Module>
-							<ObjectRef Name="Stop_TestThomas" ID="{9A9F270A-A13F-4DCF-BB30-D10EA4F37277}" WorkUnitID="{0F5CD6D9-FAB7-4DD0-8CEC-D3176E4D7676}"/>
-							<Position X="1" Y="1"/>
-						</Module>
-						<Module>
 							<ObjectRef Name="Play_PlayerWalk" ID="{57669FC4-8025-429D-8680-E6CE4E4B50D4}" WorkUnitID="{2108F57A-A96C-4E61-AD24-2AA4B1564C55}"/>
 							<Position X="2" Y="0"/>
 						</Module>
@@ -39,10 +27,6 @@
 				</SoundcasterSession>
 				<SoundcasterSession Name="Test Laurent" ID="{0CE8EE25-0EB7-4EF3-9063-D7CCBCC49538}">
 					<ModuleList>
-						<Module>
-							<ObjectRef Name="Play_TestLaurent" ID="{F9351F78-442A-4BA3-B652-A8C24D2AE3F9}" WorkUnitID="{0F5CD6D9-FAB7-4DD0-8CEC-D3176E4D7676}"/>
-							<Position X="0" Y="0"/>
-						</Module>
 						<Module>
 							<ObjectRef Name="Play_Ambiance_01" ID="{C3E09CF0-C7A7-4E08-8218-31307BAFC64E}" WorkUnitID="{94D94C6E-0D41-4408-A0CE-E3983F49FD1B}"/>
 							<Position X="1" Y="0"/>
@@ -263,12 +247,16 @@
 							<Position X="0" Y="0"/>
 						</Module>
 						<Module>
-							<ObjectRef Name="Play_Soundscape_03" ID="{62C17B7F-4958-4B60-8E0A-5B75C4B49569}" WorkUnitID="{7570666D-BB74-4A87-81DD-9DB16234FCD4}"/>
+							<ObjectRef Name="Play_Soundscape_01" ID="{592513F0-78D5-4011-9558-E2AFB76D69D2}" WorkUnitID="{7570666D-BB74-4A87-81DD-9DB16234FCD4}"/>
 							<Position X="0" Y="1"/>
 						</Module>
 						<Module>
-							<ObjectRef Name="Stop_Soundscape_03" ID="{C3C01E34-1C6A-485E-BF00-F0A77E76F75C}" WorkUnitID="{7570666D-BB74-4A87-81DD-9DB16234FCD4}"/>
+							<ObjectRef Name="Stop_Soundscape_01" ID="{1C9FC525-D776-4E58-8C66-0B1734ED9DD6}" WorkUnitID="{7570666D-BB74-4A87-81DD-9DB16234FCD4}"/>
 							<Position X="0" Y="2"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_Ambiance_02" ID="{832293B0-B697-4367-BCEC-5234B31E9F7F}" WorkUnitID="{94D94C6E-0D41-4408-A0CE-E3983F49FD1B}"/>
+							<Position X="0" Y="3"/>
 						</Module>
 						<Module>
 							<ObjectRef Name="Play_Music_NoReturn" ID="{FB53A600-0266-4FBA-ACBD-A31A47E2CC59}" WorkUnitID="{7570666D-BB74-4A87-81DD-9DB16234FCD4}"/>
@@ -295,12 +283,40 @@
 							<Position X="1" Y="2"/>
 						</Module>
 						<Module>
+							<ObjectRef Name="Play_Soundscape_03" ID="{62C17B7F-4958-4B60-8E0A-5B75C4B49569}" WorkUnitID="{7570666D-BB74-4A87-81DD-9DB16234FCD4}"/>
+							<Position X="1" Y="3"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Stop_Soundscape_03" ID="{C3C01E34-1C6A-485E-BF00-F0A77E76F75C}" WorkUnitID="{7570666D-BB74-4A87-81DD-9DB16234FCD4}"/>
+							<Position X="1" Y="4"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_Ambiance_03" ID="{BD38201C-6F68-415C-9046-2EEAB14863BF}" WorkUnitID="{94D94C6E-0D41-4408-A0CE-E3983F49FD1B}"/>
+							<Position X="1" Y="5"/>
+						</Module>
+						<Module>
 							<ObjectRef Name="Play_PlayerWalk" ID="{57669FC4-8025-429D-8680-E6CE4E4B50D4}" WorkUnitID="{2108F57A-A96C-4E61-AD24-2AA4B1564C55}"/>
 							<Position X="2" Y="0"/>
 						</Module>
 						<Module>
 							<ObjectRef Name="Play_PlayerHalt" ID="{3B223034-64AF-468F-BE15-84A09E103C47}" WorkUnitID="{2108F57A-A96C-4E61-AD24-2AA4B1564C55}"/>
 							<Position X="2" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Stop_Soundscape_04" ID="{3F3AF110-4238-4D21-B26F-382DEB4C061A}" WorkUnitID="{7570666D-BB74-4A87-81DD-9DB16234FCD4}"/>
+							<Position X="2" Y="2"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_Soundscape_02" ID="{E91A096F-B50B-4CC2-9B11-DCC681C67382}" WorkUnitID="{7570666D-BB74-4A87-81DD-9DB16234FCD4}"/>
+							<Position X="2" Y="3"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Stop_Soundscape_02" ID="{0FF6EB2F-437D-4981-A78E-FE48B360811C}" WorkUnitID="{7570666D-BB74-4A87-81DD-9DB16234FCD4}"/>
+							<Position X="2" Y="4"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Shipwreck" ID="{282F5D02-FACB-41F1-B908-66F3326EE78E}" WorkUnitID="{1D08DAFE-2A2F-4703-963C-44383784F1A4}"/>
+							<Position X="2" Y="5"/>
 						</Module>
 						<Module>
 							<ObjectRef Name="Play_JumpCharge" ID="{7D6BC0FC-18F6-4442-BA43-345BE9280427}" WorkUnitID="{2108F57A-A96C-4E61-AD24-2AA4B1564C55}"/>
@@ -378,6 +394,95 @@
 						</RTPCValue>
 						<RTPCValue>
 							<GameParameterRef Name="JumpCharge" ID="{A324C6C1-DBA7-4623-ADAB-EFA30960FA71}"/>
+							<Value>0</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="Canyon" ID="{9A7FD8AC-72BA-47D6-8778-74890CA8C960}"/>
+							<Value>100</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="WalkSpeed" ID="{E1064E41-C1EF-48D7-9F88-59A3D70419E0}"/>
+							<Value>0</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="VolumeAmbiance" ID="{D4F5C67B-1BB3-48E2-83DD-E09DE7C070C3}"/>
+							<Value>100</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="VolumeMaster" ID="{58EAF35B-58D6-490A-9BFE-C38AF7DCD943}"/>
+							<Value>100</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="VolumeMusic" ID="{1B8F9745-BB7B-4B63-8067-D3B7A7B598C9}"/>
+							<Value>100</Value>
+						</RTPCValue>
+					</RTPCValueList>
+					<CurrentStateList ShowAll="true">
+						<CurrentStateRef Name="None" ID="{2A869645-BE16-4AD2-BADF-EB1E3768879F}"/>
+					</CurrentStateList>
+					<CurrentSwitchList ShowAll="true">
+						<CurrentSwitchRef Name="PurpleMoss" ID="{74CEED8B-1961-47D4-AF3C-83B4EF9F333B}"/>
+						<CurrentSwitchRef Name="notRunning" ID="{41358E26-691B-466E-ABE9-7AEEF3965687}"/>
+					</CurrentSwitchList>
+				</SoundcasterSession>
+				<SoundcasterSession Name="Ambiances" ID="{C6B591BD-507C-4F71-8B97-52E0BE007637}">
+					<ModuleList>
+						<Module>
+							<ObjectRef Name="Play_Ambiance_01" ID="{C3E09CF0-C7A7-4E08-8218-31307BAFC64E}" WorkUnitID="{94D94C6E-0D41-4408-A0CE-E3983F49FD1B}"/>
+							<Position X="0" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_Fungus" ID="{5BA47567-E087-4579-94D1-B43769736290}" WorkUnitID="{6818FDA9-D46B-4A8C-9714-A4EE4E723538}"/>
+							<Position X="0" Y="2"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_Ambiance_02" ID="{832293B0-B697-4367-BCEC-5234B31E9F7F}" WorkUnitID="{94D94C6E-0D41-4408-A0CE-E3983F49FD1B}"/>
+							<Position X="1" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_BigFungus" ID="{1CD9581B-BFDD-493E-96D1-EB7EB522CC6C}" WorkUnitID="{6818FDA9-D46B-4A8C-9714-A4EE4E723538}"/>
+							<Position X="1" Y="2"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_Ambiance_03" ID="{BD38201C-6F68-415C-9046-2EEAB14863BF}" WorkUnitID="{94D94C6E-0D41-4408-A0CE-E3983F49FD1B}"/>
+							<Position X="2" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_Cinematic" ID="{CE5B67CB-EB40-41BC-B86A-92895456F4ED}" WorkUnitID="{6818FDA9-D46B-4A8C-9714-A4EE4E723538}"/>
+							<Position X="2" Y="2"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_Pod" ID="{8139D6D7-163B-481F-9A3D-29DD70C46743}" WorkUnitID="{6818FDA9-D46B-4A8C-9714-A4EE4E723538}"/>
+							<Position X="3" Y="2"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_Shipwreck" ID="{65F066E2-98CD-4D8D-9C4A-EAD7784BC329}" WorkUnitID="{6818FDA9-D46B-4A8C-9714-A4EE4E723538}"/>
+							<Position X="4" Y="2"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_Tree" ID="{A75BB789-F679-4D32-BA10-8EA7875D2D84}" WorkUnitID="{6818FDA9-D46B-4A8C-9714-A4EE4E723538}"/>
+							<Position X="5" Y="2"/>
+						</Module>
+					</ModuleList>
+					<RTPCValueList ShowAll="true">
+						<RTPCValue>
+							<GameParameterRef Name="Ending" ID="{67CD4841-48EE-41A4-A95C-9C927D4AFB98}"/>
+							<Value>0</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="Redmoss" ID="{80BC9985-A8D9-43F1-BA92-100D0D7A46A1}"/>
+							<Value>100</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="VolumeSFX" ID="{FDE4A8D5-4272-443A-95FE-02A5723ED01A}"/>
+							<Value>100</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="VolumeUI" ID="{9D9A93FB-10F0-4586-AD04-A3891218D2CD}"/>
+							<Value>100</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="JumpCharge" ID="{A324C6C1-DBA7-4623-ADAB-EFA30960FA71}"/>
 							<Value>1</Value>
 						</RTPCValue>
 						<RTPCValue>
@@ -402,10 +507,10 @@
 						</RTPCValue>
 					</RTPCValueList>
 					<CurrentStateList ShowAll="true">
-						<CurrentStateRef Name="None" ID="{2A869645-BE16-4AD2-BADF-EB1E3768879F}"/>
+						<CurrentStateRef Name="inGame" ID="{D34E7C80-FD5C-455E-B679-C8C14C14EEB6}"/>
 					</CurrentStateList>
 					<CurrentSwitchList ShowAll="true">
-						<CurrentSwitchRef Name="RedMoss" ID="{51C21A70-4FF9-48CC-86D4-817DDBD76F1A}"/>
+						<CurrentSwitchRef Name="Fungi" ID="{C63A9A2D-596F-4E47-B252-FD0AC5027D37}"/>
 						<CurrentSwitchRef Name="notRunning" ID="{41358E26-691B-466E-ABE9-7AEEF3965687}"/>
 					</CurrentSwitchList>
 				</SoundcasterSession>
