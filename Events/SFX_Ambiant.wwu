@@ -124,17 +124,6 @@
 						</Action>
 					</ChildrenList>
 				</Event>
-				<Event Name="Play_Cinematic" ID="{CE5B67CB-EB40-41BC-B86A-92895456F4ED}">
-					<ChildrenList>
-						<Action Name="" ID="{79913583-C307-4F8C-A5CD-553AA0B22D47}" ShortID="568046742">
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="cinematic" ID="{45745B5F-91E8-403D-8448-0B455FB41D73}" WorkUnitID="{1D08DAFE-2A2F-4703-963C-44383784F1A4}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-					</ChildrenList>
-				</Event>
 				<Event Name="RTPC_CanyonRVB_On" ID="{6A0A2D97-F21D-4579-BC8E-42DCF754CFB3}">
 					<ChildrenList>
 						<Action Name="" ID="{4D47B8FD-ED2F-4C55-87A0-B0D8DFDA0E31}" ShortID="249112965">

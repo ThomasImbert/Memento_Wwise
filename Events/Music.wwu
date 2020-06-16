@@ -194,13 +194,27 @@
 						<Action Name="" ID="{00AAF06E-698D-4098-AA12-2A592BB89BC8}" ShortID="316330011">
 							<PropertyList>
 								<Property Name="AbsoluteOrRelative" Type="int16" Value="1"/>
-								<Property Name="ActionType" Type="int16" Value="12"/>
+								<Property Name="ActionType" Type="int16" Value="22"/>
 								<Property Name="FadeTime" Type="Real64" Value="8"/>
 								<Property Name="Volume" Type="Real64" Value="-9"/>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="Ambiences" ID="{457EEC29-48E2-4B94-92C9-E26F3EB56A07}" WorkUnitID="{BDCF732B-5724-4543-8D24-9AB09AA8F717}"/>
+									<ObjectRef Name="WalkBack" ID="{9669AE38-7F41-44FC-A3CC-7C5A82BE0741}" WorkUnitID="{D0D2736E-7C54-409F-9B30-7EBE917F2AF9}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{98071BF5-0192-4914-8587-95A59DE31A34}" ShortID="107424503">
+							<PropertyList>
+								<Property Name="AbsoluteOrRelative" Type="int16" Value="1"/>
+								<Property Name="ActionType" Type="int16" Value="22"/>
+								<Property Name="Delay" Type="Real64" Value="25"/>
+								<Property Name="FadeTime" Type="Real64" Value="8"/>
+								<Property Name="Volume" Type="Real64" Value="-9"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Credits" ID="{4FB196AA-383D-4839-A204-FD4B4345A19B}" WorkUnitID="{D0D2736E-7C54-409F-9B30-7EBE917F2AF9}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
@@ -208,8 +222,9 @@
 							<PropertyList>
 								<Property Name="AbsoluteOrRelative" Type="int16" Value="1"/>
 								<Property Name="ActionType" Type="int16" Value="2"/>
-								<Property Name="Delay" Type="Real64" Value="27"/>
-								<Property Name="FadeTime" Type="Real64" Value="3"/>
+								<Property Name="Delay" Type="Real64" Value="35"/>
+								<Property Name="FadeTime" Type="Real64" Value="1"/>
+								<Property Name="Scope" Type="int16" Value="1"/>
 								<Property Name="Volume" Type="Real64" Value="-96"/>
 							</PropertyList>
 							<ReferenceList>

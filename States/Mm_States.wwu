@@ -11,6 +11,28 @@
 						<State Name="inGame" ID="{D34E7C80-FD5C-455E-B679-C8C14C14EEB6}"/>
 					</ChildrenList>
 				</StateGroup>
+				<StateGroup Name="CinematicEnd" ID="{96945C40-B21B-4D6A-A136-42765CD49E30}">
+					<ChildrenList>
+						<State Name="None" ID="{A8218AB1-0422-466A-A3F4-4E96993C4B83}"/>
+						<State Name="WalkBack" ID="{9669AE38-7F41-44FC-A3CC-7C5A82BE0741}"/>
+						<State Name="Credits" ID="{4FB196AA-383D-4839-A204-FD4B4345A19B}"/>
+						<State Name="Default" ID="{7B97527A-6FC3-4D75-83B9-7F6F052564F6}"/>
+					</ChildrenList>
+					<TransitionList>
+						<Transition>
+							<StartState Name="Default" ID="{7B97527A-6FC3-4D75-83B9-7F6F052564F6}"/>
+							<EndState Name="WalkBack" ID="{9669AE38-7F41-44FC-A3CC-7C5A82BE0741}"/>
+							<Time>3</Time>
+							<IsShared>false</IsShared>
+						</Transition>
+						<Transition>
+							<StartState Name="WalkBack" ID="{9669AE38-7F41-44FC-A3CC-7C5A82BE0741}"/>
+							<EndState Name="Credits" ID="{4FB196AA-383D-4839-A204-FD4B4345A19B}"/>
+							<Time>2</Time>
+							<IsShared>false</IsShared>
+						</Transition>
+					</TransitionList>
+				</StateGroup>
 			</ChildrenList>
 		</WorkUnit>
 	</States>

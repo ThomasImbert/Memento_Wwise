@@ -7,7 +7,7 @@
 				<Property Name="OverrideColor" Type="bool" Value="True"/>
 			</PropertyList>
 			<ChildrenList>
-				<Event Name="Play_Cinematic" ID="{CE5B67CB-EB40-41BC-B86A-92895456F4ED}">
+				<Event Name="Play_Cinematic_01" ID="{CE5B67CB-EB40-41BC-B86A-92895456F4ED}">
 					<ChildrenList>
 						<Action Name="" ID="{C814EC25-50D5-46C0-8A44-E6CA599BB9F1}" ShortID="886334667">
 							<ReferenceList>

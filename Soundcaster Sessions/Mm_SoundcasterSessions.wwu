@@ -448,7 +448,7 @@
 							<Position X="2" Y="0"/>
 						</Module>
 						<Module>
-							<ObjectRef Name="Play_Cinematic" ID="{CE5B67CB-EB40-41BC-B86A-92895456F4ED}" WorkUnitID="{E89490D5-5335-4525-A60C-9498D6120126}"/>
+							<ObjectRef Name="Play_Cinematic_01" ID="{CE5B67CB-EB40-41BC-B86A-92895456F4ED}" WorkUnitID="{E89490D5-5335-4525-A60C-9498D6120126}"/>
 							<Position X="2" Y="2"/>
 						</Module>
 						<Module>

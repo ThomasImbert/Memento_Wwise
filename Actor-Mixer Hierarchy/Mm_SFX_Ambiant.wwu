@@ -1035,6 +1035,35 @@
 							</PositioningInfo>
 						</BlendContainer>
 					</ChildrenList>
+					<StateInfo>
+						<StateGroupList>
+							<StateGroupInfo>
+								<StateGroupRef Name="CinematicEnd" ID="{96945C40-B21B-4D6A-A136-42765CD49E30}"/>
+							</StateGroupInfo>
+						</StateGroupList>
+						<CustomStateList>
+							<CustomState>
+								<StateRef Name="WalkBack" ID="{9669AE38-7F41-44FC-A3CC-7C5A82BE0741}"/>
+								<CustomState Name="" ID="{03007C60-241C-48DE-AB3E-42DE4A20DEDA}" ShortID="69036565">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64" Value="-9"/>
+									</PropertyList>
+								</CustomState>
+							</CustomState>
+							<CustomState>
+								<StateRef Name="Credits" ID="{4FB196AA-383D-4839-A204-FD4B4345A19B}"/>
+								<CustomState Name="" ID="{6C1EFD6A-C234-4DA6-ACEA-C389CCB1BBBC}" ShortID="658607202">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64" Value="-108"/>
+									</PropertyList>
+								</CustomState>
+							</CustomState>
+							<CustomState>
+								<StateRef Name="Default" ID="{7B97527A-6FC3-4D75-83B9-7F6F052564F6}"/>
+								<CustomState Name="" ID="{0D844271-E1DA-4317-976C-CBAF6C5FF22F}" ShortID="349039069"/>
+							</CustomState>
+						</CustomStateList>
+					</StateInfo>
 				</ActorMixer>
 			</ChildrenList>
 		</WorkUnit>

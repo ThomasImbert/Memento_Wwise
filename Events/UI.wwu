@@ -199,6 +199,16 @@
 									</PropertyList>
 									<ReferenceList/>
 								</Action>
+								<Action Name="" ID="{9EF3A353-A1D7-4439-AF55-C39EFCC95880}" ShortID="1011904198">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="22"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Default" ID="{7B97527A-6FC3-4D75-83B9-7F6F052564F6}" WorkUnitID="{D0D2736E-7C54-409F-9B30-7EBE917F2AF9}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
 							</ChildrenList>
 						</Event>
 					</ChildrenList>

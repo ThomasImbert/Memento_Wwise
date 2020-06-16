@@ -1771,6 +1771,9 @@
 							<StateGroupInfo>
 								<StateGroupRef Name="Menu" ID="{065FE6D7-A4AC-490D-B0D8-8723670FA63A}"/>
 							</StateGroupInfo>
+							<StateGroupInfo>
+								<StateGroupRef Name="CinematicEnd" ID="{96945C40-B21B-4D6A-A136-42765CD49E30}"/>
+							</StateGroupInfo>
 						</StateGroupList>
 						<CustomStateList>
 							<CustomState>
@@ -1783,8 +1786,24 @@
 								</CustomState>
 							</CustomState>
 							<CustomState>
+								<StateRef Name="WalkBack" ID="{9669AE38-7F41-44FC-A3CC-7C5A82BE0741}"/>
+								<CustomState Name="" ID="{2037D3CB-B3DC-4BD2-BC7F-D9952D1EA623}" ShortID="824101482">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64" Value="-9"/>
+									</PropertyList>
+								</CustomState>
+							</CustomState>
+							<CustomState>
 								<StateRef Name="inGame" ID="{D34E7C80-FD5C-455E-B679-C8C14C14EEB6}"/>
 								<CustomState Name="" ID="{1D1C3CD6-09AC-435E-82B3-557E2F07FA3C}" ShortID="595721711"/>
+							</CustomState>
+							<CustomState>
+								<StateRef Name="Credits" ID="{4FB196AA-383D-4839-A204-FD4B4345A19B}"/>
+								<CustomState Name="" ID="{8F1B0206-F412-403C-8E50-8AE7536E4664}" ShortID="661094287">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64" Value="-108"/>
+									</PropertyList>
+								</CustomState>
 							</CustomState>
 							<CustomState>
 								<StateRef Name="inPhotoMode" ID="{2EBB3483-4B2E-4D39-B479-7A1E8CE78787}"/>
@@ -1795,6 +1814,10 @@
 										<Property Name="Volume" Type="Real64" Value="-3"/>
 									</PropertyList>
 								</CustomState>
+							</CustomState>
+							<CustomState>
+								<StateRef Name="Default" ID="{7B97527A-6FC3-4D75-83B9-7F6F052564F6}"/>
+								<CustomState Name="" ID="{B4EADFAA-3578-4E31-A9DF-313D1F6DFDDD}" ShortID="970131362"/>
 							</CustomState>
 						</CustomStateList>
 					</StateInfo>
