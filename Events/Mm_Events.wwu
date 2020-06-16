@@ -7,6 +7,7 @@
 				<WorkUnit Name="SFX" ID="{0B53BEA9-72FD-40A4-9BEA-6B47AA64B91B}" PersistMode="Reference"/>
 				<WorkUnit Name="Music" ID="{7570666D-BB74-4A87-81DD-9DB16234FCD4}" PersistMode="Reference"/>
 				<WorkUnit Name="UI" ID="{AB2810BE-7DE9-477E-8299-B311E00E153D}" PersistMode="Reference"/>
+				<WorkUnit Name="Cinematic" ID="{E89490D5-5335-4525-A60C-9498D6120126}" PersistMode="Reference"/>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

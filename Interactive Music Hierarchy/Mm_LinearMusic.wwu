@@ -21,23 +21,23 @@
 						</Reference>
 					</ReferenceList>
 					<ChildrenList>
-						<MusicTrack Name="LinearMusic_Introduction_Awakening" ID="{FFAE0EA8-BDCE-4486-99C9-F4751C495FDB}" ShortID="282809862">
+						<MusicTrack Name="LinearMusic_Cinematic_Awekening" ID="{036CA43B-3B5E-463F-BB58-675A2DB5707F}" ShortID="437282444">
 							<ReferenceList>
 								<Reference Name="OutputBus">
 									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8A69F515-C57F-4A97-8978-0B9FB4F47B02}"/>
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<AudioFileSource Name="Musique - Eveil Mix - Mastering" ID="{6C62A8A8-CFDB-4E3F-818F-27ACC01DECE9}">
+								<AudioFileSource Name="CINEMATIC_Music_Awekening" ID="{81A80B7A-F16D-4568-BEAD-4565A3EAA1B8}">
 									<Language>SFX</Language>
-									<AudioFile>Musique - Eveil Mix - Mastering.wav</AudioFile>
+									<AudioFile>CINEMATIC_Music_Awekening.wav</AudioFile>
 									<MediaIDList>
-										<MediaID ID="705066311"/>
+										<MediaID ID="1067054174"/>
 									</MediaIDList>
 								</AudioFileSource>
 							</ChildrenList>
 							<TransitionList>
-								<MusicTransition Name="Root" ID="{1F4511CC-0C11-49D0-BB1D-3F634AE58892}">
+								<MusicTransition Name="Root" ID="{91C85B02-4196-46A2-9F8F-2F47ACA8E15E}">
 									<PropertyList>
 										<Property Name="IsFolder" Type="bool" Value="True"/>
 									</PropertyList>
@@ -45,76 +45,15 @@
 								</MusicTransition>
 							</TransitionList>
 							<SequenceList>
-								<MusicTrackSequence Name="" ID="{215E5BB2-FA2B-424D-8889-15AC1F2A9EF1}">
+								<MusicTrackSequence Name="" ID="{80D33B91-367D-406C-9875-EFED62A759EA}">
 									<ClipList>
-										<MusicClip Name="Musique - Eveil Mix - Mastering" ID="{4F521D52-0B3E-4B5C-A499-5D794A033BAB}">
+										<MusicClip Name="CINEMATIC_Music_Awekening" ID="{E349AEA1-06DA-4334-9FC4-ECBEFAB68607}">
 											<PropertyList>
-												<Property Name="BeginTrimOffset" Type="Real64" Value="-2.95585778076202E-12"/>
-												<Property Name="EndTrimOffset" Type="Real64" Value="48000"/>
-												<Property Name="FadeOutDuration" Type="Real64" Value="17052.2755765372"/>
-												<Property Name="FadeOutShape" Type="int16" Value="6"/>
-												<Property Name="PlayAt" Type="Real64" Value="2.95585778076202E-12"/>
+												<Property Name="EndTrimOffset" Type="Real64" Value="49853.7708333333"/>
+												<Property Name="FadeInMode" Type="int16" Value="0"/>
+												<Property Name="FadeOutMode" Type="int16" Value="0"/>
 											</PropertyList>
-											<AudioSourceRef Name="Musique - Eveil Mix - Mastering" ID="{6C62A8A8-CFDB-4E3F-818F-27ACC01DECE9}"/>
-											<PropertyCurveList>
-												<PropertyCurve PropertyName="Highpass">
-													<Curve Name="" ID="{8B06D566-36AC-4C86-9E7A-7A3B8C9781BD}">
-														<PropertyList>
-															<Property Name="Flags" Type="int32" Value="1"/>
-														</PropertyList>
-														<PointList>
-															<Point>
-																<XPos>0</XPos>
-																<YPos>0</YPos>
-																<Flags>5</Flags>
-															</Point>
-															<Point>
-																<XPos>48</XPos>
-																<YPos>0</YPos>
-																<Flags>37</Flags>
-															</Point>
-														</PointList>
-													</Curve>
-												</PropertyCurve>
-												<PropertyCurve PropertyName="Lowpass">
-													<Curve Name="" ID="{72433C03-76D3-42DC-9D77-A101B2A72907}">
-														<PropertyList>
-															<Property Name="Flags" Type="int32" Value="1"/>
-														</PropertyList>
-														<PointList>
-															<Point>
-																<XPos>0</XPos>
-																<YPos>0</YPos>
-																<Flags>5</Flags>
-															</Point>
-															<Point>
-																<XPos>48</XPos>
-																<YPos>0</YPos>
-																<Flags>37</Flags>
-															</Point>
-														</PointList>
-													</Curve>
-												</PropertyCurve>
-												<PropertyCurve PropertyName="Volume">
-													<Curve Name="" ID="{35989ED6-BA92-4645-8608-715E1B207696}">
-														<PropertyList>
-															<Property Name="Flags" Type="int32" Value="3"/>
-														</PropertyList>
-														<PointList>
-															<Point>
-																<XPos>0</XPos>
-																<YPos>0</YPos>
-																<Flags>5</Flags>
-															</Point>
-															<Point>
-																<XPos>48</XPos>
-																<YPos>0</YPos>
-																<Flags>37</Flags>
-															</Point>
-														</PointList>
-													</Curve>
-												</PropertyCurve>
-											</PropertyCurveList>
+											<AudioSourceRef Name="CINEMATIC_Music_Awekening" ID="{81A80B7A-F16D-4568-BEAD-4565A3EAA1B8}"/>
 										</MusicClip>
 									</ClipList>
 								</MusicTrackSequence>

@@ -74,11 +74,7 @@
 								</MusicTrack>
 							</ChildrenList>
 							<CueList>
-								<MusicCue Name="Entry Cue" ID="{1F008343-D0C1-403C-B31C-F9D0F0D36555}">
-									<PropertyList>
-										<Property Name="TimeMs" Type="Real64" Value="2016.80672268908"/>
-									</PropertyList>
-								</MusicCue>
+								<MusicCue Name="Entry Cue" ID="{1F008343-D0C1-403C-B31C-F9D0F0D36555}"/>
 								<MusicCue Name="Exit Cue" ID="{21C1DD97-024B-4D5C-A1E5-B71A03CC85EF}">
 									<PropertyList>
 										<Property Name="CueType" Type="int16" Value="1"/>
@@ -144,7 +140,7 @@
 								<MusicCue Name="Exit Cue" ID="{8920E960-8CD8-4CC2-A7D1-516EF1AFE1A5}">
 									<PropertyList>
 										<Property Name="CueType" Type="int16" Value="1"/>
-										<Property Name="TimeMs" Type="Real64" Value="56470.5882352941"/>
+										<Property Name="TimeMs" Type="Real64" Value="48403.3613445378"/>
 									</PropertyList>
 								</MusicCue>
 							</CueList>

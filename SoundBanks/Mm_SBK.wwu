@@ -20,6 +20,7 @@
 						<Property Name="OverrideColor" Type="bool" Value="True"/>
 					</PropertyList>
 					<ObjectInclusionList>
+						<ObjectRef Name="Mm_Cinematic" ID="{EB18F6DD-D220-46D5-8724-CC31E9178A0C}" WorkUnitID="{EB18F6DD-D220-46D5-8724-CC31E9178A0C}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="UI" ID="{AB2810BE-7DE9-477E-8299-B311E00E153D}" WorkUnitID="{AB2810BE-7DE9-477E-8299-B311E00E153D}" Origin="Manual" Filter="7"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>
