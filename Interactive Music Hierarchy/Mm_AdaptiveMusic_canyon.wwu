@@ -59,7 +59,7 @@
 															</Point>
 															<Point>
 																<XPos>47.36347</XPos>
-																<YPos>-0</YPos>
+																<YPos>0</YPos>
 																<Flags>0</Flags>
 															</Point>
 															<Point>
@@ -375,6 +375,39 @@
 							</CueList>
 						</MusicSegment>
 					</ChildrenList>
+					<StateInfo>
+						<StateGroupList>
+							<StateGroupInfo>
+								<StateGroupRef Name="Cinematic" ID="{96945C40-B21B-4D6A-A136-42765CD49E30}"/>
+							</StateGroupInfo>
+						</StateGroupList>
+						<CustomStateList>
+							<CustomState>
+								<StateRef Name="WalkBack" ID="{9669AE38-7F41-44FC-A3CC-7C5A82BE0741}"/>
+								<CustomState Name="" ID="{B77F1C33-8AE1-4631-BD77-1C0F1E034A7C}" ShortID="934643521">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64" Value="-108"/>
+									</PropertyList>
+								</CustomState>
+							</CustomState>
+							<CustomState>
+								<StateRef Name="IntroGame" ID="{AC846B19-CCCD-46F1-91C3-48650D191E3E}"/>
+								<CustomState Name="" ID="{BDDB49CC-2909-4CC9-B1B2-6A7DD27A20D8}" ShortID="968120066"/>
+							</CustomState>
+							<CustomState>
+								<StateRef Name="Credits" ID="{4FB196AA-383D-4839-A204-FD4B4345A19B}"/>
+								<CustomState Name="" ID="{0449B5C7-B9DC-4B5D-ACA9-E9956CEBEE6F}" ShortID="663024149">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64" Value="-108"/>
+									</PropertyList>
+								</CustomState>
+							</CustomState>
+							<CustomState>
+								<StateRef Name="Default" ID="{7B97527A-6FC3-4D75-83B9-7F6F052564F6}"/>
+								<CustomState Name="" ID="{9B2D9077-E26F-4F95-BE97-0988DEE82031}" ShortID="451800739"/>
+							</CustomState>
+						</CustomStateList>
+					</StateInfo>
 					<TransitionList>
 						<MusicTransition Name="Root" ID="{1B41F52C-7388-4829-99EF-BDAE0F8B1829}">
 							<PropertyList>

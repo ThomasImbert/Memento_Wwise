@@ -16,10 +16,31 @@
 								</Reference>
 							</ReferenceList>
 						</Action>
+						<Action Name="" ID="{4A5631A0-7AD0-4219-8829-7B23584FC326}" ShortID="929474595">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="22"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="IntroGame" ID="{AC846B19-CCCD-46F1-91C3-48650D191E3E}" WorkUnitID="{D0D2736E-7C54-409F-9B30-7EBE917F2AF9}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
 						<Action Name="" ID="{CCD24161-B26D-4D83-BDBF-DEC0647483E7}" ShortID="536811291">
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="Music_Awakening" ID="{BD4DB2FC-CDB3-41E7-BE5F-DC34654AA3CE}" WorkUnitID="{E77EEFBD-EA05-4D1F-BD63-6204F50016F7}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{2B924FD9-E512-4297-9F06-DCF16FBAD568}" ShortID="537130625">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="22"/>
+								<Property Name="Delay" Type="Real64" Value="30"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Default" ID="{7B97527A-6FC3-4D75-83B9-7F6F052564F6}" WorkUnitID="{D0D2736E-7C54-409F-9B30-7EBE917F2AF9}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>

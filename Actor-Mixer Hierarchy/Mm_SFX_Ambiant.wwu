@@ -205,6 +205,39 @@
 									</MediaIDList>
 								</AudioFileSource>
 							</ChildrenList>
+							<StateInfo>
+								<StateGroupList>
+									<StateGroupInfo>
+										<StateGroupRef Name="Cinematic" ID="{96945C40-B21B-4D6A-A136-42765CD49E30}"/>
+									</StateGroupInfo>
+								</StateGroupList>
+								<CustomStateList>
+									<CustomState>
+										<StateRef Name="WalkBack" ID="{9669AE38-7F41-44FC-A3CC-7C5A82BE0741}"/>
+										<CustomState Name="" ID="{0B8952A5-E65F-46E3-86FD-F56A99E003AC}" ShortID="550775846">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64" Value="-108"/>
+											</PropertyList>
+										</CustomState>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="IntroGame" ID="{AC846B19-CCCD-46F1-91C3-48650D191E3E}"/>
+										<CustomState Name="" ID="{0774D3FE-4780-4F23-B63F-089F4333D8ED}" ShortID="865293484">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64" Value="-108"/>
+											</PropertyList>
+										</CustomState>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="Credits" ID="{4FB196AA-383D-4839-A204-FD4B4345A19B}"/>
+										<CustomState Name="" ID="{AA7365D6-8A48-41A0-A237-554AEBBC32AD}" ShortID="98939226"/>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="Default" ID="{7B97527A-6FC3-4D75-83B9-7F6F052564F6}"/>
+										<CustomState Name="" ID="{84CCDDB3-ED19-4AD8-A1C2-81EB48B89D83}" ShortID="731754275"/>
+									</CustomState>
+								</CustomStateList>
+							</StateInfo>
 							<ActiveSourceList>
 								<ActiveSource Name="BigFungus01-imported" ID="{43F0FE0B-8D0D-4FF2-A00D-F2908483FD73}" Platform="Linked"/>
 							</ActiveSourceList>
@@ -394,6 +427,39 @@
 									</MediaIDList>
 								</AudioFileSource>
 							</ChildrenList>
+							<StateInfo>
+								<StateGroupList>
+									<StateGroupInfo>
+										<StateGroupRef Name="Cinematic" ID="{96945C40-B21B-4D6A-A136-42765CD49E30}"/>
+									</StateGroupInfo>
+								</StateGroupList>
+								<CustomStateList>
+									<CustomState>
+										<StateRef Name="WalkBack" ID="{9669AE38-7F41-44FC-A3CC-7C5A82BE0741}"/>
+										<CustomState Name="" ID="{C792128A-BE89-4F4F-91C6-A538253B7AF0}" ShortID="650459195">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64" Value="-108"/>
+											</PropertyList>
+										</CustomState>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="IntroGame" ID="{AC846B19-CCCD-46F1-91C3-48650D191E3E}"/>
+										<CustomState Name="" ID="{AE7780A2-5110-4127-8D32-C2E00572265C}" ShortID="1055600339">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64" Value="-108"/>
+											</PropertyList>
+										</CustomState>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="Credits" ID="{4FB196AA-383D-4839-A204-FD4B4345A19B}"/>
+										<CustomState Name="" ID="{DA0C6EED-F3D7-4D2E-96FE-9E91699339CC}" ShortID="141087992"/>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="Default" ID="{7B97527A-6FC3-4D75-83B9-7F6F052564F6}"/>
+										<CustomState Name="" ID="{040AE2B7-437C-4432-A094-1033571F1707}" ShortID="923789753"/>
+									</CustomState>
+								</CustomStateList>
+							</StateInfo>
 							<ActiveSourceList>
 								<ActiveSource Name="Fungus01-imported" ID="{E5E8AA35-CED4-481F-A7E7-E145AF4ECB95}" Platform="Linked"/>
 							</ActiveSourceList>
@@ -1038,7 +1104,7 @@
 					<StateInfo>
 						<StateGroupList>
 							<StateGroupInfo>
-								<StateGroupRef Name="CinematicEnd" ID="{96945C40-B21B-4D6A-A136-42765CD49E30}"/>
+								<StateGroupRef Name="Cinematic" ID="{96945C40-B21B-4D6A-A136-42765CD49E30}"/>
 							</StateGroupInfo>
 						</StateGroupList>
 						<CustomStateList>
@@ -1049,6 +1115,10 @@
 										<Property Name="Volume" Type="Real64" Value="-9"/>
 									</PropertyList>
 								</CustomState>
+							</CustomState>
+							<CustomState>
+								<StateRef Name="IntroGame" ID="{AC846B19-CCCD-46F1-91C3-48650D191E3E}"/>
+								<CustomState Name="" ID="{7D57740F-55B6-4719-847D-343ADA9725A9}" ShortID="840247459"/>
 							</CustomState>
 							<CustomState>
 								<StateRef Name="Credits" ID="{4FB196AA-383D-4839-A204-FD4B4345A19B}"/>

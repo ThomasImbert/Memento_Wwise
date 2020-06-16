@@ -274,6 +274,39 @@
 							</CueList>
 						</MusicSegment>
 					</ChildrenList>
+					<StateInfo>
+						<StateGroupList>
+							<StateGroupInfo>
+								<StateGroupRef Name="Cinematic" ID="{96945C40-B21B-4D6A-A136-42765CD49E30}"/>
+							</StateGroupInfo>
+						</StateGroupList>
+						<CustomStateList>
+							<CustomState>
+								<StateRef Name="WalkBack" ID="{9669AE38-7F41-44FC-A3CC-7C5A82BE0741}"/>
+								<CustomState Name="" ID="{505C6156-D2F9-4A07-99ED-EBC81327F872}" ShortID="245174056">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64" Value="-108"/>
+									</PropertyList>
+								</CustomState>
+							</CustomState>
+							<CustomState>
+								<StateRef Name="IntroGame" ID="{AC846B19-CCCD-46F1-91C3-48650D191E3E}"/>
+								<CustomState Name="" ID="{785E15F3-B7AE-410F-8E94-6479B0595AF6}" ShortID="322620638"/>
+							</CustomState>
+							<CustomState>
+								<StateRef Name="Credits" ID="{4FB196AA-383D-4839-A204-FD4B4345A19B}"/>
+								<CustomState Name="" ID="{939FE1DB-FE4D-47B5-8CC3-6319B7D5BBD7}" ShortID="683940885">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64" Value="-108"/>
+									</PropertyList>
+								</CustomState>
+							</CustomState>
+							<CustomState>
+								<StateRef Name="Default" ID="{7B97527A-6FC3-4D75-83B9-7F6F052564F6}"/>
+								<CustomState Name="" ID="{1DEAB1AC-D02C-409F-A18A-A935A575F836}" ShortID="938814118"/>
+							</CustomState>
+						</CustomStateList>
+					</StateInfo>
 					<TransitionList>
 						<MusicTransition Name="Root" ID="{EC52F114-DCB9-4120-B053-D98A5E3E844E}">
 							<PropertyList>

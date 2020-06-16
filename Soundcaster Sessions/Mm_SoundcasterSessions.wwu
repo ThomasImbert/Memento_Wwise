@@ -419,7 +419,7 @@
 						</RTPCValue>
 					</RTPCValueList>
 					<CurrentStateList ShowAll="true">
-						<CurrentStateRef Name="None" ID="{2A869645-BE16-4AD2-BADF-EB1E3768879F}"/>
+						<CurrentStateRef Name="inGame" ID="{D34E7C80-FD5C-455E-B679-C8C14C14EEB6}"/>
 						<CurrentStateRef Name="None" ID="{A8218AB1-0422-466A-A3F4-4E96993C4B83}"/>
 					</CurrentStateList>
 					<CurrentSwitchList ShowAll="true">
@@ -509,6 +509,75 @@
 					</RTPCValueList>
 					<CurrentStateList ShowAll="true">
 						<CurrentStateRef Name="inGame" ID="{D34E7C80-FD5C-455E-B679-C8C14C14EEB6}"/>
+					</CurrentStateList>
+					<CurrentSwitchList ShowAll="true">
+						<CurrentSwitchRef Name="Fungi" ID="{C63A9A2D-596F-4E47-B252-FD0AC5027D37}"/>
+					</CurrentSwitchList>
+				</SoundcasterSession>
+				<SoundcasterSession Name="Fix Shroom State" ID="{BF75E2D7-4FC6-47C7-8C0F-5A03D458C802}">
+					<ModuleList>
+						<Module>
+							<ObjectRef Name="Play_Cinematic_01" ID="{CE5B67CB-EB40-41BC-B86A-92895456F4ED}" WorkUnitID="{E89490D5-5335-4525-A60C-9498D6120126}"/>
+							<Position X="0" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Fungus" ID="{DA1A5C49-A47E-4C50-8CEA-B9326373B37E}" WorkUnitID="{1D08DAFE-2A2F-4703-963C-44383784F1A4}"/>
+							<Position X="0" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="BigFungus" ID="{2375AF81-4DF0-411D-A698-CC8BEDF3BEFC}" WorkUnitID="{1D08DAFE-2A2F-4703-963C-44383784F1A4}"/>
+							<Position X="1" Y="1"/>
+						</Module>
+					</ModuleList>
+					<RTPCValueList ShowAll="true">
+						<RTPCValue>
+							<GameParameterRef Name="Ending" ID="{67CD4841-48EE-41A4-A95C-9C927D4AFB98}"/>
+							<Value>0</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="Redmoss" ID="{80BC9985-A8D9-43F1-BA92-100D0D7A46A1}"/>
+							<Value>100</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="VolumeSFX" ID="{FDE4A8D5-4272-443A-95FE-02A5723ED01A}"/>
+							<Value>100</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="CanyonRVB" ID="{DED7D399-1B4A-446D-A4CE-D706D9F28D5F}"/>
+							<Value>0</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="VolumeUI" ID="{9D9A93FB-10F0-4586-AD04-A3891218D2CD}"/>
+							<Value>100</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="JumpCharge" ID="{A324C6C1-DBA7-4623-ADAB-EFA30960FA71}"/>
+							<Value>0</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="Canyon" ID="{9A7FD8AC-72BA-47D6-8778-74890CA8C960}"/>
+							<Value>0</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="WalkSpeed" ID="{E1064E41-C1EF-48D7-9F88-59A3D70419E0}"/>
+							<Value>0</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="VolumeAmbiance" ID="{D4F5C67B-1BB3-48E2-83DD-E09DE7C070C3}"/>
+							<Value>100</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="VolumeMaster" ID="{58EAF35B-58D6-490A-9BFE-C38AF7DCD943}"/>
+							<Value>100</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="VolumeMusic" ID="{1B8F9745-BB7B-4B63-8067-D3B7A7B598C9}"/>
+							<Value>100</Value>
+						</RTPCValue>
+					</RTPCValueList>
+					<CurrentStateList ShowAll="true">
+						<CurrentStateRef Name="inGame" ID="{D34E7C80-FD5C-455E-B679-C8C14C14EEB6}"/>
+						<CurrentStateRef Name="Default" ID="{7B97527A-6FC3-4D75-83B9-7F6F052564F6}"/>
 					</CurrentStateList>
 					<CurrentSwitchList ShowAll="true">
 						<CurrentSwitchRef Name="Fungi" ID="{C63A9A2D-596F-4E47-B252-FD0AC5027D37}"/>

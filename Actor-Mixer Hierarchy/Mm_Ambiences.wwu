@@ -1772,7 +1772,7 @@
 								<StateGroupRef Name="Menu" ID="{065FE6D7-A4AC-490D-B0D8-8723670FA63A}"/>
 							</StateGroupInfo>
 							<StateGroupInfo>
-								<StateGroupRef Name="CinematicEnd" ID="{96945C40-B21B-4D6A-A136-42765CD49E30}"/>
+								<StateGroupRef Name="Cinematic" ID="{96945C40-B21B-4D6A-A136-42765CD49E30}"/>
 							</StateGroupInfo>
 						</StateGroupList>
 						<CustomStateList>
@@ -1796,6 +1796,10 @@
 							<CustomState>
 								<StateRef Name="inGame" ID="{D34E7C80-FD5C-455E-B679-C8C14C14EEB6}"/>
 								<CustomState Name="" ID="{1D1C3CD6-09AC-435E-82B3-557E2F07FA3C}" ShortID="595721711"/>
+							</CustomState>
+							<CustomState>
+								<StateRef Name="IntroGame" ID="{AC846B19-CCCD-46F1-91C3-48650D191E3E}"/>
+								<CustomState Name="" ID="{E1C6FDB8-5E89-455D-B1AD-2606EAAFCCBC}" ShortID="1055647091"/>
 							</CustomState>
 							<CustomState>
 								<StateRef Name="Credits" ID="{4FB196AA-383D-4839-A204-FD4B4345A19B}"/>
