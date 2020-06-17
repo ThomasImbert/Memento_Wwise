@@ -222,7 +222,7 @@
 							<PropertyList>
 								<Property Name="AbsoluteOrRelative" Type="int16" Value="1"/>
 								<Property Name="ActionType" Type="int16" Value="2"/>
-								<Property Name="Delay" Type="Real64" Value="35"/>
+								<Property Name="Delay" Type="Real64" Value="8"/>
 								<Property Name="FadeTime" Type="Real64" Value="1"/>
 								<Property Name="Scope" Type="int16" Value="1"/>
 								<Property Name="Volume" Type="Real64" Value="-96"/>
@@ -256,7 +256,7 @@
 						<Action Name="" ID="{59033986-EF91-41EE-B4CD-541E1BE45D66}" ShortID="779797950">
 							<PropertyList>
 								<Property Name="ActionType" Type="int16" Value="38"/>
-								<Property Name="FadeTime" Type="Real64" Value="10"/>
+								<Property Name="FadeTime" Type="Real64" Value="13"/>
 								<Property Name="GameParameterValue" Type="Real64" Value="100"/>
 							</PropertyList>
 							<ReferenceList>

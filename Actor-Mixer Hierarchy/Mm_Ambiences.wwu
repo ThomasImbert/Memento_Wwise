@@ -1789,7 +1789,7 @@
 								<StateRef Name="WalkBack" ID="{9669AE38-7F41-44FC-A3CC-7C5A82BE0741}"/>
 								<CustomState Name="" ID="{2037D3CB-B3DC-4BD2-BC7F-D9952D1EA623}" ShortID="824101482">
 									<PropertyList>
-										<Property Name="Volume" Type="Real64" Value="-9"/>
+										<Property Name="Volume" Type="Real64" Value="-108"/>
 									</PropertyList>
 								</CustomState>
 							</CustomState>
@@ -1815,7 +1815,7 @@
 									<PropertyList>
 										<Property Name="Highpass" Type="int16" Value="9"/>
 										<Property Name="Lowpass" Type="int16" Value="5"/>
-										<Property Name="Volume" Type="Real64" Value="-3"/>
+										<Property Name="Volume" Type="Real64" Value="-2"/>
 									</PropertyList>
 								</CustomState>
 							</CustomState>

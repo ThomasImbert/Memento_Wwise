@@ -57,6 +57,11 @@
 						<MusicSegment Name="Mm_PointOfNoReturn_layers_intro" ID="{BE8358DA-F1BC-454B-9BEA-E91B1A272F80}" ShortID="1050653208">
 							<PropertyList>
 								<Property Name="EndPosition" Type="Real64" Value="256262.539190983"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>3</Value>
+									</ValueList>
+								</Property>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
@@ -805,6 +810,11 @@
 							<PropertyList>
 								<Property Name="EndPosition" Type="Real64" Value="256262.539190983"/>
 								<Property Name="Tempo" Type="Real64" Value="85"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>3</Value>
+									</ValueList>
+								</Property>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
@@ -1034,7 +1044,7 @@
 								<Property Name="Tempo" Type="Real64" Value="85"/>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>3</Value>
+										<Value>2</Value>
 									</ValueList>
 								</Property>
 							</PropertyList>
@@ -1069,7 +1079,7 @@
 																<SegmentShape>Exp2</SegmentShape>
 															</Point>
 															<Point>
-																<XPos>40</XPos>
+																<XPos>59.67985</XPos>
 																<YPos>-200</YPos>
 																<Flags>0</Flags>
 																<SegmentShape>Log2</SegmentShape>
@@ -1204,9 +1214,10 @@
 																<XPos>0</XPos>
 																<YPos>-200</YPos>
 																<Flags>5</Flags>
+																<SegmentShape>Log1</SegmentShape>
 															</Point>
 															<Point>
-																<XPos>20</XPos>
+																<XPos>36.66667</XPos>
 																<YPos>0</YPos>
 																<Flags>0</Flags>
 																<SegmentShape>Exp1</SegmentShape>
@@ -1332,7 +1343,7 @@
 								<MusicCue Name="Exit Cue" ID="{08EEFDC5-5BB9-425B-9D67-49617B3F3927}">
 									<PropertyList>
 										<Property Name="CueType" Type="int16" Value="1"/>
-										<Property Name="TimeMs" Type="Real64" Value="79058.8235294118"/>
+										<Property Name="TimeMs" Type="Real64" Value="44739.6915199667"/>
 									</PropertyList>
 								</MusicCue>
 							</CueList>

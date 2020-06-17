@@ -208,12 +208,32 @@
 					</ModuleList>
 					<RTPCValueList ShowAll="true">
 						<RTPCValue>
+							<GameParameterRef Name="Ending" ID="{67CD4841-48EE-41A4-A95C-9C927D4AFB98}"/>
+							<Value>0</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="Redmoss" ID="{80BC9985-A8D9-43F1-BA92-100D0D7A46A1}"/>
+							<Value>100</Value>
+						</RTPCValue>
+						<RTPCValue>
 							<GameParameterRef Name="VolumeSFX" ID="{FDE4A8D5-4272-443A-95FE-02A5723ED01A}"/>
 							<Value>100</Value>
 						</RTPCValue>
 						<RTPCValue>
+							<GameParameterRef Name="CanyonRVB" ID="{DED7D399-1B4A-446D-A4CE-D706D9F28D5F}"/>
+							<Value>0</Value>
+						</RTPCValue>
+						<RTPCValue>
 							<GameParameterRef Name="VolumeUI" ID="{9D9A93FB-10F0-4586-AD04-A3891218D2CD}"/>
 							<Value>100</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="JumpCharge" ID="{A324C6C1-DBA7-4623-ADAB-EFA30960FA71}"/>
+							<Value>0</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="Canyon" ID="{9A7FD8AC-72BA-47D6-8778-74890CA8C960}"/>
+							<Value>0</Value>
 						</RTPCValue>
 						<RTPCValue>
 							<GameParameterRef Name="WalkSpeed" ID="{E1064E41-C1EF-48D7-9F88-59A3D70419E0}"/>
@@ -232,7 +252,10 @@
 							<Value>100</Value>
 						</RTPCValue>
 					</RTPCValueList>
-					<CurrentStateList ShowAll="true"/>
+					<CurrentStateList ShowAll="true">
+						<CurrentStateRef Name="None" ID="{2A869645-BE16-4AD2-BADF-EB1E3768879F}"/>
+						<CurrentStateRef Name="None" ID="{A8218AB1-0422-466A-A3F4-4E96993C4B83}"/>
+					</CurrentStateList>
 					<CurrentSwitchList ShowAll="true">
 						<CurrentSwitchRef Name="PurpleMoss" ID="{74CEED8B-1961-47D4-AF3C-83B4EF9F333B}"/>
 					</CurrentSwitchList>
@@ -260,12 +283,8 @@
 							<Position X="0" Y="4"/>
 						</Module>
 						<Module>
-							<ObjectRef Name="RTPC_MusicNoReturn_Fx" ID="{E4B8168C-1699-4674-B72E-07362F394B1B}" WorkUnitID="{7570666D-BB74-4A87-81DD-9DB16234FCD4}"/>
-							<Position X="0" Y="5"/>
-						</Module>
-						<Module>
 							<ObjectRef Name="RTPC_MusicNoReturn_FadeOut" ID="{A86B0D83-EC92-4C1F-9AD9-9AE4750CFD90}" WorkUnitID="{7570666D-BB74-4A87-81DD-9DB16234FCD4}"/>
-							<Position X="0" Y="6"/>
+							<Position X="0" Y="5"/>
 						</Module>
 						<Module>
 							<ObjectRef Name="Play_Music_Awakening" ID="{9D843472-14E9-4C5C-A099-1A60DCD538A5}" WorkUnitID="{7570666D-BB74-4A87-81DD-9DB16234FCD4}"/>
@@ -334,6 +353,10 @@
 						<Module>
 							<ObjectRef Name="Play_JumpLanding" ID="{B16F8077-5118-40B1-878D-D33E05BAF0A1}" WorkUnitID="{2108F57A-A96C-4E61-AD24-2AA4B1564C55}"/>
 							<Position X="3" Y="4"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="backMainMenu" ID="{B7FB5896-1074-4C2E-A236-6CD21036B528}" WorkUnitID="{AB2810BE-7DE9-477E-8299-B311E00E153D}"/>
+							<Position X="3" Y="5"/>
 						</Module>
 						<Module>
 							<ObjectRef Name="Play_IGMenuCancel" ID="{8E44DCFE-3B9D-45A8-8074-2F423BC8BFF7}" WorkUnitID="{AB2810BE-7DE9-477E-8299-B311E00E153D}"/>
@@ -419,8 +442,8 @@
 						</RTPCValue>
 					</RTPCValueList>
 					<CurrentStateList ShowAll="true">
-						<CurrentStateRef Name="inGame" ID="{D34E7C80-FD5C-455E-B679-C8C14C14EEB6}"/>
-						<CurrentStateRef Name="None" ID="{A8218AB1-0422-466A-A3F4-4E96993C4B83}"/>
+						<CurrentStateRef Name="None" ID="{2A869645-BE16-4AD2-BADF-EB1E3768879F}"/>
+						<CurrentStateRef Name="Default" ID="{7B97527A-6FC3-4D75-83B9-7F6F052564F6}"/>
 					</CurrentStateList>
 					<CurrentSwitchList ShowAll="true">
 						<CurrentSwitchRef Name="Fungi" ID="{C63A9A2D-596F-4E47-B252-FD0AC5027D37}"/>

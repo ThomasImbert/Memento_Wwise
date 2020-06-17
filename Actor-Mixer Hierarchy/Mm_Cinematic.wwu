@@ -52,6 +52,13 @@
 					</ReferenceList>
 					<ChildrenList>
 						<Sound Name="Cinematic_End_Back_To_Capsule" ID="{D173570B-CFB2-4337-9D97-80AFBC60B23E}" ShortID="975479574">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-3</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D0B9DB4F-7FF6-4CDB-BEF4-05863A8070B7}"/>
@@ -74,6 +81,13 @@
 							</ActiveSourceList>
 						</Sound>
 						<Sound Name="Cinematic_End_Door_Close" ID="{2081079A-2B92-4BA7-A03B-E3E234A409EB}" ShortID="802254101">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-2</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D0B9DB4F-7FF6-4CDB-BEF4-05863A8070B7}"/>
