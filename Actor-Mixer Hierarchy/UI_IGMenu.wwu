@@ -22,11 +22,6 @@
 					<ChildrenList>
 						<Sound Name="IGMenuCancel" ID="{A90D8D41-FBDD-4825-82EE-AA9CD5C93D1A}" ShortID="471776134">
 							<PropertyList>
-								<Property Name="Pitch" Type="int32">
-									<ValueList>
-										<Value>530</Value>
-									</ValueList>
-								</Property>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
 										<Value>-7</Value>
@@ -56,16 +51,28 @@
 										<MediaID ID="636766892"/>
 									</MediaIDList>
 								</AudioFileSource>
+								<AudioFileSource Name="Play_IGMenuCancel" ID="{F67DBEBF-8D03-49BA-A935-FD8FA3AC8EDD}">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D0B9DB4F-7FF6-4CDB-BEF4-05863A8070B7}"/>
+										</Reference>
+									</ReferenceList>
+									<Language>SFX</Language>
+									<AudioFile>UI\Play_IGMenuCancel.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="259401008"/>
+									</MediaIDList>
+								</AudioFileSource>
 							</ChildrenList>
 							<ActiveSourceList>
-								<ActiveSource Name="UI_IGMenuCancel" ID="{E7ED7B1B-C071-45B3-A8E3-9895512FB233}" Platform="Linked"/>
+								<ActiveSource Name="Play_IGMenuCancel" ID="{F67DBEBF-8D03-49BA-A935-FD8FA3AC8EDD}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
 						<Sound Name="IGMenuClosed" ID="{6417CAAE-2B2D-4F25-9730-7BC88D45BE4F}" ShortID="33118460">
 							<PropertyList>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>-5</Value>
+										<Value>-3</Value>
 									</ValueList>
 								</Property>
 							</PropertyList>
@@ -91,16 +98,28 @@
 										<MediaID ID="821558758"/>
 									</MediaIDList>
 								</AudioFileSource>
+								<AudioFileSource Name="Play_IGMenuClosed" ID="{AEA4E23B-F6C1-48E1-A8E0-1272FA2C842F}">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D0B9DB4F-7FF6-4CDB-BEF4-05863A8070B7}"/>
+										</Reference>
+									</ReferenceList>
+									<Language>SFX</Language>
+									<AudioFile>UI\Play_IGMenuClosed.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="662311177"/>
+									</MediaIDList>
+								</AudioFileSource>
 							</ChildrenList>
 							<ActiveSourceList>
-								<ActiveSource Name="UI_IGMenuClosed" ID="{51790441-0B71-440F-9D0C-C3F267F44647}" Platform="Linked"/>
+								<ActiveSource Name="Play_IGMenuClosed" ID="{AEA4E23B-F6C1-48E1-A8E0-1272FA2C842F}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
 						<Sound Name="IGMenuConfirm" ID="{7544B584-166D-4563-A156-EEE8A5E51701}" ShortID="718113312">
 							<PropertyList>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>-5</Value>
+										<Value>-8</Value>
 									</ValueList>
 								</Property>
 							</PropertyList>
@@ -127,21 +146,28 @@
 										<MediaID ID="302943355"/>
 									</MediaIDList>
 								</AudioFileSource>
+								<AudioFileSource Name="Play_IGMenuConfirm" ID="{7B290BC3-3DDD-4334-A3E2-D42A38392AC4}">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D0B9DB4F-7FF6-4CDB-BEF4-05863A8070B7}"/>
+										</Reference>
+									</ReferenceList>
+									<Language>SFX</Language>
+									<AudioFile>UI\Play_IGMenuConfirm.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="602858027"/>
+									</MediaIDList>
+								</AudioFileSource>
 							</ChildrenList>
 							<ActiveSourceList>
-								<ActiveSource Name="UI_IGMenuConfirm" ID="{E863E80D-18CB-45D4-B08B-EF2F7DA16C23}" Platform="Linked"/>
+								<ActiveSource Name="Play_IGMenuConfirm" ID="{7B290BC3-3DDD-4334-A3E2-D42A38392AC4}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
 						<Sound Name="IGMenuNavigation" ID="{098A6B3D-1363-4CA1-AC23-3A5D52244E2A}" ShortID="4466897">
 							<PropertyList>
-								<Property Name="Pitch" Type="int32">
-									<ValueList>
-										<Value>-200</Value>
-									</ValueList>
-								</Property>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>-5</Value>
+										<Value>-12</Value>
 									</ValueList>
 								</Property>
 							</PropertyList>
@@ -168,16 +194,28 @@
 										<MediaID ID="59065254"/>
 									</MediaIDList>
 								</AudioFileSource>
+								<AudioFileSource Name="Play_IGMenuNavigation" ID="{ED925CF9-E93D-4DF1-BD3B-80673518E3E4}">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D0B9DB4F-7FF6-4CDB-BEF4-05863A8070B7}"/>
+										</Reference>
+									</ReferenceList>
+									<Language>SFX</Language>
+									<AudioFile>UI\Play_IGMenuNavigation.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="161110570"/>
+									</MediaIDList>
+								</AudioFileSource>
 							</ChildrenList>
 							<ActiveSourceList>
-								<ActiveSource Name="UI_IGMenuNavigation" ID="{0C760F2A-B800-41E0-89F0-98E47FFB759C}" Platform="Linked"/>
+								<ActiveSource Name="Play_IGMenuNavigation" ID="{ED925CF9-E93D-4DF1-BD3B-80673518E3E4}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
 						<Sound Name="IGMenuOpened" ID="{51164608-9E15-4B5C-B152-8B9285539230}" ShortID="269247090">
 							<PropertyList>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>-5</Value>
+										<Value>-3</Value>
 									</ValueList>
 								</Property>
 							</PropertyList>
@@ -202,21 +240,28 @@
 										<MediaID ID="471567840"/>
 									</MediaIDList>
 								</AudioFileSource>
+								<AudioFileSource Name="Play_IGMenuOpened" ID="{CC9CC9D5-5600-4727-992C-1CFD92E2017C}">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D0B9DB4F-7FF6-4CDB-BEF4-05863A8070B7}"/>
+										</Reference>
+									</ReferenceList>
+									<Language>SFX</Language>
+									<AudioFile>UI\Play_IGMenuOpened.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="412566980"/>
+									</MediaIDList>
+								</AudioFileSource>
 							</ChildrenList>
 							<ActiveSourceList>
-								<ActiveSource Name="UI_IGMenuOpened" ID="{F4BB99C1-AB66-4485-95F8-FE829E6D8D75}" Platform="Linked"/>
+								<ActiveSource Name="Play_IGMenuOpened" ID="{CC9CC9D5-5600-4727-992C-1CFD92E2017C}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
 						<Sound Name="TitleScreenStart" ID="{FB63298C-7F36-4BDC-A879-0C4F99CC1D4A}" ShortID="996813050">
 							<PropertyList>
-								<Property Name="Pitch" Type="int32">
-									<ValueList>
-										<Value>-400</Value>
-									</ValueList>
-								</Property>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>-2</Value>
+										<Value>-4</Value>
 									</ValueList>
 								</Property>
 							</PropertyList>
@@ -246,18 +291,25 @@
 										<MediaID ID="414388422"/>
 									</MediaIDList>
 								</AudioFileSource>
+								<AudioFileSource Name="Play_TitleScreenStart" ID="{B291CCCA-577D-47F4-8B39-36BCFBB4DA3B}">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D0B9DB4F-7FF6-4CDB-BEF4-05863A8070B7}"/>
+										</Reference>
+									</ReferenceList>
+									<Language>SFX</Language>
+									<AudioFile>UI\Play_TitleScreenStart.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="1012195731"/>
+									</MediaIDList>
+								</AudioFileSource>
 							</ChildrenList>
 							<ActiveSourceList>
-								<ActiveSource Name="UI_IGMenuOpened" ID="{E520B189-7045-4720-84F1-AAA2E06AE52A}" Platform="Linked"/>
+								<ActiveSource Name="Play_TitleScreenStart" ID="{B291CCCA-577D-47F4-8B39-36BCFBB4DA3B}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
 						<Sound Name="TitleScreenExit" ID="{CC4FF3C0-86CB-4238-B365-021AA3FEDF27}" ShortID="1022245564">
 							<PropertyList>
-								<Property Name="Pitch" Type="int32">
-									<ValueList>
-										<Value>-200</Value>
-									</ValueList>
-								</Property>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
 										<Value>-2</Value>
@@ -287,21 +339,28 @@
 										<MediaID ID="1008363512"/>
 									</MediaIDList>
 								</AudioFileSource>
+								<AudioFileSource Name="Play_TitleScreenExit" ID="{BEACF8CB-72E9-4487-AA85-06831B89C6A0}">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D0B9DB4F-7FF6-4CDB-BEF4-05863A8070B7}"/>
+										</Reference>
+									</ReferenceList>
+									<Language>SFX</Language>
+									<AudioFile>UI\Play_TitleScreenExit.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="577502154"/>
+									</MediaIDList>
+								</AudioFileSource>
 							</ChildrenList>
 							<ActiveSourceList>
-								<ActiveSource Name="UI_IGMenuClosed" ID="{50529F3D-41E5-46AC-88C5-3877454C7463}" Platform="Linked"/>
+								<ActiveSource Name="Play_TitleScreenExit" ID="{BEACF8CB-72E9-4487-AA85-06831B89C6A0}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
 						<Sound Name="TitleScreenKey" ID="{73010875-B2EE-4749-9E1A-7D7CB0DC23FE}" ShortID="24105420">
 							<PropertyList>
-								<Property Name="Pitch" Type="int32">
-									<ValueList>
-										<Value>430</Value>
-									</ValueList>
-								</Property>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>-2</Value>
+										<Value>-12</Value>
 									</ValueList>
 								</Property>
 							</PropertyList>
@@ -333,9 +392,21 @@
 										<MediaID ID="716629618"/>
 									</MediaIDList>
 								</AudioFileSource>
+								<AudioFileSource Name="Play_IGMenuNavigation" ID="{E4DE017D-17BC-4D2E-B06A-2720913DA15B}">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D0B9DB4F-7FF6-4CDB-BEF4-05863A8070B7}"/>
+										</Reference>
+									</ReferenceList>
+									<Language>SFX</Language>
+									<AudioFile>UI\Play_IGMenuNavigation.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="161110570"/>
+									</MediaIDList>
+								</AudioFileSource>
 							</ChildrenList>
 							<ActiveSourceList>
-								<ActiveSource Name="UI_IGMenuConfirm" ID="{F947DED9-7463-47F0-BFC9-053202F9EC32}" Platform="Linked"/>
+								<ActiveSource Name="Play_IGMenuNavigation" ID="{E4DE017D-17BC-4D2E-B06A-2720913DA15B}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
 						<Sound Name="Map_FullSize" ID="{BE98ACC6-4F9A-430A-9D27-7D1B3EBDEF33}" ShortID="278085717">

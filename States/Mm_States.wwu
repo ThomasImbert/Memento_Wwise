@@ -23,7 +23,7 @@
 						<Transition>
 							<StartState Name="Default" ID="{7B97527A-6FC3-4D75-83B9-7F6F052564F6}"/>
 							<EndState Name="WalkBack" ID="{9669AE38-7F41-44FC-A3CC-7C5A82BE0741}"/>
-							<Time>3</Time>
+							<Time>4</Time>
 							<IsShared>false</IsShared>
 						</Transition>
 						<Transition>
