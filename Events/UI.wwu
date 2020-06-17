@@ -132,6 +132,30 @@
 										</Reference>
 									</ReferenceList>
 								</Action>
+								<Action Name="" ID="{55A476A9-C9E7-4220-8F7D-C29C615D8EB5}" ShortID="57630953">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="9"/>
+										<Property Name="Delay" Type="Real64" Value="0.2"/>
+										<Property Name="Scope" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Cinematic_Introduction" ID="{F198C194-EC57-4964-91EC-605940A662CC}" WorkUnitID="{EB18F6DD-D220-46D5-8724-CC31E9178A0C}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{1A1E5D3E-8522-4C53-9E9D-C2E3A2C021AF}" ShortID="806370167">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="9"/>
+										<Property Name="Delay" Type="Real64" Value="0.2"/>
+										<Property Name="Scope" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Music_Awakening" ID="{BD4DB2FC-CDB3-41E7-BE5F-DC34654AA3CE}" WorkUnitID="{E77EEFBD-EA05-4D1F-BD63-6204F50016F7}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
 							</ChildrenList>
 						</Event>
 						<Event Name="Play_IGMenuOpened" ID="{FE28F35E-1E36-4F57-B2F1-4C62A3641939}">
@@ -140,6 +164,30 @@
 									<ReferenceList>
 										<Reference Name="Target">
 											<ObjectRef Name="IGMenuOpened" ID="{51164608-9E15-4B5C-B152-8B9285539230}" WorkUnitID="{26993BB8-9179-4E01-8D2F-F49020DA4CC7}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{AB9DAC2E-5278-4461-851B-C704156053A7}" ShortID="490965508">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="7"/>
+										<Property Name="Delay" Type="Real64" Value="0.2"/>
+										<Property Name="Scope" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Music_Awakening" ID="{BD4DB2FC-CDB3-41E7-BE5F-DC34654AA3CE}" WorkUnitID="{E77EEFBD-EA05-4D1F-BD63-6204F50016F7}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{02BCBE0A-5188-427A-BB92-239F5F03B5D7}" ShortID="720196095">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="7"/>
+										<Property Name="Delay" Type="Real64" Value="0.2"/>
+										<Property Name="Scope" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Cinematic_Introduction" ID="{F198C194-EC57-4964-91EC-605940A662CC}" WorkUnitID="{EB18F6DD-D220-46D5-8724-CC31E9178A0C}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
@@ -195,7 +243,8 @@
 									<PropertyList>
 										<Property Name="ActionType" Type="int16" Value="3"/>
 										<Property Name="FadeOutCurve" Type="int16" Value="1"/>
-										<Property Name="FadeTime" Type="Real64" Value="3"/>
+										<Property Name="FadeTime" Type="Real64" Value="2"/>
+										<Property Name="Scope" Type="int16" Value="1"/>
 									</PropertyList>
 									<ReferenceList/>
 								</Action>

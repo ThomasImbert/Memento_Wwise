@@ -291,24 +291,28 @@
 							<Position X="1" Y="0"/>
 						</Module>
 						<Module>
-							<ObjectRef Name="Play_CanyonOut" ID="{A06C2E14-5B27-4129-BD10-8AEAD29BE6BF}" WorkUnitID="{7570666D-BB74-4A87-81DD-9DB16234FCD4}"/>
+							<ObjectRef Name="Play_Cinematic_01" ID="{CE5B67CB-EB40-41BC-B86A-92895456F4ED}" WorkUnitID="{E89490D5-5335-4525-A60C-9498D6120126}"/>
 							<Position X="1" Y="1"/>
 						</Module>
 						<Module>
-							<ObjectRef Name="Play_Soundscape_04" ID="{13CD3D0D-83D3-499F-921C-DA9FE0CC71D3}" WorkUnitID="{7570666D-BB74-4A87-81DD-9DB16234FCD4}"/>
+							<ObjectRef Name="Play_CanyonOut" ID="{A06C2E14-5B27-4129-BD10-8AEAD29BE6BF}" WorkUnitID="{7570666D-BB74-4A87-81DD-9DB16234FCD4}"/>
 							<Position X="1" Y="2"/>
 						</Module>
 						<Module>
-							<ObjectRef Name="Play_Soundscape_03" ID="{62C17B7F-4958-4B60-8E0A-5B75C4B49569}" WorkUnitID="{7570666D-BB74-4A87-81DD-9DB16234FCD4}"/>
+							<ObjectRef Name="Play_Soundscape_04" ID="{13CD3D0D-83D3-499F-921C-DA9FE0CC71D3}" WorkUnitID="{7570666D-BB74-4A87-81DD-9DB16234FCD4}"/>
 							<Position X="1" Y="3"/>
 						</Module>
 						<Module>
-							<ObjectRef Name="Stop_Soundscape_03" ID="{C3C01E34-1C6A-485E-BF00-F0A77E76F75C}" WorkUnitID="{7570666D-BB74-4A87-81DD-9DB16234FCD4}"/>
+							<ObjectRef Name="Play_Soundscape_03" ID="{62C17B7F-4958-4B60-8E0A-5B75C4B49569}" WorkUnitID="{7570666D-BB74-4A87-81DD-9DB16234FCD4}"/>
 							<Position X="1" Y="4"/>
 						</Module>
 						<Module>
-							<ObjectRef Name="Play_Ambiance_03" ID="{BD38201C-6F68-415C-9046-2EEAB14863BF}" WorkUnitID="{94D94C6E-0D41-4408-A0CE-E3983F49FD1B}"/>
+							<ObjectRef Name="Stop_Soundscape_03" ID="{C3C01E34-1C6A-485E-BF00-F0A77E76F75C}" WorkUnitID="{7570666D-BB74-4A87-81DD-9DB16234FCD4}"/>
 							<Position X="1" Y="5"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_Ambiance_03" ID="{BD38201C-6F68-415C-9046-2EEAB14863BF}" WorkUnitID="{94D94C6E-0D41-4408-A0CE-E3983F49FD1B}"/>
+							<Position X="1" Y="6"/>
 						</Module>
 						<Module>
 							<ObjectRef Name="Play_PlayerWalk" ID="{57669FC4-8025-429D-8680-E6CE4E4B50D4}" WorkUnitID="{2108F57A-A96C-4E61-AD24-2AA4B1564C55}"/>

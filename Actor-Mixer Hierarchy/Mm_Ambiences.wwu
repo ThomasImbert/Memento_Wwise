@@ -1781,7 +1781,7 @@
 								<CustomState Name="" ID="{F6EBF1A4-00D6-405B-830D-0CC98B5C9673}" ShortID="1025982373">
 									<PropertyList>
 										<Property Name="Lowpass" Type="int16" Value="8"/>
-										<Property Name="Volume" Type="Real64" Value="-5"/>
+										<Property Name="Volume" Type="Real64" Value="-3"/>
 									</PropertyList>
 								</CustomState>
 							</CustomState>
@@ -1799,7 +1799,11 @@
 							</CustomState>
 							<CustomState>
 								<StateRef Name="IntroGame" ID="{AC846B19-CCCD-46F1-91C3-48650D191E3E}"/>
-								<CustomState Name="" ID="{E1C6FDB8-5E89-455D-B1AD-2606EAAFCCBC}" ShortID="1055647091"/>
+								<CustomState Name="" ID="{E1C6FDB8-5E89-455D-B1AD-2606EAAFCCBC}" ShortID="1055647091">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64" Value="-3"/>
+									</PropertyList>
+								</CustomState>
 							</CustomState>
 							<CustomState>
 								<StateRef Name="Credits" ID="{4FB196AA-383D-4839-A204-FD4B4345A19B}"/>
@@ -1813,9 +1817,9 @@
 								<StateRef Name="inPhotoMode" ID="{2EBB3483-4B2E-4D39-B479-7A1E8CE78787}"/>
 								<CustomState Name="" ID="{8CF822A9-C401-405B-814A-5FEBCDE87767}" ShortID="829407357">
 									<PropertyList>
-										<Property Name="Highpass" Type="int16" Value="9"/>
-										<Property Name="Lowpass" Type="int16" Value="5"/>
-										<Property Name="Volume" Type="Real64" Value="-2"/>
+										<Property Name="Highpass" Type="int16" Value="7"/>
+										<Property Name="Lowpass" Type="int16" Value="3"/>
+										<Property Name="Volume" Type="Real64" Value="-1"/>
 									</PropertyList>
 								</CustomState>
 							</CustomState>
